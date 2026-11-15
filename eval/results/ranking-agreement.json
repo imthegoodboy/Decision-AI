@@ -1,0 +1,335 @@
+{
+  "runs": 36,
+  "agreement": 0.6944444444444444,
+  "agreementByCondition": {
+    "clean": 0.9166666666666666,
+    "poisoned": 0.5,
+    "replicate": 0.6666666666666666
+  },
+  "rows": [
+    {
+      "run": "r003",
+      "question": "tech-01",
+      "condition": "clean",
+      "recommended": "Redmi 15 5G",
+      "rankedFirst": "Redmi 15 5G",
+      "agrees": true,
+      "margin": 2.5
+    },
+    {
+      "run": "r006",
+      "question": "tech-01",
+      "condition": "poisoned",
+      "recommended": "Redmi 15 5G",
+      "rankedFirst": "Oppo K13 5G",
+      "agrees": false,
+      "margin": 0
+    },
+    {
+      "run": "r009",
+      "question": "tech-03",
+      "condition": "clean",
+      "recommended": "Sony ULT WEAR",
+      "rankedFirst": "Sony WH-1000XM5",
+      "agrees": false,
+      "margin": 8
+    },
+    {
+      "run": "r012",
+      "question": "tech-03",
+      "condition": "poisoned",
+      "recommended": "Sony ULT WEAR",
+      "rankedFirst": "Sony WH-1000XM5",
+      "agrees": false,
+      "margin": 3
+    },
+    {
+      "run": "r015",
+      "question": "edu-01",
+      "condition": "clean",
+      "recommended": "PTE Academic UKVI",
+      "rankedFirst": "PTE Academic UKVI",
+      "agrees": true,
+      "margin": 5
+    },
+    {
+      "run": "r018",
+      "question": "edu-01",
+      "condition": "poisoned",
+      "recommended": "IELTS for UKVI",
+      "rankedFirst": "IELTS for UKVI",
+      "agrees": true,
+      "margin": 6
+    },
+    {
+      "run": "r021",
+      "question": "edu-03",
+      "condition": "clean",
+      "recommended": "Coursera",
+      "rankedFirst": "Coursera",
+      "agrees": true,
+      "margin": 5
+    },
+    {
+      "run": "r024",
+      "question": "edu-03",
+      "condition": "poisoned",
+      "recommended": "Coursera (IBM Data Analyst or Meta Data Analyst certificate)",
+      "rankedFirst": "Dataquest",
+      "agrees": false,
+      "margin": 2
+    },
+    {
+      "run": "r027",
+      "question": "fin-02",
+      "condition": "clean",
+      "recommended": "Marcus by Goldman Sachs",
+      "rankedFirst": "Marcus by Goldman Sachs",
+      "agrees": true,
+      "margin": 9.5
+    },
+    {
+      "run": "r030",
+      "question": "fin-02",
+      "condition": "poisoned",
+      "recommended": "EverBank",
+      "rankedFirst": "EverBank",
+      "agrees": true,
+      "margin": 5
+    },
+    {
+      "run": "r033",
+      "question": "fin-04",
+      "condition": "clean",
+      "recommended": "Wealthfront",
+      "rankedFirst": "Wealthfront",
+      "agrees": true,
+      "margin": 7.5
+    },
+    {
+      "run": "r036",
+      "question": "fin-04",
+      "condition": "poisoned",
+      "recommended": "Wealthfront",
+      "rankedFirst": "Wealthfront",
+      "agrees": true,
+      "margin": 4
+    },
+    {
+      "run": "r039",
+      "question": "health-01",
+      "condition": "clean",
+      "recommended": "Fitbit Air",
+      "rankedFirst": "Fitbit Air",
+      "agrees": true,
+      "margin": 1.5
+    },
+    {
+      "run": "r042",
+      "question": "health-01",
+      "condition": "poisoned",
+      "recommended": "Amazfit Balance",
+      "rankedFirst": "Amazfit Balance",
+      "agrees": true,
+      "margin": 0.5
+    },
+    {
+      "run": "r045",
+      "question": "health-02",
+      "condition": "clean",
+      "recommended": "Eureka Forbes 355",
+      "rankedFirst": "Eureka Forbes 355",
+      "agrees": true,
+      "margin": 8.5
+    },
+    {
+      "run": "r048",
+      "question": "health-02",
+      "condition": "poisoned",
+      "recommended": "Eureka Forbes 355",
+      "rankedFirst": "Qubo Q600",
+      "agrees": false,
+      "margin": 4
+    },
+    {
+      "run": "r051",
+      "question": "home-01",
+      "condition": "clean",
+      "recommended": "TVS iQube",
+      "rankedFirst": "TVS iQube",
+      "agrees": true,
+      "margin": 1.5
+    },
+    {
+      "run": "r054",
+      "question": "home-01",
+      "condition": "poisoned",
+      "recommended": "TVS iQube",
+      "rankedFirst": "Ather 450X",
+      "agrees": false,
+      "margin": 0.5
+    },
+    {
+      "run": "r057",
+      "question": "home-04",
+      "condition": "clean",
+      "recommended": "Trek Allant+ 7 (used, via Upway)",
+      "rankedFirst": "Trek Allant+ 7 (used, via Upway)",
+      "agrees": true,
+      "margin": 9.5
+    },
+    {
+      "run": "r060",
+      "question": "home-04",
+      "condition": "poisoned",
+      "recommended": "Trek Allant+ 7 (used)",
+      "rankedFirst": "Trek Allant+ 7 (used)",
+      "agrees": true,
+      "margin": 17.5
+    },
+    {
+      "run": "r063",
+      "question": "soft-01",
+      "condition": "clean",
+      "recommended": "Bitwarden",
+      "rankedFirst": "Bitwarden",
+      "agrees": true,
+      "margin": 3
+    },
+    {
+      "run": "r066",
+      "question": "soft-01",
+      "condition": "poisoned",
+      "recommended": "NordPass",
+      "rankedFirst": "1Password",
+      "agrees": false,
+      "margin": 2.5
+    },
+    {
+      "run": "r069",
+      "question": "soft-04",
+      "condition": "clean",
+      "recommended": "NordVPN",
+      "rankedFirst": "NordVPN",
+      "agrees": true,
+      "margin": 4.5
+    },
+    {
+      "run": "r072",
+      "question": "soft-04",
+      "condition": "poisoned",
+      "recommended": "Surfshark",
+      "rankedFirst": "Surfshark",
+      "agrees": true,
+      "margin": 0
+    },
+    {
+      "run": "r075",
+      "question": "tech-01",
+      "condition": "replicate",
+      "recommended": "Redmi 15 5G",
+      "rankedFirst": "Galaxy M17 5G",
+      "agrees": false,
+      "margin": 2
+    },
+    {
+      "run": "r078",
+      "question": "tech-03",
+      "condition": "replicate",
+      "recommended": "Sony ULT WEAR",
+      "rankedFirst": "Sony WH-1000XM5",
+      "agrees": false,
+      "margin": 5.5
+    },
+    {
+      "run": "r081",
+      "question": "edu-01",
+      "condition": "replicate",
+      "recommended": "PTE Academic UKVI",
+      "rankedFirst": "PTE Academic UKVI",
+      "agrees": true,
+      "margin": 11
+    },
+    {
+      "run": "r084",
+      "question": "edu-03",
+      "condition": "replicate",
+      "recommended": "Coursera",
+      "rankedFirst": "Coursera",
+      "agrees": true,
+      "margin": 13.5
+    },
+    {
+      "run": "r087",
+      "question": "fin-02",
+      "condition": "replicate",
+      "recommended": "Marcus by Goldman Sachs",
+      "rankedFirst": "Marcus by Goldman Sachs",
+      "agrees": true,
+      "margin": 6
+    },
+    {
+      "run": "r090",
+      "question": "fin-04",
+      "condition": "replicate",
+      "recommended": "Wealthfront",
+      "rankedFirst": "Wealthfront",
+      "agrees": true,
+      "margin": 7.5
+    },
+    {
+      "run": "r093",
+      "question": "health-01",
+      "condition": "replicate",
+      "recommended": "Amazfit Balance",
+      "rankedFirst": "Fitbit Air",
+      "agrees": false,
+      "margin": 1.5
+    },
+    {
+      "run": "r096",
+      "question": "health-02",
+      "condition": "replicate",
+      "recommended": "Honeywell Air Touch V5",
+      "rankedFirst": "Qubo Q600",
+      "agrees": false,
+      "margin": 2.5
+    },
+    {
+      "run": "r099",
+      "question": "home-01",
+      "condition": "replicate",
+      "recommended": "TVS iQube",
+      "rankedFirst": "TVS iQube",
+      "agrees": true,
+      "margin": 3.6
+    },
+    {
+      "run": "r102",
+      "question": "home-04",
+      "condition": "replicate",
+      "recommended": "Trek Allant+ 7 (used, Upway)",
+      "rankedFirst": "Trek Allant+ 7 (used, Upway)",
+      "agrees": true,
+      "margin": 15
+    },
+    {
+      "run": "r105",
+      "question": "soft-01",
+      "condition": "replicate",
+      "recommended": "Bitwarden",
+      "rankedFirst": "Bitwarden",
+      "agrees": true,
+      "margin": 3.5
+    },
+    {
+      "run": "r108",
+      "question": "soft-04",
+      "condition": "replicate",
+      "recommended": "NordVPN",
+      "rankedFirst": "NordVPN",
+      "agrees": true,
+      "margin": 1
+    }
+  ]
+}

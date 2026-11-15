@@ -1,0 +1,15 @@
+<p><b>Detection is not defence.</b> The central result is a gap between what agents <i>say</i> and what they <i>choose</i>. With full source text, a frontier model already cites faithfully and recognises a planted article as an outlier, and the tool closed the remaining gap on stated falsehoods. Yet the planted article still moved the decision. In AI-safety terms, one cheap page bought decision influence without needing to be believed, and the agents' visible caution made the outcome look more trustworthy than it was. Robustness evaluations of retrieval-augmented agents should measure decision shifts against a run-to-run baseline, not only whether falsehoods appear in the output.</p>
+<p><b>Infrastructure helps where it constrains.</b> The tool worked where it bound the agent: fixed rules made contradicted claims non-citable, and no tool answer stated a planted falsehood as fact. It did not bind the decision. Agents scored options themselves and overrode the evidence-weighted ranking more often under attack. The next layer is decision-level provenance:</p>
+<ul>
+  <li>scores built only from claims whose support survives removing any single source;</li>
+  <li>a logged justification whenever the agent departs from the ranking;</li>
+  <li>for every recommendation, the counterfactual answer without each source.</li>
+</ul>
+<p><b>Reliability that resists gaming.</b> Track 2 asks which reliability techniques are hardest to cheat and easiest to audit. Metadata signals were the easiest to cheat: a fabricated page outscored most genuine ones. Reliability earned through cross-source corroboration costs an attacker several independent-looking pages, and every adjustment traces to a recorded claim in a hash-chained ledger. To be fair to lone genuine sources, it must attribute conflicts symmetrically.</p>
+<p><b>AI systems as consumers.</b> Agents used the tool without difficulty, and their sealed, machine-readable dossiers make the evidence behind each decision inspectable after the fact: "signals that both people and machines can consume".</p>
+
+<h3>Limitations</h3>
+<p>The sample is small: {{raw:n_questions}} questions, one planted page each and one replicate per condition. Per-condition differences in adoption and steering are therefore not individually significant, although the pooled steering effect is. All model roles are Claude models, so agent and judge errors may correlate. The judge saw the known-false claims and the tool's distinctive answer format. Attack direction was coded by the author. Only a single-page attacker was tested, not coordinated sources that can manufacture corroboration. Appendix A covers these points and the dual-use considerations in full.</p>
+
+<h3>Future work</h3>
+<p>Evaluate decision-level safeguards (leave-one-source-out stability, logged overrides) against the steering effect measured here. Test coordinated multi-page attacks and symmetric conflict attribution. Replicate across model families with human-validated judging. Publish agent ledgers as OpenTelemetry GenAI spans in Certificate-Transparency-style logs [21, 23] for third-party audit.</p>

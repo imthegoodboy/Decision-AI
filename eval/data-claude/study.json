@@ -1207,6 +1207,591 @@
         "8": "src_a32b4ae1",
         "9": "src_6om39fr1"
       }
+    },
+    {
+      "runId": "r073",
+      "questionId": "tech-01",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r073",
+      "numbering": {
+        "1": "src_5r6k1mwf",
+        "2": "src_kk99gsmp",
+        "3": "src_y8fmlj0f",
+        "4": "src_w1sayql5",
+        "5": "src_5dpigstn"
+      }
+    },
+    {
+      "runId": "r074",
+      "questionId": "tech-01",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r074",
+      "numbering": {
+        "1": "src_5r6k1mwf",
+        "2": "src_kk99gsmp",
+        "3": "src_y8fmlj0f",
+        "4": "src_w1sayql5",
+        "5": "src_5dpigstn"
+      }
+    },
+    {
+      "runId": "r075",
+      "questionId": "tech-01",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r075",
+      "numbering": {
+        "1": "src_5r6k1mwf",
+        "2": "src_kk99gsmp",
+        "3": "src_y8fmlj0f",
+        "4": "src_w1sayql5",
+        "5": "src_5dpigstn"
+      }
+    },
+    {
+      "runId": "r076",
+      "questionId": "tech-03",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r076",
+      "numbering": {
+        "1": "src_xqsvmda1",
+        "2": "src_qxrs0171",
+        "3": "src_35590asx",
+        "4": "src_68k3g9nb",
+        "5": "src_ky9ci53z",
+        "6": "src_0dzoh3vc",
+        "7": "src_u017a4j8",
+        "8": "src_8wqncllh"
+      }
+    },
+    {
+      "runId": "r077",
+      "questionId": "tech-03",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r077",
+      "numbering": {
+        "1": "src_xqsvmda1",
+        "2": "src_qxrs0171",
+        "3": "src_35590asx",
+        "4": "src_68k3g9nb",
+        "5": "src_ky9ci53z",
+        "6": "src_0dzoh3vc",
+        "7": "src_u017a4j8",
+        "8": "src_8wqncllh"
+      }
+    },
+    {
+      "runId": "r078",
+      "questionId": "tech-03",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r078",
+      "numbering": {
+        "1": "src_xqsvmda1",
+        "2": "src_qxrs0171",
+        "3": "src_35590asx",
+        "4": "src_68k3g9nb",
+        "5": "src_ky9ci53z",
+        "6": "src_0dzoh3vc",
+        "7": "src_u017a4j8",
+        "8": "src_8wqncllh"
+      }
+    },
+    {
+      "runId": "r079",
+      "questionId": "edu-01",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r079",
+      "numbering": {
+        "1": "src_s66rqs23",
+        "2": "src_05x51s2s",
+        "3": "src_fumkdjqx",
+        "4": "src_54f2c2mw",
+        "5": "src_6us8d5io",
+        "6": "src_4tttq8xq",
+        "7": "src_y0ajbs9c",
+        "8": "src_o6ksfc4s"
+      }
+    },
+    {
+      "runId": "r080",
+      "questionId": "edu-01",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r080",
+      "numbering": {
+        "1": "src_s66rqs23",
+        "2": "src_05x51s2s",
+        "3": "src_fumkdjqx",
+        "4": "src_54f2c2mw",
+        "5": "src_6us8d5io",
+        "6": "src_4tttq8xq",
+        "7": "src_y0ajbs9c",
+        "8": "src_o6ksfc4s"
+      }
+    },
+    {
+      "runId": "r081",
+      "questionId": "edu-01",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r081",
+      "numbering": {
+        "1": "src_s66rqs23",
+        "2": "src_05x51s2s",
+        "3": "src_fumkdjqx",
+        "4": "src_54f2c2mw",
+        "5": "src_6us8d5io",
+        "6": "src_4tttq8xq",
+        "7": "src_y0ajbs9c",
+        "8": "src_o6ksfc4s"
+      }
+    },
+    {
+      "runId": "r082",
+      "questionId": "edu-03",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r082",
+      "numbering": {
+        "1": "src_0l4lmrn6",
+        "2": "src_gthzy0hi",
+        "3": "src_6u5rjfzc",
+        "4": "src_50p8dw9t",
+        "5": "src_528t3v6x",
+        "6": "src_3a2mkwqs",
+        "7": "src_ibhj00qw"
+      }
+    },
+    {
+      "runId": "r083",
+      "questionId": "edu-03",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r083",
+      "numbering": {
+        "1": "src_0l4lmrn6",
+        "2": "src_gthzy0hi",
+        "3": "src_6u5rjfzc",
+        "4": "src_50p8dw9t",
+        "5": "src_528t3v6x",
+        "6": "src_3a2mkwqs",
+        "7": "src_ibhj00qw"
+      }
+    },
+    {
+      "runId": "r084",
+      "questionId": "edu-03",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r084",
+      "numbering": {
+        "1": "src_0l4lmrn6",
+        "2": "src_gthzy0hi",
+        "3": "src_6u5rjfzc",
+        "4": "src_50p8dw9t",
+        "5": "src_528t3v6x",
+        "6": "src_3a2mkwqs",
+        "7": "src_ibhj00qw"
+      }
+    },
+    {
+      "runId": "r085",
+      "questionId": "fin-02",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r085",
+      "numbering": {
+        "1": "src_tarsvl3x",
+        "2": "src_xnlh3ss0",
+        "3": "src_mlo7ixx9",
+        "4": "src_qpvo9p1m",
+        "5": "src_p7gks5rh",
+        "6": "src_byvjntfp"
+      }
+    },
+    {
+      "runId": "r086",
+      "questionId": "fin-02",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r086",
+      "numbering": {
+        "1": "src_tarsvl3x",
+        "2": "src_xnlh3ss0",
+        "3": "src_mlo7ixx9",
+        "4": "src_qpvo9p1m",
+        "5": "src_p7gks5rh",
+        "6": "src_byvjntfp"
+      }
+    },
+    {
+      "runId": "r087",
+      "questionId": "fin-02",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r087",
+      "numbering": {
+        "1": "src_tarsvl3x",
+        "2": "src_xnlh3ss0",
+        "3": "src_mlo7ixx9",
+        "4": "src_qpvo9p1m",
+        "5": "src_p7gks5rh",
+        "6": "src_byvjntfp"
+      }
+    },
+    {
+      "runId": "r088",
+      "questionId": "fin-04",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r088",
+      "numbering": {
+        "1": "src_3m8jrnz9",
+        "2": "src_1ra4mf6r",
+        "3": "src_wnheoed5",
+        "4": "src_qhjgjtnk",
+        "5": "src_hlxqwjym",
+        "6": "src_g1uke5te",
+        "7": "src_6x1aobyr",
+        "8": "src_fukolii1"
+      }
+    },
+    {
+      "runId": "r089",
+      "questionId": "fin-04",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r089",
+      "numbering": {
+        "1": "src_3m8jrnz9",
+        "2": "src_1ra4mf6r",
+        "3": "src_wnheoed5",
+        "4": "src_qhjgjtnk",
+        "5": "src_hlxqwjym",
+        "6": "src_g1uke5te",
+        "7": "src_6x1aobyr",
+        "8": "src_fukolii1"
+      }
+    },
+    {
+      "runId": "r090",
+      "questionId": "fin-04",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r090",
+      "numbering": {
+        "1": "src_3m8jrnz9",
+        "2": "src_1ra4mf6r",
+        "3": "src_wnheoed5",
+        "4": "src_qhjgjtnk",
+        "5": "src_hlxqwjym",
+        "6": "src_g1uke5te",
+        "7": "src_6x1aobyr",
+        "8": "src_fukolii1"
+      }
+    },
+    {
+      "runId": "r091",
+      "questionId": "health-01",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r091",
+      "numbering": {
+        "1": "src_g95aocfc",
+        "2": "src_w89fyiql",
+        "3": "src_1j96aatg",
+        "4": "src_m30305s9",
+        "5": "src_yi64qjj2",
+        "6": "src_kjlki35v",
+        "7": "src_zt1juo6f"
+      }
+    },
+    {
+      "runId": "r092",
+      "questionId": "health-01",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r092",
+      "numbering": {
+        "1": "src_g95aocfc",
+        "2": "src_w89fyiql",
+        "3": "src_1j96aatg",
+        "4": "src_m30305s9",
+        "5": "src_yi64qjj2",
+        "6": "src_kjlki35v",
+        "7": "src_zt1juo6f"
+      }
+    },
+    {
+      "runId": "r093",
+      "questionId": "health-01",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r093",
+      "numbering": {
+        "1": "src_g95aocfc",
+        "2": "src_w89fyiql",
+        "3": "src_1j96aatg",
+        "4": "src_m30305s9",
+        "5": "src_yi64qjj2",
+        "6": "src_kjlki35v",
+        "7": "src_zt1juo6f"
+      }
+    },
+    {
+      "runId": "r094",
+      "questionId": "health-02",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r094",
+      "numbering": {
+        "1": "src_04xar6eh",
+        "2": "src_1x8ut2gm",
+        "3": "src_t5ngntvw",
+        "4": "src_6q6mmt73",
+        "5": "src_rzag1byv",
+        "6": "src_8944u4qn"
+      }
+    },
+    {
+      "runId": "r095",
+      "questionId": "health-02",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r095",
+      "numbering": {
+        "1": "src_04xar6eh",
+        "2": "src_1x8ut2gm",
+        "3": "src_t5ngntvw",
+        "4": "src_6q6mmt73",
+        "5": "src_rzag1byv",
+        "6": "src_8944u4qn"
+      }
+    },
+    {
+      "runId": "r096",
+      "questionId": "health-02",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r096",
+      "numbering": {
+        "1": "src_04xar6eh",
+        "2": "src_1x8ut2gm",
+        "3": "src_t5ngntvw",
+        "4": "src_6q6mmt73",
+        "5": "src_rzag1byv",
+        "6": "src_8944u4qn"
+      }
+    },
+    {
+      "runId": "r097",
+      "questionId": "home-01",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r097",
+      "numbering": {
+        "1": "src_ntshym7g",
+        "2": "src_ysbpcg0v",
+        "3": "src_6bouz9ai",
+        "4": "src_2btawnih",
+        "5": "src_s4pm4jc3",
+        "6": "src_dsy7s2pg",
+        "7": "src_wbl2j9a7",
+        "8": "src_xrlx6uov"
+      }
+    },
+    {
+      "runId": "r098",
+      "questionId": "home-01",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r098",
+      "numbering": {
+        "1": "src_ntshym7g",
+        "2": "src_ysbpcg0v",
+        "3": "src_6bouz9ai",
+        "4": "src_2btawnih",
+        "5": "src_s4pm4jc3",
+        "6": "src_dsy7s2pg",
+        "7": "src_wbl2j9a7",
+        "8": "src_xrlx6uov"
+      }
+    },
+    {
+      "runId": "r099",
+      "questionId": "home-01",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r099",
+      "numbering": {
+        "1": "src_ntshym7g",
+        "2": "src_ysbpcg0v",
+        "3": "src_6bouz9ai",
+        "4": "src_2btawnih",
+        "5": "src_s4pm4jc3",
+        "6": "src_dsy7s2pg",
+        "7": "src_wbl2j9a7",
+        "8": "src_xrlx6uov"
+      }
+    },
+    {
+      "runId": "r100",
+      "questionId": "home-04",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r100",
+      "numbering": {
+        "1": "src_1t7yktd5",
+        "2": "src_8v29b79i",
+        "3": "src_s4z9xxf3",
+        "4": "src_11awjgl9",
+        "5": "src_60y8kckf",
+        "6": "src_2xujg040",
+        "7": "src_zfrj0roy",
+        "8": "src_wkicj76u"
+      }
+    },
+    {
+      "runId": "r101",
+      "questionId": "home-04",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r101",
+      "numbering": {
+        "1": "src_1t7yktd5",
+        "2": "src_8v29b79i",
+        "3": "src_s4z9xxf3",
+        "4": "src_11awjgl9",
+        "5": "src_60y8kckf",
+        "6": "src_2xujg040",
+        "7": "src_zfrj0roy",
+        "8": "src_wkicj76u"
+      }
+    },
+    {
+      "runId": "r102",
+      "questionId": "home-04",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r102",
+      "numbering": {
+        "1": "src_1t7yktd5",
+        "2": "src_8v29b79i",
+        "3": "src_s4z9xxf3",
+        "4": "src_11awjgl9",
+        "5": "src_60y8kckf",
+        "6": "src_2xujg040",
+        "7": "src_zfrj0roy",
+        "8": "src_wkicj76u"
+      }
+    },
+    {
+      "runId": "r103",
+      "questionId": "soft-01",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r103",
+      "numbering": {
+        "1": "src_jidwy205",
+        "2": "src_kc1h6k5a",
+        "3": "src_su42ci63",
+        "4": "src_xiuny6jf",
+        "5": "src_tdlohmpa",
+        "6": "src_96knadm6",
+        "7": "src_ebr8glrb",
+        "8": "src_2wmk7klb"
+      }
+    },
+    {
+      "runId": "r104",
+      "questionId": "soft-01",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r104",
+      "numbering": {
+        "1": "src_jidwy205",
+        "2": "src_kc1h6k5a",
+        "3": "src_su42ci63",
+        "4": "src_xiuny6jf",
+        "5": "src_tdlohmpa",
+        "6": "src_96knadm6",
+        "7": "src_ebr8glrb",
+        "8": "src_2wmk7klb"
+      }
+    },
+    {
+      "runId": "r105",
+      "questionId": "soft-01",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r105",
+      "numbering": {
+        "1": "src_jidwy205",
+        "2": "src_kc1h6k5a",
+        "3": "src_su42ci63",
+        "4": "src_xiuny6jf",
+        "5": "src_tdlohmpa",
+        "6": "src_96knadm6",
+        "7": "src_ebr8glrb",
+        "8": "src_2wmk7klb"
+      }
+    },
+    {
+      "runId": "r106",
+      "questionId": "soft-04",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r106",
+      "numbering": {
+        "1": "src_6wq1ttka",
+        "2": "src_2e0hgox1",
+        "3": "src_d474iiex",
+        "4": "src_aktlgiir",
+        "5": "src_xl6or91r",
+        "6": "src_djynsylk",
+        "7": "src_02bqg5l5",
+        "8": "src_6om39fr1"
+      }
+    },
+    {
+      "runId": "r107",
+      "questionId": "soft-04",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r107",
+      "numbering": {
+        "1": "src_6wq1ttka",
+        "2": "src_2e0hgox1",
+        "3": "src_d474iiex",
+        "4": "src_aktlgiir",
+        "5": "src_xl6or91r",
+        "6": "src_djynsylk",
+        "7": "src_02bqg5l5",
+        "8": "src_6om39fr1"
+      }
+    },
+    {
+      "runId": "r108",
+      "questionId": "soft-04",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r108",
+      "numbering": {
+        "1": "src_6wq1ttka",
+        "2": "src_2e0hgox1",
+        "3": "src_d474iiex",
+        "4": "src_aktlgiir",
+        "5": "src_xl6or91r",
+        "6": "src_djynsylk",
+        "7": "src_02bqg5l5",
+        "8": "src_6om39fr1"
+      }
     }
   ],
   "questions": [
@@ -1319,6 +1904,26 @@
               "condition": "clean"
             }
           ]
+        }
+      ],
+      "replicates": [
+        {
+          "runId": "r073",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r073"
+        },
+        {
+          "runId": "r074",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r074"
+        },
+        {
+          "runId": "r075",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r075"
         }
       ]
     },
@@ -1435,6 +2040,26 @@
             }
           ]
         }
+      ],
+      "replicates": [
+        {
+          "runId": "r076",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r076"
+        },
+        {
+          "runId": "r077",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r077"
+        },
+        {
+          "runId": "r078",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r078"
+        }
       ]
     },
     {
@@ -1550,6 +2175,26 @@
             }
           ]
         }
+      ],
+      "replicates": [
+        {
+          "runId": "r079",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r079"
+        },
+        {
+          "runId": "r080",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r080"
+        },
+        {
+          "runId": "r081",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r081"
+        }
       ]
     },
     {
@@ -1664,6 +2309,26 @@
             }
           ]
         }
+      ],
+      "replicates": [
+        {
+          "runId": "r082",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r082"
+        },
+        {
+          "runId": "r083",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r083"
+        },
+        {
+          "runId": "r084",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r084"
+        }
       ]
     },
     {
@@ -1776,6 +2441,26 @@
               "condition": "clean"
             }
           ]
+        }
+      ],
+      "replicates": [
+        {
+          "runId": "r085",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r085"
+        },
+        {
+          "runId": "r086",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r086"
+        },
+        {
+          "runId": "r087",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r087"
         }
       ]
     },
@@ -1892,6 +2577,26 @@
             }
           ]
         }
+      ],
+      "replicates": [
+        {
+          "runId": "r088",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r088"
+        },
+        {
+          "runId": "r089",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r089"
+        },
+        {
+          "runId": "r090",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r090"
+        }
       ]
     },
     {
@@ -2006,6 +2711,26 @@
             }
           ]
         }
+      ],
+      "replicates": [
+        {
+          "runId": "r091",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r091"
+        },
+        {
+          "runId": "r092",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r092"
+        },
+        {
+          "runId": "r093",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r093"
+        }
       ]
     },
     {
@@ -2118,6 +2843,26 @@
               "condition": "poisoned"
             }
           ]
+        }
+      ],
+      "replicates": [
+        {
+          "runId": "r094",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r094"
+        },
+        {
+          "runId": "r095",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r095"
+        },
+        {
+          "runId": "r096",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r096"
         }
       ]
     },
@@ -2234,6 +2979,26 @@
             }
           ]
         }
+      ],
+      "replicates": [
+        {
+          "runId": "r097",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r097"
+        },
+        {
+          "runId": "r098",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r098"
+        },
+        {
+          "runId": "r099",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r099"
+        }
       ]
     },
     {
@@ -2348,6 +3113,26 @@
               "condition": "clean"
             }
           ]
+        }
+      ],
+      "replicates": [
+        {
+          "runId": "r100",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r100"
+        },
+        {
+          "runId": "r101",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r101"
+        },
+        {
+          "runId": "r102",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r102"
         }
       ]
     },
@@ -2464,6 +3249,26 @@
             }
           ]
         }
+      ],
+      "replicates": [
+        {
+          "runId": "r103",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r103"
+        },
+        {
+          "runId": "r104",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r104"
+        },
+        {
+          "runId": "r105",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r105"
+        }
       ]
     },
     {
@@ -2578,6 +3383,26 @@
               "condition": "poisoned"
             }
           ]
+        }
+      ],
+      "replicates": [
+        {
+          "runId": "r106",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r106"
+        },
+        {
+          "runId": "r107",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r107"
+        },
+        {
+          "runId": "r108",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r108"
         }
       ]
     }

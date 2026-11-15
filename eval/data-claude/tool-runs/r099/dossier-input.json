@@ -1,0 +1,37 @@
+{"criteria":[
+{"name":"Reliability","weight":35,"description":"Evidence of dependable ownership"},
+{"name":"Real-world range","weight":30,"description":"Range in actual use for a 20 km commute"},
+{"name":"Service network","weight":35,"description":"After-sales service availability and quality"},
+{"name":"Commuting comfort","weight":10,"description":"Ease and comfort in daily city use"}],
+"options":[
+{"name":"TVS iQube","summary":"Comfortable, easy city commuter; stable sales","price":"Rs 95,124 - 1.30 lakh (source 8)"},
+{"name":"Ather 450","summary":"Best handling, but cramped and firm","price":"Rs 1.51 - 1.90 lakh (450X, source 8)"},
+{"name":"Bajaj Chetak","summary":"Absorbent ride, dated features in 2022","price":null},
+{"name":"Ola S1","summary":"Documented service backlog in 2024","price":null}],
+"scores":[
+{"option":"TVS iQube","criterion":"Reliability","score":null,"rationale":"No verified reliability evidence for any option except Ola.","claims":[]},
+{"option":"TVS iQube","criterion":"Real-world range","score":6,"rationale":"Claimed 140 km and decent range for daily use on bigger packs; no measured figure.","claims":["C13","C14"]},
+{"option":"TVS iQube","criterion":"Service network","score":5,"rationale":"Only indirect evidence (stable sales); no service data.","claims":["C3"]},
+{"option":"TVS iQube","criterion":"Commuting comfort","score":8,"rationale":"Rated a step above Chetak as easy commuter.","claims":["C9"]},
+{"option":"Ather 450","criterion":"Real-world range","score":5,"rationale":"Claimed 146 km; Eco usable at low charge; nothing measured.","claims":["C12","C6"]},
+{"option":"Ather 450","criterion":"Reliability","score":null,"rationale":"No verified evidence.","claims":[]},
+{"option":"Ather 450","criterion":"Service network","score":null,"rationale":"No verified evidence.","claims":[]},
+{"option":"Ather 450","criterion":"Commuting comfort","score":4,"rationale":"Best handling but least comfortable, cramped for tall riders.","claims":["C7","C8"]},
+{"option":"Bajaj Chetak","criterion":"Commuting comfort","score":7,"rationale":"Absorbent ride; dated features.","claims":["C10","C11"]},
+{"option":"Bajaj Chetak","criterion":"Service network","score":5,"rationale":"Only indirect evidence (stable sales).","claims":["C3"]},
+{"option":"Ola S1","criterion":"Service network","score":2,"rationale":"80,000 monthly complaints and 30-45 day waits in 2024; expansion plans unverified.","claims":["C1","C2","C4","C5"]},
+{"option":"Ola S1","criterion":"Reliability","score":3,"rationale":"Repair-heavy reports; reviewer noted suspension failure cases online.","claims":["C2","C18"]},
+{"option":"Ola S1","criterion":"Commuting comfort","score":5,"rationale":"Cuts power on braking.","claims":["C17"]}],
+"recommendation":{"option":"TVS iQube","headline":"TVS iQube, with low confidence","summary":"Best fit among documented options for comfort and brand stability, but evidence on reliability, real range and service is thin.","reasons":[
+{"text":"Rated a step above Chetak as comfortable, easy city commuter","claims":["C9"]},
+{"text":"TVS kept stable sales while Ola struggled","claims":["C3"]},
+{"text":"Claimed 140 km, decent daily range on bigger packs","claims":["C13","C14"]}],
+"tradeoffs":[{"text":"Range figures are claimed, not measured in Bengaluru","claims":["C13"]},{"text":"Ather is cramped for tall riders but handles best","claims":["C7","C8"]}],
+"alternatives":[{"option":"Ather 450","when":"You are under about 5ft 10in and value handling"},{"option":"Bajaj Chetak","when":"You value ride quality and a local dealer is close"}],
+"caveats":["Sources are 2022 Mumbai tests and 2024 news","No source gives per-brand Bengaluru service data"],
+"nextSteps":["Test ride iQube, Chetak and Ather","Check nearest service centre and owner reviews","Get current prices and range"]},
+"contradictions":[],
+"uncertainties":[
+{"kind":"incomplete","text":"No verified evidence on reliability or service network for iQube, Chetak, Ather","option":null,"impact":"high","howToResolve":"Check recent Bengaluru owner forums and visit service centres"},
+{"kind":"outdated","text":"Reviews are 2022 and Ola news is 2024; models and Ola service have changed","option":null,"impact":"high","howToResolve":"Find 2026 reviews"},
+{"kind":"assumption","text":"Range data is claimed, not measured in Bengaluru","option":null,"impact":"medium","howToResolve":"Ask owners for real range"}]}

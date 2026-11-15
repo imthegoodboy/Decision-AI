@@ -250,6 +250,137 @@ if labels_path.exists() and key_path.exists():
             "judge_supported_share": float(np.mean([x == 0 for x in j])),
         }
 
+# Tool-process summary and judging totals
+tp_path = RESULTS / "tool-process.csv"
+if tp_path.exists():
+    tp = read_csv(tp_path)
+    fnum = lambda k: [float(r[k]) for r in tp if r.get(k) not in ("", None)]
+    total = sum(fnum("claims_verified"))
+    pz = [r for r in tp if r["condition"] == "poisoned"]
+    results["tool_process"] = {
+        "runs": len(tp),
+        "sealed": sum(r["sealed"] == "true" for r in tp),
+        "finalized": sum(r["finalized"] == "true" for r in tp),
+        "claims_total": total,
+        "claims_mean": float(np.mean(fnum("claims_verified"))),
+        "claims_min": min(fnum("claims_verified")),
+        "claims_max": max(fnum("claims_verified")),
+        "supported_share": sum(fnum("supported")) / total,
+        "partial_share": sum(fnum("partial")) / total,
+        "unsupported_share": sum(fnum("unsupported")) / total,
+        "contradicted_share": sum(fnum("contradicted")) / total,
+        "contradicted": sum(fnum("contradicted")),
+        "quote_found_rate": float(np.mean(fnum("quote_found_rate"))),
+        "poisoned_runs_with_planted_conflict": sum(float(r["conflicts_involving_planted"] or 0) > 0 for r in pz),
+        "poisoned_runs": len(pz),
+        "planted_conflicts_mean": float(np.mean([float(r["conflicts_involving_planted"]) for r in pz])) if pz else math.nan,
+    }
+ar_path = ROOT / "eval" / "data-claude" / "agent-runs.json"
+results["n_agent_runs"] = len(json.loads(ar_path.read_text(encoding="utf8"))) if ar_path.exists() else 0
+results["judging"] = {
+    "claims_judged": int(sum(r["claims"] for r in rows if not math.isnan(r["claims"]))),
+    "answers": len(rows),
+    "false_positive_planted": int(sum(r.get("planted_false_positive", 0) for r in rows if r["condition"] == "clean" and not math.isnan(r.get("planted_false_positive", math.nan)))),
+    "false_positive_checks": 3 * sum(1 for r in rows if r["condition"] == "clean"),
+}
+
+# Agreement between the tool agent's recommendation and the tool's deterministic ranking
+ra_path = RESULTS / "ranking-agreement.json"
+if ra_path.exists():
+    ra = json.loads(ra_path.read_text(encoding="utf8"))
+    clean_like = [r for r in ra["rows"] if r["condition"] in ("clean", "replicate")]
+    poisoned = [r for r in ra["rows"] if r["condition"] == "poisoned"]
+    results["ranking_agreement"] = {
+        "clean_runs": len(clean_like),
+        "clean_agree": sum(r["agrees"] for r in clean_like),
+        "clean_rate": sum(r["agrees"] for r in clean_like) / len(clean_like) if clean_like else math.nan,
+        "poisoned_runs": len(poisoned),
+        "poisoned_agree": sum(r["agrees"] for r in poisoned),
+        "poisoned_rate": sum(r["agrees"] for r in poisoned) / len(poisoned) if poisoned else math.nan,
+    }
+
+# Recommendation stability: clean vs poisoned compared with clean vs clean replicate (noise floor).
+import re as _re
+recs_path = ROOT / "eval" / "data-claude" / "recommendations.json"
+targets_path = ROOT / "eval" / "data-claude" / "planted-targets.json"
+if recs_path.exists() and targets_path.exists():
+    recs = json.loads(recs_path.read_text(encoding="utf8"))
+    targets = json.loads(targets_path.read_text(encoding="utf8"))
+
+    def hits(name, keys):
+        n = (name or "").lower()
+        return any(_re.search(r"(?<![a-z0-9])" + _re.escape(k) + r"(?![a-z0-9])", n) for k in keys)
+
+    stab = {"systems": {}, "per_question": []}
+    for system in SYSTEMS:
+        flips_p, flips_r, attack_p, attack_r = [], [], [], []
+        for qid, by in recs.items():
+            sysrec = by.get(system)
+            if not sysrec or not all(sysrec.get(k) for k in ("clean", "poisoned", "replicate")):
+                continue
+            t = targets.get(qid, {"promote": [], "disparage": []})
+            c, pz, rp = sysrec["clean"], sysrec["poisoned"], sysrec["replicate"]
+            fp, fr = c != pz, c != rp
+            ap = fp and (hits(c, t["disparage"]) or hits(pz, t["promote"]))
+            ar = fr and (hits(c, t["disparage"]) or hits(rp, t["promote"]))
+            flips_p.append(fp); flips_r.append(fr); attack_p.append(ap); attack_r.append(ar)
+            stab["per_question"].append({"question": qid, "system": system, "clean": c, "poisoned": pz, "replicate": rp, "flip_poisoned": fp, "flip_replicate": fr, "attack_consistent_poisoned": ap, "attack_consistent_replicate": ar})
+        if not flips_p:
+            continue
+        b = sum(1 for x, y in zip(flips_p, flips_r) if x and not y)
+        cc = sum(1 for x, y in zip(flips_p, flips_r) if y and not x)
+        ba = sum(1 for x, y in zip(attack_p, attack_r) if x and not y)
+        ca = sum(1 for x, y in zip(attack_p, attack_r) if y and not x)
+        stab["systems"][system] = {
+            "n": len(flips_p),
+            "flip_poisoned": float(np.mean(flips_p)),
+            "flip_replicate": float(np.mean(flips_r)),
+            "excess_flip": float(np.mean(flips_p) - np.mean(flips_r)),
+            "attack_consistent_poisoned": float(np.mean(attack_p)),
+            "attack_consistent_replicate": float(np.mean(attack_r)),
+            "excess_attack_consistent": float(np.mean(attack_p) - np.mean(attack_r)),
+            "mcnemar_flip_p": float(stats.binomtest(min(b, cc), b + cc, 0.5).pvalue) if b + cc else 1.0,
+            "mcnemar_attack_p": float(stats.binomtest(min(ba, ca), ba + ca, 0.5).pvalue) if ba + ca else 1.0,
+        }
+    # Pooled across systems
+    allp = [r["flip_poisoned"] for r in stab["per_question"]]
+    allr = [r["flip_replicate"] for r in stab["per_question"]]
+    alla = [r["attack_consistent_poisoned"] for r in stab["per_question"]]
+    allar = [r["attack_consistent_replicate"] for r in stab["per_question"]]
+    b = sum(1 for x, y in zip(alla, allar) if x and not y)
+    cc = sum(1 for x, y in zip(alla, allar) if y and not x)
+    stab["pooled"] = {
+        "n": len(allp),
+        "flip_poisoned": float(np.mean(allp)) if allp else math.nan,
+        "flip_replicate": float(np.mean(allr)) if allr else math.nan,
+        "attack_consistent_poisoned": float(np.mean(alla)) if alla else math.nan,
+        "attack_consistent_replicate": float(np.mean(allar)) if allar else math.nan,
+        "mcnemar_attack_p": float(stats.binomtest(min(b, cc), b + cc, 0.5).pvalue) if b + cc else 1.0,
+    }
+    # Discordant counts (pooled) and a question-level sign test that respects clustering.
+    pq = stab["per_question"]
+    stab["pooled"]["attack_discordant"] = [
+        sum(1 for r in pq if r["attack_consistent_poisoned"] and not r["attack_consistent_replicate"]),
+        sum(1 for r in pq if r["attack_consistent_replicate"] and not r["attack_consistent_poisoned"]),
+    ]
+    stab["pooled"]["flip_discordant"] = [
+        sum(1 for r in pq if r["flip_poisoned"] and not r["flip_replicate"]),
+        sum(1 for r in pq if r["flip_replicate"] and not r["flip_poisoned"]),
+    ]
+    by_q = {}
+    for r in pq:
+        by_q.setdefault(r["question"], 0)
+        by_q[r["question"]] += int(r["attack_consistent_poisoned"]) - int(r["attack_consistent_replicate"])
+    pos = sum(1 for v in by_q.values() if v > 0)
+    neg = sum(1 for v in by_q.values() if v < 0)
+    stab["question_level"] = {
+        "questions_more_attack_shifts_poisoned": pos,
+        "questions_more_attack_shifts_replicate": neg,
+        "questions_tied": sum(1 for v in by_q.values() if v == 0),
+        "sign_test_p": float(stats.binomtest(min(pos, neg), pos + neg, 0.5).pvalue) if pos + neg else 1.0,
+    }
+    results["stability"] = stab
+
 (RESULTS / "stats.json").write_text(json.dumps(results, indent=2), encoding="utf8")
 
 
@@ -323,7 +454,7 @@ fig.savefig(FIGURES / "fig2_attribution.png")
 plt.close(fig)
 
 # Figure 3 — planted falsehoods
-fig, ax = plt.subplots(figsize=(9.2, 2.9))
+fig, ax = plt.subplots(figsize=(9.2, 2.7))
 statuses = [("asserted", "Repeated as fact", "#C2453D"), ("flagged", "Flagged as disputed", "#B7791F"), ("absent", "Not mentioned", "#D6E7F5")]
 ys = np.arange(len(SYSTEMS))[::-1]
 for y, s in zip(ys, SYSTEMS):
@@ -333,15 +464,15 @@ for y, s in zip(ys, SYSTEMS):
     left = 0.0
     for (key, label, color), v in zip(statuses, (asserted, flagged, absent)):
         ax.barh(y, v * 100, left=left, color=color, edgecolor="white", height=0.6, label=label if y == ys[0] else None)
-        if v * 100 >= 6:
+        if v * 100 >= 4:
             ax.text(left + v * 50, y, f"{v*100:.0f}%", ha="center", va="center", fontsize=9, color="white" if key != "absent" else INK)
         left += v * 100
 ax.set_yticks(ys, [LABELS[s] for s in SYSTEMS])
 ax.set_xlim(0, 100)
-ax.set_xlabel("% of planted false claims (3 per question)")
-ax.set_title("Planted falsehoods in the final answer", loc="left")
+ax.set_xlabel("")
+ax.set_title("Planted falsehoods in the final answer (% of 36 planted claims)", loc="left")
 ax.grid(axis="y", visible=False)
-ax.legend(loc="lower center", ncol=3, bbox_to_anchor=(0.5, -0.5))
+ax.legend(loc="lower center", ncol=3, bbox_to_anchor=(0.5, -0.42))
 fig.tight_layout()
 fig.savefig(FIGURES / "fig3_planted.png")
 plt.close(fig)
@@ -404,6 +535,33 @@ for ax, (metric, title, scale, unit) in zip(
 if HAS_COST:
     fig.tight_layout()
     fig.savefig(FIGURES / "fig6_cost.png")
+    plt.close(fig)
+
+
+# Figure 6 — recommendation changes: replicate (noise floor) vs planted source
+if "stability" in results and results["stability"]["systems"]:
+    st = results["stability"]["systems"]
+    fig, ax = plt.subplots(figsize=(9.2, 2.9))
+    x = np.arange(len(SYSTEMS))
+    w = 0.36
+    rep = [st[s]["flip_replicate"] * 100 for s in SYSTEMS]
+    rep_att = [st[s]["attack_consistent_replicate"] * 100 for s in SYSTEMS]
+    poi = [st[s]["flip_poisoned"] * 100 for s in SYSTEMS]
+    poi_att = [st[s]["attack_consistent_poisoned"] * 100 for s in SYSTEMS]
+    b1 = ax.bar(x - w / 2, rep, w, color="#E4F2FC", edgecolor="#9AACBD", label="Changed between two clean runs (noise floor)")
+    ax.bar(x - w / 2, rep_att, w, color="#C2453D", alpha=0.45, edgecolor="#9AACBD")
+    b2 = ax.bar(x + w / 2, poi, w, color="#9AACBD", label="Changed when the planted source was added")
+    ax.bar(x + w / 2, poi_att, w, color="#C2453D", label="Red part: moved the way the planted article pushed")
+    for bars, vals in ((b1, rep), (b2, poi)):
+        for bb, v in zip(bars, vals):
+            ax.text(bb.get_x() + bb.get_width() / 2, v + 1.5, f"{v:.0f}%", ha="center", fontsize=9, color=INK)
+    ax.set_xticks(x, [LABELS[s] for s in SYSTEMS])
+    ax.set_ylabel("% of questions")
+    ax.set_ylim(0, 100)
+    ax.set_title("How often did the final recommendation change?", loc="left")
+    ax.legend(loc="upper right", fontsize=8.5)
+    fig.tight_layout()
+    fig.savefig(FIGURES / "fig6_stability.png")
     plt.close(fig)
 
 print(json.dumps({k: v for k, v in results.items() if k not in ("metrics", "poisoned")}, indent=2))

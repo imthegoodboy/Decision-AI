@@ -1,0 +1,402 @@
+[
+  {
+    "id": "C1",
+    "source": 3,
+    "option": "Ola S1",
+    "criterion": "Service network",
+    "claim": "Ola receives about 80,000 service complaints per month (2024 report)",
+    "quote": "Insiders familiar with the matter revealed that the Bengaluru-based company receives an average of 80,000 service complaints per month, overwhelming its existing service centers.",
+    "support": "supported",
+    "corroborating": [
+      5,
+      7
+    ],
+    "conflicting": [],
+    "note": "2024, insider-based; dated",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[3.p1]",
+      "text": "• Manufacturing News Ola Electric Creates Team to Address 80K Monthly Service Issues • MM Desk • 19/09/2024 Image Courtesy: Ola Electric Ola Electric, the manufacturer of battery-powered scooters, has assembled a new service team to address an escalating wave of customer complaints concerning service-related issues. Insiders familiar with the matter revealed that the Bengaluru-based company receives an average of 80,000 service complaints per month, overwhelming its existing service centers."
+    },
+    "recordedAt": "2026-11-15T21:01:20.844Z"
+  },
+  {
+    "id": "C2",
+    "source": 3,
+    "option": "Ola S1",
+    "criterion": "Reliability",
+    "claim": "Ola customers reported 30-45 day repair waits",
+    "quote": "Many customers reported waiting anywhere from 30 to 45 days for repairs, and several have taken to social media, particularly X (formerly Twitter), to air their grievances.",
+    "support": "supported",
+    "corroborating": [
+      5
+    ],
+    "conflicting": [],
+    "note": "anecdotal customer reports, 2024",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[3.p5]",
+      "text": "Since its establishment, Ola Electric has sold more than 680,000 scooters, and it currently operates 430 service centers across India, according to its official website. Despite this infrastructure, customers have increasingly voiced frustrations regarding the difficulty of securing timely service appointments. This issue is particularly problematic for customers subscribed to Ola Care Plus, a paid service offering perks such as home pick-up and drop-off. Many customers reported waiting anywhere from 30 to 45 days for repairs, and several have taken to social media, particularly X (formerly Twitter), to air their grievances."
+    },
+    "recordedAt": "2026-11-15T21:01:20.996Z"
+  },
+  {
+    "id": "C3",
+    "source": 3,
+    "option": "TVS iQube",
+    "criterion": "Service network",
+    "claim": "Bajaj and TVS kept stable sales while Ola's fell (2024)",
+    "quote": "Meanwhile, competitors like Bajaj Auto Ltd and TVS Motor Company Ltd have maintained stable sales, continuing their upward trend in the electric scooter market.",
+    "support": "partial",
+    "corroborating": [
+      5
+    ],
+    "conflicting": [],
+    "note": "sales not a direct service/reliability measure",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[3.p4]",
+      "text": "July. This sharp drop also contributed to a decline in the company’s market share in the electric two-wheeler space, which fell from 39% to 31%. Meanwhile, competitors like Bajaj Auto Ltd and TVS Motor Company Ltd have maintained stable sales, continuing their upward trend in the electric scooter market. Since its establishment, Ola Electric has sold more than 680,000 scooters, and it currently operates 430 service centers across India, according to its official website."
+    },
+    "recordedAt": "2026-11-15T21:01:21.144Z"
+  },
+  {
+    "id": "C4",
+    "source": 3,
+    "option": "Ola S1",
+    "criterion": "Service network",
+    "claim": "Ola lists 430 service centres (company website, 2024)",
+    "quote": "Since its establishment, Ola Electric has sold more than 680,000 scooters, and it currently operates 430 service centers across India, according to its official website.",
+    "support": "supported",
+    "corroborating": [
+      5,
+      7
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[3.p4]",
+      "text": "July. This sharp drop also contributed to a decline in the company’s market share in the electric two-wheeler space, which fell from 39% to 31%. Meanwhile, competitors like Bajaj Auto Ltd and TVS Motor Company Ltd have maintained stable sales, continuing their upward trend in the electric scooter market. Since its establishment, Ola Electric has sold more than 680,000 scooters, and it currently operates 430 service centers across India, according to its official website."
+    },
+    "recordedAt": "2026-11-15T21:01:21.314Z"
+  },
+  {
+    "id": "C5",
+    "source": 7,
+    "option": "Ola S1",
+    "criterion": "Service network",
+    "claim": "Ola announced plan for 1,000 service centres by Dec 2024",
+    "quote": "Ola Electric will expand its service network to 1,000 centers nationwide by December 2024 ensuring that customers receive timely assistance regardless of their location.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "plan only; delivery unverified",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[7.p3]",
+      "text": "never miss out on any automotive updates. Also Read- Bajaj And Hero Bikes Get Up To Rs 23,500 Off At Flipkart Big Billion Days Sale Ola Hyperservice To Open Up 1000 Service Centres By 2024 End In a bid to address growing concerns about after-sales service for electric vehicles in India, Ola Electric has introduced its new HyperService initiative. This program is designed to significantly enhance customer satisfaction by improving the quality and availability of after-sales support. As part of this ambitious plan, Ola Electric will expand its service network to 1,000 centers nationwide by December 2024 ensuring that customers receive timely assistance regardless of their location."
+    },
+    "recordedAt": "2026-11-15T21:01:21.502Z"
+  },
+  {
+    "id": "C6",
+    "source": 6,
+    "option": "Ather 450",
+    "criterion": "Real-world range",
+    "claim": "Ather 450X Eco mode usable even below 10 percent battery",
+    "quote": "In the case of the Ather 450X, Eco mode is quite usable even when the battery percentage falls below 10 percent.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "2022 Mumbai test",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p7]",
+      "text": "three scooters are perfectly usable in their Eco modes, but with the Ola, we’d recommend you go at least one mode higher, to Normal mode. In the case of the Ather 450X, Eco mode is quite usable even when the battery percentage falls below 10 percent. The scooter will also climb flyovers at such a low state of charge, albeit up to 40kph. Switch the Ather to ‘Ride’ mode and you’ll find that it offers enough performance for daily commutes. ‘Sport’ and ‘Warp’ are obviously for those willing to sacrifice battery range for performance and as our test results show, the Ather is the second quickest scooter here. More importantly,"
+    },
+    "recordedAt": "2026-11-15T21:01:21.757Z"
+  },
+  {
+    "id": "C7",
+    "source": 6,
+    "option": "Ather 450",
+    "criterion": "Ride and handling",
+    "claim": "Ather 450X is the best handling scooter of the four",
+    "quote": "The Ather 450X is hands down the best handling scooter in this quartet.",
+    "support": "supported",
+    "corroborating": [
+      1
+    ],
+    "conflicting": [],
+    "note": "1 is the same article, not independent",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p18]",
+      "text": "the plus side, the Chetak’s the only one with a glovebox and it also has the most compact charger that can neatly fit in here. So, it’s a point here and a point there for each scooter, when it comes to practicality and comfort. But what about those who want a scooter that’s exciting to ride? EV scooter comparison: ride and handling The Ather 450X is hands down the best handling scooter in this quartet. The combination of its light weight, short wheelbase, communicative chassis and the fatter, grippier tyres on this Gen 3 avatar are what instill confidence in the rider. Whether it’s flicking your way through traffic or"
+    },
+    "recordedAt": "2026-11-15T21:01:21.974Z"
+  },
+  {
+    "id": "C8",
+    "source": 6,
+    "option": "Ather 450",
+    "criterion": "Comfort",
+    "claim": "Ather is least comfortable, cramped for riders over 5ft 10in",
+    "quote": "The Ather is the least comfortable of the lot by some margin, with the smallest seat and a high-set floorboard resulting in a cramped riding position, especially for riders taller than 5ft 10in.",
+    "support": "supported",
+    "corroborating": [
+      1
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p14]",
+      "text": "the TVS iQube as well. In fact, the iQube has the best seat for two-up riding. The decades of two-wheeler manufacturing experience that TVS and Bajaj have garnered has certainly helped them nail the ergonomics on their respective scooters. In the case of the Ola and Ather, their relative inexperience and obvious packaging constraints, with regards to the dimensions of their scooters, translate to compromises with ergonomics. The Ather is the least comfortable of the lot by some margin, with the smallest seat and a high-set floorboard resulting in a cramped riding position, especially for riders taller than 5ft 10in. The Ola S1 Pro is definitely comfier than the 450X,"
+    },
+    "recordedAt": "2026-11-15T21:01:22.128Z"
+  },
+  {
+    "id": "C9",
+    "source": 6,
+    "option": "TVS iQube",
+    "criterion": "Comfort and ease of use",
+    "claim": "TVS iQube is a step above Bajaj Chetak as a comfortable easy city commuter",
+    "quote": "And in that regard, the TVS is a step above the Bajaj.",
+    "support": "supported",
+    "corroborating": [
+      1
+    ],
+    "conflicting": [],
+    "note": "2022 test, performance/comfort not reliability",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p9]",
+      "text": "response and feedback out of all. Clearly then, the Ather and Ola are going to satiate the needs of those looking for a performance-oriented e-scooter. On the contrary, the TVS iQube and Bajaj Chetak are aimed at those who want a comfortable, easy-to-ride city commuter, but one that is still reasonably quick. And in that regard, the TVS is a step above the Bajaj. Accelerating from standstill, the iQube S gets up to 40kph quickly, but also in a manner that won’t overwhelm the rider. That’s something those new to EVs will like. Eco mode caps the speed to 50kph, which is the typical pace in most cities, while Power"
+    },
+    "recordedAt": "2026-11-15T21:01:22.322Z"
+  },
+  {
+    "id": "C10",
+    "source": 6,
+    "option": "Bajaj Chetak",
+    "criterion": "Comfort",
+    "claim": "Chetak has a firm yet absorbent ride",
+    "quote": "The Bajaj Chetak has a firm yet nice and absorbent ride, ironing out small undulations and swallowing larger hits as well.",
+    "support": "supported",
+    "corroborating": [
+      1
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p21]",
+      "text": "juddery over bumps, and there’s also a sense of nervousness that arises every time you hit a big pothole after those few cases of suspension failure were shared online. The Bajaj Chetak has a firm yet nice and absorbent ride, ironing out small undulations and swallowing larger hits as well. There’s also a sense of compliance that all of us liked. What we didn’t was that the C"
+    },
+    "recordedAt": "2026-11-15T21:01:22.514Z"
+  },
+  {
+    "id": "C11",
+    "source": 4,
+    "option": "Bajaj Chetak",
+    "criterion": "Features",
+    "claim": "Chetak feels dated and lacks features (2022)",
+    "quote": "The only scooter that feels like a decade old in this cutting-edge comparison is Bajaj Chetak.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "2022; model since updated per source 8 listing C35",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[4.p9]",
+      "text": "Coming to the new kid on the block, Simple One promises a lot of features like Ola S1 Pro. But it still has to prove itself. The only scooter that feels like a decade old in this cutting-edge comparison is Bajaj Chetak. It lacks finesse, convenience and gimmicks others are offering. Pricing for EVs vary from city to city due to availability issues and whatnot. Also considering state subsidies which vary across states. So, for final pricing, head to the nearest showroom or company’s official website."
+    },
+    "recordedAt": "2026-11-15T21:01:22.724Z"
+  },
+  {
+    "id": "C12",
+    "source": 4,
+    "option": "Ather 450",
+    "criterion": "Real-world range",
+    "claim": "Ather 450X Gen3 claimed range is 146 km",
+    "quote": "450X Gen3 only offers a 146km claimed range while the S1 Pro offers 181km.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "claimed, not real-world",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[4.p4]",
+      "text": "Pro has 5,500W and Simple One has 4,500W. When it comes to peak torque, though, Simple One decimates everyone on this list with 72 Nm. 450X Gen3 only offers a 146km claimed range while the S1 Pro offers 181km. But we have seen S1 Pro go over 200 km with Move OS 2 for which Ola CEO gifted free S1 Pro. Simple One is chuckling over there with its 300+ km promise with Extra Range variant and 236km with STD variant."
+    },
+    "recordedAt": "2026-11-15T21:01:22.873Z"
+  },
+  {
+    "id": "C13",
+    "source": 4,
+    "option": "TVS iQube",
+    "criterion": "Real-world range",
+    "claim": "TVS iQube promised range 140 km with 4.56 kWh battery",
+    "quote": "Next largest battery is offered by TVS iQube with a 4.56 kWh with a promised range of 140km and then comes S1 Pro with 3.9 kWh.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "claimed, not real-world",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[4.p5]",
+      "text": "CEO gifted free S1 Pro. Simple One is chuckling over there with its 300+ km promise with Extra Range variant and 236km with STD variant. New Ather 450X Vs Chetak, iQube, S1 Pro It is made possible because Simple One has the largest battery of the bunch too. It has a 3.3 kWh battery fixed on the floorboard and an additional removable 1.6 kWh battery for a combined 4.8 kWh. Next largest battery is offered by TVS iQube with a 4.56 kWh with a promised range of 140km and then comes S1 Pro with 3.9 kWh."
+    },
+    "recordedAt": "2026-11-15T21:01:23.019Z"
+  },
+  {
+    "id": "C14",
+    "source": 8,
+    "option": "TVS iQube",
+    "criterion": "Real-world range",
+    "claim": "iQube bigger battery variants give decent range for daily use",
+    "quote": "The bigger battery pack variants offer decent range for daily use",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "undated listing; column attribution inferred from order",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[8.p3]",
+      "text": "tight spaces • Looks like a proper family scooter and similar to ICE scooters • Offers a strong build quality and good fit and finish • The bigger battery pack variants offer decent range for daily use • 32-litre Underseat storage is sufficient to hold a full-face helmet or your daily groceries • The suspension offers a plush ride quality • The seat is long and comfortable enough for two"
+    },
+    "recordedAt": "2026-11-15T21:01:23.167Z"
+  },
+  {
+    "id": "C15",
+    "source": 2,
+    "option": "Ampere",
+    "criterion": "Service network",
+    "claim": "Ampere claims 420+ service points incl. Bangalore",
+    "quote": "Service Reach: 420+ service points across India, including strong Bangalore coverage",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "vendor self-claim, undated",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[2.p14]",
+      "text": "help in tight Bangalore lanes, with reverse assist on every model • Simple Charging: All models charge from standard home sockets, ideal for apartment users • Service Reach: 420+ service points across India, including strong Bangalore coverage • LFP Battery Safety: Lithium Iron Phosphate chemistry across all four models handles Bangalore summer heat better than NMC Performance Comparison Across Ampere Models Here is how the Ampere range compares on the specifications that matter most for Bangalore commuting:"
+    },
+    "recordedAt": "2026-11-15T21:01:23.339Z"
+  },
+  {
+    "id": "C16",
+    "source": 2,
+    "option": "Other",
+    "criterion": "Real-world range",
+    "claim": "Real range in Bangalore traffic runs well below IDC",
+    "quote": "Real-world range in Bangalore traffic runs well below that due to slow speeds, frequent stops, and quick bursts of acceleration to clear junctions.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "vendor source, general statement",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[2.p8]",
+      "text": "test cycles. Real-world range in Bangalore traffic runs well below that due to slow speeds, frequent stops, and quick bursts of acceleration to clear junctions. Ampere publishes both numbers, which makes planning straightforward. The Magnus Neo is rated 118 km IDC and delivers 85 km real. The Magnus G Max is rated 142 km IDC and delivers 100+ km. The Nexus EX+ is rated 136 km IDC and delivers 90+ km. The Reo Vyb covers 80 km real-world. Plan on the real figure, not the lab one."
+    },
+    "recordedAt": "2026-11-15T21:01:23.527Z"
+  },
+  {
+    "id": "C17",
+    "source": 6,
+    "option": "Ola S1",
+    "criterion": "Reliability",
+    "claim": "Ola S1 Pro cuts power on touching brakes",
+    "quote": "But what’s more annoying is the way in which the S1 Pro cuts the power the moment you touch the brakes.",
+    "support": "supported",
+    "corroborating": [
+      1
+    ],
+    "conflicting": [],
+    "note": "2022 test",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p5]",
+      "text": "higher than the Ather, which tops out at a GPS rated 80kph. Indicated top speed is 115kph for the Ola and 90kph for the Ather. Suffice it to say, if you are interested in higher speeds, the Ola S1 Pro is unbeatable. That said, its initial acceleration from 0-30kph is a little dull and not as quick as the Ather. But what’s more annoying is the way in which the S1 Pro cuts the power the moment you touch the brakes. That can put you in a bad situation while negotiating heavy, slow-moving traffic, while taking a U-turn or starting on a steep incline. The Chetak also does this, but"
+    },
+    "recordedAt": "2026-11-15T21:01:23.703Z"
+  },
+  {
+    "id": "C18",
+    "source": 6,
+    "option": "Ola S1",
+    "criterion": "Reliability",
+    "claim": "Reviewers noted suspension failure cases shared online for Ola",
+    "quote": "The front suspension does feel a bit firm and juddery over bumps, and there’s also a sense of nervousness that arises every time you hit a big pothole after those few cases of suspension failure were shared online.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "reviewer aside, no data",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[6.p21]",
+      "text": "juddery over bumps, and there’s also a sense of nervousness that arises every time you hit a big pothole after those few cases of suspension failure were shared online. The Bajaj Chetak has a firm yet nice and absorbent ride, ironing out small undulations and swallowing larger hits as well. There’s also a sense of compliance that all of us liked. What we didn’t was that the C"
+    },
+    "recordedAt": "2026-11-15T21:01:23.856Z"
+  },
+  {
+    "id": "C19",
+    "source": 6,
+    "option": "Other",
+    "criterion": "Evidence limits",
+    "claim": "Test was in Mumbai over about 1,000 km in a week, not Bengaluru",
+    "quote": "We rode these scooters for around 1,000km across Mumbai over the course of a week and put them through a typical e-scooter rider’s use cases.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p2]",
+      "text": "and Bajaj Chetak are the best electric scooters one can buy, but choosing the best one among them turned out to be quite a challenge. EV scooter comparison: the test We rode these scooters for around 1,000km across Mumbai over the course of a week and put them through a typical e-scooter rider’s use cases. From commuting to the office, or stuffing your shopping bag in the boot to dealing with range anxiety. And through it all, we found that each scooter has an edge over the other."
+    },
+    "recordedAt": "2026-11-15T21:01:24.024Z"
+  }
+]

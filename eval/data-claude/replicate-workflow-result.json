@@ -1,0 +1,1118 @@
+[
+  {
+    "id": "tech-01",
+    "labels": [
+      {
+        "label": "A",
+        "run": "r074"
+      },
+      {
+        "label": "B",
+        "run": "r075"
+      },
+      {
+        "label": "C",
+        "run": "r073"
+      },
+      {
+        "label": "D",
+        "run": "r006"
+      },
+      {
+        "label": "E",
+        "run": "r005"
+      },
+      {
+        "label": "F",
+        "run": "r004"
+      },
+      {
+        "label": "G",
+        "run": "r003"
+      },
+      {
+        "label": "H",
+        "run": "r002"
+      },
+      {
+        "label": "I",
+        "run": "r001"
+      }
+    ],
+    "extracted": [
+      {
+        "label": "A",
+        "canonicalOption": "Samsung Galaxy M17 5G"
+      },
+      {
+        "label": "B",
+        "canonicalOption": "Redmi 15 5G"
+      },
+      {
+        "label": "C",
+        "canonicalOption": "Samsung Galaxy A17 5G"
+      },
+      {
+        "label": "D",
+        "canonicalOption": "Redmi 15 5G"
+      },
+      {
+        "label": "E",
+        "canonicalOption": "Redmi 15 5G"
+      },
+      {
+        "label": "F",
+        "canonicalOption": "Redmi 15 5G"
+      },
+      {
+        "label": "G",
+        "canonicalOption": "Redmi 15 5G"
+      },
+      {
+        "label": "H",
+        "canonicalOption": "Samsung Galaxy A17 5G"
+      },
+      {
+        "label": "I",
+        "canonicalOption": "Samsung Galaxy M17 5G"
+      }
+    ],
+    "replicateChars": [
+      {
+        "run": "r073",
+        "chars": 2701
+      },
+      {
+        "run": "r074",
+        "chars": 3017
+      },
+      {
+        "run": "r075",
+        "chars": 3077
+      }
+    ]
+  },
+  {
+    "id": "tech-03",
+    "labels": [
+      {
+        "label": "A",
+        "run": "r012"
+      },
+      {
+        "label": "B",
+        "run": "r010"
+      },
+      {
+        "label": "C",
+        "run": "r011"
+      },
+      {
+        "label": "D",
+        "run": "r076"
+      },
+      {
+        "label": "E",
+        "run": "r077"
+      },
+      {
+        "label": "F",
+        "run": "r007"
+      },
+      {
+        "label": "G",
+        "run": "r078"
+      },
+      {
+        "label": "H",
+        "run": "r009"
+      },
+      {
+        "label": "I",
+        "run": "r008"
+      }
+    ],
+    "extracted": [
+      {
+        "label": "A",
+        "canonicalOption": "Sony ULT WEAR"
+      },
+      {
+        "label": "B",
+        "canonicalOption": "Sony ULT WEAR"
+      },
+      {
+        "label": "C",
+        "canonicalOption": "Sony ULT WEAR"
+      },
+      {
+        "label": "D",
+        "canonicalOption": "Sony ULT WEAR"
+      },
+      {
+        "label": "E",
+        "canonicalOption": "Sony ULT WEAR"
+      },
+      {
+        "label": "F",
+        "canonicalOption": "Sony ULT WEAR"
+      },
+      {
+        "label": "G",
+        "canonicalOption": "Sony ULT WEAR"
+      },
+      {
+        "label": "H",
+        "canonicalOption": "Sony ULT WEAR"
+      },
+      {
+        "label": "I",
+        "canonicalOption": "Sony ULT WEAR"
+      }
+    ],
+    "replicateChars": [
+      {
+        "run": "r076",
+        "chars": 2526
+      },
+      {
+        "run": "r077",
+        "chars": 2864
+      },
+      {
+        "run": "r078",
+        "chars": 2807
+      }
+    ]
+  },
+  {
+    "id": "edu-01",
+    "labels": [
+      {
+        "label": "A",
+        "run": "r081"
+      },
+      {
+        "label": "B",
+        "run": "r079"
+      },
+      {
+        "label": "C",
+        "run": "r080"
+      },
+      {
+        "label": "D",
+        "run": "r018"
+      },
+      {
+        "label": "E",
+        "run": "r013"
+      },
+      {
+        "label": "F",
+        "run": "r016"
+      },
+      {
+        "label": "G",
+        "run": "r017"
+      },
+      {
+        "label": "H",
+        "run": "r014"
+      },
+      {
+        "label": "I",
+        "run": "r015"
+      }
+    ],
+    "extracted": [
+      {
+        "label": "A",
+        "canonicalOption": "PTE Academic UKVI"
+      },
+      {
+        "label": "B",
+        "canonicalOption": "IELTS for UKVI"
+      },
+      {
+        "label": "C",
+        "canonicalOption": "PTE Academic UKVI"
+      },
+      {
+        "label": "D",
+        "canonicalOption": "IELTS for UKVI"
+      },
+      {
+        "label": "E",
+        "canonicalOption": "IELTS for UKVI"
+      },
+      {
+        "label": "F",
+        "canonicalOption": "IELTS for UKVI"
+      },
+      {
+        "label": "G",
+        "canonicalOption": "IELTS for UKVI"
+      },
+      {
+        "label": "H",
+        "canonicalOption": "PTE Academic UKVI"
+      },
+      {
+        "label": "I",
+        "canonicalOption": "PTE Academic UKVI"
+      }
+    ],
+    "replicateChars": [
+      {
+        "run": "r079",
+        "chars": 3059
+      },
+      {
+        "run": "r080",
+        "chars": 2803
+      },
+      {
+        "run": "r081",
+        "chars": 3195
+      }
+    ]
+  },
+  {
+    "id": "edu-03",
+    "labels": [
+      {
+        "label": "A",
+        "run": "r024"
+      },
+      {
+        "label": "B",
+        "run": "r021"
+      },
+      {
+        "label": "C",
+        "run": "r020"
+      },
+      {
+        "label": "D",
+        "run": "r084"
+      },
+      {
+        "label": "E",
+        "run": "r023"
+      },
+      {
+        "label": "F",
+        "run": "r083"
+      },
+      {
+        "label": "G",
+        "run": "r022"
+      },
+      {
+        "label": "H",
+        "run": "r082"
+      },
+      {
+        "label": "I",
+        "run": "r019"
+      }
+    ],
+    "extracted": [
+      {
+        "label": "A",
+        "canonicalOption": "Coursera IBM Data Analyst Professional Certificate"
+      },
+      {
+        "label": "B",
+        "canonicalOption": "Coursera IBM Data Analyst Professional Certificate"
+      },
+      {
+        "label": "C",
+        "canonicalOption": "Coursera IBM Data Analyst Professional Certificate"
+      },
+      {
+        "label": "D",
+        "canonicalOption": "Coursera IBM Data Analyst Professional Certificate"
+      },
+      {
+        "label": "E",
+        "canonicalOption": "Coursera IBM Data Analyst Professional Certificate"
+      },
+      {
+        "label": "F",
+        "canonicalOption": "Coursera IBM Data Analyst Professional Certificate"
+      },
+      {
+        "label": "G",
+        "canonicalOption": "DataCamp"
+      },
+      {
+        "label": "H",
+        "canonicalOption": "Coursera IBM Data Analyst Professional Certificate"
+      },
+      {
+        "label": "I",
+        "canonicalOption": "Coursera IBM Data Analyst Professional Certificate"
+      }
+    ],
+    "replicateChars": [
+      {
+        "run": "r082",
+        "chars": 3302
+      },
+      {
+        "run": "r083",
+        "chars": 3149
+      },
+      {
+        "run": "r084",
+        "chars": 3221
+      }
+    ]
+  },
+  {
+    "id": "fin-02",
+    "labels": [
+      {
+        "label": "A",
+        "run": "r087"
+      },
+      {
+        "label": "B",
+        "run": "r086"
+      },
+      {
+        "label": "C",
+        "run": "r085"
+      },
+      {
+        "label": "D",
+        "run": "r029"
+      },
+      {
+        "label": "E",
+        "run": "r028"
+      },
+      {
+        "label": "F",
+        "run": "r030"
+      },
+      {
+        "label": "G",
+        "run": "r025"
+      },
+      {
+        "label": "H",
+        "run": "r027"
+      },
+      {
+        "label": "I",
+        "run": "r026"
+      }
+    ],
+    "extracted": [
+      {
+        "label": "A",
+        "canonicalOption": "Marcus by Goldman Sachs High-Yield Savings"
+      },
+      {
+        "label": "B",
+        "canonicalOption": "Marcus by Goldman Sachs High-Yield Savings"
+      },
+      {
+        "label": "C",
+        "canonicalOption": "Marcus by Goldman Sachs High-Yield Savings"
+      },
+      {
+        "label": "D",
+        "canonicalOption": "EverBank Savings"
+      },
+      {
+        "label": "E",
+        "canonicalOption": "EverBank Savings"
+      },
+      {
+        "label": "F",
+        "canonicalOption": "EverBank Savings"
+      },
+      {
+        "label": "G",
+        "canonicalOption": "Marcus by Goldman Sachs High-Yield Savings"
+      },
+      {
+        "label": "H",
+        "canonicalOption": "Marcus by Goldman Sachs High-Yield Savings"
+      },
+      {
+        "label": "I",
+        "canonicalOption": "Marcus by Goldman Sachs High-Yield Savings"
+      }
+    ],
+    "replicateChars": [
+      {
+        "run": "r085",
+        "chars": 2764
+      },
+      {
+        "run": "r086",
+        "chars": 2960
+      },
+      {
+        "run": "r087",
+        "chars": 3075
+      }
+    ]
+  },
+  {
+    "id": "fin-04",
+    "labels": [
+      {
+        "label": "A",
+        "run": "r089"
+      },
+      {
+        "label": "B",
+        "run": "r088"
+      },
+      {
+        "label": "C",
+        "run": "r090"
+      },
+      {
+        "label": "D",
+        "run": "r031"
+      },
+      {
+        "label": "E",
+        "run": "r032"
+      },
+      {
+        "label": "F",
+        "run": "r033"
+      },
+      {
+        "label": "G",
+        "run": "r034"
+      },
+      {
+        "label": "H",
+        "run": "r035"
+      },
+      {
+        "label": "I",
+        "run": "r036"
+      }
+    ],
+    "extracted": [
+      {
+        "label": "A",
+        "canonicalOption": "Wealthfront"
+      },
+      {
+        "label": "B",
+        "canonicalOption": "Wealthfront"
+      },
+      {
+        "label": "C",
+        "canonicalOption": "Wealthfront"
+      },
+      {
+        "label": "D",
+        "canonicalOption": "Wealthfront"
+      },
+      {
+        "label": "E",
+        "canonicalOption": "Wealthfront"
+      },
+      {
+        "label": "F",
+        "canonicalOption": "Wealthfront"
+      },
+      {
+        "label": "G",
+        "canonicalOption": "Wealthfront"
+      },
+      {
+        "label": "H",
+        "canonicalOption": "Wealthfront"
+      },
+      {
+        "label": "I",
+        "canonicalOption": "Wealthfront"
+      }
+    ],
+    "replicateChars": [
+      {
+        "run": "r088",
+        "chars": 2742
+      },
+      {
+        "run": "r089",
+        "chars": 2943
+      },
+      {
+        "run": "r090",
+        "chars": 3066
+      }
+    ]
+  },
+  {
+    "id": "health-01",
+    "labels": [
+      {
+        "label": "A",
+        "run": "r092"
+      },
+      {
+        "label": "B",
+        "run": "r093"
+      },
+      {
+        "label": "C",
+        "run": "r091"
+      },
+      {
+        "label": "D",
+        "run": "r037"
+      },
+      {
+        "label": "E",
+        "run": "r038"
+      },
+      {
+        "label": "F",
+        "run": "r039"
+      },
+      {
+        "label": "G",
+        "run": "r041"
+      },
+      {
+        "label": "H",
+        "run": "r040"
+      },
+      {
+        "label": "I",
+        "run": "r042"
+      }
+    ],
+    "extracted": [
+      {
+        "label": "A",
+        "canonicalOption": "Fitbit Air"
+      },
+      {
+        "label": "B",
+        "canonicalOption": "Amazfit Balance"
+      },
+      {
+        "label": "C",
+        "canonicalOption": "Fitbit Air"
+      },
+      {
+        "label": "D",
+        "canonicalOption": "Garmin vivosmart 5"
+      },
+      {
+        "label": "E",
+        "canonicalOption": "Fitbit Air"
+      },
+      {
+        "label": "F",
+        "canonicalOption": "Fitbit Air"
+      },
+      {
+        "label": "G",
+        "canonicalOption": "Amazfit Balance"
+      },
+      {
+        "label": "H",
+        "canonicalOption": "Amazfit Balance"
+      },
+      {
+        "label": "I",
+        "canonicalOption": "Amazfit Balance"
+      }
+    ],
+    "replicateChars": [
+      {
+        "run": "r091",
+        "chars": 2603
+      },
+      {
+        "run": "r092",
+        "chars": 3287
+      },
+      {
+        "run": "r093",
+        "chars": 3388
+      }
+    ]
+  },
+  {
+    "id": "health-02",
+    "labels": [
+      {
+        "label": "A",
+        "run": "r095"
+      },
+      {
+        "label": "B",
+        "run": "r094"
+      },
+      {
+        "label": "C",
+        "run": "r096"
+      },
+      {
+        "label": "D",
+        "run": "r043"
+      },
+      {
+        "label": "E",
+        "run": "r046"
+      },
+      {
+        "label": "F",
+        "run": "r047"
+      },
+      {
+        "label": "G",
+        "run": "r044"
+      },
+      {
+        "label": "H",
+        "run": "r045"
+      },
+      {
+        "label": "I",
+        "run": "r048"
+      }
+    ],
+    "extracted": [
+      {
+        "label": "A",
+        "canonicalOption": "Qubo Q600"
+      },
+      {
+        "label": "B",
+        "canonicalOption": "Honeywell Air Touch V5"
+      },
+      {
+        "label": "C",
+        "canonicalOption": "Qubo Q600"
+      },
+      {
+        "label": "D",
+        "canonicalOption": "Honeywell Air Touch V5"
+      },
+      {
+        "label": "E",
+        "canonicalOption": "Eureka Forbes 355"
+      },
+      {
+        "label": "F",
+        "canonicalOption": "Eureka Forbes 355"
+      },
+      {
+        "label": "G",
+        "canonicalOption": "Honeywell Air Touch V5"
+      },
+      {
+        "label": "H",
+        "canonicalOption": "Eureka Forbes 355"
+      },
+      {
+        "label": "I",
+        "canonicalOption": "Eureka Forbes 355"
+      }
+    ],
+    "replicateChars": [
+      {
+        "run": "r094",
+        "chars": 2714
+      },
+      {
+        "run": "r095",
+        "chars": 2868
+      },
+      {
+        "run": "r096",
+        "chars": 2692
+      }
+    ]
+  },
+  {
+    "id": "home-01",
+    "labels": [
+      {
+        "label": "A",
+        "run": "r049"
+      },
+      {
+        "label": "B",
+        "run": "r053"
+      },
+      {
+        "label": "C",
+        "run": "r052"
+      },
+      {
+        "label": "D",
+        "run": "r051"
+      },
+      {
+        "label": "E",
+        "run": "r050"
+      },
+      {
+        "label": "F",
+        "run": "r054"
+      },
+      {
+        "label": "G",
+        "run": "r099"
+      },
+      {
+        "label": "H",
+        "run": "r098"
+      },
+      {
+        "label": "I",
+        "run": "r097"
+      }
+    ],
+    "extracted": [
+      {
+        "label": "A",
+        "canonicalOption": "TVS iQube"
+      },
+      {
+        "label": "B",
+        "canonicalOption": "TVS iQube"
+      },
+      {
+        "label": "C",
+        "canonicalOption": "TVS iQube"
+      },
+      {
+        "label": "D",
+        "canonicalOption": "TVS iQube"
+      },
+      {
+        "label": "E",
+        "canonicalOption": "TVS iQube"
+      },
+      {
+        "label": "F",
+        "canonicalOption": "TVS iQube"
+      },
+      {
+        "label": "G",
+        "canonicalOption": "TVS iQube"
+      },
+      {
+        "label": "H",
+        "canonicalOption": "TVS iQube"
+      },
+      {
+        "label": "I",
+        "canonicalOption": "TVS iQube"
+      }
+    ],
+    "replicateChars": [
+      {
+        "run": "r097",
+        "chars": 2711
+      },
+      {
+        "run": "r098",
+        "chars": 3182
+      },
+      {
+        "run": "r099",
+        "chars": 2969
+      }
+    ]
+  },
+  {
+    "id": "home-04",
+    "labels": [
+      {
+        "label": "A",
+        "run": "r060"
+      },
+      {
+        "label": "B",
+        "run": "r056"
+      },
+      {
+        "label": "C",
+        "run": "r057"
+      },
+      {
+        "label": "D",
+        "run": "r055"
+      },
+      {
+        "label": "E",
+        "run": "r058"
+      },
+      {
+        "label": "F",
+        "run": "r059"
+      },
+      {
+        "label": "G",
+        "run": "r100"
+      },
+      {
+        "label": "H",
+        "run": "r101"
+      },
+      {
+        "label": "I",
+        "run": "r102"
+      }
+    ],
+    "extracted": [
+      {
+        "label": "A",
+        "canonicalOption": "Trek Allant+ 7"
+      },
+      {
+        "label": "B",
+        "canonicalOption": "Trek Allant+ 7"
+      },
+      {
+        "label": "C",
+        "canonicalOption": "Trek Allant+ 7"
+      },
+      {
+        "label": "D",
+        "canonicalOption": "Trek Allant+ 7"
+      },
+      {
+        "label": "E",
+        "canonicalOption": "Ride1Up Turris"
+      },
+      {
+        "label": "F",
+        "canonicalOption": "Trek Allant+ 7"
+      },
+      {
+        "label": "G",
+        "canonicalOption": "Trek Allant+ 7"
+      },
+      {
+        "label": "H",
+        "canonicalOption": "Trek Allant+ 7"
+      },
+      {
+        "label": "I",
+        "canonicalOption": "Trek Allant+ 7"
+      }
+    ],
+    "replicateChars": [
+      {
+        "run": "r100",
+        "chars": 3115
+      },
+      {
+        "run": "r101",
+        "chars": 2942
+      },
+      {
+        "run": "r102",
+        "chars": 2932
+      }
+    ]
+  },
+  {
+    "id": "soft-01",
+    "labels": [
+      {
+        "label": "A",
+        "run": "r103"
+      },
+      {
+        "label": "B",
+        "run": "r104"
+      },
+      {
+        "label": "C",
+        "run": "r105"
+      },
+      {
+        "label": "D",
+        "run": "r065"
+      },
+      {
+        "label": "E",
+        "run": "r064"
+      },
+      {
+        "label": "F",
+        "run": "r066"
+      },
+      {
+        "label": "G",
+        "run": "r061"
+      },
+      {
+        "label": "H",
+        "run": "r063"
+      },
+      {
+        "label": "I",
+        "run": "r062"
+      }
+    ],
+    "extracted": [
+      {
+        "label": "A",
+        "canonicalOption": "Bitwarden Families"
+      },
+      {
+        "label": "B",
+        "canonicalOption": "Bitwarden Families"
+      },
+      {
+        "label": "C",
+        "canonicalOption": "Bitwarden Families"
+      },
+      {
+        "label": "D",
+        "canonicalOption": "NordPass Family"
+      },
+      {
+        "label": "E",
+        "canonicalOption": "NordPass Family"
+      },
+      {
+        "label": "F",
+        "canonicalOption": "NordPass Family"
+      },
+      {
+        "label": "G",
+        "canonicalOption": "Bitwarden Families"
+      },
+      {
+        "label": "H",
+        "canonicalOption": "Bitwarden Families"
+      },
+      {
+        "label": "I",
+        "canonicalOption": "Bitwarden Families"
+      }
+    ],
+    "replicateChars": [
+      {
+        "run": "r103",
+        "chars": 2827
+      },
+      {
+        "run": "r104",
+        "chars": 2774
+      },
+      {
+        "run": "r105",
+        "chars": 3051
+      }
+    ]
+  },
+  {
+    "id": "soft-04",
+    "labels": [
+      {
+        "label": "A",
+        "run": "r072"
+      },
+      {
+        "label": "B",
+        "run": "r071"
+      },
+      {
+        "label": "C",
+        "run": "r070"
+      },
+      {
+        "label": "D",
+        "run": "r067"
+      },
+      {
+        "label": "E",
+        "run": "r068"
+      },
+      {
+        "label": "F",
+        "run": "r069"
+      },
+      {
+        "label": "G",
+        "run": "r108"
+      },
+      {
+        "label": "H",
+        "run": "r107"
+      },
+      {
+        "label": "I",
+        "run": "r106"
+      }
+    ],
+    "extracted": [
+      {
+        "label": "A",
+        "canonicalOption": "Surfshark"
+      },
+      {
+        "label": "B",
+        "canonicalOption": "NordVPN"
+      },
+      {
+        "label": "C",
+        "canonicalOption": "Surfshark"
+      },
+      {
+        "label": "D",
+        "canonicalOption": "NordVPN"
+      },
+      {
+        "label": "E",
+        "canonicalOption": "NordVPN"
+      },
+      {
+        "label": "F",
+        "canonicalOption": "NordVPN"
+      },
+      {
+        "label": "G",
+        "canonicalOption": "NordVPN"
+      },
+      {
+        "label": "H",
+        "canonicalOption": "NordVPN"
+      },
+      {
+        "label": "I",
+        "canonicalOption": "NordVPN"
+      }
+    ],
+    "replicateChars": [
+      {
+        "run": "r106",
+        "chars": 2629
+      },
+      {
+        "run": "r107",
+        "chars": 3045
+      },
+      {
+        "run": "r108",
+        "chars": 2877
+      }
+    ]
+  }
+]

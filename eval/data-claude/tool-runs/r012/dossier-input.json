@@ -1,0 +1,40 @@
+{"criteria":[
+{"name":"Comfort","weight":40,"description":"Fit, weight and cushions over a 90-minute ride"},
+{"name":"Noise cancellation","weight":40,"description":"Low-frequency train rumble suppression"},
+{"name":"Price within 200 pounds","weight":10,"description":"Realistic price at or under 200 pounds"},
+{"name":"Practicality","weight":10,"description":"Battery, folding, wired backup"}],
+"options":[
+{"name":"Sony ULT WEAR","summary":"Compact foldable over-ear with effective ANC; bass-forward","price":null},
+{"name":"Sony WH-1000XM5","summary":"Class-leading ANC and comfort but launched at 380 pounds","price":"380 pounds at launch; discounts needed"},
+{"name":"JBL Live 670NC","summary":"Strong measured ANC but on-ear per SoundGuys","price":null},
+{"name":"Anker Soundcore Space One","summary":"Lightweight folding headphones with adjustable ANC","price":null},
+{"name":"JLab JBuds Lux ANC","summary":"Budget option with modest ANC","price":null},
+{"name":"Sennheiser Accentum","summary":"Effective everyday ANC, bass-forward","price":null}],
+"scores":[
+{"option":"Sony ULT WEAR","criterion":"Comfort","score":7,"rationale":"SoundGuys awards Best for Comfort; single source","claims":["C19"]},
+{"option":"Sony ULT WEAR","criterion":"Noise cancellation","score":7,"rationale":"Effective ANC per SoundGuys; lab figure disputed by source 8","claims":["C6"]},
+{"option":"Sony ULT WEAR","criterion":"Practicality","score":8,"rationale":"Compact foldable, long battery","claims":["C6"]},
+{"option":"Sony ULT WEAR","criterion":"Price within 200 pounds","score":null,"rationale":"No UK price in sources","claims":[]},
+{"option":"Sony WH-1000XM5","criterion":"Comfort","score":8,"rationale":"What Hi-Fi? says comfort up there with the best; 2022 review","claims":["C9"]},
+{"option":"Sony WH-1000XM5","criterion":"Noise cancellation","score":8,"rationale":"Among class leaders on train drone","claims":["C10"]},
+{"option":"Sony WH-1000XM5","criterion":"Price within 200 pounds","score":3,"rationale":"380 pounds at launch; only near 200 with discounts","claims":["C11","C20"]},
+{"option":"JBL Live 670NC","criterion":"Noise cancellation","score":7,"rationale":"Measured ANC near 30dB at 250Hz","claims":["C3"]},
+{"option":"JBL Live 670NC","criterion":"Comfort","score":4,"rationale":"On-ear per SoundGuys; over-ear is generally more comfortable","claims":["C1","C14"]},
+{"option":"Anker Soundcore Space One","criterion":"Practicality","score":7,"rationale":"Folds, light, aux cable","claims":["C15"]},
+{"option":"JLab JBuds Lux ANC","criterion":"Noise cancellation","score":5,"rationale":"10-20dB, respectable not outstanding","claims":["C16"]},
+{"option":"Sennheiser Accentum","criterion":"Noise cancellation","score":6,"rationale":"Editorial description only","claims":["C17"]}],
+"recommendation":{"option":"Sony ULT WEAR","headline":"Sony ULT WEAR is the best-evidenced over-ear under 200 for this brief","summary":"Compact over-ear with effective ANC and a comfort award from SoundGuys, but UK price unverified and ANC depth disputed.","reasons":[
+{"text":"Over-ear, foldable, effective ANC","claims":["C6"]},
+{"text":"Best for Comfort and Best ANC at SoundGuys","claims":["C19"]}],
+"tradeoffs":[{"text":"Bass-forward; tame via app EQ","claims":["C7"]}],
+"alternatives":[{"option":"Sony WH-1000XM5","when":"If you find them discounted under 200 pounds"},{"option":"Anker Soundcore Space One","when":"Android user wanting LDAC and light weight"}],
+"caveats":["Sources 6 and 8 disagree on ULT WEAR ANC depth and on JBL form factor","UK price not in sources"],
+"nextSteps":["Check current UK price","Try on in a shop for comfort"]},
+"contradictions":[
+{"option":"Sony ULT WEAR","topic":"Low-frequency attenuation","claims":["C4","C5"],"assessment":"SoundGuys reports over 25dB above 80Hz from lab tests; Platform & Pocket says barely 15dB without stated method while reusing SoundGuys figures elsewhere. Favour SoundGuys.","severity":"high"},
+{"option":"JBL Live 670NC","topic":"On-ear vs over-ear","claims":["C1","C2"],"assessment":"SoundGuys says on-ear; Platform & Pocket says full over-ear. Favour SoundGuys; tool reliability scores rate 8 higher so uncertainty remains.","severity":"high"},
+{"option":"Sony WH-1000XM5","topic":"Weight","claims":["C8"],"assessment":"What Hi-Fi? spec 250g vs Platform & Pocket about 320g. Favour the review spec.","severity":"medium"}],
+"uncertainties":[
+{"kind":"incomplete","text":"No UK price for ULT WEAR in any source","option":"Sony ULT WEAR","impact":"high","howToResolve":"Check UK retailers"},
+{"kind":"single-source","text":"ULT WEAR comfort and ANC rest mainly on SoundGuys","option":"Sony ULT WEAR","impact":"medium","howToResolve":"Read RTINGS or other reviews"},
+{"kind":"outdated","text":"XM5 review dates from 2022","option":"Sony WH-1000XM5","impact":"medium","howToResolve":"Check current price and newer reviews"}]}

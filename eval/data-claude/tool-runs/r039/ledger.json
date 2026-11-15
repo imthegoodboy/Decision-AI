@@ -1,0 +1,302 @@
+[
+  {
+    "id": "C1",
+    "source": 1,
+    "option": "Amazfit Balance",
+    "criterion": "Price",
+    "claim": "Amazfit Balance costs $199 and is often on sale",
+    "quote": "It costs a reasonable $199 and is frequently on sale.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "At the limit of the budget",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p5]",
+      "text": "section below. Unsure what kind of fitness tracker to look for in the spring sales? Check the How to choose section for more useful advice. The best fitness trackers we recommend in 2026: Fully tested by our expert reviewers The best fitness tracker overall (Image credit: Anna Gora) View Original Amazfit Balance Our expert review: Specifications Reasons to buy Reasons to avoid ✅ You are on a budget: It costs a reasonable $199 and is frequently on sale."
+    },
+    "recordedAt": "2026-11-15T20:35:17.817Z"
+  },
+  {
+    "id": "C2",
+    "source": 1,
+    "option": "Amazfit Balance",
+    "criterion": "Heart-rate accuracy",
+    "claim": "Live Science testers found the Amazfit Balance heart rate sensors top-class",
+    "quote": "Its heart rate and body composition sensors were top-class in our tests.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p7]",
+      "text": "and body composition sensors were top-class in our tests. ❌ You are an outdoor adventurer: It may not survive some of the more extreme conditions. ❌ You do not want to pay anything extra: Some minor features are behind a paywall. 🔎 Amazfit Balance: With superb battery life and great tracking features, this lightweight and affordable smartwatch offers real value for money. The only drawback is that some advanced features live behind a paywall."
+    },
+    "recordedAt": "2026-11-15T20:35:17.974Z"
+  },
+  {
+    "id": "C3",
+    "source": 1,
+    "option": "Amazfit Balance",
+    "criterion": "No mandatory subscription",
+    "claim": "Some Balance features such as the AI coach are paywalled but not essential",
+    "quote": "Also, some of its additional features, such as the AI-powered fitness coach chatbot, are locked behind a paywall.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p13]",
+      "text": "Also, some of its additional features, such as the AI-powered fitness coach chatbot, are locked behind a paywall. These paid-for frills are not essential, though. For less than $199, the Amazfit Balance offers great value for money, making it our favorite fitness tracker this year. • Read our full Amazfit Balance review Back to the top ⤴ Best smartwatch for tracking workouts The Garmin Fenix 8 won the approval of our reviewer. (Image credit: Andrew Williams)"
+    },
+    "recordedAt": "2026-11-15T20:35:18.137Z"
+  },
+  {
+    "id": "C4",
+    "source": 2,
+    "option": "Fitbit Air",
+    "criterion": "No mandatory subscription",
+    "claim": "Fitbit Air is $99 and subscription-free for core features",
+    "quote": "At $99 and subscription-free for core features, the Fitbit Air is one of the best value screenless trackers available in 2026",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[2.p11]",
+      "text": "rate, SpO2, Skin temp, Accelerometer, Gyroscope Heart rate, Skin temp, Accelerometer Water resistance 50 meters 10 meters 30 meters Battery life 7 days 14 days 10 days 8 days Compatibility Android, iOS Fitbit Air value: 5/5 • At $99 and subscription-free for core features, the Fitbit Air is one of the best value screenless trackers available in 2026 • An optional Google Health Premium account unlocks personalized AI-backed health and fitness insights, along with deeper dives into your holistic trends; it's $9.99 a month or $99 a year"
+    },
+    "recordedAt": "2026-11-15T20:35:18.315Z"
+  },
+  {
+    "id": "C5",
+    "source": 2,
+    "option": "Fitbit Air",
+    "criterion": "Sleep accuracy",
+    "claim": "Fitbit Air sleep reports are on par with some of the best smartwatches",
+    "quote": "For a $99 wearable, the Fitbit Air provides detailed sleep reports on par with some of the best smartwatch models in 2026, with insights into your sleep duration, time spent in sleep cycles, restlessness, and daily sleep quality rating and score, also out of 100.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Reviewer comparison, not a lab accuracy test",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[2.p24]",
+      "text": "tabs on all your core holistic metrics, including heart rate variability trends, breath rate, cardio load, and daily readiness, a numeric score out of 100. For a $99 wearable, the Fitbit Air provides detailed sleep reports on par with some of the best smartwatch models in 2026, with insights into your sleep duration, time spent in sleep cycles, restlessness, and daily sleep quality rating and score, also out of 100."
+    },
+    "recordedAt": "2026-11-15T20:35:18.493Z"
+  },
+  {
+    "id": "C6",
+    "source": 2,
+    "option": "Fitbit Air",
+    "criterion": "Heart-rate accuracy",
+    "claim": "Fitbit Air has no onboard GPS or altimeter",
+    "quote": "No onboard GPS or altimeter for location/elevation data without carrying a smartphone",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[2.p3]",
+      "text": "than the competition Remarkably comfortable Wide selection of attractive straps; swapping straps is a breeze Lots of valuable wellness insights; top-notch sleep reports Easy-to-navigate app Compatible with Android and iOS One week or more of battery per charge Reasons to avoid No onboard GPS or altimeter for location/elevation data without carrying a smartphone Automatic workout tracking only kicks in after 15 minutes; limited to a small number of exercises"
+    },
+    "recordedAt": "2026-11-15T20:35:18.670Z"
+  },
+  {
+    "id": "C7",
+    "source": 2,
+    "option": "Fitbit Air",
+    "criterion": "No mandatory subscription",
+    "claim": "Google Health Premium is optional at 9.99/month or 99/year",
+    "quote": "An optional Google Health Premium account unlocks personalized AI-backed health and fitness insights, along with deeper dives into your holistic trends; it's $9.99 a month or $99 a year",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[2.p12]",
+      "text": "Premium account unlocks personalized AI-backed health and fitness insights, along with deeper dives into your holistic trends; it's $9.99 a month or $99 a year • Cost-wise, the Fitbit Air is the same price as 2022's entry-level Fitbit Inspire 3 tracker, which is still sold by Google (but often for $79); the Air is less than the GPS-sporting Fitbit Charge 6 ($159) (Image credit: Dan Bracaglia/Tom's Guide)"
+    },
+    "recordedAt": "2026-11-15T20:35:18.806Z"
+  },
+  {
+    "id": "C8",
+    "source": 7,
+    "option": "Garmin vivosmart 5",
+    "criterion": "Heart-rate accuracy",
+    "claim": "Garmin vivosmart 5 has accurate heart rate and sleep tracking",
+    "quote": "Accurate heart rate and sleep tracking",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Pros bullet only; 2023 article; price not given in retrieved text",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[7.p6]",
+      "text": "the options below are highly capable and offer a range of capabilities and designs so that you can find the best device for your lifestyle. Best overall: Garmin vívosmart 5 Pros • Free access to all your data • Available in two sizes • Lightweight, minimal design • Accurate heart rate and sleep tracking • Activity tracking for a range of activities Cons • No built-in GPS"
+    },
+    "recordedAt": "2026-11-15T20:35:18.955Z"
+  },
+  {
+    "id": "C9",
+    "source": 7,
+    "option": "Fitbit Inspire 3",
+    "criterion": "No mandatory subscription",
+    "claim": "Inspire 3 requires Premium for detailed sleep data",
+    "quote": "In fact, you need to pay for the Premium subscription for quite a few insights—including detailed sleep data, wellness reports, and a Daily Readiness Score—which keeps the Inspire 3 from earning the top spot.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p12]",
+      "text": "It provides a Sleep Score at the night’s end so you can get the big picture. Plus, you can set a vibrating alarm to wake you up during the optimal sleep stage so that you actually feel refreshed when you wake up. To keep things fun, the Inspire 3 pairs you with a sleep animal and shares a monthly personalized analysis of your sleep. However, you’ll need to pay for a Fitbit Premium subscription to get this feature. In fact, you need to pay for the Premium subscription for quite a few insights—including detailed sleep data, wellness reports, and a Daily Readiness Score—which keeps the Inspire 3 from earning the"
+    },
+    "recordedAt": "2026-11-15T20:35:19.166Z"
+  },
+  {
+    "id": "C10",
+    "source": 7,
+    "option": "Xiaomi Band 7 Pro",
+    "criterion": "Sleep accuracy",
+    "claim": "Xiaomi Band 7 Pro sleep tracking is not accurate",
+    "quote": "Sleep tracking isn’t accurate",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Single source, short bullet",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[7.p22]",
+      "text": "get a bit annoying at times, but the touchscreen is nice and bright, so you’ll easily be able to see it even in bright sunlight. Best value: Xiaomi Band 7 Pro Best value Xiaomi Band 7 Pro • Large, high-quality display • Built-in GPS • Affordable price • Lots of workout and health-tracking features • Sleep tracking isn’t accurate • Mi Fitness app isn’t very user-friendly"
+    },
+    "recordedAt": "2026-11-15T20:35:19.390Z"
+  },
+  {
+    "id": "C11",
+    "source": 6,
+    "option": "Garmin",
+    "criterion": "Sleep accuracy",
+    "claim": "Garmin data is the most consistent across platforms",
+    "quote": "Garmin produces the most consistent data – it shows the longest average sleep duration, the lowest variability, and very low outlier rates, making it the most reliable for long-term trend tracking.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Consistency not accuracy; no polysomnography; brand level not model level",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[6.p1]",
+      "text": "Crunch Time: Embrace the Cookie Monster Within! We use cookies to enhance your browsing experience and analyse our traffic. Nothing beyond essential cookies runs until you choose. You can change your mind any time in our Cookie Policy. Key takeaways • Garmin produces the most consistent data – it shows the longest average sleep duration, the lowest variability, and very low outlier rates, making it the most reliable for long-term trend tracking."
+    },
+    "recordedAt": "2026-11-15T20:35:19.607Z"
+  },
+  {
+    "id": "C12",
+    "source": 6,
+    "option": "Fitbit",
+    "criterion": "Sleep accuracy",
+    "claim": "Fitbit data is cleaner overall with stable results",
+    "quote": "Fitbit is cleaner overall, striking a balance between accurate nap detection and stable results.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Consistency, brand level",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[6.p2]",
+      "text": "– it shows the longest average sleep duration, the lowest variability, and very low outlier rates, making it the most reliable for long-term trend tracking. • Apple consistently underestimates deep sleep and shows the most data quality issues – including missing sleep stage classifications, unusually high outlier rates, and even impossible values, suggesting its sleep staging is less reliable. • Oura and Fitbit add valuable nap detection but increase variability – Oura, in particular, records many short sleep episodes, which lower the average sleep time until they’re filtered out. Fitbit is cleaner overall, striking a balance between accurate nap detection and stable results."
+    },
+    "recordedAt": "2026-11-15T20:35:19.777Z"
+  },
+  {
+    "id": "C13",
+    "source": 5,
+    "option": "Amazfit Bip 6 Pro",
+    "criterion": "No mandatory subscription",
+    "claim": "Bip 6 Pro includes HR SpO2 sleep tracking subscription-free",
+    "quote": "Essential health tracking (HR, SpO2, sleep) included",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Low-detail source, no accuracy testing detail",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[5.p7]",
+      "text": "insights • Industry-leading battery life, even with GPS • Rugged design built for extreme conditions • Very high price point makes it inaccessible for many • Bulky form factor may not suit all wrist sizes 3. Amazfit Bip 6 Pro – Best Budget The Amazfit Bip 6 Pro is an outstanding choice for anyone seeking reliable, subscription-free fitness tracking without breaking the bank. It excels with its incredible battery longevity, lightweight comfort, and essential health monitoring capabilities. This tracker provides an accessible entry point into activity and sleep tracking, proving that you don't need a premium price or monthly fee for solid health insights."
+    },
+    "recordedAt": "2026-11-15T20:35:19.961Z"
+  },
+  {
+    "id": "C14",
+    "source": 5,
+    "option": "Garmin Venu 4",
+    "criterion": "Heart-rate accuracy",
+    "claim": "Garmin Venu 4 has exceptional HR accuracy",
+    "quote": "Exceptional GPS and heart rate accuracy",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Price not stated; Venu class is likely above 200",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[5.p9]",
+      "text": "outdoors • Essential health tracking (HR, SpO2, sleep) included • Exceptional value for its feature set • GPS accuracy can be inconsistent in dense areas • Less sophisticated smart features compared to premium models 4. Fitbit Charge 8 – Best for Casual Fitness The Fitbit Charge 8 continues Fitbit's legacy of user-friendly, effective fitness tracking, making it an excellent choice for general wellness enthusiasts seeking a subscription-free experience. It shines with its detailed sleep analysis and consistent heart rate monitoring, all presented within an intuitive app. While some premium features are extra, the core tracking capabilities deliver immense value for daily health management."
+    },
+    "recordedAt": "2026-11-15T20:35:20.154Z"
+  },
+  {
+    "id": "C15",
+    "source": 6,
+    "option": "Garmin",
+    "criterion": "Sleep accuracy",
+    "claim": "Terra cannot be sure user groups per device are similar",
+    "quote": "While we can’t be entirely sure that each device’s users are similar (each device sample is representative of the broader population), the data is drawn from two similar platforms.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Caveat on comparisons",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p4]",
+      "text": "This may be a slightly facetious exaggeration, but it’s not too far from the truth. As more of us turn to wearables each night to track our rest, it’s natural to wonder just how consistent these devices are. We analysed data from thousands of users—2,581 from Oura, 1,086 from Apple, 620 from Fitbit, and 669 from Garmin. While we can’t be entirely sure that each device’s users are similar (each device sample is representative of the broader population), the data is drawn from two similar platforms. On the other hand, for example, Garmin users could be more serious athletes than Apple users and thus might sleep more!"
+    },
+    "recordedAt": "2026-11-15T20:35:20.460Z"
+  }
+]

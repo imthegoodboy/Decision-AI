@@ -1,0 +1,1146 @@
+{
+  "dossier": {
+    "plan": {
+      "decisionType": "decision",
+      "criteria": [
+        {
+          "id": "crit_1",
+          "name": "Heart-rate accuracy",
+          "description": "Tested HR accuracy",
+          "weight": 35,
+          "origin": "user"
+        },
+        {
+          "id": "crit_2",
+          "name": "Sleep tracking",
+          "description": "Sleep tracking quality/accuracy",
+          "weight": 35,
+          "origin": "user"
+        },
+        {
+          "id": "crit_3",
+          "name": "No mandatory subscription",
+          "description": "Core features free",
+          "weight": 20,
+          "origin": "user"
+        },
+        {
+          "id": "crit_4",
+          "name": "Price",
+          "description": "Under $200",
+          "weight": 10,
+          "origin": "user"
+        }
+      ],
+      "queries": [],
+      "freshnessDays": 365,
+      "region": null,
+      "rationale": ""
+    },
+    "options": [
+      {
+        "id": "opt_1",
+        "name": "Amazfit Balance",
+        "summary": "Smartwatch with top-class HR sensor in tests; $199.",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "$199",
+        "userNamed": false,
+        "sourceIds": [
+          "1"
+        ]
+      },
+      {
+        "id": "opt_2",
+        "name": "Fitbit Air",
+        "summary": "Screenless band; subscription-free core; sleep reports on par with good smartwatches.",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "$99",
+        "userNamed": false,
+        "sourceIds": [
+          "2",
+          "6"
+        ]
+      },
+      {
+        "id": "opt_3",
+        "name": "Garmin vivosmart 5",
+        "summary": "Band rated accurate for HR and sleep; free data.",
+        "image": null,
+        "officialUrl": null,
+        "priceText": null,
+        "userNamed": false,
+        "sourceIds": [
+          "7"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "text": "Amazfit Balance heart rate sensors were top-class in Live Science tests",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "Its heart rate and body composition sensors were top-class in our tests.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p7]",
+            "text": "and body composition sensors were top-class in our tests. ❌ You are an outdoor adventurer: It may not survive some of the more extreme conditions. ❌ You do not want to pay anything extra: Some minor features are behind a paywall. 🔎 Amazfit Balance: With superb battery life and great tracking features, this lightweight and affordable smartwatch offers real value for money. The only drawback is that some advanced features live behind a paywall."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:43.214Z"
+        }
+      },
+      {
+        "id": "C2",
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "text": "Amazfit Balance accurately measured heart rate, breathing rate and HRV",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "This smartwatch accurately measured our heart rate, breathing rate, heart rate variability, and even body composition (!), and it never slid from our wrists or got in the way during intense workouts.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p10]",
+            "text": "understand and track over time. That said, its fitness-tracking performance would still satisfy most serious exercisers, as we discovered during our full Amazfit Balance review. This smartwatch accurately measured our heart rate, breathing rate, heart rate variability, and even body composition (!), and it never slid from our wrists or got in the way during intense workouts. We also liked its easy-to-use, colorful display and comfortable, buttery-soft strap. Not to mention, it was one of the lightest and most compact smartwatches we have ever tested."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:43.383Z"
+        }
+      },
+      {
+        "id": "C3",
+        "optionId": "opt_1",
+        "criterionId": "crit_4",
+        "text": "Amazfit Balance costs $199 and is often on sale",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "It costs a reasonable $199 and is frequently on sale.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p5]",
+            "text": "section below. Unsure what kind of fitness tracker to look for in the spring sales? Check the How to choose section for more useful advice. The best fitness trackers we recommend in 2026: Fully tested by our expert reviewers The best fitness tracker overall (Image credit: Anna Gora) View Original Amazfit Balance Our expert review: Specifications Reasons to buy Reasons to avoid ✅ You are on a budget: It costs a reasonable $199 and is frequently on sale."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:43.553Z"
+        }
+      },
+      {
+        "id": "C4",
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "text": "Amazfit Balance has some extras (AI coach chatbot) behind a paywall, not essential",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "Also, some of its additional features, such as the AI-powered fitness coach chatbot, are locked behind a paywall.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p13]",
+            "text": "Also, some of its additional features, such as the AI-powered fitness coach chatbot, are locked behind a paywall. These paid-for frills are not essential, though. For less than $199, the Amazfit Balance offers great value for money, making it our favorite fitness tracker this year. • Read our full Amazfit Balance review Back to the top ⤴ Best smartwatch for tracking workouts The Garmin Fenix 8 won the approval of our reviewer. (Image credit: Andrew Williams)"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:43.718Z"
+        }
+      },
+      {
+        "id": "C5",
+        "optionId": "opt_2",
+        "criterionId": "crit_3",
+        "text": "Fitbit Air costs $99 and is subscription-free for primary features",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "$99 and subscription-free for primary features",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p2]",
+            "text": "paired smartphone for location tracking. All of your data and insights are neatly organized within the new Google Health companion app, formerly the Fitbit app. Reasons to buy Distraction-free health and fitness tracking $99 and subscription-free for primary features Smaller and lighter than the competition Remarkably comfortable Wide selection of attractive straps; swapping straps is a breeze Lots of valuable wellness insights; top-notch sleep reports Easy-to-navigate app"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:43.882Z"
+        }
+      },
+      {
+        "id": "C6",
+        "optionId": "opt_2",
+        "criterionId": "crit_2",
+        "text": "Fitbit Air gives detailed sleep reports on par with some of the best smartwatches",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "For a $99 wearable, the Fitbit Air provides detailed sleep reports on par with some of the best smartwatch models in 2026, with insights into your sleep duration, time spent in sleep cycles, restlessness, and daily sleep quality rating and score, also out of 100.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p24]",
+            "text": "tabs on all your core holistic metrics, including heart rate variability trends, breath rate, cardio load, and daily readiness, a numeric score out of 100. For a $99 wearable, the Fitbit Air provides detailed sleep reports on par with some of the best smartwatch models in 2026, with insights into your sleep duration, time spent in sleep cycles, restlessness, and daily sleep quality rating and score, also out of 100."
+          },
+          "rationale": "Reviewer judgement on report detail, not measured accuracy vs reference",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:44.048Z"
+        }
+      },
+      {
+        "id": "C7",
+        "optionId": "opt_2",
+        "criterionId": "crit_3",
+        "text": "Fitbit Air advanced AI insights need optional Google Health Premium ($9.99/mo)",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "Speaking of subscriptions, some of the more advanced features, like AI-backed recommendations and trend insights, require a Google Health Premium (previously Fitbit Premium) subscription for $9.99 a month or $99 for the year; full review of that coming soon.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p15]",
+            "text": "the Polar Loop, both of which are also subscription-free. The Fitbit Air is additionally less than half the price of the cheapest annual Whoop subscription. Get instant access to breaking news, the hottest reviews, great deals and helpful tips. Speaking of subscriptions, some of the more advanced features, like AI-backed recommendations and trend insights, require a Google Health Premium (previously Fitbit Premium) subscription for $9.99 a month or $99 for the year; full review of that coming soon."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:44.223Z"
+        }
+      },
+      {
+        "id": "C8",
+        "optionId": "opt_2",
+        "criterionId": null,
+        "text": "Fitbit Air has no onboard GPS",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "No onboard GPS or altimeter for location/elevation data without carrying a smartphone",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p3]",
+            "text": "than the competition Remarkably comfortable Wide selection of attractive straps; swapping straps is a breeze Lots of valuable wellness insights; top-notch sleep reports Easy-to-navigate app Compatible with Android and iOS One week or more of battery per charge Reasons to avoid No onboard GPS or altimeter for location/elevation data without carrying a smartphone Automatic workout tracking only kicks in after 15 minutes; limited to a small number of exercises"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:44.440Z"
+        }
+      },
+      {
+        "id": "C9",
+        "optionId": null,
+        "criterionId": "crit_2",
+        "text": "Terra data: Garmin sleep data most consistent",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "Garmin produces the most consistent data – it shows the longest average sleep duration, the lowest variability, and very low outlier rates, making it the most reliable for long-term trend tracking.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p1]",
+            "text": "Crunch Time: Embrace the Cookie Monster Within! We use cookies to enhance your browsing experience and analyse our traffic. Nothing beyond essential cookies runs until you choose. You can change your mind any time in our Cookie Policy. Key takeaways • Garmin produces the most consistent data – it shows the longest average sleep duration, the lowest variability, and very low outlier rates, making it the most reliable for long-term trend tracking."
+          },
+          "rationale": "Consistency of platform data, not accuracy vs PSG; not specific to a sub-$200 model",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:44.620Z"
+        }
+      },
+      {
+        "id": "C10",
+        "optionId": "opt_2",
+        "criterionId": "crit_2",
+        "text": "Terra data: Fitbit sleep data clean with low outliers",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "Fitbit is cleaner overall, striking a balance between accurate nap detection and stable results.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p2]",
+            "text": "– it shows the longest average sleep duration, the lowest variability, and very low outlier rates, making it the most reliable for long-term trend tracking. • Apple consistently underestimates deep sleep and shows the most data quality issues – including missing sleep stage classifications, unusually high outlier rates, and even impossible values, suggesting its sleep staging is less reliable. • Oura and Fitbit add valuable nap detection but increase variability – Oura, in particular, records many short sleep episodes, which lower the average sleep time until they’re filtered out. Fitbit is cleaner overall, striking a balance between accurate nap detection and stable results."
+          },
+          "rationale": "Platform-level, not device-specific",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:44.809Z"
+        }
+      },
+      {
+        "id": "C11",
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "text": "vivosmart 5 has accurate heart rate and sleep tracking",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "Accurate heart rate and sleep tracking",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p6]",
+            "text": "the options below are highly capable and offer a range of capabilities and designs so that you can find the best device for your lifestyle. Best overall: Garmin vívosmart 5 Pros • Free access to all your data • Available in two sizes • Lightweight, minimal design • Accurate heart rate and sleep tracking • Activity tracking for a range of activities Cons • No built-in GPS"
+          },
+          "rationale": "2023 review, possibly outdated; price not stated in excerpt",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:44.991Z"
+        }
+      },
+      {
+        "id": "C12",
+        "optionId": "opt_3",
+        "criterionId": "crit_3",
+        "text": "Garmin does not charge extra for data access on vivosmart 5",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "Plus, Garmin doesn’t charge extra to access all of your data and training assistance features, which is why it earns our top spot.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p8]",
+            "text": "price point with more beginner-friendly features. Plus, Garmin doesn’t charge extra to access all of your data and training assistance features, which is why it earns our top spot. Despite being a cheap fitness tracker, the vívosmart 5 still gets plenty of Garmin’s advanced technology and accurate data collection so that you can maximize your training without spending too much. The built-in heart rate monitor constantly monitors and can alert you if your rhythm is too high or low while at rest. And it helps you understand how hard you are working during an activity. It also features a pulse ox sensor to check your blood oxygen saturation, though you’ll"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:45.220Z"
+        }
+      },
+      {
+        "id": "C13",
+        "optionId": null,
+        "criterionId": "crit_3",
+        "text": "Inspire 3 needs Premium for detailed sleep data",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "In fact, you need to pay for the Premium subscription for quite a few insights—including detailed sleep data, wellness reports, and a Daily Readiness Score—which keeps the Inspire 3 from earning the top spot.",
+        "verification": {
+          "status": "contradicted",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p12]",
+            "text": "It provides a Sleep Score at the night’s end so you can get the big picture. Plus, you can set a vibrating alarm to wake you up during the optimal sleep stage so that you actually feel refreshed when you wake up. To keep things fun, the Inspire 3 pairs you with a sleep animal and shares a monthly personalized analysis of your sleep. However, you’ll need to pay for a Fitbit Premium subscription to get this feature. In fact, you need to pay for the Premium subscription for quite a few insights—including detailed sleep data, wellness reports, and a Daily Readiness Score—which keeps the Inspire 3 from earning the"
+          },
+          "rationale": "Tom's Guide says Air's detailed sleep reports are free; different devices and 2023 vs 2026",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "2"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:45.473Z"
+        }
+      },
+      {
+        "id": "C14",
+        "optionId": null,
+        "criterionId": "crit_2",
+        "text": "Xiaomi Band 7 Pro sleep tracking isn't accurate",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "Sleep tracking isn’t accurate",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p22]",
+            "text": "get a bit annoying at times, but the touchscreen is nice and bright, so you’ll easily be able to see it even in bright sunlight. Best value: Xiaomi Band 7 Pro Best value Xiaomi Band 7 Pro • Large, high-quality display • Built-in GPS • Affordable price • Lots of workout and health-tracking features • Sleep tracking isn’t accurate • Mi Fitness app isn’t very user-friendly"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:45.763Z"
+        }
+      },
+      {
+        "id": "C15",
+        "optionId": null,
+        "criterionId": "crit_3",
+        "text": "Bip 6 Pro subscription-free with HR, SpO2, sleep tracking",
+        "kind": "fact",
+        "sourceId": "5",
+        "quote": "Essential health tracking (HR, SpO2, sleep) included",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[5.p7]",
+            "text": "insights • Industry-leading battery life, even with GPS • Rugged design built for extreme conditions • Very high price point makes it inaccessible for many • Bulky form factor may not suit all wrist sizes 3. Amazfit Bip 6 Pro – Best Budget The Amazfit Bip 6 Pro is an outstanding choice for anyone seeking reliable, subscription-free fitness tracking without breaking the bank. It excels with its incredible battery longevity, lightweight comfort, and essential health monitoring capabilities. This tracker provides an accessible entry point into activity and sleep tracking, proving that you don't need a premium price or monthly fee for solid health insights."
+          },
+          "rationale": "Generic, no measured data or price; low-detail source",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:45.946Z"
+        }
+      },
+      {
+        "id": "C16",
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "text": "Fitbit Air has continuous heart rate tracking",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "For a $99 wearable, the Fitbit Air provides detailed sleep reports on par with some of the best smartwatch models in 2026",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p25]",
+            "text": "in 2026, with insights into your sleep duration, time spent in sleep cycles, restlessness, and daily sleep quality rating and score, also out of 100. For a $99 wearable, the Fitbit Air provides detailed sleep reports on par with some of the best smartwatch models in 2026 Forerunner 70 Sleep Score 73, Fair 66, Fair Sleep duration 7 hours 37 mins 8 hours 9 mins Average heart rate"
+          },
+          "rationale": "No heart-rate accuracy measurement stated",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:46.182Z"
+        }
+      }
+    ],
+    "contradictions": [
+      {
+        "id": "con_1",
+        "optionId": null,
+        "criterionId": null,
+        "topic": "Whether Fitbit detailed sleep data is free",
+        "statements": [
+          {
+            "claimId": "C13",
+            "sourceId": "7",
+            "text": "Inspire 3 needs Premium for detailed sleep data"
+          },
+          {
+            "claimId": "C6",
+            "sourceId": "2",
+            "text": "Fitbit Air gives detailed sleep reports on par with some of the best smartwatches"
+          }
+        ],
+        "assessment": "PopSci (2023, Inspire 3) says detailed sleep data needs Premium; Tom's Guide (2026, Air) says detailed sleep reports are free. Different devices/dates; Tom's Guide is newer and more reliable (77 vs 59 after verification).",
+        "favoredSourceId": null,
+        "severity": "medium"
+      }
+    ],
+    "uncertainties": [
+      {
+        "id": "unc_1",
+        "kind": "single-source",
+        "text": "Balance HR accuracy comes only from Live Science, a 2022-dated page",
+        "optionId": "opt_1",
+        "impact": "high",
+        "howToResolve": "Find independent HR tests"
+      },
+      {
+        "id": "unc_2",
+        "kind": "incomplete",
+        "text": "No source measures sleep accuracy against a reference",
+        "optionId": null,
+        "impact": "high",
+        "howToResolve": "Look for PSG validation studies"
+      },
+      {
+        "id": "unc_3",
+        "kind": "unknown",
+        "text": "vivosmart 5 price not stated",
+        "optionId": "opt_3",
+        "impact": "medium",
+        "howToResolve": "Check retailer"
+      }
+    ],
+    "scores": [
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "score": 8,
+        "rationale": "Live Science tests found HR accurate/top-class (single source).",
+        "claimIds": [
+          "C1",
+          "C2"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "score": null,
+        "rationale": "No verified accuracy claim for sleep.",
+        "claimIds": []
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "score": 7,
+        "rationale": "Only extras like AI chatbot paywalled.",
+        "claimIds": [
+          "C4"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_4",
+        "score": 7,
+        "rationale": "$199, right at the cap, often on sale.",
+        "claimIds": [
+          "C3"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "score": null,
+        "rationale": "No verified HR accuracy claim.",
+        "claimIds": []
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_2",
+        "score": 7,
+        "rationale": "Detailed reports on par with good smartwatches; Terra shows Fitbit data clean; not measured vs reference.",
+        "claimIds": [
+          "C6",
+          "C10"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_3",
+        "score": 8,
+        "rationale": "Core features free; Premium optional.",
+        "claimIds": [
+          "C5",
+          "C7"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_4",
+        "score": 10,
+        "rationale": "$99.",
+        "claimIds": [
+          "C5"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "score": 6,
+        "rationale": "Described as accurate, 2023 review, no test data.",
+        "claimIds": [
+          "C11"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_2",
+        "score": 6,
+        "rationale": "Accurate per PopSci; Terra shows Garmin data most consistent (brand-level).",
+        "claimIds": [
+          "C11",
+          "C9"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_3",
+        "score": 9,
+        "rationale": "No extra charge for data.",
+        "claimIds": [
+          "C12"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_4",
+        "score": null,
+        "rationale": "Price not in sources.",
+        "claimIds": []
+      }
+    ],
+    "recommendation": {
+      "optionId": "opt_1",
+      "headline": "Amazfit Balance for tested heart-rate accuracy; Fitbit Air or Garmin vivosmart 5 as cheaper sleep-focused picks",
+      "summary": "Balance has the only explicit tested heart-rate accuracy claim at $199, but sleep accuracy evidence is thin for every option.",
+      "reasons": [
+        {
+          "text": "HR sensor top-class and accurate in tests",
+          "claimIds": [
+            "C1",
+            "C2"
+          ]
+        },
+        {
+          "text": "Under $200; only extras paywalled",
+          "claimIds": [
+            "C3",
+            "C4"
+          ]
+        }
+      ],
+      "tradeoffs": [
+        {
+          "text": "Sleep accuracy not verified; reviewer cites sleep features not accuracy; $199 leaves no margin",
+          "claimIds": [
+            "C3"
+          ]
+        },
+        {
+          "text": "Not rugged",
+          "claimIds": []
+        }
+      ],
+      "alternatives": [
+        {
+          "optionId": "opt_2",
+          "when": "Sleep focus, $99, no screen, no GPS"
+        },
+        {
+          "optionId": "opt_3",
+          "when": "Want free data and Garmin consistency; check current price"
+        }
+      ],
+      "caveats": [
+        "No independent lab validation in sources",
+        "Sources mix 2022-2026 and device generations"
+      ],
+      "nextSteps": [
+        "Check current prices",
+        "Look for validation studies vs polysomnography"
+      ]
+    },
+    "metrics": {
+      "sourcesConsulted": 7,
+      "sourcesRead": 7,
+      "claimsTotal": 16,
+      "supported": 10,
+      "partial": 5,
+      "unsupported": 0,
+      "contradicted": 1,
+      "contradictions": 1,
+      "averageReliability": 64,
+      "freshShare": 0,
+      "durationMs": 0,
+      "modelCalls": 0,
+      "tokens": 0
+    }
+  },
+  "sources": [
+    {
+      "id": "1",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.livescience.com/best-fitness-tracker",
+      "domain": "livescience.com",
+      "title": "Oura ring or Garmin watch? These are the 12 fitness trackers we recommend",
+      "siteName": "Live Science",
+      "author": null,
+      "publishedAt": "2022-12-15T11:07:05.000Z",
+      "retrievedAt": "2026-11-15T19:03:25.830Z",
+      "contentHash": "938fc600113fc4b99e7f9ff9e111e27a734dc76a97b7ef841d6edc53b1243f94",
+      "wordCount": 5328,
+      "excerpt": "• Best overall\n• Best for tracking workouts\n• Best cheap fitness tracker\n• Best cheap smartwatch\n• Best running watch\n• Best Garmin alternative\n• Best Google Watch alternative\n• Best for sleep tracking\n• Best screen-free\n• Best hybrid smartwatch\n• Best for beginners\n• Comparison\n• Our experts\n•…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 62,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Live Science"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2022-12-15"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 1431 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "5328 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.tomsguide.com/wellness/fitness-trackers/fitbit-air-review",
+      "domain": "tomsguide.com",
+      "title": "The Fitbit Air is the best no-fuss, affordable fitness tracker",
+      "siteName": "Tom's Guide",
+      "author": null,
+      "publishedAt": "2026-05-26T13:00:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:25.830Z",
+      "contentHash": "b47e65ecd18bcdd75ee47793ac9eb8ccf0ca1438d45050edc154a62eec396528",
+      "wordCount": 3018,
+      "excerpt": "Tom's Guide Verdict\nThe 2026 Fitbit Air is a discreet and distraction-free (no screen) fitness tracker that's easy to use, lightweight, and oh-so-comfortable. Just $99 and subscription-free for core features, it offers a week of battery, and covers all the holistic metrics you'd expect from a…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 77,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Tom's Guide"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-05-26"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 173 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "3018 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.alibaba.com/product-insights/is-the-fitbit-charge-6-better-than-garmin-for-sleep-tracking-accuracy.html",
+      "domain": "alibaba.com",
+      "title": "404-Error",
+      "siteName": null,
+      "author": null,
+      "publishedAt": null,
+      "retrievedAt": "2026-11-15T19:03:25.830Z",
+      "contentHash": "7608bf27aff7f19530a93086de9e5f25a4001105e0cfc2ea71920e7c8b5ba346",
+      "wordCount": 661,
+      "excerpt": "An error occurredThe page you're looking for is currently unavailableBackGo to homepage\nCustomize High Quality 500 ml Vacuum Stainless Steel Water Bottles Thermos Flasks$1.89-2.8920 piecesWholesale Women's Handbag Durable PU Leather Ladies Product 2025 Summer Style Shoulder Bag$2.652 piecesBody…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 45,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Publisher not stated",
+            "effect": -2,
+            "detail": "No publisher metadata on the page."
+          },
+          {
+            "key": "dated",
+            "label": "No publication date",
+            "effect": -6,
+            "detail": "Age of the information cannot be checked."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://gizmodo.com/the-best-smartwatch-for-under-200-1844520153",
+      "domain": "gizmodo.com",
+      "title": "This Is the Best Smartwatch for Under $200",
+      "siteName": "Gizmodo",
+      "author": "Victoria Song",
+      "publishedAt": "2020-07-28T17:07:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:27.151Z",
+      "contentHash": "67a4534498783d21e27222e6b48d00f78a35acf0ffb960f72d1557ed4070a3d2",
+      "wordCount": 1583,
+      "excerpt": "It used to be that smartwatches were a sort of “luxury” gadget. They couldn’t do as much as your phone, and frankly, didn’t offer much more than a much cheaper fitness band. Shelling out several hundred for one seemed like a waste of money.\nBut these days, there’s a heck of a lot more options for…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 59,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Gizmodo"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Victoria Song"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2020-07-28"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 2301 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "1583 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://vettedai.netlify.app/reviews/best-fitness-trackers-no-subscription-2026",
+      "domain": "vettedai.netlify.app",
+      "title": "The Best Fitness Trackers in 2026: Stay Fit, Subscription-Free",
+      "siteName": "V3tt3d",
+      "author": "V3tt3d",
+      "publishedAt": "2026-03-28T00:00:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:28.503Z",
+      "contentHash": "301177fb70434c00991c1fcc6cafdadffc41e8e21949907072fa9e7b461dfe20",
+      "wordCount": 790,
+      "excerpt": "Quick Buy Links\nIn 2026, fitness trackers have evolved beyond mere step counters, becoming essential tools for holistic health management. As consumers become more aware of recurring costs, the demand for high-quality devices that don't require an ongoing subscription has surged. Nobody wants to…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 71,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "V3tt3d"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "V3tt3d"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-03-28"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 233 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://tryterra.co/research/sleep-tracking-accuracy",
+      "domain": "tryterra.co",
+      "title": "Benchmarking Wearable Sleep Data Reliability | Terra",
+      "siteName": "Terra",
+      "author": "Halvard Ramstad",
+      "publishedAt": "2025-11-28T00:00:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:29.768Z",
+      "contentHash": "b71f849bff2f6730ec6a704700b3bc7b51faa4d60d335ac6cc57cfedd6f0dcc2",
+      "wordCount": 2363,
+      "excerpt": "Crunch Time: Embrace the Cookie Monster Within!\nWe use cookies to enhance your browsing experience and analyse our traffic. Nothing beyond essential cookies runs until you choose. You can change your mind any time in our Cookie Policy.\n\nKey takeaways\n• Garmin produces the most consistent data – it…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 74,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Terra"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Halvard Ramstad"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2025-11-28"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 353 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "2363 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.popsci.com/gear/best-cheap-fitness-trackers/",
+      "domain": "popsci.com",
+      "title": "The best cheap fitness trackers",
+      "siteName": "Popular Science",
+      "author": "Abby Ferguson",
+      "publishedAt": "2023-09-26T20:00:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:29.771Z",
+      "contentHash": "db939e4f055a96c0ddefadf502f2517ca722916053c2e8b7be5e3e27ccc38451",
+      "wordCount": 3601,
+      "excerpt": "Best overall\n\nGarmin vívosmart 5\n\nBest GPS\n\nFitbit Charge 5\n\nBest budget\n\nAmazfit Band 7\nWe may earn revenue from the products available on this page and participate in affiliate programs. Learn more ›\nAbby Ferguson\nGone are the days of basic pedometers being the only option for cheap fitness…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 59,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Popular Science"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Abby Ferguson"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2023-09-26"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 1146 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "3601 words of readable text."
+          },
+          {
+            "key": "contradicted",
+            "label": "Contradicted by other sources",
+            "effect": -8,
+            "detail": "1 of 4 claims conflict with other sources."
+          }
+        ]
+      }
+    }
+  ]
+}

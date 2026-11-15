@@ -1,0 +1,332 @@
+[
+  {
+    "id": "C1",
+    "source": 2,
+    "option": "Marcus by Goldman Sachs",
+    "criterion": "No monthly fees",
+    "claim": "Marcus has no monthly fee, no minimum opening deposit, no minimum balance for full APY and no cap on withdrawals or transfers",
+    "quote": "This account strips away the friction points with no monthly fee, no minimum opening deposit, no minimum balance to earn the full APY and no cap on withdrawals or transfers.",
+    "support": "supported",
+    "corroborating": [
+      4
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[2.p25]",
+      "text": "who can't reliably hit the $250 monthly deposit requirement, though, may find themselves toggling between rates month to month, which could be frustrating to track. Best no-fee, no-minimum savings account: Marcus by Goldman Sachs For savers who are skeptical of conditional rates or tired of reading fine print, Marcus delivers a genuinely clean proposition. This account strips away the friction points with no monthly fee, no minimum opening deposit, no minimum balance to earn the full APY and no cap on withdrawals or transfers. The 3.50% rate isn't the highest available, but it requires nothing beyond simply opening and funding the account."
+    },
+    "recordedAt": "2026-11-15T21:00:06.591Z"
+  },
+  {
+    "id": "C2",
+    "source": 2,
+    "option": "Marcus by Goldman Sachs",
+    "criterion": "Yield",
+    "claim": "Marcus pays 3.50% APY (May 2026), below the top rates",
+    "quote": "The 3.50% rate isn't the highest available, but it requires nothing beyond simply opening and funding the account.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[2.p26]",
+      "text": "and no cap on withdrawals or transfers. The 3.50% rate isn't the highest available, but it requires nothing beyond simply opening and funding the account. The notable gap, however, is that Marcus offers no checking account and no ATM access, so it functions best as a dedicated savings vehicle paired with a primary checking accou"
+    },
+    "recordedAt": "2026-11-15T21:00:06.741Z"
+  },
+  {
+    "id": "C3",
+    "source": 4,
+    "option": "Marcus by Goldman Sachs",
+    "criterion": "Easy transfers",
+    "claim": "Marcus allows same-day transfers up to 100000 and external account linking",
+    "quote": "They pay an APY 8 times the national rate and allow same-day transfers on amounts up to $100,000.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "single source, 2023-dated page",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[4.p18]",
+      "text": "making a $1 minimum deposit. You can also make unlimited deposits and withdrawals from the account, which are processed in one to three business days. 8. Marcus by Goldman Sachs HYSA Marcus by Goldman Sachs offers a high-yield savings account with no fees or no minimum deposit. They pay an APY 8 times the national rate and allow same-day transfers on amounts up to $100,000. The Marcus app is intuitive and user-friendly, allowing you to make important financial decisions quickly. It takes only minutes to open an account, and you can link external accounts to transfer money."
+    },
+    "recordedAt": "2026-11-15T21:00:06.923Z"
+  },
+  {
+    "id": "C4",
+    "source": 2,
+    "option": "Marcus by Goldman Sachs",
+    "criterion": "Easy transfers",
+    "claim": "Marcus has no checking account and no ATM access; best paired with a checking account",
+    "quote": "The notable gap, however, is that Marcus offers no checking account and no ATM access, so it functions best as a dedicated savings vehicle",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[2.p26]",
+      "text": "and no cap on withdrawals or transfers. The 3.50% rate isn't the highest available, but it requires nothing beyond simply opening and funding the account. The notable gap, however, is that Marcus offers no checking account and no ATM access, so it functions best as a dedicated savings vehicle paired with a primary checking accou"
+    },
+    "recordedAt": "2026-11-15T21:00:07.095Z"
+  },
+  {
+    "id": "C5",
+    "source": 6,
+    "option": "Vio Bank",
+    "criterion": "Yield",
+    "claim": "Vio Bank pays 4.00% APY on all balances with no monthly activity requirement and no monthly fees",
+    "quote": "Vio Bank’s impressive 4.00% APY applies to all balances with absolutely no extracurricular monthly activities necessary to earn it.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p12]",
+      "text": "2018 as the online banking division of MidFirst Bank—the largest privately owned bank in the U.S. It specializes in savings, CDs, and money market accounts. • Year Founded: 2018 • Company Headquarters: Oklahoma City, OK • CEO: Todd Dobson (MidFirst Bank CEO) Why we picked Vio Bank Vio Bank’s impressive 4.00% APY applies to all balances with absolutely no extracurricular monthly activities necessary to earn it. There are no monthly fees, either. Vio does stipulate that you must deposit at least $100 to open an account, but that shouldn’t be an issue for most who are in the market for a high-yield savings account."
+    },
+    "recordedAt": "2026-11-15T21:00:07.367Z"
+  },
+  {
+    "id": "C6",
+    "source": 6,
+    "option": "Vio Bank",
+    "criterion": "Easy transfers",
+    "claim": "Vio has no checking account, debit card or check-writing on its money market account; must transfer to external bank to spend",
+    "quote": "In other words, you’ll need to transfer your money to an external bank before you can spend it.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p13]",
+      "text": "at least $100 to open an account, but that shouldn’t be an issue for most who are in the market for a high-yield savings account. Vio Bank isn’t perfect for everyone, however. It doesn’t offer a checking account, so deploying your money isn’t as easy as with banks that allow you to instantly transfer funds between checking and savings. It does issue a money market account, but it doesn’t offer a debit card or check-writing privileges. In other words, you’ll need to transfer your money to an external bank before you can spend it."
+    },
+    "recordedAt": "2026-11-15T21:00:07.560Z"
+  },
+  {
+    "id": "C7",
+    "source": 6,
+    "option": "EverBank",
+    "criterion": "No monthly fees",
+    "claim": "EverBank has 3.90% APY, no minimum opening deposit, no monthly fees, no required monthly behavior",
+    "quote": "No minimum opening deposit, no monthly fees, no required monthly behavior to achieve its 3.90% APY.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p16]",
+      "text": "that’s more accessible than what EverBank has on offer. No minimum opening deposit, no monthly fees, no required monthly behavior to achieve its 3.90% APY. Plus, its mobile app receives an impressive 4.7 stars on Google Play and the Apple App Store as of this writing—one of the highest ratings on our list. A solid online banking experience is an important factor to consider when deciding which HYSA to open."
+    },
+    "recordedAt": "2026-11-15T21:00:07.724Z"
+  },
+  {
+    "id": "C8",
+    "source": 2,
+    "option": "Axos Bank",
+    "criterion": "Yield",
+    "claim": "Axos top rate requires deposit/balance requirements else base 1.00% APY",
+    "quote": "The catch, though, is that if you fall short of the deposit or balance requirements in any given month, your rate drops significantly to the base 1.00% APY.",
+    "support": "supported",
+    "corroborating": [
+      6
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[2.p20]",
+      "text": "direct deposit and want to maximize every dollar in savings. The pairing with a checking account that earns its own competitive rate is a genuine perk, not just a marketing hook. The catch, though, is that if you fall short of the deposit or balance requirements in any given month, your rate drops significantly to the base 1.00% APY. So, this account requires but ultimately rewards consistent behavior."
+    },
+    "recordedAt": "2026-11-15T21:00:07.914Z"
+  },
+  {
+    "id": "C9",
+    "source": 6,
+    "option": "Axos Bank",
+    "criterion": "Yield",
+    "claim": "Axos ONE savings pays up to 5.00% APY",
+    "quote": "Axos Bank’s ONE savings account stands out for its high APY of up to 5.00%—currently the second highest return rate on this list.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [
+      2
+    ],
+    "note": "CBS (May 2026) says 4.21%; Fortune (Jul 2026) says 5.00%",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[6.p18]",
+      "text": "business banking products, including checking accounts, savings accounts, CDs, and loans. • Year Founded: 1999 • Company Headquarters: San Diego, CA • CEO: Greg Garrabrants Why we picked Axos Bank Axos Bank’s ONE savings account stands out for its high APY of up to 5.00%—currently the second highest return rate on this list. You’ll earn the full 5.00% APY on balances under $500,000. Any money above that will earn a slightly lower 4.01%."
+    },
+    "recordedAt": "2026-11-15T21:00:08.103Z"
+  },
+  {
+    "id": "C10",
+    "source": 6,
+    "option": "Axos Bank",
+    "criterion": "FDIC insured",
+    "claim": "Axos offers expanded FDIC coverage of 2.5 million",
+    "quote": "It’s also worth noting that Axos Bank offers expanded FDIC coverage of $2.5 million.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "single source",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[6.p20]",
+      "text": "checking account APY of 0.51%. For the privilege of this high savings account return rate, you’ll need to achieve one of two things each month: • Receive $1,500+ in total qualifying monthly deposits and maintain a minimum daily balance of $1,500+, OR • Receive $5,000+ in total qualifying monthly deposits If you fail to do this, you’ll earn a standard rate of 1.00% APY. It’s also worth noting that Axos Bank offers expanded FDIC coverage of $2.5 million. That’s significantly more than you’d normally get from a bank, making this a better destination for big balances."
+    },
+    "recordedAt": "2026-11-15T21:00:08.319Z"
+  },
+  {
+    "id": "C11",
+    "source": 2,
+    "option": "SoFi",
+    "criterion": "No monthly fees",
+    "claim": "SoFi has no monthly fees, no minimums; 4.00% includes 6-month boost, base 3.30% with direct deposit",
+    "quote": "There are no monthly fees, no minimums, and the app receives consistently high marks for usability.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[2.p22]",
+      "text": "APY (with direct deposit) remains well above average once that window closes. There are no monthly fees, no minimums, and the app receives consistently high marks for usability. The main limitation is that SoFi Savings functions as a companion to its checking product. That, in turn, means it's generally best suited for savers who want a unified financial home rather than a standalone savings vehicle. Learn more about SoFi here."
+    },
+    "recordedAt": "2026-11-15T21:00:08.512Z"
+  },
+  {
+    "id": "C12",
+    "source": 2,
+    "option": "LendingClub",
+    "criterion": "Yield",
+    "claim": "LendingClub pays 4.00% with 250 monthly deposit, else 3.00%",
+    "quote": "Deposit at least $250 into the account in a given statement cycle and you'll earn 4.00% APY on your entire balance.",
+    "support": "supported",
+    "corroborating": [
+      6
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[2.p23]",
+      "text": "turn, means it's generally best suited for savers who want a unified financial home rather than a standalone savings vehicle. Learn more about SoFi here. Best for savers who deposit monthly: LendingClub LendingClub's LevelUp Savings account is one of a small number of high-interest savings accounts that reward saving behavior, not just account balances. Deposit at least $250 into the account in a given statement cycle and you'll earn 4.00% APY on your entire balance. Miss that threshold and you'll still earn 3.00%, which is still competitive, but is also a meaningful drop."
+    },
+    "recordedAt": "2026-11-15T21:00:08.710Z"
+  },
+  {
+    "id": "C13",
+    "source": 5,
+    "option": "Ally Bank",
+    "criterion": "No monthly fees",
+    "claim": "Ally savings has no monthly maintenance fee",
+    "quote": "With the Ally Bank savings account, you don’t have to worry about paying a monthly maintenance fee or other hidden fees that you aren’t expecting.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "2017 review, outdated",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[5.p10]",
+      "text": "your Ally savings account. Now: Ally will request login information in order to analyze the checking account activity. Be sure that you’re comfortable with that. Will You Need to Pay Fees? You might find with online bank accounts that there are also fewer fees. With the Ally Bank savings account, you don’t have to worry about paying a monthly maintenance fee or other hidden fees that you aren’t expecting."
+    },
+    "recordedAt": "2026-11-15T21:00:08.885Z"
+  },
+  {
+    "id": "C14",
+    "source": 2,
+    "option": "General",
+    "criterion": "FDIC insured",
+    "claim": "All savings account rates are variable and can change any time",
+    "quote": "It is important to note, however, that all savings account rates are variable, meaning they can rise or fall at any time without prior notice.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[2.p17]",
+      "text": "at the one-year mark: $38 Typical big-bank savings (e.g., 0.01% APY) • Rate: 0.01% APY • Estimated earnings on $10,000 at the one-year mark: $1 Note: Savings yields differ depending on the bank. Earnings are rounded to the nearest whole number. National average per FDIC, May 2026. It is important to note, however, that all savings account rates are variable, meaning they can rise or fall at any time without prior notice. If you want a rate that stays fixed, a certificate of deposit (CD) locks in your yield for a set term, though your money is less accessible during that period."
+    },
+    "recordedAt": "2026-11-15T21:00:09.058Z"
+  },
+  {
+    "id": "C15",
+    "source": 4,
+    "option": "Synchrony",
+    "criterion": "No monthly fees",
+    "claim": "Synchrony has no fees or minimum balance",
+    "quote": "Synchrony Bank offers a high-yield savings account online with no fees or minimum balance requirement.",
+    "support": "supported",
+    "corroborating": [
+      2
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[4.p7]",
+      "text": "unlike many other savings accounts that limit the number of monthly transactions before charging a fee or closing your account; they don’t have a limit. 2. Synchrony Bank High Yield Savings Synchrony Bank offers a high-yield savings account online with no fees or minimum balance requirement. The Synchrony app makes it easy to bank from anywhere, and the account includes an ATM card for easy access to your funds, with ATMs showing the Plus or Accel logo."
+    },
+    "recordedAt": "2026-11-15T21:00:09.243Z"
+  },
+  {
+    "id": "C16",
+    "source": 2,
+    "option": "General",
+    "criterion": "FDIC insured",
+    "claim": "High-yield savings accounts are federally insured deposit accounts",
+    "quote": "These federally-insured deposit accounts typically offer rates far above the national average, which currently sits at just 0.38%, according to the FDIC.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "generic; does not name Marcus specifically",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[2.p2]",
+      "text": "find competitive yields that significantly outperform traditional savings accounts. That makes this a critical moment for anyone holding cash to reconsider where their money sits. At their core, high-yield savings accounts are designed to help your money grow faster without taking on market risk. These federally-insured deposit accounts typically offer rates far above the national average, which currently sits at just 0.38%, according to the FDIC. Today's top available high-yield savings rate, though, which is offered by Axos Bank, is substantially higher at 4.21%."
+    },
+    "recordedAt": "2026-11-15T21:00:09.415Z"
+  }
+]

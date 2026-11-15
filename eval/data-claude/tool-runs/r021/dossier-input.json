@@ -1,0 +1,43 @@
+{"criteria":[
+{"name":"Recognised certificate","weight":35,"description":"Brand-recognised completion credential"},
+{"name":"Hands-on projects","weight":30,"description":"Practical projects/labs"},
+{"name":"Python for data analysis content","weight":20,"description":"Python-based data analysis curriculum"},
+{"name":"Fit for 5 hours a week","weight":15,"description":"Feasible pace for a working professional"}],
+"options":[
+{"name":"Coursera","summary":"IBM or Meta Professional Certificates (Python) with Guided Projects","price":"Professional Certificates from about $49/month (2024 figure)"},
+{"name":"DataCamp","summary":"Described as hands-on; no certificate evidence in sources","price":null},
+{"name":"edX","summary":"University-backed certificates, paid upgrade; more academic","price":"Verified track $50-$300 (2024 figure)"},
+{"name":"Dataquest","summary":"Project-based Python for data analysis path; vendor-reported","price":"$33-49/month"}],
+"scores":[
+{"option":"Coursera","criterion":"Recognised certificate","score":7,"rationale":"Brand-recognised but completion-based, not proctored","claims":["C9","C14"]},
+{"option":"Coursera","criterion":"Hands-on projects","score":6,"rationale":"Guided Projects and labs exist; labs reported are Excel","claims":["C11","C21"]},
+{"option":"Coursera","criterion":"Python for data analysis content","score":8,"rationale":"IBM and Meta certificates teach Python; Google uses R","claims":["C1","C3","C4"]},
+{"option":"Coursera","criterion":"Fit for 5 hours a week","score":5,"rationale":"4 months at 10 h/week implies roughly 8 months at 5 h; a learner took a month per course","claims":["C5","C20"]},
+{"option":"DataCamp","criterion":"Recognised certificate","score":null,"rationale":"No verified claim","claims":[]},
+{"option":"DataCamp","criterion":"Hands-on projects","score":6,"rationale":"One reviewer says more hands-on","claims":["C8"]},
+{"option":"DataCamp","criterion":"Python for data analysis content","score":null,"rationale":"No verified claim","claims":[]},
+{"option":"DataCamp","criterion":"Fit for 5 hours a week","score":null,"rationale":"No verified claim","claims":[]},
+{"option":"edX","criterion":"Recognised certificate","score":6,"rationale":"Paid upgrade for official certificate; fewer industry certificates per one source","claims":["C10","C12"]},
+{"option":"edX","criterion":"Hands-on projects","score":null,"rationale":"No verified claim","claims":[]},
+{"option":"edX","criterion":"Python for data analysis content","score":null,"rationale":"CS50P is intro Python, not data analysis","claims":["C17"]},
+{"option":"edX","criterion":"Fit for 5 hours a week","score":3,"rationale":"CS50P about 100-150 hours; edX described as time-consuming","claims":["C17","C19"]},
+{"option":"Dataquest","criterion":"Recognised certificate","score":3,"rationale":"Portfolio-based, no recognised certificate claimed","claims":["C13"]},
+{"option":"Dataquest","criterion":"Hands-on projects","score":8,"rationale":"Project-based per vendor","claims":["C16","C13"]},
+{"option":"Dataquest","criterion":"Python for data analysis content","score":8,"rationale":"Path is Python for data analysis","claims":["C16"]},
+{"option":"Dataquest","criterion":"Fit for 5 hours a week","score":7,"rationale":"3-6 months at 5-10 h/week (vendor)","claims":["C15"]}],
+"recommendation":{"option":"Coursera","headline":"Coursera, via the IBM or Meta Python-based Professional Certificate","summary":"Best match for a recognised certificate plus Python data analysis; budget well over 4 months at 5 hours a week.","reasons":[
+{"text":"IBM's certificate focuses on Python and SQL for data analysis","claims":["C1"]},
+{"text":"Meta's five-course certificate covers Python with a statistics emphasis; Google's uses R","claims":["C4","C3"]},
+{"text":"Brand recognition, though completion-based","claims":["C14"]},
+{"text":"Guided Projects offer hands-on work","claims":["C11"]}],
+"tradeoffs":[{"text":"Pace at 5 hours a week is slow and completion is uncertain","claims":["C5","C20","C19"]}],
+"alternatives":[{"option":"Dataquest","when":"You want portfolio projects over a certificate"},{"option":"edX","when":"You want university-branded or academic credit"},{"option":"DataCamp","when":"You want bite-sized interactive practice; certificate unverified"}],
+"caveats":["Sources are mostly 2024-2025 and vendor-influenced","No direct DataCamp certificate evidence"],
+"nextSteps":["Preview the first module free","Check current price and course count on Coursera"]},
+"contradictions":[
+{"option":"Coursera","topic":"IBM certificate course count (11 vs 9)","claims":["C2","C21"],"assessment":"Coursera's own 2025 page says 11, a 2024 learner says 9; prefer Coursera's newer page.","severity":"low"},
+{"option":"Coursera","topic":"Accredited certificates (source 2) vs completion-based, not proctored (source 4)","claims":["C9","C14"],"assessment":"Source 4 is more precise about what the credential is; treat certificates as brand-recognised, not accredited.","severity":"medium"}],
+"uncertainties":[
+{"kind":"incomplete","text":"No source gives DataCamp certificate recognition or content details","option":"DataCamp","impact":"high","howToResolve":"Check DataCamp's own pages"},
+{"kind":"single-source","text":"Dataquest claims come from Dataquest itself","option":"Dataquest","impact":"medium","howToResolve":"Look for independent reviews"},
+{"kind":"outdated","text":"Prices from 2024","option":"Coursera","impact":"low","howToResolve":"Check current pricing"}]}

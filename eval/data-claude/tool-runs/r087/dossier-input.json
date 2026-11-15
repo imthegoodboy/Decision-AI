@@ -1,0 +1,19 @@
+{"criteria":[{"name":"No monthly fees","weight":35,"description":"No maintenance fees or hidden requirements"},{"name":"FDIC insured","weight":25,"description":"Deposit insurance"},{"name":"Easy transfers","weight":25,"description":"Ease and speed of moving money"},{"name":"Yield","weight":15,"description":"APY without conditions"}],
+"options":[{"name":"Marcus by Goldman Sachs","summary":"No-fee, no-minimum, no transfer cap, 3.50% APY","price":null},{"name":"Vio Bank","summary":"4.00% on all balances, no fees, no checking","price":null},{"name":"EverBank","summary":"3.90%, no fees, no conditions","price":null},{"name":"Axos Bank","summary":"Top rate needs direct deposit","price":null}],
+"scores":[
+{"option":"Marcus by Goldman Sachs","criterion":"No monthly fees","score":9,"rationale":"No fee, minimums or caps","claims":["C1"]},
+{"option":"Marcus by Goldman Sachs","criterion":"Easy transfers","score":8,"rationale":"No transfer cap, same-day transfers (single dated source), but no checking","claims":["C1","C3","C4"]},
+{"option":"Marcus by Goldman Sachs","criterion":"Yield","score":6,"rationale":"3.50% unconditional but below top rates","claims":["C2"]},
+{"option":"Marcus by Goldman Sachs","criterion":"FDIC insured","score":5,"rationale":"Only generic insurance statement; Marcus not named","claims":["C16"]},
+{"option":"Vio Bank","criterion":"No monthly fees","score":8,"rationale":"No fees or activity needs; $100 to open","claims":["C5"]},
+{"option":"Vio Bank","criterion":"Easy transfers","score":5,"rationale":"No checking; external transfers needed","claims":["C6"]},
+{"option":"Vio Bank","criterion":"Yield","score":8,"rationale":"4.00% on all balances","claims":["C5"]},
+{"option":"EverBank","criterion":"No monthly fees","score":9,"rationale":"No fees or conditions","claims":["C7"]},
+{"option":"EverBank","criterion":"Yield","score":7,"rationale":"3.90% unconditional","claims":["C7"]},
+{"option":"Axos Bank","criterion":"No monthly fees","score":6,"rationale":"No fee but rate depends on deposits","claims":["C8"]},
+{"option":"Axos Bank","criterion":"FDIC insured","score":6,"rationale":"Expanded coverage single source","claims":["C10"]},
+{"option":"Axos Bank","criterion":"Yield","score":6,"rationale":"4.21% vs 5.00% conflict; 1.00% base","claims":["C8","C9"]}
+],
+"recommendation":{"option":"Marcus by Goldman Sachs","headline":"Marcus: simplest no-fee, no-strings account","summary":"Marcus has no fees, no minimums and no transfer cap, at a moderately lower rate.","reasons":[{"text":"No fee, minimum or transfer cap","claims":["C1"]},{"text":"Same-day transfers reported","claims":["C3"]}],"tradeoffs":[{"text":"3.50% is below Vio and EverBank","claims":["C2"]},{"text":"No checking or ATM","claims":["C4"]}],"alternatives":[{"option":"Vio Bank","when":"you want higher unconditional yield"},{"option":"EverBank","when":"you want 3.90% with no conditions"},{"option":"Axos Bank","when":"you do monthly direct deposit"}],"caveats":["Marcus FDIC status not stated explicitly in sources","Rates are variable"],"nextSteps":["Confirm FDIC status and current APY on the bank's site"]},
+"contradictions":[{"option":"Axos Bank","topic":"Axos APY 4.21% vs 5.00%","claims":["C8","C9"],"assessment":"CBS (May, higher reliability) says 4.21%; Fortune (July) says up to 5.00%. Unresolved; both agree 1.00% base.","severity":"medium"}],
+"uncertainties":[{"kind":"incomplete","text":"Marcus FDIC insurance not explicitly stated in the sources","option":"Marcus by Goldman Sachs","impact":"high","howToResolve":"Check Marcus/FDIC BankFind"},{"kind":"outdated","text":"Rates are from May-July 2026 and variable","option":null,"impact":"medium","howToResolve":"Check current APYs"},{"kind":"single-source","text":"Same-day transfer claim from one 2023-dated page","option":"Marcus by Goldman Sachs","impact":"medium","howToResolve":"Check Marcus transfer terms"}]}

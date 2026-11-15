@@ -1,0 +1,1425 @@
+{
+  "dossier": {
+    "plan": {
+      "decisionType": "decision",
+      "criteria": [
+        {
+          "id": "crit_1",
+          "name": "Recognised certificate",
+          "description": "Brand-recognised completion credential",
+          "weight": 35,
+          "origin": "user"
+        },
+        {
+          "id": "crit_2",
+          "name": "Hands-on projects",
+          "description": "Practical projects/labs",
+          "weight": 30,
+          "origin": "user"
+        },
+        {
+          "id": "crit_3",
+          "name": "Python for data analysis content",
+          "description": "Python-based data analysis curriculum",
+          "weight": 20,
+          "origin": "user"
+        },
+        {
+          "id": "crit_4",
+          "name": "Fit for 5 hours a week",
+          "description": "Feasible pace for a working professional",
+          "weight": 15,
+          "origin": "user"
+        }
+      ],
+      "queries": [],
+      "freshnessDays": 365,
+      "region": null,
+      "rationale": ""
+    },
+    "options": [
+      {
+        "id": "opt_1",
+        "name": "Coursera",
+        "summary": "IBM or Meta Professional Certificates (Python) with Guided Projects",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "Professional Certificates from about $49/month (2024 figure)",
+        "userNamed": false,
+        "sourceIds": [
+          "1",
+          "2",
+          "6",
+          "4",
+          "7"
+        ]
+      },
+      {
+        "id": "opt_2",
+        "name": "DataCamp",
+        "summary": "Described as hands-on; no certificate evidence in sources",
+        "image": null,
+        "officialUrl": null,
+        "priceText": null,
+        "userNamed": false,
+        "sourceIds": [
+          "2"
+        ]
+      },
+      {
+        "id": "opt_3",
+        "name": "edX",
+        "summary": "University-backed certificates, paid upgrade; more academic",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "Verified track $50-$300 (2024 figure)",
+        "userNamed": false,
+        "sourceIds": [
+          "2",
+          "6",
+          "4"
+        ]
+      },
+      {
+        "id": "opt_4",
+        "name": "Dataquest",
+        "summary": "Project-based Python for data analysis path; vendor-reported",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "$33-49/month",
+        "userNamed": false,
+        "sourceIds": [
+          "4"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "text": "Coursera's IBM Data Analyst Professional Certificate focuses on Python and SQL for data analysis",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "The IBM Data Analyst Professional Certificate focuses on developing key technical skills, including the use of Python and SQL for data analysis.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p19]",
+            "text": "the most common data analysis tools in this popular Professional Certificate. Some of the most impactful are as follows: Microsoft Excel IBM Cognos Analytics Python Jupyter notebooks Python libraries The IBM Data Analyst Professional Certificate focuses on developing key technical skills, including the use of Python and SQL for data analysis. Other top skills you’ll build are: Data wrangling and cleaning Statistical analysis Database management Predictive modeling"
+          },
+          "rationale": "3 is a mirror of 1; Coursera is the seller",
+          "corroboratingSourceIds": [
+            "3"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:33:42.560Z"
+        }
+      },
+      {
+        "id": "C2",
+        "optionId": "opt_1",
+        "criterionId": "crit_4",
+        "text": "Coursera's IBM Data Analyst certificate is an 11-course beginner program",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "Suitable for beginners with no prior experience, this 11-course program provides a comprehensive overview of data analysis with a technical bent.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p16]",
+            "text": "is one of the most well-established and largest technology companies in the world, responsible for a wide range of hardware, software, and cloud computing services. The IBM Data Analyst Professional Certificate equips learners with that expertise by offering training in the fundamentals of data analytics, alongside database management, Python programming, and AI. Suitable for beginners with no prior experience, this 11-course program provides a comprehensive overview of data analysis with a technical bent."
+          },
+          "rationale": "Source 7 says 9 courses (2024, learner blog); may be older version",
+          "corroboratingSourceIds": [
+            "3"
+          ],
+          "conflictingSourceIds": [
+            "7"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:33:42.718Z"
+        }
+      },
+      {
+        "id": "C3",
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "text": "Google Data Analytics certificate teaches R, not Python",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "The Google Data Analytics Professional Certificate offers an overview of data analysis fundamentals, including data cleaning and validation, data visualization, R programming, SQL, and more.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p11]",
+            "text": "the first module of many courses at no cost. Visit the Learner Help Center for more information about your account, payments, subscriptions, and Coursera policies. Google Data Analytics Professional Certificate: Topics, tools, and skills Google is the company behind some of the most popular online platforms like Google Search, Google Workspace, Google Gemini, and YouTube. The Google Data Analytics Professional Certificate offers an overview of data analysis fundamentals, including data cleaning and validation, data visualization, R programming, SQL, and more. Suitable for beginners, the program provides business-focused data analysis training along with new material centered around using generative AI for data analytics."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "3",
+            "7"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:33:42.882Z"
+        }
+      },
+      {
+        "id": "C4",
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "text": "Meta Data Analyst certificate is five courses and covers Python (pandas, Jupyter) with a statistics emphasis",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "You’ll also explore Python, statistics, data management, and the basics of machine learning over five courses.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p22]",
+            "text": "modeling, and visualization, along with business and marketing-focused applications. You’ll also explore Python, statistics, data management, and the basics of machine learning over five courses. The Meta Data Analyst Professional Certificate covers the fundamentals of data analysis, data management, and machine learning. Topics you’ll explore include: Data analysis with spreadsheets and SQL Statistics foundations Data management Marketing analytics Data privacy and compliance Machine learning basics Python, statistics, and data visualization take center stage in Meta’s Professional certificate. Top tools you’ll learn are:"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "3"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:33:43.040Z"
+        }
+      },
+      {
+        "id": "C5",
+        "optionId": "opt_1",
+        "criterionId": "crit_4",
+        "text": "Coursera estimates IBM certificate at 4 months at 10 hours a week",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "Estimated time to completion",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p6]",
+            "text": "has a unique focus that distinguishes it from the others. To help you differentiate between each of these highly rated programs, let’s review them side-by-side: Google Data Analytics IBM Data Analyst Meta Data Analyst Type Professional Certificate Level Beginner Modules 9 courses 11 courses 5 courses Estimated time to completion 6 months at 10 hours a week 4 months at 10 hours a week 5 months at 10 hours a week"
+          },
+          "rationale": "Table cells are separated; at 5 h/week implies roughly double (my inference)",
+          "corroboratingSourceIds": [
+            "3"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:33:43.190Z"
+        }
+      },
+      {
+        "id": "C6",
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "text": "Auditing a Coursera course for free gives no completion certificate",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "However, if you choose to audit the course (learn for free), you won’t receive credits nor a completion certificate.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p11]",
+            "text": "offers degrees and certificates in collaboration with top-notch universities and companies—think John Hopkins University, Yale, Google, Microsoft, NYU, Oxford, Stanford, and the list goes on. Coursera Alternative to DataCamp You can sign up for free and find plenty of free courses available. However, if you choose to audit the course (learn for free), you won’t receive credits nor a completion certificate. Saying that, being able to take as many courses as you like for free is a great place to start. Coursera pricing varies depending on what you want to do; explore courses, earn a certificate or degree, but, in general, it is very affordable."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "5"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:03.256Z"
+        }
+      },
+      {
+        "id": "C7",
+        "optionId": "opt_1",
+        "criterionId": null,
+        "text": "Coursera Professional Certificates start at about $49 a month (2024 figure)",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "Specializations & Professional Certificates: Starting at $49 USD a month",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p5]",
+            "text": "Projects: Starting at $9.99 USD Individual courses: Starting at $49 – $79 USD per course Specializations & Professional Certificates: Starting at $49 USD a month MasterTrack Certificates: Starting at $2,000+ USD Degrees: Starting at $9,000+ USD Coursera Plus: $59 monthly or $399 USD annually edX • Certificates • Refund Policy • Lack of Community Verified Track: $50 and $300 USD Professional Programs: Starting at $299+ USD"
+          },
+          "rationale": "Dated 2024; Coursera page 1 shows only a regional Coursera Plus price",
+          "corroboratingSourceIds": [
+            "5"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:03.409Z"
+        }
+      },
+      {
+        "id": "C8",
+        "optionId": "opt_2",
+        "criterionId": "crit_2",
+        "text": "DataCamp's learning method is described as more hands-on for data and programming subjects",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "If your goal is to clearly upskill in data, AI, programming or analytics, and you have a tight budget, then DataCamp could be a great option, especially since their learning method is more hands on for these subjects.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p16]",
+            "text": "some ways, it doesn’t offer thousands of free courses—you have to register as an educator or an educational institute to get free access to courses. If your goal is to clearly upskill in data, AI, programming or analytics, and you have a tight budget, then DataCamp could be a great option, especially since their learning method is more hands on for these subjects. But if you need a broader range of subjects and or to have your course completion backed by leading universities or other big-name companies, as well, have the possibility of taking courses for free, then I would say edX is the way to go."
+          },
+          "rationale": "Single review author; no DataCamp-specific source or certificate info",
+          "corroboratingSourceIds": [
+            "5"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:03.582Z"
+        }
+      },
+      {
+        "id": "C9",
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "text": "A reviewer says Coursera is the better match than DataCamp if you need an accredited certificate",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "However, if you need an accredited degree or certificate, even in the field of Data and Programming, Coursera is definitely the more optimal match.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p13]",
+            "text": "AI, Programming and the like. However, if you need an accredited degree or certificate, even in the field of Data and Programming, Coursera is definitely the more optimal match. 2. edX edX is another favorite of mine which, like Coursera, is backed by universities, institutes and companies like Google, MIT, IBM and Harvard. This also means it offers accredited certificates and degrees. Its platform is rich with thousands of free courses, which certainly is a bonus if you want to learn but can’t always pay."
+          },
+          "rationale": "Source 4 says platform certificates are completion-based, not proctored; Harvard says not accredited",
+          "corroboratingSourceIds": [
+            "5",
+            "6"
+          ],
+          "conflictingSourceIds": [
+            "4"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:03.735Z"
+        }
+      },
+      {
+        "id": "C10",
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "text": "edX free courses can be upgraded by paying for an official certificate of completion",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "If you want to take courses and also earn an official certificate of completion or earn college credit, then there is the possibility to upgrade a free course by paying.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p14]",
+            "text": "and degrees. Its platform is rich with thousands of free courses, which certainly is a bonus if you want to learn but can’t always pay. edX Alternative to DataCamp If you want to take courses and also earn an official certificate of completion or earn college credit, then there is the possibility to upgrade a free course by paying. Another great feature is the possibility to view course material offline. If you want to review lessons or even take an entire course during air travel, edX makes it possible. What’s more, the courses are designed to be self-paced and interactive. Having the ability to learn how and when suits you"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "5",
+            "6"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:03.904Z"
+        }
+      },
+      {
+        "id": "C11",
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "text": "Coursera offers guided projects for hands-on experience",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "Learners can choose self-paced courses or participate in guided projects for hands-on experience.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p6]",
+            "text": "practical industry certifications compared to Coursera. Coursera's emphasis on career-oriented certifications gives it an advantage for learners looking to boost employability directly through online courses. Learning Structure and Flexibility Coursera provides flexible learning paths with various subscription models, including Coursera Plus, which grants access to multiple courses for a fixed fee. Learners can choose self-paced courses or participate in guided projects for hands-on experience. Coursera’s interface also supports multiple languages, making it accessible to a global audience."
+          },
+          "rationale": "2 lists Guided Projects from $9.99",
+          "corroboratingSourceIds": [
+            "2",
+            "5"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:04.067Z"
+        }
+      },
+      {
+        "id": "C12",
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "text": "edX has fewer practical industry certifications than Coursera",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "However, edX’s focus leans more toward academic institutions, with fewer options for practical industry certifications compared to Coursera.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p5]",
+            "text": "are designed to be industry-relevant. Coursera also offers pathways to earn university degrees through its platform, providing a seamless transition from learning to career advancement. edX offers certifications as well, including verified certificates and MicroMasters credentials, which can sometimes count as credits toward a full degree. However, edX’s focus leans more toward academic institutions, with fewer options for practical industry certifications compared to Coursera. Coursera's emphasis on career-oriented certifications gives it an advantage for learners looking to boost employability directly through online courses."
+          },
+          "rationale": "Single source, 2024, no named author expertise",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:04.213Z"
+        }
+      },
+      {
+        "id": "C13",
+        "optionId": null,
+        "criterionId": "crit_2",
+        "text": "Hiring managers care more about what you can build than credentials held",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "While Python certifications serve a purpose, hiring managers care more about what you can build than what credentials you hold.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p1]",
+            "text": "13 Best Python Certifications in 2026 By Mike Levy Updated April 8, 2026 Originally published February 27, 2025 Python remains one of the most in-demand programming languages across data science, web development, automation, and AI. But when you're trying to break into a Python-related role or level up in your career, figuring out which certification actually helps can feel overwhelming. While Python certifications serve a purpose, hiring managers care more about what you can build than what credentials you hold. Portfolio projects rank above certifications every time. But certifications still solve real problems. They provide structured learning paths, help you get past HR filters, and validate your skills when you"
+          },
+          "rationale": "Dataquest sells project-based courses; single source",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:15.888Z"
+        }
+      },
+      {
+        "id": "C14",
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "text": "Harvard, Google and IBM platform certificates have brand recognition but are completion-based, not proctored",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "Platform certificates from Harvard, Google, and IBM carry strong brand recognition even though they're completion-based rather than proctored exams.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p9]",
+            "text": "hours per week, that's over a year of commitment. Sometimes a shorter certification that you'll actually finish beats a comprehensive one you'll abandon halfway through. Check What Employers Actually Want Not all certifications carry the same weight. PCAP from the Python Institute is the most widely recognized Python-specific certification thanks to its Pearson VUE proctoring. Platform certificates from Harvard, Google, and IBM carry strong brand recognition even though they're completion-based rather than proctored exams."
+          },
+          "rationale": "Tempers source 2's accredited framing",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:16.028Z"
+        }
+      },
+      {
+        "id": "C15",
+        "optionId": "opt_4",
+        "criterionId": "crit_4",
+        "text": "Dataquest Python for Data Analysis path takes 3-6 months at 5-10 hours a week",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "Time: 3-6 months at 5-10 hours/week",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p11]",
+            "text": "Career Switchers and Beginners These certifications assume no prior programming experience and focus on building solid foundations you can use to launch a new career. 1. Beginner Python for Data Analysis Dataquest's Beginner Python for Data Analysis path teaches Python through hands-on data analysis projects rather than abstract programming exercises. You'll learn by working with real datasets from day one. • Cost: $33-49/month (Premium plan) • Time: 3-6 months at 5-10 hours/week"
+          },
+          "rationale": "Vendor self-description; the publisher sells this path",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:16.142Z"
+        }
+      },
+      {
+        "id": "C16",
+        "optionId": "opt_4",
+        "criterionId": "crit_2",
+        "text": "Dataquest's beginner path teaches Python via hands-on data analysis projects",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "Dataquest's Beginner Python for Data Analysis path teaches Python through hands-on data analysis projects rather than abstract programming exercises.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p11]",
+            "text": "Career Switchers and Beginners These certifications assume no prior programming experience and focus on building solid foundations you can use to launch a new career. 1. Beginner Python for Data Analysis Dataquest's Beginner Python for Data Analysis path teaches Python through hands-on data analysis projects rather than abstract programming exercises. You'll learn by working with real datasets from day one. • Cost: $33-49/month (Premium plan) • Time: 3-6 months at 5-10 hours/week"
+          },
+          "rationale": "Vendor claim, no independent corroboration",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:16.284Z"
+        }
+      },
+      {
+        "id": "C17",
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "text": "Harvard CS50P is about 100-150 hours; edX verified certificate costs $219 versus a free Harvard certificate",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "Time: 10 weeks structured, approximately 100-150 total hours including problem sets and final project",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p21]",
+            "text": "This makes it arguably the best deal in Python education. • Cost: Free certificate via cs50.harvard.edu, or $219 for edX verified certificate with ID verification • Time: 10 weeks structured, approximately 100-150 total hours including problem sets and final project • What you'll learn: Functions, conditionals, loops, exceptions, libraries, unit testing, file I/O, regular expressions, and object-oriented programming. • Expiration: Does not expire • Format: 10 weekly lectures plus problem sets plus final project. Must score 70% or higher on all 10 problem sets"
+          },
+          "rationale": "Intro Python, not data analysis; cost line in same bullet list",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:16.416Z"
+        }
+      },
+      {
+        "id": "C18",
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "text": "Michigan Python for Everybody on Coursera has 1.88 million enrollments and 4.8/5 rating",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "The Python for Everybody Specialization has 1.88 million enrollments and a 4.8/5 rating from 217,000+ reviews.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p24]",
+            "text": "which becomes a portfolio piece. Harvard makes it clear that these are \"not accredited academic offerings,\" but the certificate demonstrates you completed Harvard's Python curriculum. 4. University of Michigan: Python for Everybody Specialization The Python for Everybody Specialization has 1.88 million enrollments and a 4.8/5 rating from 217,000+ reviews. This popularity reflects its effectiveness as a beginner-friendly data science gateway. • Cost: $49-59/month via Coursera subscription, approximately $98-118"
+          },
+          "rationale": "Single source, no corroboration; Python basics",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:16.535Z"
+        }
+      },
+      {
+        "id": "C19",
+        "optionId": null,
+        "criterionId": "crit_4",
+        "text": "At five hours a week a 300-hour certification takes over a year",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "A certification that takes 300 hours might be perfect for your career, but if you can only study five hours per week, that's over a year of commitment.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p8]",
+            "text": "PCAP work better. • Targeting data science specifically? Programs that teach pandas, visualization, and machine learning alongside Python make more sense than general programming certs. Think About Time and Money Certifications range from completely free to over $4,000, and time commitments vary from a few weeks to eight months. Be realistic about what you can sustain. A certification that takes 300 hours might be perfect for your career, but if you can only study five hours per week, that's over a year of commitment. Sometimes a shorter certification that you'll actually finish beats a comprehensive one you'll abandon halfway through."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:16.659Z"
+        }
+      },
+      {
+        "id": "C20",
+        "optionId": "opt_1",
+        "criterionId": "crit_4",
+        "text": "A full-time-employed learner took about a month per IBM certificate course",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "This is why each of the courses took me around a month to complete.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p3]",
+            "text": "course 3 out of 9: Data Vizualization and Dashboards with Excel and Cognos. 6 more to go! How much time it took me so far I’ve started the course in the first days of January 2024. Today is April 6. So, the first three courses took me 3 months to complete. Is it possible to move faster? On the one hand, definitely yes. I was quite inconsistent with my learning. Also, I am balancing my studies with a full-time job and creating content for my YouTube channel. This is why each of the courses took me around a month to complete."
+          },
+          "rationale": "Anecdote, n=1",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:16.794Z"
+        }
+      },
+      {
+        "id": "C21",
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "text": "The IBM certificate Excel course includes 6 hands-on labs",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "We have 6 hands-on labs in total.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p19]",
+            "text": "of working with data is, and immerse myself into what my work should look like in the future. Course 2. Excel basics for Data Analytics. This second course is also estimated for 5 weeks of learning. Here, things got more practical. We have 6 hands-on labs in total. To complete a hands-on lab, you typically: • open an Excel instance (make sure you get yourself Excel for the web)"
+          },
+          "rationale": "Anecdote; Excel course not Python",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:16.925Z"
+        }
+      }
+    ],
+    "contradictions": [
+      {
+        "id": "con_1",
+        "optionId": "opt_1",
+        "criterionId": null,
+        "topic": "IBM certificate course count (11 vs 9)",
+        "statements": [
+          {
+            "claimId": "C2",
+            "sourceId": "1",
+            "text": "Coursera's IBM Data Analyst certificate is an 11-course beginner program"
+          },
+          {
+            "claimId": "C21",
+            "sourceId": "7",
+            "text": "The IBM certificate Excel course includes 6 hands-on labs"
+          }
+        ],
+        "assessment": "Coursera's own 2025 page says 11, a 2024 learner says 9; prefer Coursera's newer page.",
+        "favoredSourceId": null,
+        "severity": "low"
+      },
+      {
+        "id": "con_2",
+        "optionId": "opt_1",
+        "criterionId": null,
+        "topic": "Accredited certificates (source 2) vs completion-based, not proctored (source 4)",
+        "statements": [
+          {
+            "claimId": "C9",
+            "sourceId": "2",
+            "text": "A reviewer says Coursera is the better match than DataCamp if you need an accredited certificate"
+          },
+          {
+            "claimId": "C14",
+            "sourceId": "4",
+            "text": "Harvard, Google and IBM platform certificates have brand recognition but are completion-based, not proctored"
+          }
+        ],
+        "assessment": "Source 4 is more precise about what the credential is; treat certificates as brand-recognised, not accredited.",
+        "favoredSourceId": null,
+        "severity": "medium"
+      }
+    ],
+    "uncertainties": [
+      {
+        "id": "unc_1",
+        "kind": "incomplete",
+        "text": "No source gives DataCamp certificate recognition or content details",
+        "optionId": "opt_2",
+        "impact": "high",
+        "howToResolve": "Check DataCamp's own pages"
+      },
+      {
+        "id": "unc_2",
+        "kind": "single-source",
+        "text": "Dataquest claims come from Dataquest itself",
+        "optionId": "opt_4",
+        "impact": "medium",
+        "howToResolve": "Look for independent reviews"
+      },
+      {
+        "id": "unc_3",
+        "kind": "outdated",
+        "text": "Prices from 2024",
+        "optionId": "opt_1",
+        "impact": "low",
+        "howToResolve": "Check current pricing"
+      }
+    ],
+    "scores": [
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "score": 7,
+        "rationale": "Brand-recognised but completion-based, not proctored",
+        "claimIds": [
+          "C9",
+          "C14"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "score": 6,
+        "rationale": "Guided Projects and labs exist; labs reported are Excel",
+        "claimIds": [
+          "C11",
+          "C21"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "score": 8,
+        "rationale": "IBM and Meta certificates teach Python; Google uses R",
+        "claimIds": [
+          "C1",
+          "C3",
+          "C4"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_4",
+        "score": 5,
+        "rationale": "4 months at 10 h/week implies roughly 8 months at 5 h; a learner took a month per course",
+        "claimIds": [
+          "C5",
+          "C20"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "score": null,
+        "rationale": "No verified claim",
+        "claimIds": []
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_2",
+        "score": 6,
+        "rationale": "One reviewer says more hands-on",
+        "claimIds": [
+          "C8"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_3",
+        "score": null,
+        "rationale": "No verified claim",
+        "claimIds": []
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_4",
+        "score": null,
+        "rationale": "No verified claim",
+        "claimIds": []
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "score": 6,
+        "rationale": "Paid upgrade for official certificate; fewer industry certificates per one source",
+        "claimIds": [
+          "C10",
+          "C12"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_2",
+        "score": null,
+        "rationale": "No verified claim",
+        "claimIds": []
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_3",
+        "score": null,
+        "rationale": "CS50P is intro Python, not data analysis",
+        "claimIds": [
+          "C17"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_4",
+        "score": 3,
+        "rationale": "CS50P about 100-150 hours; edX described as time-consuming",
+        "claimIds": [
+          "C17",
+          "C19"
+        ]
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_1",
+        "score": 3,
+        "rationale": "Portfolio-based, no recognised certificate claimed",
+        "claimIds": [
+          "C13"
+        ]
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_2",
+        "score": 8,
+        "rationale": "Project-based per vendor",
+        "claimIds": [
+          "C16",
+          "C13"
+        ]
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_3",
+        "score": 8,
+        "rationale": "Path is Python for data analysis",
+        "claimIds": [
+          "C16"
+        ]
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_4",
+        "score": 7,
+        "rationale": "3-6 months at 5-10 h/week (vendor)",
+        "claimIds": [
+          "C15"
+        ]
+      }
+    ],
+    "recommendation": {
+      "optionId": "opt_1",
+      "headline": "Coursera, via the IBM or Meta Python-based Professional Certificate",
+      "summary": "Best match for a recognised certificate plus Python data analysis; budget well over 4 months at 5 hours a week.",
+      "reasons": [
+        {
+          "text": "IBM's certificate focuses on Python and SQL for data analysis",
+          "claimIds": [
+            "C1"
+          ]
+        },
+        {
+          "text": "Meta's five-course certificate covers Python with a statistics emphasis; Google's uses R",
+          "claimIds": [
+            "C4",
+            "C3"
+          ]
+        },
+        {
+          "text": "Brand recognition, though completion-based",
+          "claimIds": [
+            "C14"
+          ]
+        },
+        {
+          "text": "Guided Projects offer hands-on work",
+          "claimIds": [
+            "C11"
+          ]
+        }
+      ],
+      "tradeoffs": [
+        {
+          "text": "Pace at 5 hours a week is slow and completion is uncertain",
+          "claimIds": [
+            "C5",
+            "C20",
+            "C19"
+          ]
+        }
+      ],
+      "alternatives": [
+        {
+          "optionId": "opt_4",
+          "when": "You want portfolio projects over a certificate"
+        },
+        {
+          "optionId": "opt_3",
+          "when": "You want university-branded or academic credit"
+        },
+        {
+          "optionId": "opt_2",
+          "when": "You want bite-sized interactive practice; certificate unverified"
+        }
+      ],
+      "caveats": [
+        "Sources are mostly 2024-2025 and vendor-influenced",
+        "No direct DataCamp certificate evidence"
+      ],
+      "nextSteps": [
+        "Preview the first module free",
+        "Check current price and course count on Coursera"
+      ]
+    },
+    "metrics": {
+      "sourcesConsulted": 7,
+      "sourcesRead": 7,
+      "claimsTotal": 21,
+      "supported": 9,
+      "partial": 12,
+      "unsupported": 0,
+      "contradicted": 0,
+      "contradictions": 2,
+      "averageReliability": 62,
+      "freshShare": 0,
+      "durationMs": 0,
+      "modelCalls": 0,
+      "tokens": 0
+    }
+  },
+  "sources": [
+    {
+      "id": "1",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.coursera.org/articles/google-vs-ibm-vs-meta-data-analysis-certificates",
+      "domain": "coursera.org",
+      "title": "Which Data Analytics Professional Certificate Is Best For You? Google vs. IBM vs. Meta",
+      "siteName": "Coursera",
+      "author": "Coursera Staff",
+      "publishedAt": "2025-10-30T16:18:57.505Z",
+      "retrievedAt": "2026-11-15T19:03:18.731Z",
+      "contentHash": "55b8f91accf977183f7c3f8f3fc47b3956317edee24522321ee164815ff943e8",
+      "wordCount": 1385,
+      "excerpt": "Build in-demand skills with a full year of Coursera Plus, now ₹7,499. Save now.\n\nWhich Data Analytics Professional Certificate Is Best For You? Google vs. IBM vs. Meta\nBuild your knowledge and skill set in data analysis with three different programs from esteemed industry partners on Coursera.…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 71,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Coursera"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Coursera Staff"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2025-10-30"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 381 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "1385 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 12,
+            "detail": "5 of 5 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://upskillwise.com/datacamp-alternatives/",
+      "domain": "upskillwise.com",
+      "title": "Explore DataCamp Alternatives",
+      "siteName": "Upskillwise",
+      "author": "Catherine Cooke",
+      "publishedAt": "2024-06-20T11:27:47.000Z",
+      "retrievedAt": "2026-11-15T19:03:18.893Z",
+      "contentHash": "afed0240cff9436897a2175ff28e7ab27dad05d0a47dea9d6d2b46b996046066",
+      "wordCount": 2164,
+      "excerpt": "If you’re reading this, it’s most likely because you’ve checked out DataCamp and want to be sure there’s no other online learning platform that is better suited to your needs before you take the plunge and pay for a subscription with DataCamp. Whether you’re interested in upskilling for a career…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 71,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Upskillwise"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Catherine Cooke"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2024-06-20"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 878 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "2164 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 12,
+            "detail": "5 of 5 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www-cloudfront-alias.coursera.org/articles/google-vs-ibm-vs-meta-data-analysis-certificates",
+      "domain": "www-cloudfront-alias.coursera.org",
+      "title": "Which Data Analytics Professional Certificate Is Best For You? Google vs. IBM vs. Meta",
+      "siteName": "Coursera",
+      "author": "Coursera Staff",
+      "publishedAt": "2025-10-30T16:18:57.505Z",
+      "retrievedAt": "2026-11-15T19:03:19.911Z",
+      "contentHash": "55b8f91accf977183f7c3f8f3fc47b3956317edee24522321ee164815ff943e8",
+      "wordCount": 1385,
+      "excerpt": "Build in-demand skills with a full year of Coursera Plus, now ₹7,499. Save now.\n\nWhich Data Analytics Professional Certificate Is Best For You? Google vs. IBM vs. Meta\nBuild your knowledge and skill set in data analysis with three different programs from esteemed industry partners on Coursera.…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 59,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Coursera"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Coursera Staff"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2025-10-30"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 381 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "1385 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.dataquest.io/blog/best-python-certifications/",
+      "domain": "dataquest.io",
+      "title": "13 Best Python Certifications in 2026 (By Career Path)",
+      "siteName": "Dataquest",
+      "author": "Mike Levy",
+      "publishedAt": "2025-02-27T10:43:10.000Z",
+      "retrievedAt": "2026-11-15T19:03:20.222Z",
+      "contentHash": "487b03590103a44f73ddd1ec19b970e0a9a384c8cb14f5599beadc5aa06fab7f",
+      "wordCount": 5781,
+      "excerpt": "13 Best Python Certifications in 2026\nBy Mike Levy Updated April 8, 2026\nOriginally published February 27, 2025\nPython remains one of the most in-demand programming languages across data science, web development, automation, and AI. But when you're trying to break into a Python-related role or…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 59,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Dataquest"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Mike Levy"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2025-02-27"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 626 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "5781 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://upskillwise.com/datacamp-alternatives/",
+      "domain": "upskillwise.com",
+      "title": "Explore DataCamp Alternatives",
+      "siteName": "Upskillwise",
+      "author": "Catherine Cooke",
+      "publishedAt": "2024-06-20T11:27:47.000Z",
+      "retrievedAt": "2026-11-15T19:03:22.037Z",
+      "contentHash": "afed0240cff9436897a2175ff28e7ab27dad05d0a47dea9d6d2b46b996046066",
+      "wordCount": 2164,
+      "excerpt": "If you’re reading this, it’s most likely because you’ve checked out DataCamp and want to be sure there’s no other online learning platform that is better suited to your needs before you take the plunge and pay for a subscription with DataCamp. Whether you’re interested in upskilling for a career…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 59,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Upskillwise"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Catherine Cooke"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2024-06-20"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 878 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "2164 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.analyticsinsight.net/data-science/coursera-vs-edx-which-platform-offers-best-data-science-courses",
+      "domain": "analyticsinsight.net",
+      "title": "Coursera vs edX: Which Platform Offers Best Data Science Courses",
+      "siteName": "Artificial Intelligence News & Cryptocurrency News: Latest Trends | Analytics Insight",
+      "author": "Pradeep Sharma",
+      "publishedAt": "2024-10-14T14:50:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:22.298Z",
+      "contentHash": "ee85d96cfe4b73d2993bc4fdc9e82b2ed52d5564063b874584f8d2dffe79fcee",
+      "wordCount": 770,
+      "excerpt": "• About Us\n• Team\n• Trending\n• Contact Us\n• Advertise\n• Promote\n• UAE Edition\n• हिन्‍दी\n• Books\n• ePaper\n• Rankings\n• Insights\n• Cryptocurrencies\n• Gadgets\n• Stocks\n• Magazines\n• Industry\n• Geography\n• Media\n• News\n• More\n• Reviews\n\nCoursera vs edX: Which Platform Offers Best Data Science Courses\n•…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 59,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Artificial Intelligence News & Cryptocurrency News: Latest Trends | Analytics Insight"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Pradeep Sharma"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2024-10-14"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 762 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 3,
+            "detail": "1 of 2 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://medium.com/@xeni.cypress/i-study-for-the-ibm-data-analyst-certificate-heres-how-s-it-going-4b12c6caef73",
+      "domain": "medium.com",
+      "title": "I study for the IBM Data Analyst Certificate. Here’s how’s it going",
+      "siteName": "Medium",
+      "author": "Xeni Cypress",
+      "publishedAt": "2024-04-09T15:16:12.966Z",
+      "retrievedAt": "2026-11-15T19:03:23.575Z",
+      "contentHash": "d4fadfedf07eded06994bd29c730ded71465337f6026c8167102bc2ad7e8d820",
+      "wordCount": 1650,
+      "excerpt": "I study for the IBM Data Analyst Certificate. Here’s how’s it going\n--\nIn the beginning of the year, I’ve started learning towards a new professional qualification: Data Analytics. Between the Data Analyst professional certificates from Google and IBM I picked the latter: I wanted more technical…",
+      "image": null,
+      "favicon": null,
+      "kind": "blog",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 55,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Medium"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Xeni Cypress"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2024-04-09"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 950 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: blog",
+            "effect": -4,
+            "detail": "Personal or marketing blog."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "1650 words of readable text."
+          }
+        ]
+      }
+    }
+  ]
+}

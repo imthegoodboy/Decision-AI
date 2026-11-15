@@ -44,7 +44,7 @@ def lookup(path: str):
         return entry["systems"][rest[0]]
     node = stats
     for p in parts:
-        node = node[p]
+        node = node[int(p)] if isinstance(node, list) else node[p]
     return node
 
 
@@ -87,6 +87,10 @@ def render_token(kind: str, path: str) -> str:
         return f"{v['mean_diff']:+.2f}"
     if kind == "p":
         return p_fmt(v["wilcoxon_p"] if isinstance(v, dict) and "wilcoxon_p" in v else v.get("exact_p"))
+    if kind == "pv":
+        return p_fmt(float(v))
+    if kind == "int":
+        return f"{int(round(float(v))):,}"
     if kind == "raw":
         return f"{v}"
     if kind == "rawpct":
@@ -159,6 +163,11 @@ def build() -> Path:
     out = tpl
     for key, val in values.items():
         out = out.replace("{{" + key + "}}", val)
+    # generic section tokens: {{SOME_NAME}} -> sections/some_name.html (empty if missing)
+    for _ in range(3):
+        out = re.sub(r"\{\{([A-Z][A-Z0-9_]+)\}\}", lambda m: section(m.group(1).lower(), ""), out)
+        for key, val in values.items():
+            out = out.replace("{{" + key + "}}", val)
     out = fill_numbers(out)
     leftovers = re.findall(r"\{\{[^}]+\}\}", out)
     if leftovers:

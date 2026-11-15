@@ -1,0 +1,316 @@
+[
+  {
+    "id": "C1",
+    "source": 6,
+    "option": "Trek Allant+ 7 (used, via Upway)",
+    "criterion": "Battery availability",
+    "claim": "Trek Allant+ 7 has a removable 500Wh UL-certified battery available for purchase anywhere in the US",
+    "quote": "The 500Wh removable battery is UL certified and available for purchase anywhere in the US.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "single source, seller blog",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p5]",
+      "text": "bike comes with the 9-speed Shimano Alivio drivetrain, which shifts cleanly and reliably. You also get great stopping power as Hydraulic disc brakes are standard. This is a Class 1 electric bike that assists you to 20 mph, and doesn’t have a throttle. The 500Wh removable battery is UL certified and available for purchase anywhere in the US. Why I like it: The Bosch Performance Line CX motor is rare at this price. The difference in feel on a hilly commute is substantial."
+    },
+    "recordedAt": "2026-11-15T20:37:05.768Z"
+  },
+  {
+    "id": "C2",
+    "source": 6,
+    "option": "Trek Allant+ 7 (used, via Upway)",
+    "criterion": "Brake reliability",
+    "claim": "Trek Allant+ 7 has hydraulic disc brakes as standard",
+    "quote": "You also get great stopping power as Hydraulic disc brakes are standard.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p4]",
+      "text": "pedal than a bike with a rear hub motor. On hills, it pulls cleanly. On flat ground, it’s quiet enough that you barely notice it. The suspension fork absorbs bumps that a rigid fork would send straight through the handlebars. This bike comes with the 9-speed Shimano Alivio drivetrain, which shifts cleanly and reliably. You also get great stopping power as Hydraulic disc brakes are standard."
+    },
+    "recordedAt": "2026-11-15T20:37:05.940Z"
+  },
+  {
+    "id": "C3",
+    "source": 6,
+    "option": "Trek Allant+ 7 (used, via Upway)",
+    "criterion": "Hill performance",
+    "claim": "Allant+ 7 Bosch mid-drive pulls cleanly on hills",
+    "quote": "On hills, it pulls cleanly.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "seller-authored",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p3]",
+      "text": "R-Bike Under $1,500 The 4 Best R-Bikes Under $1,500 in 2026 Which E-Bike Should You Choose? Why Shop on Upway Frequently Asked Questions Key Takeaways What to Look for in an E-Bike Under $1,500 The 4 Best e-Bikes Under $1,500 in 2026 Trek Allant+ 7 — Best Mid-Drive Commuter The Trek Allant+ 7 is the most premium commuter e-Bike on this list. The Bosch Performance Line CX mid-drive motor gives you 85Nm of torque through the drivetrain, so it feels more natural to pedal than a bike with a rear hub motor. On hills, it pulls cleanly. On flat ground, it’s quiet enough that you barely notice it."
+    },
+    "recordedAt": "2026-11-15T20:37:06.084Z"
+  },
+  {
+    "id": "C4",
+    "source": 6,
+    "option": "Trek Allant+ 7 (used, via Upway)",
+    "criterion": "Hill performance",
+    "claim": "Mid-drive motors are worth it for hilly commutes",
+    "quote": "For hilly commutes, yes.",
+    "support": "supported",
+    "corroborating": [
+      3,
+      7
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p17]",
+      "text": "compare models online. Check out our used e-bike buyer’s guide for more information. Browse Upway Is a mid-drive motor worth it over a hub motor? For hilly commutes, yes. Mid-drive motors use gears and feel more natural on climbs. Hub motors are simpler, but the difference is noticeable on longer or hillier rides. What is UL certification, and does it affect where I can buy? How much real-world range should I expect"
+    },
+    "recordedAt": "2026-11-15T20:37:06.242Z"
+  },
+  {
+    "id": "C5",
+    "source": 6,
+    "option": "Trek Allant+ 7 (used, via Upway)",
+    "criterion": "Price",
+    "claim": "Allant+ 7 originally retailed 2000-3500 and is offered under 1500 as certified used on Upway with 1-year warranty",
+    "quote": "All four bikes originally retailed for $2,000 to $3,500.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "price under 1500 is for used units only; exact Allant+ 7 price not given",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[6.p15]",
+      "text": "mixed terrain and off-road riding would like the Lectric XPeak. The suspension fork and fat tire mean it can go places the other three can’t. For a quiet, natural-feeling commuter from a brand with a long track record, the Cannondale Adventure Neo 4 suits riders who value ride quality over raw power. All four bikes originally retailed for $2,000 to $3,500. On Upway, they’re available for under $1,500 and are inspected and certified before they ship. Every bike comes with a one-year warranty, a 14-day return window, and delivery that arrives mostly assembled."
+    },
+    "recordedAt": "2026-11-15T20:37:06.434Z"
+  },
+  {
+    "id": "C6",
+    "source": 7,
+    "option": "General",
+    "criterion": "Brake reliability",
+    "claim": "Hydraulic disc brakes give more stopping power with less effort and self-adjust",
+    "quote": "Hydraulic disc brakes give you more stopping power with less hand effort, and they self-adjust as pads wear.",
+    "support": "supported",
+    "corroborating": [
+      3,
+      4
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p4]",
+      "text": "which is voltage times amp-hours. A 48V 10.4Ah battery is 499Wh. A 36V 10Ah battery is 360Wh. The first one stores roughly 40% more energy. Also look for named cell brands (Samsung, LG) and UL 2271 or UL 2849 certification. If the listing won’t tell you what cells are inside, that’s not a good sign. Brakes: hydraulic if you can get them E-bikes are heavier than regular bikes. You’re also moving faster. Hydraulic disc brakes give you more stopping power with less hand effort, and they self-adjust as pads wear. Mechanical discs work fine at lower speeds and lighter weights, but they need more maintenance and squeeze harder on your"
+    },
+    "recordedAt": "2026-11-15T20:37:06.625Z"
+  },
+  {
+    "id": "C7",
+    "source": 4,
+    "option": "Ride1Up Turris",
+    "criterion": "Hill performance",
+    "claim": "Turris 750W hub climbs 10%+ grades",
+    "quote": "The 750W rear hub motor pulls hard from a standstill, climbs 10%+ grades without begging for help, and hits a legitimate 28 mph on flat ground.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "single low-reliability undated source",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[4.p9]",
+      "text": "Range estimates vary based on rider weight, terrain, and assist level. These reflect real-world averages from testing, not manufacturer maximums. Best Overall Ebike Under $1,500 Ride1Up Turris — $1,295 The Ride1Up Turris earns the top spot because it does everything well without a glaring weakness. The 750W rear hub motor pulls hard from a standstill, climbs 10%+ grades without begging for help, and hits a legitimate 28 mph on flat ground. That's the kind of motor response that makes riding feel effortless rather than assisted."
+    },
+    "recordedAt": "2026-11-15T20:37:06.798Z"
+  },
+  {
+    "id": "C8",
+    "source": 4,
+    "option": "Aventon Pace 500.3",
+    "criterion": "Hill performance",
+    "claim": "Pace 500.3 500W motor underpowered on real hills with a load",
+    "quote": "One honest downside: the 500W motor feels slightly underpowered compared to the 750W options when you hit a real hill with a full bag.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[4.p18]",
+      "text": "week for most urban commuters. The integrated front and rear lights are bright enough to matter in traffic, not afterthoughts bolted on as an accessory. Hydraulic disc brakes, a color LCD display, and a semi-integrated battery (looks clean, stays secure) round out the package. The geometry is slightly more aggressive than the Turris but still upright enough for daily riding without back pain. One honest downside: the 500W motor feels slightly underpowered compared to the 750W options when you hit a real hill with a full bag. If your commute involves significant climbing, consider the Turris instead. On flat urban terrain, the Pace 500.3 is near-perfect for the money."
+    },
+    "recordedAt": "2026-11-15T20:37:07.004Z"
+  },
+  {
+    "id": "C9",
+    "source": 4,
+    "option": "Aventon Pace 500.3",
+    "criterion": "Price",
+    "claim": "Pace 500.3 costs 1,399",
+    "quote": "Best for Commuting: Aventon Pace 500.3 — $1,399",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [
+      8
+    ],
+    "note": "source 8 (2024) says 1,699",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[4.p4]",
+      "text": "• Best Overall: Ride1Up Turris — $1,295 • Best Budget Pick: Lectric XP 3.0 — $999 • Best for Commuting: Aventon Pace 500.3 — $1,399 • Best for Off-Road: Ride1Up Rift — $1,495 • Best Folding Ebike: Lectric XPremium — $1,299 Each of these was tested on real terrain over multiple rides — not just a spin around a parking lot. How We Tested and Ranked These Ebikes"
+    },
+    "recordedAt": "2026-11-15T20:37:07.208Z"
+  },
+  {
+    "id": "C10",
+    "source": 1,
+    "option": "Lectric XP4",
+    "criterion": "Price",
+    "claim": "Lectric XP4 base model costs 999",
+    "quote": "Not only has the base model’s price of $999 been carried over from the previous generation (in spite of huge upgrades and political turmoil), but its performance matched, and sometimes exceeded, bikes that cost two or three times more.",
+    "support": "supported",
+    "corroborating": [
+      5
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p6]",
+      "text": "Report aims to help consumers find the right electric bike for their needs. When you buy a product we recommend, we may earn a commission. Lectric XP4 Best Cheap Multi-Purpose While Lectric’s e-bikes have long been known to deliver incredible value, we can’t deny that our jaws hit the floor with this one. Not only has the base model’s price of $999 been carried over from the previous generation (in spite of huge upgrades and political turmoil), but its performance matched, and sometimes exceeded, bikes that cost two or three times more."
+    },
+    "recordedAt": "2026-11-15T20:37:07.413Z"
+  },
+  {
+    "id": "C11",
+    "source": 1,
+    "option": "Lectric XP4",
+    "criterion": "Brake reliability",
+    "claim": "XP4 has custom hydraulic brake system and torque sensor",
+    "quote": "It’s one of the lowest-priced e-bikes we’ve seen that boast coveted features such as a torque sensor, integrated turn signals, custom quick-release pedals, a color display, and a custom hydraulic brake system.",
+    "support": "supported",
+    "corroborating": [
+      5
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p7]",
+      "text": "previous generation (in spite of huge upgrades and political turmoil), but its performance matched, and sometimes exceeded, bikes that cost two or three times more. The XP4 is truly among the best budget-friendly e-bikes we’ve tested. It’s one of the lowest-priced e-bikes we’ve seen that boast coveted features such as a torque sensor, integrated turn signals, custom quick-release pedals, a color display, and a custom hydraulic brake system."
+    },
+    "recordedAt": "2026-11-15T20:37:07.618Z"
+  },
+  {
+    "id": "C12",
+    "source": 7,
+    "option": "Aventon Soltera.2",
+    "criterion": "Hill performance",
+    "claim": "Soltera.2 has 360Wh battery and mechanical brakes, unsuited to hilly routes",
+    "quote": "The tradeoff is real: a smaller 360Wh battery and mechanical brakes.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p13]",
+      "text": "on this list by a wide margin. It has a torque sensor, clean cable routing, and a frame that doesn’t scream “e-bike” at every stoplight. The tradeoff is real: a smaller 360Wh battery and mechanical brakes. You’ll get less range per charge, and the brakes require more hand force and regular adjustment. For shorter commutes (under 15 miles round trip) on mostly flat terrain, that’s a fair deal. For longer rides or hilly routes, look elsewhere."
+    },
+    "recordedAt": "2026-11-15T20:37:07.811Z"
+  },
+  {
+    "id": "C13",
+    "source": 5,
+    "option": "Rad Power bikes",
+    "criterion": "Battery availability",
+    "claim": "Rad Power went through bankruptcy so parts and warranty are at risk",
+    "quote": "But buying from a company that just went through bankruptcy means accepting real risk.",
+    "support": "supported",
+    "corroborating": [
+      3
+    ],
+    "conflicting": [],
+    "note": "source 3 reports CPSC battery warning",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[5.p15]",
+      "text": "the motor is capable, and the cargo setup is genuinely useful. But buying from a company that just went through bankruptcy means accepting real risk. Warranty coverage may not be honored. Parts availability could dry up. The customer support team that existed six months ago may not exist six months from now. The battery fire warnings on older models (not the 3 Plus specifically) further damage trust in Rad’s quality control and supply chain."
+    },
+    "recordedAt": "2026-11-15T20:37:08.048Z"
+  },
+  {
+    "id": "C14",
+    "source": 7,
+    "option": "Ride1Up Core-5",
+    "criterion": "Brake reliability",
+    "claim": "Core-5 has mechanical brakes, a caveat for hilly terrain",
+    "quote": "The mechanical brakes are the main caveat.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p15]",
+      "text": "tradition with a torque sensor, 499Wh battery, and a full-size frame at a competitive price. It feels like a “real” bike when you’re riding it. The mechanical brakes are the main caveat. At 49 pounds with a 500W motor capable of Class 3 speeds, hydraulic brakes would be a better match. Budget for an upgrade down the road if you ride in wet conditions or hilly terrain. Also note that Ride1Up is direct-to-consumer only, so there’s no local dealer for hands-on support."
+    },
+    "recordedAt": "2026-11-15T20:37:08.252Z"
+  },
+  {
+    "id": "C15",
+    "source": 4,
+    "option": "General",
+    "criterion": "Hill performance",
+    "claim": "Mid-drives do not show up new at this price",
+    "quote": "Mid-drive motors (Bosch, Shimano STEPS) don’t show up at this price — you’re working with hub motors, which is fine.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "consistent with Allant+ being used only",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[4.p26]",
+      "text": "heavier riders or hillier routes. Mid-drive motors (Bosch, Shimano STEPS) don't show up at this price — you're working with hub motors, which is fine. Brake type: Hydraulic disc brakes cost more to produce but stop better in wet conditions and require less hand force. At $1,200+, hydraulic brakes should be standard — if a bike at this price still runs mechanical discs, that's a red flag."
+    },
+    "recordedAt": "2026-11-15T20:37:08.528Z"
+  }
+]

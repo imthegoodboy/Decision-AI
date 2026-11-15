@@ -1,0 +1,1341 @@
+{
+  "dossier": {
+    "plan": {
+      "decisionType": "decision",
+      "criteria": [
+        {
+          "id": "crit_1",
+          "name": "Hill climbing",
+          "description": "Ability to handle a hilly 10-mile commute",
+          "weight": 35,
+          "origin": "user"
+        },
+        {
+          "id": "crit_2",
+          "name": "Brake reliability",
+          "description": "Hydraulic disc brakes preferred",
+          "weight": 30,
+          "origin": "user"
+        },
+        {
+          "id": "crit_3",
+          "name": "Battery availability",
+          "description": "Removable battery that is easy to buy as a replacement",
+          "weight": 25,
+          "origin": "user"
+        },
+        {
+          "id": "crit_4",
+          "name": "Price",
+          "description": "Fits under $1,500",
+          "weight": 10,
+          "origin": "user"
+        }
+      ],
+      "queries": [],
+      "freshnessDays": 365,
+      "region": null,
+      "rationale": ""
+    },
+    "options": [
+      {
+        "id": "opt_1",
+        "name": "Trek Allant+ 7 (used, Upway)",
+        "summary": "Bosch CX mid-drive commuter with hydraulic brakes and a removable 500Wh battery, sold used/certified under $1,500",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "under $1,500 (used)",
+        "userNamed": false,
+        "sourceIds": [
+          "6"
+        ]
+      },
+      {
+        "id": "opt_2",
+        "name": "Ride1Up Turris",
+        "summary": "750W hub commuter with Tektro hydraulic brakes; single low-reliability source",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "$1,295",
+        "userNamed": false,
+        "sourceIds": [
+          "4"
+        ]
+      },
+      {
+        "id": "opt_3",
+        "name": "Lectric XP4",
+        "summary": "Budget folding e-bike with hydraulic brakes and torque sensor",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "$999",
+        "userNamed": false,
+        "sourceIds": [
+          "1",
+          "5"
+        ]
+      },
+      {
+        "id": "opt_4",
+        "name": "Aventon Pace 500.3",
+        "summary": "Commuter with 500W hub; reported to struggle on real hills",
+        "image": null,
+        "officialUrl": null,
+        "priceText": null,
+        "userNamed": false,
+        "sourceIds": [
+          "4"
+        ]
+      },
+      {
+        "id": "opt_5",
+        "name": "Aventon Soltera.2",
+        "summary": "Light, mechanical brakes, small battery",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "$1,199",
+        "userNamed": false,
+        "sourceIds": [
+          "7"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "text": "Trek Allant+ 7 has a Bosch Performance Line CX mid-drive with 85Nm torque",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "The Bosch Performance Line CX mid-drive motor gives you 85Nm of torque through the drivetrain, so it feels more natural to pedal than a bike with a rear hub motor.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p3]",
+            "text": "R-Bike Under $1,500 The 4 Best R-Bikes Under $1,500 in 2026 Which E-Bike Should You Choose? Why Shop on Upway Frequently Asked Questions Key Takeaways What to Look for in an E-Bike Under $1,500 The 4 Best e-Bikes Under $1,500 in 2026 Trek Allant+ 7 — Best Mid-Drive Commuter The Trek Allant+ 7 is the most premium commuter e-Bike on this list. The Bosch Performance Line CX mid-drive motor gives you 85Nm of torque through the drivetrain, so it feels more natural to pedal than a bike with a rear hub motor. On hills, it pulls cleanly. On flat ground, it’s quiet enough that you barely notice it."
+          },
+          "rationale": "single retailer source, reviewer opinion plus spec",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:29.145Z"
+        }
+      },
+      {
+        "id": "C2",
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "text": "Trek Allant+ 7 has hydraulic disc brakes as standard",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "You also get great stopping power as Hydraulic disc brakes are standard.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p4]",
+            "text": "pedal than a bike with a rear hub motor. On hills, it pulls cleanly. On flat ground, it’s quiet enough that you barely notice it. The suspension fork absorbs bumps that a rigid fork would send straight through the handlebars. This bike comes with the 9-speed Shimano Alivio drivetrain, which shifts cleanly and reliably. You also get great stopping power as Hydraulic disc brakes are standard."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:29.305Z"
+        }
+      },
+      {
+        "id": "C3",
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "text": "Trek Allant+ 7 500Wh removable battery is UL certified and available for purchase anywhere in the US",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "The 500Wh removable battery is UL certified and available for purchase anywhere in the US.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p5]",
+            "text": "bike comes with the 9-speed Shimano Alivio drivetrain, which shifts cleanly and reliably. You also get great stopping power as Hydraulic disc brakes are standard. This is a Class 1 electric bike that assists you to 20 mph, and doesn’t have a throttle. The 500Wh removable battery is UL certified and available for purchase anywhere in the US. Why I like it: The Bosch Performance Line CX motor is rare at this price. The difference in feel on a hilly commute is substantial."
+          },
+          "rationale": "only source on battery replacement availability; seller is a used-bike retailer",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:29.464Z"
+        }
+      },
+      {
+        "id": "C4",
+        "optionId": "opt_1",
+        "criterionId": "crit_4",
+        "text": "Upway bikes originally retailed at 2000-3500 and sell for under 1500 with one-year warranty (used/certified)",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "All four bikes originally retailed for $2,000 to $3,500.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p15]",
+            "text": "mixed terrain and off-road riding would like the Lectric XPeak. The suspension fork and fat tire mean it can go places the other three can’t. For a quiet, natural-feeling commuter from a brand with a long track record, the Cannondale Adventure Neo 4 suits riders who value ride quality over raw power. All four bikes originally retailed for $2,000 to $3,500. On Upway, they’re available for under $1,500 and are inspected and certified before they ship. Every bike comes with a one-year warranty, a 14-day return window, and delivery that arrives mostly assembled."
+          },
+          "rationale": "price of the specific Trek not stated; inventory varies",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:29.625Z"
+        }
+      },
+      {
+        "id": "C5",
+        "optionId": null,
+        "criterionId": "crit_1",
+        "text": "Mid-drive is worth it for hilly commutes",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "For hilly commutes, yes. Mid-drive motors use gears and feel more natural on climbs.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p17]",
+            "text": "compare models online. Check out our used e-bike buyer’s guide for more information. Browse Upway Is a mid-drive motor worth it over a hub motor? For hilly commutes, yes. Mid-drive motors use gears and feel more natural on climbs. Hub motors are simpler, but the difference is noticeable on longer or hillier rides. What is UL certification, and does it affect where I can buy? How much real-world range should I expect"
+          },
+          "rationale": "s7 says mid-drives handle hills better; s3 says mid-drive feels more bike-like on climbs",
+          "corroboratingSourceIds": [
+            "3",
+            "7"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:29.768Z"
+        }
+      },
+      {
+        "id": "C6",
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "text": "Turris 750W hub motor climbs 10%+ grades",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "The 750W rear hub motor pulls hard from a standstill, climbs 10%+ grades without begging for help, and hits a legitimate 28 mph on flat ground.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p9]",
+            "text": "Range estimates vary based on rider weight, terrain, and assist level. These reflect real-world averages from testing, not manufacturer maximums. Best Overall Ebike Under $1,500 Ride1Up Turris — $1,295 The Ride1Up Turris earns the top spot because it does everything well without a glaring weakness. The 750W rear hub motor pulls hard from a standstill, climbs 10%+ grades without begging for help, and hits a legitimate 28 mph on flat ground. That's the kind of motor response that makes riding feel effortless rather than assisted."
+          },
+          "rationale": "single low-reliability undated source; no other source mentions Turris",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:29.909Z"
+        }
+      },
+      {
+        "id": "C7",
+        "optionId": "opt_2",
+        "criterionId": "crit_2",
+        "text": "Turris has Tektro hydraulic disc brakes",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "The hydraulic disc brakes from Tektro stop the bike confidently — a significant upgrade over the mechanical discs you find on cheaper alternatives.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p11]",
+            "text": "to spare. The hydraulic disc brakes from Tektro stop the bike confidently — a significant upgrade over the mechanical discs you find on cheaper alternatives. Frame geometry is upright and comfortable without being sloppy. Shimano Altus 8-speed gearing handles most terrain. The display is clean, readable in sunlight, and doesn't require a PhD to operate. Assembly takes about 45 minutes if you've put a bike together before."
+          },
+          "rationale": "single source",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:30.081Z"
+        }
+      },
+      {
+        "id": "C8",
+        "optionId": "opt_4",
+        "criterionId": "crit_1",
+        "text": "Pace 500.3 500W motor feels underpowered on real hills with a full bag",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "One honest downside: the 500W motor feels slightly underpowered compared to the 750W options when you hit a real hill with a full bag.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p18]",
+            "text": "week for most urban commuters. The integrated front and rear lights are bright enough to matter in traffic, not afterthoughts bolted on as an accessory. Hydraulic disc brakes, a color LCD display, and a semi-integrated battery (looks clean, stays secure) round out the package. The geometry is slightly more aggressive than the Turris but still upright enough for daily riding without back pain. One honest downside: the 500W motor feels slightly underpowered compared to the 750W options when you hit a real hill with a full bag. If your commute involves significant climbing, consider the Turris instead. On flat urban terrain, the Pace 500.3 is near-perfect for the money."
+          },
+          "rationale": "single source",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:30.263Z"
+        }
+      },
+      {
+        "id": "C9",
+        "optionId": "opt_4",
+        "criterionId": "crit_4",
+        "text": "Pace 500.3 costs 1399",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "Best for Commuting: Aventon Pace 500.3 — $1,399",
+        "verification": {
+          "status": "contradicted",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p4]",
+            "text": "• Best Overall: Ride1Up Turris — $1,295 • Best Budget Pick: Lectric XP 3.0 — $999 • Best for Commuting: Aventon Pace 500.3 — $1,399 • Best for Off-Road: Ride1Up Rift — $1,495 • Best Folding Ebike: Lectric XPremium — $1,299 Each of these was tested on real terrain over multiple rides — not just a spin around a parking lot. How We Tested and Ranked These Ebikes"
+          },
+          "rationale": "s8 (2024 blog) says 1699; s4 pricing verified early 2026 and newer, but s4 less reliable",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "8"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:30.440Z"
+        }
+      },
+      {
+        "id": "C10",
+        "optionId": "opt_3",
+        "criterionId": "crit_2",
+        "text": "XP4 has a custom hydraulic brake system",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "It’s one of the lowest-priced e-bikes we’ve seen that boast coveted features such as a torque sensor, integrated turn signals, custom quick-release pedals, a color display, and a custom hydraulic brake system.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p7]",
+            "text": "previous generation (in spite of huge upgrades and political turmoil), but its performance matched, and sometimes exceeded, bikes that cost two or three times more. The XP4 is truly among the best budget-friendly e-bikes we’ve tested. It’s one of the lowest-priced e-bikes we’ve seen that boast coveted features such as a torque sensor, integrated turn signals, custom quick-release pedals, a color display, and a custom hydraulic brake system."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "5"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:51.995Z"
+        }
+      },
+      {
+        "id": "C11",
+        "optionId": "opt_3",
+        "criterionId": "crit_3",
+        "text": "Long-range XP4 has an 840Wh battery for 1299",
+        "kind": "fact",
+        "sourceId": "5",
+        "quote": "If that’s not enough, the long-range XP4 bumps to an 840Wh battery for $1,299, which is still $600 less than the RadRunner.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[5.p10]",
+            "text": "margin to spare. If that’s not enough, the long-range XP4 bumps to an 840Wh battery for $1,299, which is still $600 less than the RadRunner. The RadRunner 3 Plus sits in the middle on paper at 672Wh, but real-world range tells a different story. Independent testing shows roughly 26 miles of mixed riding. The combination of a heavier bike, fat tires, and cadence-only sensor means the motor works harder than it needs to. For a $2,299 bike, that range is disappointing."
+          },
+          "rationale": "s1 says a 750W upgraded model has a larger battery; says nothing on replacement batteries",
+          "corroboratingSourceIds": [
+            "1"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:52.176Z"
+        }
+      },
+      {
+        "id": "C12",
+        "optionId": null,
+        "criterionId": "crit_2",
+        "text": "XP 3.0 has hydraulic brakes",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "At $999 you get a torque sensor, hydraulic brakes, and a 499Wh battery from a company that has been shipping bikes and honoring warranties for years.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p10]",
+            "text": "sensor) 48V 10.4Ah (499Wh) Mechanical disc, 160mm 49 lb (claimed) $1,095 Rad Mission 2 Rear hub, 500W (cadence sensor) 48V 10Ah (480Wh) Mechanical disc, 180mm 55 lb (claimed) Class 2 $1,099 Lectric XP Lite Rear hub, 300W (cadence sensor) 48V 7.8Ah (374Wh) 46 lb (claimed) $799 Lectric XP 3.0 ($999) — Best overall value The XP 3.0 is the bike we’d hand to a friend who says “just tell me what to buy.” At $999 you get a torque sensor, hydraulic brakes, and a 499Wh battery from a company that has been shipping bikes and honoring warranties for years. That combination at this price is genuinely hard to beat."
+          },
+          "rationale": "s4 table lists mechanical but s4 body text says hydraulic; s7 table and text say hydraulic; s7 more reliable",
+          "corroboratingSourceIds": [
+            "4"
+          ],
+          "conflictingSourceIds": [
+            "4"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:52.330Z"
+        }
+      },
+      {
+        "id": "C13",
+        "optionId": "opt_5",
+        "criterionId": "crit_2",
+        "text": "Soltera.2 has mechanical brakes and 360Wh battery, unsuited to hilly routes",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "The tradeoff is real: a smaller 360Wh battery and mechanical brakes.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p13]",
+            "text": "on this list by a wide margin. It has a torque sensor, clean cable routing, and a frame that doesn’t scream “e-bike” at every stoplight. The tradeoff is real: a smaller 360Wh battery and mechanical brakes. You’ll get less range per charge, and the brakes require more hand force and regular adjustment. For shorter commutes (under 15 miles round trip) on mostly flat terrain, that’s a fair deal. For longer rides or hilly routes, look elsewhere."
+          },
+          "rationale": "s1 says Soltera 2.5 has hydraulic disc brakes (newer model)",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:52.487Z"
+        }
+      },
+      {
+        "id": "C14",
+        "optionId": null,
+        "criterionId": "crit_3",
+        "text": "Rad bankruptcy raises parts availability risk",
+        "kind": "fact",
+        "sourceId": "5",
+        "quote": "Parts availability could dry up.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[5.p15]",
+            "text": "the motor is capable, and the cargo setup is genuinely useful. But buying from a company that just went through bankruptcy means accepting real risk. Warranty coverage may not be honored. Parts availability could dry up. The customer support team that existed six months ago may not exist six months from now. The battery fire warnings on older models (not the 3 Plus specifically) further damage trust in Rad’s quality control and supply chain."
+          },
+          "rationale": "s3 documents a battery recall; bankruptcy only in s5",
+          "corroboratingSourceIds": [
+            "3"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:52.676Z"
+        }
+      },
+      {
+        "id": "C15",
+        "optionId": null,
+        "criterionId": "crit_3",
+        "text": "CPSC warned about certain Rad batteries Nov 24 2025",
+        "kind": "fact",
+        "sourceId": "3",
+        "quote": "The U.S. Consumer Product Safety Commission issued a warning on November 24, 2025, urging consumers to immediately stop using certain lithium-ion batteries sold with Rad Power Bikes e-bikes with battery model numbers RP-1304, RAD-S1304Y, and HL-RP-S1304.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[3.p19]",
+            "text": "UL-certified to UL 2271, and provides the UL status on the Radster Trail spec sheet. Aventon’s Ramblas uses LG 21700 cells and is UL 2849-compliant. Now, the real safety note, because it belongs in this comparison: The U.S. Consumer Product Safety Commission issued a warning on November 24, 2025, urging consumers to immediately stop using certain lithium-ion batteries sold with Rad Power Bikes e-bikes with battery model numbers RP-1304, RAD-S1304Y, and HL-RP-S1304. The CPSC says the hazardous batteries can unexpectedly ignite or explode, especially when the battery or harness has been exposed to water and debris, and it notes reports of fires and property damage."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "5"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:52.858Z"
+        }
+      },
+      {
+        "id": "C16",
+        "optionId": null,
+        "criterionId": "crit_2",
+        "text": "Hydraulic discs give more stopping power with less hand effort and self-adjust",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "Hydraulic disc brakes give you more stopping power with less hand effort, and they self-adjust as pads wear.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p4]",
+            "text": "which is voltage times amp-hours. A 48V 10.4Ah battery is 499Wh. A 36V 10Ah battery is 360Wh. The first one stores roughly 40% more energy. Also look for named cell brands (Samsung, LG) and UL 2271 or UL 2849 certification. If the listing won’t tell you what cells are inside, that’s not a good sign. Brakes: hydraulic if you can get them E-bikes are heavier than regular bikes. You’re also moving faster. Hydraulic disc brakes give you more stopping power with less hand effort, and they self-adjust as pads wear. Mechanical discs work fine at lower speeds and lighter weights, but they need more maintenance and squeeze harder on your"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "3",
+            "4"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:53.039Z"
+        }
+      },
+      {
+        "id": "C17",
+        "optionId": null,
+        "criterionId": "crit_1",
+        "text": "Portola 750W motor has solid hill climbing",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "The 750W motor has good pep and solid hill climbing.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p17]",
+            "text": "insanely good value propositions on a bike that happens to fold, then look no further than the Portola as the best cheap folding electric bike. Looking for more options? Check out our recommendations for best foldable design e-bikes • The Portola offers one of the best bang-for-your-buck values in the e-bike market. You get tons of features for an ultra-low price. • The 750W motor has good pep and solid hill climbing."
+          },
+          "rationale": "independent reviewer; price and battery replacement not stated",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:53.216Z"
+        }
+      }
+    ],
+    "contradictions": [
+      {
+        "id": "con_1",
+        "optionId": "opt_4",
+        "criterionId": null,
+        "topic": "Price",
+        "statements": [
+          {
+            "claimId": "C9",
+            "sourceId": "4",
+            "text": "Pace 500.3 costs 1399"
+          }
+        ],
+        "assessment": "Source 4 says $1,399 (early 2026); source 8 (2024 blog) says $1,699. Source 4 is newer but less reliable; verify current price.",
+        "favoredSourceId": null,
+        "severity": "medium"
+      },
+      {
+        "id": "con_2",
+        "optionId": null,
+        "criterionId": null,
+        "topic": "Brake type",
+        "statements": [
+          {
+            "claimId": "C12",
+            "sourceId": "7",
+            "text": "XP 3.0 has hydraulic brakes"
+          }
+        ],
+        "assessment": "Source 4 table says mechanical but its text says hydraulic; source 7 says hydraulic. Source 7 more reliable.",
+        "favoredSourceId": null,
+        "severity": "low"
+      }
+    ],
+    "uncertainties": [
+      {
+        "id": "unc_1",
+        "kind": "single-source",
+        "text": "Trek battery availability rests on one retailer page",
+        "optionId": "opt_1",
+        "impact": "high",
+        "howToResolve": "Check Trek dealer or Bosch battery listings"
+      },
+      {
+        "id": "unc_2",
+        "kind": "incomplete",
+        "text": "No source covers replacement battery pricing for new bikes",
+        "optionId": null,
+        "impact": "high",
+        "howToResolve": "Ask manufacturers for replacement battery cost and stock"
+      },
+      {
+        "id": "unc_3",
+        "kind": "single-source",
+        "text": "Turris data only from a low-reliability undated source",
+        "optionId": "opt_2",
+        "impact": "medium",
+        "howToResolve": "Find independent Turris review"
+      }
+    ],
+    "scores": [
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "score": 8,
+        "rationale": "85Nm mid-drive; mid-drives favored for hills by several sources",
+        "claimIds": [
+          "C1",
+          "C5"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "score": 8,
+        "rationale": "Hydraulic discs standard",
+        "claimIds": [
+          "C2",
+          "C16"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "score": 8,
+        "rationale": "Removable, UL certified, stated available anywhere in the US (single source)",
+        "claimIds": [
+          "C3"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_4",
+        "score": 6,
+        "rationale": "Under $1,500 only as used stock",
+        "claimIds": [
+          "C4"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "score": 7,
+        "rationale": "750W, climbs 10%+ per one weak source",
+        "claimIds": [
+          "C6"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_2",
+        "score": 7,
+        "rationale": "Tektro hydraulic, single source",
+        "claimIds": [
+          "C7",
+          "C16"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_3",
+        "score": null,
+        "rationale": "No verified claim",
+        "claimIds": []
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_4",
+        "score": null,
+        "rationale": "Not verified",
+        "claimIds": []
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "score": null,
+        "rationale": "No verified hill claim",
+        "claimIds": []
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_2",
+        "score": 8,
+        "rationale": "Custom hydraulic, two sources",
+        "claimIds": [
+          "C10",
+          "C16"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_3",
+        "score": 4,
+        "rationale": "Larger battery option exists; replacement availability not covered",
+        "claimIds": [
+          "C11"
+        ]
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_1",
+        "score": 5,
+        "rationale": "500W felt underpowered on real hills",
+        "claimIds": [
+          "C8"
+        ]
+      },
+      {
+        "optionId": "opt_5",
+        "criterionId": "crit_1",
+        "score": 2,
+        "rationale": "Source says look elsewhere for hilly routes",
+        "claimIds": [
+          "C13"
+        ]
+      },
+      {
+        "optionId": "opt_5",
+        "criterionId": "crit_2",
+        "score": 2,
+        "rationale": "Mechanical brakes",
+        "claimIds": [
+          "C13"
+        ]
+      }
+    ],
+    "recommendation": {
+      "optionId": "opt_1",
+      "headline": "A used Trek Allant+ 7 is the best match, with caveats",
+      "summary": "It is the only option with verified claims on hills, brakes and battery availability together.",
+      "reasons": [
+        {
+          "text": "Bosch CX mid-drive, 85Nm, suited to hills",
+          "claimIds": [
+            "C1",
+            "C5"
+          ]
+        },
+        {
+          "text": "Hydraulic disc brakes standard",
+          "claimIds": [
+            "C2"
+          ]
+        },
+        {
+          "text": "Removable battery stated to be available anywhere in the US",
+          "claimIds": [
+            "C3"
+          ]
+        }
+      ],
+      "tradeoffs": [
+        {
+          "text": "Used stock only under $1,500; availability varies",
+          "claimIds": [
+            "C4"
+          ]
+        }
+      ],
+      "alternatives": [
+        {
+          "optionId": "opt_2",
+          "when": "You want a new 750W bike with hydraulic brakes"
+        },
+        {
+          "optionId": "opt_3",
+          "when": "You want the cheapest new bike with hydraulic brakes"
+        }
+      ],
+      "caveats": [
+        "Battery availability claim comes from one retailer source",
+        "Turris claims come from one low-reliability source"
+      ],
+      "nextSteps": [
+        "Confirm Trek battery price and stock with a dealer",
+        "Check current Upway listing, condition and battery health"
+      ]
+    },
+    "metrics": {
+      "sourcesConsulted": 8,
+      "sourcesRead": 8,
+      "claimsTotal": 17,
+      "supported": 10,
+      "partial": 6,
+      "unsupported": 0,
+      "contradicted": 1,
+      "contradictions": 2,
+      "averageReliability": 67,
+      "freshShare": 0,
+      "durationMs": 0,
+      "modelCalls": 0,
+      "tokens": 0
+    }
+  },
+  "sources": [
+    {
+      "id": "1",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://electricbikereport.com/best-cheap-electric-bikes/",
+      "domain": "electricbikereport.com",
+      "title": "Best Cheap Electric Bikes | These Bikes Won’t Break the Bank – Electric Bike Report",
+      "siteName": "Electric Bike Reviews, News, & Testing",
+      "author": "John S. Bozick",
+      "publishedAt": "2025-12-18T07:00:20.000Z",
+      "retrievedAt": "2026-11-15T19:03:33.484Z",
+      "contentHash": "0f8302489a30f1ca13b47e6d547625b96651b27ef5101ad40483739fbea2e909",
+      "wordCount": 5164,
+      "excerpt": "To be clear, as much as we enjoy helping people find e-bikes to fit their specific needs and budget constraints, we don’t recommend products that aren’t well-made and built using quality components.\nIf you’re surfing Alibaba, Temu, or Amazon, you may be able to find e-bikes priced lower than those…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 85,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Electric Bike Reviews, News, & Testing"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "John S. Bozick"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2025-12-18"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 333 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "5164 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 3,
+            "detail": "1 of 2 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://electricbikereport.com/best-cheap-electric-bikes/",
+      "domain": "electricbikereport.com",
+      "title": "Best Cheap Electric Bikes | These Bikes Won’t Break the Bank – Electric Bike Report",
+      "siteName": "Electric Bike Reviews, News, & Testing",
+      "author": "John S. Bozick",
+      "publishedAt": "2025-12-18T07:00:20.000Z",
+      "retrievedAt": "2026-11-15T19:03:34.080Z",
+      "contentHash": "0f8302489a30f1ca13b47e6d547625b96651b27ef5101ad40483739fbea2e909",
+      "wordCount": 5164,
+      "excerpt": "To be clear, as much as we enjoy helping people find e-bikes to fit their specific needs and budget constraints, we don’t recommend products that aren’t well-made and built using quality components.\nIf you’re surfing Alibaba, Temu, or Amazon, you may be able to find e-bikes priced lower than those…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 82,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Electric Bike Reviews, News, & Testing"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "John S. Bozick"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2025-12-18"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 333 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "5164 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://upway.co/blogs/news/aventon-vs-rad-power-electric-bikes",
+      "domain": "upway.co",
+      "title": "Aventon vs Rad Power: Which E-Bike Brand Makes More Sense for You?",
+      "siteName": "Upway United States",
+      "author": null,
+      "publishedAt": null,
+      "retrievedAt": "2026-11-15T19:03:34.556Z",
+      "contentHash": "e461d300dca9753feba0bc49d0ab53758058aae81039f7732d52ac194b4406ec",
+      "wordCount": 2297,
+      "excerpt": "Aventon vs Rad Power: Which E-Bike Brand Makes More Sense for You?\nWritten by: Chris Van Leuven | February 19, 2026 | Time to read 7-8 min\nAventon vs Rad Power, explained for everyday riding: hub motors, torque-sensor feel, battery reality, and the smartest way to shop certified pre-owned on…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 57,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Upway United States"
+          },
+          {
+            "key": "dated",
+            "label": "No publication date",
+            "effect": -6,
+            "detail": "Age of the information cannot be checked."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "2297 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 3,
+            "detail": "1 of 1 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://ebike-worth-it.pages.dev/roundup/best-ebikes-under-1500/",
+      "domain": "ebike-worth-it.pages.dev",
+      "title": "Best Ebikes Under $1500 in 2026: The Sweet Spot for Value",
+      "siteName": null,
+      "author": null,
+      "publishedAt": null,
+      "retrievedAt": "2026-11-15T19:03:34.588Z",
+      "contentHash": "fa79e9958273e2771e0d48a43aca7902a2c360de8367655f9d154321b0c49471",
+      "wordCount": 1869,
+      "excerpt": "Why $1,500 Is the Sweet Spot for Ebike Quality\nSpend under $800 on an ebike and you're gambling. Spend over $2,000 and you're paying for brand prestige as much as performance. The $1,000–$1,500 range is where the actual value lives — and the gap between a $900 bike and a $1,400 bike is genuinely…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 40,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Publisher not stated",
+            "effect": -2,
+            "detail": "No publisher metadata on the page."
+          },
+          {
+            "key": "dated",
+            "label": "No publication date",
+            "effect": -6,
+            "detail": "Age of the information cannot be checked."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "1869 words of readable text."
+          },
+          {
+            "key": "contradicted",
+            "label": "Contradicted by other sources",
+            "effect": -8,
+            "detail": "1 of 4 claims conflict with other sources."
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://roostmode.pages.dev/comparisons/lectric-xp4-vs-radrunner-3-plus-vs-aventon-level-3/",
+      "domain": "roostmode.pages.dev",
+      "title": "Lectric XP4 vs RadRunner 3 Plus vs Aventon Level 3 (2026)",
+      "siteName": "RoostMode",
+      "author": "RoostMode",
+      "publishedAt": "2026-03-12T00:00:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:35.288Z",
+      "contentHash": "7e32504733378ed01ce9d788bf2cacb153800c8fb82b81431c60cd20d12c01fe",
+      "wordCount": 1203,
+      "excerpt": "Why These Three Bikes\nIf you’re shopping for a commuter e-bike in 2026, you’ve already seen these names. The Lectric XP4 at $999 is the value king that refuses to cut corners. The Aventon Level 3 at $1,899 packs GPS tracking and a 720Wh battery into a proper full-size commuter. And the RadRunner 3…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 80,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "RoostMode"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "RoostMode"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-03-12"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 249 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "1203 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 6,
+            "detail": "2 of 2 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://upway.co/blogs/news/best-e-bike-less-than-1500",
+      "domain": "upway.co",
+      "title": "Best E-Bike Less Than $1,500 (2026 Update)",
+      "siteName": "Upway United States",
+      "author": null,
+      "publishedAt": null,
+      "retrievedAt": "2026-11-15T19:03:36.076Z",
+      "contentHash": "f08b7377af171923c1b9dc51764d4c49d0e86f86072e13166a8731fc32d8d38d",
+      "wordCount": 1214,
+      "excerpt": "Best E-Bike Less Than $1,500 (2026 Update)\nWritten by: Tom Fortune | May 28, 2026 | Time to read 5 min\nAt $1,500, you’re no longer making compromises. You’re choosing between good electric bikes, and the four on this list show what that looks like.\nMore about the Author: Tom Fortune\nTom is a Brit…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 57,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Upway United States"
+          },
+          {
+            "key": "dated",
+            "label": "No publication date",
+            "effect": -6,
+            "detail": "Age of the information cannot be checked."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "1214 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 3,
+            "detail": "1 of 5 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://roostmode.pages.dev/buying-guides/best-commuter-ebikes-under-1500-2026/",
+      "domain": "roostmode.pages.dev",
+      "title": "Best Commuter E-Bikes Under $1,500 (2026) | RoostMode",
+      "siteName": "RoostMode",
+      "author": "RoostMode",
+      "publishedAt": "2026-03-05T00:00:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:36.227Z",
+      "contentHash": "5805935abfe404234c003c2477ddb990bdcbb2ede219649b0d46c3ba7d0099e7",
+      "wordCount": 1271,
+      "excerpt": "Why under $1,500 is the sweet spot\nLet’s get this out of the way: sub-$1,500 is not the bargain bin. It’s actually where most of the interesting engineering tradeoffs happen.\nBelow $700, you’re rolling the dice on mystery batteries and brakes that belong on a Walmart mountain bike. Above $2,000,…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 80,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "RoostMode"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "RoostMode"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-03-05"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 256 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "1271 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 6,
+            "detail": "2 of 3 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://medium.com/@dealadotcom/aventon-vs-rad-power-ebikes-425b02522e2b",
+      "domain": "medium.com",
+      "title": "Aventon vs Rad Power EBikes",
+      "siteName": "Medium",
+      "author": "Deala",
+      "publishedAt": "2024-06-14T08:17:54.015Z",
+      "retrievedAt": "2026-11-15T19:03:36.702Z",
+      "contentHash": "cdde4ecd636772108d16793f754efa33a12ef9756dff1374bbdee42505688e87",
+      "wordCount": 3110,
+      "excerpt": "Aventon vs Rad Power Bikes: A Detailed Comparison\n--\nIn the world of electric bicycles, two prominent names stand out — Rad Power Bikes and Aventon Bikes. Both brands have garnered significant popularity and offer a range of electric bikes that are comparable in terms of features and prices, making…",
+      "image": null,
+      "favicon": null,
+      "kind": "blog",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 55,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Medium"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Deala"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2024-06-14"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 885 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: blog",
+            "effect": -4,
+            "detail": "Personal or marketing blog."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "3110 words of readable text."
+          }
+        ]
+      }
+    }
+  ]
+}

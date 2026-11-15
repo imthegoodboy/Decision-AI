@@ -1,0 +1,1364 @@
+{
+  "dossier": {
+    "plan": {
+      "decisionType": "decision",
+      "criteria": [
+        {
+          "id": "crit_1",
+          "name": "Fees",
+          "description": "Advisory fee and low-balance fee drag at $5,000",
+          "weight": 45,
+          "origin": "user"
+        },
+        {
+          "id": "crit_2",
+          "name": "Tax features",
+          "description": "Tax-loss harvesting availability at $5,000",
+          "weight": 40,
+          "origin": "user"
+        },
+        {
+          "id": "crit_3",
+          "name": "Minimum / accessibility",
+          "description": "Can a $5,000 beginner open it",
+          "weight": 15,
+          "origin": "user"
+        }
+      ],
+      "queries": [],
+      "freshnessDays": 365,
+      "region": null,
+      "rationale": ""
+    },
+    "options": [
+      {
+        "id": "opt_1",
+        "name": "Wealthfront",
+        "summary": "Flat 0.25% fee, $500 minimum, daily TLH",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "0.25%",
+        "userNamed": false,
+        "sourceIds": [
+          "2",
+          "5",
+          "6"
+        ]
+      },
+      {
+        "id": "opt_2",
+        "name": "Betterment",
+        "summary": "0.25% or flat monthly fee at low balances, TLH at all balances, near-zero minimum",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "0.25% or ~$5/month",
+        "userNamed": false,
+        "sourceIds": [
+          "2",
+          "1"
+        ]
+      },
+      {
+        "id": "opt_3",
+        "name": "Schwab Intelligent Portfolios",
+        "summary": "No advisory fee but cash drag; TLH only from $50,000",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "0%",
+        "userNamed": false,
+        "sourceIds": [
+          "2",
+          "1"
+        ]
+      },
+      {
+        "id": "opt_4",
+        "name": "E*TRADE Core Portfolios",
+        "summary": "0.30%, $500 minimum, automated TLH",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "0.30%",
+        "userNamed": false,
+        "sourceIds": [
+          "1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "text": "Betterment charges 0.25% annually, but a flat ~$5/month fee applies at low balances (under about $25,000), which is a high effective rate on small accounts",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "The $5/month fee at low balances is a 6% annual fee equivalent on a $1,000 account.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p8]",
+            "text": "each with its own risk level and timeline. The app tracks progress toward each goal and adjusts recommendations. If you're someone who thinks in 'I want X by year Y' terms rather than abstract portfolio percentages, Betterment clicks. **What's annoying:** The $5/month fee at low balances is a 6% annual fee equivalent on a $1,000 account. That's brutal. If you're just starting out with small amounts, this bites. Once you hit $25,000+ the percentage fee kicks in and it's more reasonable."
+          },
+          "rationale": "Threshold differs: 2 says $25k, 7 says $20k-$24k; $4 vs $5 monthly in 7,8",
+          "corroboratingSourceIds": [
+            "1",
+            "7",
+            "8"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:24.222Z"
+        }
+      },
+      {
+        "id": "C2",
+        "optionId": "opt_2",
+        "criterionId": "crit_3",
+        "text": "Betterment has a very low minimum ($10 per NerdWallet; $0 per others) and offers automated tax-loss harvesting",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "Betterment: $10 minimum to start investing.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p5]",
+            "text": "minimum. Betterment: $10 minimum to start investing. Vanguard Digital Advisor: $100 minimum to open an account. E*TRADE Core Portfolios: $500 minimum to open an account. Merrill Guided Investing: $1,000 minimum to open an account. Robinhood Strategies: $3,000 minimum for tax-loss harvesting. Fidelity Go: $25,000 minimum for tax-loss harvesting. Schwab Intelligent Portfolios: $50,000 minimum for tax-loss harvesting. Company NerdWallet rating Fees Promotion Learn more $10 minimum to start investingBetterment5.0NerdWallet rating Reviewed in: Oct. 2025Period considered:Aug. - Oct. 2025"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "2",
+            "3",
+            "5"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:24.668Z"
+        }
+      },
+      {
+        "id": "C3",
+        "optionId": "opt_2",
+        "criterionId": "crit_2",
+        "text": "Betterment offers tax-loss harvesting on taxable accounts at all balance levels, so a $5,000 account qualifies",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "Tax-loss harvesting: Yes, on taxable accounts at all balance levels.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p7]",
+            "text": "unlimited access to human CFPs. **Account minimum:** $0. You can open and fund it with whatever you have. Doesn't matter if that's $50 or $50,000. **Tax-loss harvesting:** Yes, on taxable accounts at all balance levels. Betterment's TLH+ also coordinates between your IRA and taxable account to avoid buying back similar positions that would trigger wash sale rules. That's actually a meaningful feature. **What makes Betterment good:** Goal-based interface is genuinely well-designed. You can set up separate goals — retirement, house down payment, emergency fund — each with its own risk level and timeline. The app tracks progress toward each goal and adjusts recommendations. If you're someone who thinks in 'I"
+          },
+          "rationale": "partial by the cited passage",
+          "corroboratingSourceIds": [
+            "1",
+            "3"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:25.103Z"
+        }
+      },
+      {
+        "id": "C4",
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "text": "Wealthfront requires a $500 minimum, so $5,000 is enough",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "Account minimum: $500.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p6]",
+            "text": "Best for Most People Who Want Simplicity Betterment was the first major robo-advisor and it's still probably the easiest one to recommend to most people. **Fees:** 0.25% annually on the Digital tier ($5/month for balances under $25,000, then it switches to 0.25% percentage-based). Premium tier runs 0.65% but requires $100,000 minimum and gets you unlimited access to human CFPs. **Account minimum:** $0. You can open and fund it with whatever you have. Doesn't matter if that's $50 or $50,000."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:25.507Z"
+        }
+      },
+      {
+        "id": "C5",
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "text": "Wealthfront charges a flat 0.25% annual advisory fee",
+        "kind": "fact",
+        "sourceId": "5",
+        "quote": "Annual fee: 0.25%",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[5.p19]",
+            "text": "her investments in one place. She started with $100 and contributes $150 monthly. 4. Schwab Intelligent Portfolios Best For: Investors who want no advisory fees Schwab Intelligent Portfolios stands out because it charges no advisory fee. You only pay the expense ratios of the underlying ETFs, making it one of the cheapest options available. • Minimum investment: $5,000 • Annual fee: $0 advisory fee (only ETF expense ratios)"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "2",
+            "3",
+            "4",
+            "6",
+            "8"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:25.895Z"
+        }
+      },
+      {
+        "id": "C6",
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "text": "Wealthfront harvests tax losses daily using a large ETF universe for replacements",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "Wealthfront harvests losses daily — not just when the algorithm gets around to it — and uses a large ETF universe to find replacement positions that maintain your target allocation while avoiding wash sales.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p11]",
+            "text": "Best for Tax Optimization and Tech People Wealthfront is NerdWallet's top pick for best overall robo-advisor right now, and I think the ranking is fair. **Fees:** 0.25% annually. Flat, simple, no tiers, no monthly minimums. **Account minimum:** $500. Small barrier, nothing prohibitive. **Tax-loss harvesting:** Probably the most sophisticated daily TLH in the consumer robo-advisor space. Wealthfront harvests losses daily — not just when the algorithm gets around to it — and uses a large ETF universe to find replacement positions that maintain your target allocation while avoiding wash sales. At $100,000+ they add direct indexing (holding individual stocks instead of ETFs in large-cap exposure) for even more TLH opportunities."
+          },
+          "rationale": "Low-reliability source; no primary confirmation of daily cadence",
+          "corroboratingSourceIds": [
+            "3",
+            "4"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:26.299Z"
+        }
+      },
+      {
+        "id": "C7",
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "text": "Wealthfront direct indexing is available from a $5,000 minimum",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "Wealthfront’s direct-indexing products (S&P 500 Direct and Nasdaq-100 Direct) unlock at a $5,000 minimum per its Form ADV wrap fee brochure, and the core advisory fee stays flat at 0.25% – the best price-to-feature ratio on the list.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p9]",
+            "text": "Robo Advisor • $100,000 Account Minimum • 0.30% - 0.40% Annual Fee • Human Financial Advice • Excellent Banking Features • Socially-Responsible & Crypto Investing • Low 0.25% Annual Fee • Individual Stock Investing • Stock-Level Tax Loss Harvesting • Smart Beta Available • Risk Parity Available Best Robo Advisors for High-Net-Worth Investors: The List A quick orientation before the cards. Wealthfront’s direct-indexing products (S&P 500 Direct and Nasdaq-100 Direct) unlock at a $5,000 minimum per its Form ADV wrap fee brochure, and the core advisory fee stays flat at 0.25% – the best price-to-feature ratio on the list. Per its SEC prospectus, Wealthfront had over 180,000 clients with at"
+          },
+          "rationale": "Sources 2,4,5 and the same source 6 elsewhere say $100K; source 3 says $500K; source 1 only says lower minimums",
+          "corroboratingSourceIds": [
+            "1"
+          ],
+          "conflictingSourceIds": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:26.680Z"
+        }
+      },
+      {
+        "id": "C8",
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "text": "Schwab Intelligent Portfolios charges no advisory/management fee",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "The headline here is simple: Schwab charges zero management fee.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p15]",
+            "text": "financial planning tools beyond just portfolio management. The headline here is simple: Schwab charges zero management fee. 4Schwab Intelligent Portfolios: Best for Zero Management Fees The headline here is simple: Schwab charges zero management fee. $0. For a robo-advisor that automatically builds and rebalances a diversified portfolio, that's unusual. **Fees:** 0% management fee. But — and this is an important but — Schwab allocates 6-10% of every portfolio to cash (swept into a Schwab Bank account earning whatever Schwab feels like paying, which is typically lower than money market rates). That cash drag is effectively the fee. On a $50,000 portfolio, $3,000–$5,000 sitting in low-yield cash instead of invested is"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "4",
+            "5",
+            "7"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:27.042Z"
+        }
+      },
+      {
+        "id": "C9",
+        "optionId": "opt_3",
+        "criterionId": "crit_3",
+        "text": "Schwab Intelligent Portfolios requires a $5,000 minimum",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "Account minimum: $5,000.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p17]",
+            "text": "drag versus what you'd earn in a money market. **Account minimum:** $5,000. That's the real barrier — highest minimum on this list by a lot. **Tax-loss harvesting:** Yes, but only on taxable accounts with $50,000+ balance. If you're just starting out or using retirement accounts only, this feature doesn't apply to you. **Note on the 2026 change:** Schwab discontinued its Intelligent Portfolios Premium tier in 2026 — that was the $30/month add-on that included access to certified financial planners. Gone now. The base service remains but the hybrid-human option disappeared."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "4",
+            "5"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:27.442Z"
+        }
+      },
+      {
+        "id": "C10",
+        "optionId": "opt_3",
+        "criterionId": "crit_2",
+        "text": "Schwab Intelligent Portfolios offers tax-loss harvesting only from a $50,000 balance",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "Schwab Intelligent Portfolios: $50,000 minimum for tax-loss harvesting.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p5]",
+            "text": "minimum. Betterment: $10 minimum to start investing. Vanguard Digital Advisor: $100 minimum to open an account. E*TRADE Core Portfolios: $500 minimum to open an account. Merrill Guided Investing: $1,000 minimum to open an account. Robinhood Strategies: $3,000 minimum for tax-loss harvesting. Fidelity Go: $25,000 minimum for tax-loss harvesting. Schwab Intelligent Portfolios: $50,000 minimum for tax-loss harvesting. Company NerdWallet rating Fees Promotion Learn more $10 minimum to start investingBetterment5.0NerdWallet rating Reviewed in: Oct. 2025Period considered:Aug. - Oct. 2025"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "2"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:27.828Z"
+        }
+      },
+      {
+        "id": "C11",
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "text": "Schwab holds 6-10% of portfolio in cash (cash drag), an implicit cost estimated at 0.15-0.20%/yr",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "Some estimates put the effective cost around 0.15-0.20% annually when you account for the cash drag versus what you'd earn in a money market.",
+        "verification": {
+          "status": "contradicted",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p16]",
+            "text": "lower than money market rates). That cash drag is effectively the fee. On a $50,000 portfolio, $3,000–$5,000 sitting in low-yield cash instead of invested is costing you something. Some estimates put the effective cost around 0.15-0.20% annually when you account for the cash drag versus what you'd earn in a money market. **Account minimum:** $5,000. That's the real barrier — highest minimum on this list by a lot."
+          },
+          "rationale": "Source 4 says mandatory 6-30% cash; sources 2,4 agree on a cash allocation but differ on size; estimate is unsourced",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "4"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:28.259Z"
+        }
+      },
+      {
+        "id": "C12",
+        "optionId": null,
+        "criterionId": "crit_3",
+        "text": "Vanguard Digital Advisor has a $100 minimum and offers automated tax-loss harvesting",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "Vanguard Digital Advisor: $100 minimum to open an account.",
+        "verification": {
+          "status": "contradicted",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p4]",
+            "text": "a higher minimum to be eligible for tax-loss harvesting. You generally have to opt in to the service, and it may have an additional fee. Below is a list of the robo-advisors we review that offer automated tax-loss harvesting, in order from lowest to highest minimum. Betterment: $10 minimum to start investing. Vanguard Digital Advisor: $100 minimum to open an account. E*TRADE Core Portfolios: $500 minimum to open an account."
+          },
+          "rationale": "Source 2 says Vanguard DA has no TLH; source 1 (NerdWallet, rel 82) lists it among robo-advisors with automated TLH",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "2"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:28.648Z"
+        }
+      },
+      {
+        "id": "C13",
+        "optionId": null,
+        "criterionId": "crit_2",
+        "text": "Vanguard Digital Advisor does not offer tax-loss harvesting",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "Tax-loss harvesting: No. Vanguard Digital Advisor doesn't offer TLH.",
+        "verification": {
+          "status": "unsupported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p22]",
+            "text": "genuinely competitive — lower than Betterment and Wealthfront. **Account minimum:** $100 (reduced from $3,000 in recent years). They also offer a 90-day fee-free trial period. **Tax-loss harvesting:** No. Vanguard Digital Advisor doesn't offer TLH. If TLH matters to you (and it does matter, especially on larger taxable accounts), this is a real knock against Vanguard for that use case. **Who this is for:** Someone with a longer time horizon focused on retirement accumulation, who's using tax-advantaged accounts (IRA, Roth IRA) where TLH doesn't apply anyway. If you're building a retirement account and want to ride Vanguard's legendary low costs and philosophy, Digital Advisor is excellent. If you have substantial taxable"
+          },
+          "rationale": "Contradicted by more reliable source 1",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "1"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:29.065Z"
+        }
+      },
+      {
+        "id": "C14",
+        "optionId": null,
+        "criterionId": "crit_2",
+        "text": "Fidelity Go requires $25,000 for tax-loss harvesting",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "Fidelity Go: $25,000 minimum for tax-loss harvesting.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p5]",
+            "text": "minimum. Betterment: $10 minimum to start investing. Vanguard Digital Advisor: $100 minimum to open an account. E*TRADE Core Portfolios: $500 minimum to open an account. Merrill Guided Investing: $1,000 minimum to open an account. Robinhood Strategies: $3,000 minimum for tax-loss harvesting. Fidelity Go: $25,000 minimum for tax-loss harvesting. Schwab Intelligent Portfolios: $50,000 minimum for tax-loss harvesting. Company NerdWallet rating Fees Promotion Learn more $10 minimum to start investingBetterment5.0NerdWallet rating Reviewed in: Oct. 2025Period considered:Aug. - Oct. 2025"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:29.455Z"
+        }
+      },
+      {
+        "id": "C15",
+        "optionId": null,
+        "criterionId": "crit_2",
+        "text": "Robinhood Strategies offers TLH from $3,000 at 0.25% fee",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "Robinhood Strategies: $3,000 minimum for tax-loss harvesting.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p5]",
+            "text": "minimum. Betterment: $10 minimum to start investing. Vanguard Digital Advisor: $100 minimum to open an account. E*TRADE Core Portfolios: $500 minimum to open an account. Merrill Guided Investing: $1,000 minimum to open an account. Robinhood Strategies: $3,000 minimum for tax-loss harvesting. Fidelity Go: $25,000 minimum for tax-loss harvesting. Schwab Intelligent Portfolios: $50,000 minimum for tax-loss harvesting. Company NerdWallet rating Fees Promotion Learn more $10 minimum to start investingBetterment5.0NerdWallet rating Reviewed in: Oct. 2025Period considered:Aug. - Oct. 2025"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:29.841Z"
+        }
+      },
+      {
+        "id": "C16",
+        "optionId": "opt_4",
+        "criterionId": "crit_3",
+        "text": "E*TRADE Core Portfolios has $500 minimum, 0.30% fee, and automated TLH",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "E*TRADE Core Portfolios: $500 minimum to open an account.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p4]",
+            "text": "a higher minimum to be eligible for tax-loss harvesting. You generally have to opt in to the service, and it may have an additional fee. Below is a list of the robo-advisors we review that offer automated tax-loss harvesting, in order from lowest to highest minimum. Betterment: $10 minimum to start investing. Vanguard Digital Advisor: $100 minimum to open an account. E*TRADE Core Portfolios: $500 minimum to open an account."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "8"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:00:30.230Z"
+        }
+      }
+    ],
+    "contradictions": [
+      {
+        "id": "con_1",
+        "optionId": "opt_1",
+        "criterionId": null,
+        "topic": "Direct indexing minimum",
+        "statements": [
+          {
+            "claimId": "C7",
+            "sourceId": "6",
+            "text": "Wealthfront direct indexing is available from a $5,000 minimum"
+          }
+        ],
+        "assessment": "Source 6 says $5,000, sources 2,4,5 say $100K, source 3 says $500K; majority and consistent figure is $100K. Not relevant to a $5,000 decision.",
+        "favoredSourceId": null,
+        "severity": "low"
+      },
+      {
+        "id": "con_2",
+        "optionId": null,
+        "criterionId": null,
+        "topic": "Tax-loss harvesting",
+        "statements": [
+          {
+            "claimId": "C12",
+            "sourceId": "1",
+            "text": "Vanguard Digital Advisor has a $100 minimum and offers automated tax-loss harvesting"
+          },
+          {
+            "claimId": "C13",
+            "sourceId": "2",
+            "text": "Vanguard Digital Advisor does not offer tax-loss harvesting"
+          }
+        ],
+        "assessment": "NerdWallet (source 1, reliability 82) lists it with automated TLH; source 2 (48, undated) says no. Source 1 more credible.",
+        "favoredSourceId": null,
+        "severity": "medium"
+      },
+      {
+        "id": "con_3",
+        "optionId": "opt_3",
+        "criterionId": null,
+        "topic": "Cash allocation size",
+        "statements": [
+          {
+            "claimId": "C11",
+            "sourceId": "2",
+            "text": "Schwab holds 6-10% of portfolio in cash (cash drag), an implicit cost estimated at 0.15-0.20%/yr"
+          }
+        ],
+        "assessment": "Source 2 says 6-10%, source 4 says 6-30%; both agree on a mandatory cash drag.",
+        "favoredSourceId": null,
+        "severity": "medium"
+      }
+    ],
+    "uncertainties": [
+      {
+        "id": "unc_1",
+        "kind": "single-source",
+        "text": "Wealthfront daily TLH relies on low-reliability source 2",
+        "optionId": "opt_1",
+        "impact": "medium",
+        "howToResolve": "Check Wealthfront disclosures"
+      },
+      {
+        "id": "unc_2",
+        "kind": "incomplete",
+        "text": "Betterment low-balance fee threshold and how to waive it differ across sources",
+        "optionId": "opt_2",
+        "impact": "high",
+        "howToResolve": "Check Betterment pricing page"
+      },
+      {
+        "id": "unc_3",
+        "kind": "incomplete",
+        "text": "NerdWallet's Wealthfront TLH minimum text was truncated",
+        "optionId": "opt_1",
+        "impact": "medium",
+        "howToResolve": "Read full NerdWallet page"
+      }
+    ],
+    "scores": [
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "score": 8,
+        "rationale": "Flat 0.25% corroborated by many sources",
+        "claimIds": [
+          "C5"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "score": 7,
+        "rationale": "Daily TLH claimed, low-reliability source; direct indexing minimum disputed",
+        "claimIds": [
+          "C6",
+          "C7"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "score": 9,
+        "rationale": "$500 minimum",
+        "claimIds": [
+          "C4"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "score": 6,
+        "rationale": "0.25% but flat monthly fee at low balances is high effective rate",
+        "claimIds": [
+          "C1"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_2",
+        "score": 7,
+        "rationale": "TLH at all balance levels",
+        "claimIds": [
+          "C2",
+          "C3"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_3",
+        "score": 10,
+        "rationale": "$0-$10 minimum",
+        "claimIds": [
+          "C2"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "score": 6,
+        "rationale": "No advisory fee but cash drag size disputed",
+        "claimIds": [
+          "C8"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_2",
+        "score": 1,
+        "rationale": "TLH only at $50,000+",
+        "claimIds": [
+          "C10"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_3",
+        "score": 5,
+        "rationale": "Exactly $5,000 minimum",
+        "claimIds": [
+          "C9"
+        ]
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_3",
+        "score": 8,
+        "rationale": "$500 minimum",
+        "claimIds": [
+          "C16"
+        ]
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_2",
+        "score": 6,
+        "rationale": "Listed with automated TLH",
+        "claimIds": [
+          "C16"
+        ]
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_1",
+        "score": 6,
+        "rationale": "0.30% fee",
+        "claimIds": [
+          "C16"
+        ]
+      }
+    ],
+    "recommendation": {
+      "optionId": "opt_1",
+      "headline": "Wealthfront: flat 0.25% fee and tax-loss harvesting for a $5,000 account",
+      "summary": "Wealthfront combines a flat 0.25% fee with tax-loss harvesting and clears its $500 minimum easily; Betterment is a close second.",
+      "reasons": [
+        {
+          "text": "Flat 0.25% fee",
+          "claimIds": [
+            "C5"
+          ]
+        },
+        {
+          "text": "$500 minimum met",
+          "claimIds": [
+            "C4"
+          ]
+        },
+        {
+          "text": "Daily TLH",
+          "claimIds": [
+            "C6"
+          ]
+        },
+        {
+          "text": "Schwab TLH needs $50,000",
+          "claimIds": [
+            "C10"
+          ]
+        }
+      ],
+      "tradeoffs": [
+        {
+          "text": "Direct indexing minimum disputed; Wealthfront TLH cadence from a low-reliability source",
+          "claimIds": [
+            "C6",
+            "C7"
+          ]
+        }
+      ],
+      "alternatives": [
+        {
+          "optionId": "opt_2",
+          "when": "Want goal-based tools or very small starting balance; check whether the flat monthly fee applies"
+        },
+        {
+          "optionId": "opt_3",
+          "when": "Already a Schwab customer and tax-loss harvesting is irrelevant (IRA)"
+        },
+        {
+          "optionId": "opt_4",
+          "when": "Want a bigger brokerage ecosystem at 0.30%"
+        }
+      ],
+      "caveats": [
+        "Fees and minimums change; confirm on provider sites"
+      ],
+      "nextSteps": [
+        "Choose taxable vs IRA account",
+        "Confirm Wealthfront TLH eligibility on its site"
+      ]
+    },
+    "metrics": {
+      "sourcesConsulted": 8,
+      "sourcesRead": 8,
+      "claimsTotal": 16,
+      "supported": 9,
+      "partial": 4,
+      "unsupported": 1,
+      "contradicted": 2,
+      "contradictions": 3,
+      "averageReliability": 68,
+      "freshShare": 0,
+      "durationMs": 0,
+      "modelCalls": 0,
+      "tokens": 0
+    }
+  },
+  "sources": [
+    {
+      "id": "1",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.nerdwallet.com/investing/best/tax-loss-harvesting-brokers",
+      "domain": "nerdwallet.com",
+      "title": "The Best Brokers for Tax-Loss Harvesting",
+      "siteName": "NerdWallet",
+      "author": "Sam Taube",
+      "publishedAt": "2026-05-21T18:30:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:23.538Z",
+      "contentHash": "c5464a90b95ab08deb542214168f32e83d97b89c949f43a8654c5e89e7910ea2",
+      "wordCount": 1945,
+      "excerpt": "The Best Brokers for Tax-Loss Harvesting\nTax-loss harvesting is a strategy that can reduce your investment-related tax bill — especially if you're in a higher tax bracket. It can also put some money back in your pocket if your portfolio isn't exactly doing well this year.\nHowever, harvesting losses…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 83,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "NerdWallet"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Sam Taube"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-05-21"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 178 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "1945 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 9,
+            "detail": "3 of 6 claims were confirmed by an independent source."
+          },
+          {
+            "key": "contradicted",
+            "label": "Contradicted by other sources",
+            "effect": -8,
+            "detail": "1 of 6 claims conflict with other sources."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://bankingdeal.pages.dev/guides/best-robo-advisors-2026",
+      "domain": "bankingdeal.pages.dev",
+      "title": "Best Robo-Advisors of 2026: Betterment vs Wealthfront vs Schwab and More | BankingDeal",
+      "siteName": null,
+      "author": null,
+      "publishedAt": null,
+      "retrievedAt": "2026-11-15T19:03:23.538Z",
+      "contentHash": "ec64284f8cc3cd8471f8cde2e04d663de79bcb76693372d6a6a7e764d3373689",
+      "wordCount": 2260,
+      "excerpt": "1Why Robo-Advisors Exist (And When They're Actually Worth Using)\nLet's be honest about what a robo-advisor is: it's an algorithm that builds you a diversified portfolio of low-cost index ETFs, rebalances it automatically, and sometimes does tax-loss harvesting — all for a fraction of what a human…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 49,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Publisher not stated",
+            "effect": -2,
+            "detail": "No publisher metadata on the page."
+          },
+          {
+            "key": "dated",
+            "label": "No publication date",
+            "effect": -6,
+            "detail": "Age of the information cannot be checked."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "2260 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 12,
+            "detail": "6 of 8 claims were confirmed by an independent source."
+          },
+          {
+            "key": "contradicted",
+            "label": "Contradicted by other sources",
+            "effect": -8,
+            "detail": "1 of 8 claims conflict with other sources."
+          },
+          {
+            "key": "unsupported",
+            "label": "Claims not supported by its own text",
+            "effect": -3,
+            "detail": "1 extracted claims were not supported by the passage they came from."
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://dev.to/themoneyplaybooks/best-robo-advisor-apps-for-beginners-2026-top-picks-tested-compared-57hm",
+      "domain": "dev.to",
+      "title": "Best Robo-Advisor Apps for Beginners 2026: Top Picks Tested & Compared",
+      "siteName": "DEV Community",
+      "author": "Han Jeongho",
+      "publishedAt": "2026-06-17T01:15:04.000Z",
+      "retrievedAt": "2026-11-15T19:03:24.701Z",
+      "contentHash": "ed3e2c13aa81ee8c5a610c6d33a738eef61817406f9c36722a2759da109b2631",
+      "wordCount": 3611,
+      "excerpt": "Here's the deal: starting to invest shouldn't feel like climbing a mountain. Yet for beginners, traditional investing can seem intimidating—there's talk of asset allocation, rebalancing, tax-loss harvesting. That's where robo-advisors come in. These apps automate the heavy lifting, letting you…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 74,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "DEV Community"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Han Jeongho"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-06-17"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 152 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "3611 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://aipedia-en.pages.dev/compare/wealthfront-vs-betterment-vs-schwab",
+      "domain": "aipedia-en.pages.dev",
+      "title": "Wealthfront vs Betterment vs Schwab Intelligent Portfolios — 2026 US Robo-Advisor Showdown",
+      "siteName": "AIpedia",
+      "author": "AIpedia Editorial Team",
+      "publishedAt": "2026-05-09T00:00:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:26.412Z",
+      "contentHash": "22e6690b3605fd90a78a54743d8c514a4d8e4aca1c2a0dd5f9faee2989faa599",
+      "wordCount": 733,
+      "excerpt": "Wealthfront vs Betterment vs Schwab Intelligent Portfolios — 2026 US Robo-Advisor Showdown\nThe 3 leading AI robo-advisors compared on fees, Tax-Loss Harvesting, minimums, and target users. Picks for FIRE-track, retirement-focused, and beginner investors — 2026 edition.\nVerdict:Wealthfront and…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 71,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "AIpedia"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "AIpedia Editorial Team"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-05-09"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 191 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://wealthcorecode.blogspot.com/2026/04/top-7-robo-advisors-for-beginners-that-grow-money.html",
+      "domain": "wealthcorecode.blogspot.com",
+      "title": "Top 7 Robo Advisors for Beginners That Actually Grow Your Money",
+      "siteName": "WealthCoreCode | Personal Finance &amp; Investing Guides",
+      "author": "Wealth Core Code",
+      "publishedAt": "2026-04-29T07:34:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:27.060Z",
+      "contentHash": "3a21c5385eb60fdf10b1f857a1fe83ae9dd66de4b1656b12d5932fc0006b07ab",
+      "wordCount": 2724,
+      "excerpt": "Top 7 Robo Advisors for Beginners That Actually Grow Your Money\nInvesting can feel overwhelming when you are just starting out. You have questions like: Where do I begin? How much money do I need? Which platform should I trust? These are valid concerns that stop many people from taking the first…",
+      "image": null,
+      "favicon": null,
+      "kind": "blog",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 73,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "WealthCoreCode | Personal Finance &amp; Investing Guides"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Wealth Core Code"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-04-29"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 201 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: blog",
+            "effect": -4,
+            "detail": "Personal or marketing blog."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "2724 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 3,
+            "detail": "1 of 1 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.bestroboadvisors.org/best-robo-advisors-high-net-worth/",
+      "domain": "bestroboadvisors.org",
+      "title": "The Best Robo Advisors for High-Net-Worth Investors ( November 2026)",
+      "siteName": "Best Robo Advisors",
+      "author": "Best Robo Advisors",
+      "publishedAt": "2023-01-31T15:35:49.000Z",
+      "retrievedAt": "2026-11-15T19:03:27.075Z",
+      "contentHash": "819cb96f8a0ee4cffeafaceb0cbbf729244954cfd2dc15d8c93ebee38a5d5cc1",
+      "wordCount": 2169,
+      "excerpt": "We may earn a small commission if you sign up for a service or product from this page. This does not affect our rankings and it does not cost you anything. Learn more about how we make money and our review process on our advertising disclosure page.\nIf you’ve got serious money to invest, the…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 62,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Best Robo Advisors"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Best Robo Advisors"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2023-01-31"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 1384 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "2169 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 3,
+            "detail": "1 of 1 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://arjankc.com.np/blog/robo-advisor-comparison-betterment-wealthfront-schwab/",
+      "domain": "arjankc.com.np",
+      "title": "Betterment vs. Wealthfront vs. Schwab: Robo-Advisor Review",
+      "siteName": "Arjan KC",
+      "author": "Arjan KC",
+      "publishedAt": "2026-03-12T03:15:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:27.702Z",
+      "contentHash": "272a0a4e1368efdb0b765fa41d7dc7cde47716fc6312dfdd0eac736fc370cd02",
+      "wordCount": 6128,
+      "excerpt": "Introduction: The Maturation of the Algorithmic Advisory Sector\nBy the first quarter of 2026, the digital wealth management industry—colloquially recognized as the robo-advisor sector—has completely transitioned from a disruptive financial technology novelty into a foundational, commoditized pillar…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 74,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Arjan KC"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Arjan KC"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-03-12"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 249 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "6128 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://youngandtheinvested.com/best-robo-advisors-cpc/",
+      "domain": "youngandtheinvested.com",
+      "title": "Best Robo-Advisors for Investing Automatically",
+      "siteName": "Young and the Invested",
+      "author": null,
+      "publishedAt": "2023-10-09T18:21:20.000Z",
+      "retrievedAt": "2026-11-15T19:03:29.478Z",
+      "contentHash": "125096c6f9876084e968e2d490d77f4c0f1a96535d7a5c326f5ae9075be9fce2",
+      "wordCount": 5412,
+      "excerpt": "Best Robo-Advisor Pick: SoFi Invest®\nSelf-Directed Brokerage With Individual Trading + Robo-Advisor\nSoFi Invest® | Active + Robo-Investing\nPrimary Rating: 4.4\nNo commissions on stock and ETF trades.\nOpen Your Account\n\nRobo-Advisor Runners-Up: E*Trade + Betterment\n\nRobo-Advisor Comparison\nApp\nApple…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 54,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Young and the Invested"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2023-10-09"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 1133 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "5412 words of readable text."
+          }
+        ]
+      }
+    }
+  ]
+}

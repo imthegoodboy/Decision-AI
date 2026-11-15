@@ -1,0 +1,432 @@
+[
+  {
+    "id": "C1",
+    "source": 6,
+    "option": "JBL Live 670NC",
+    "criterion": "Form factor",
+    "claim": "JBL Live 670NC is an on-ear design, not over-ear",
+    "quote": "The on-ear form factor makes them highly portable, and in lab testing they exceeded their advertised endurance, lasting 54 hours and 57 minutes.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [
+      8
+    ],
+    "note": "Source 6 is lab-tested review; source 8 appears to copy its figures but calls it full over-ear",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[6.p19]",
+      "text": "support. That combination is why we singled out the Space One for Android-oriented buyers shopping under $200.Sourced from Anker Soundcore Space One review – SoundGuys. Best Sound Quality pick: JBL Live 670NC JBL Live 670NC is our Best Sound Quality pick for its energetic JBL tuning, extensive app EQ, and strong measured ANC that approaches 30dB around 250Hz. The on-ear form factor makes them highly portable, and in lab testing they exceeded their advertised endurance, lasting 54 hours and 57 minutes. They connect via Bluetooth 5.3, support multipoint, and include a 3.5mm cable for airplane systems, though codec support is limited to SBC and AAC. On our MDAQS scale the"
+    },
+    "recordedAt": "2026-11-15T20:06:33.027Z"
+  },
+  {
+    "id": "C2",
+    "source": 8,
+    "option": "JBL Live 670NC",
+    "criterion": "Comfort",
+    "claim": "JBL Live 670NC is a full over-ear design with comfortable cushions",
+    "quote": "It is a full over-ear design, with cushions that sit around your ears rather than pressing on them, and that is a big part of why it stays comfortable well past the hour mark.",
+    "support": "unsupported",
+    "corroborating": [],
+    "conflicting": [
+      6
+    ],
+    "note": "Contradicts SoundGuys which says on-ear; no lab basis",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "unsupported",
+    "passage": {
+      "id": "[8.p6]",
+      "text": "noise intact. The ULT button's heavy bass boost also needs taming in the app, which is not what anyone prioritising comfort and quiet is after. Our top pick for this brief is the JBL Live 670NC. It is a full over-ear design, with cushions that sit around your ears rather than pressing on them, and that is a big part of why it stays comfortable well past the hour mark. Its measured noise cancelling approaches 30dB around 250Hz, right in the band where train and Tube rumble live, and in lab testing it ran for 54 hours and 57 minutes, beating its own advertised figure. That is weeks of commuting"
+    },
+    "recordedAt": "2026-11-15T20:06:33.186Z"
+  },
+  {
+    "id": "C3",
+    "source": 6,
+    "option": "JBL Live 670NC",
+    "criterion": "Noise cancellation",
+    "claim": "JBL Live 670NC measured ANC approaches 30dB around 250Hz",
+    "quote": "JBL Live 670NC is our Best Sound Quality pick for its energetic JBL tuning, extensive app EQ, and strong measured ANC that approaches 30dB around 250Hz.",
+    "support": "supported",
+    "corroborating": [
+      8
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p19]",
+      "text": "support. That combination is why we singled out the Space One for Android-oriented buyers shopping under $200.Sourced from Anker Soundcore Space One review – SoundGuys. Best Sound Quality pick: JBL Live 670NC JBL Live 670NC is our Best Sound Quality pick for its energetic JBL tuning, extensive app EQ, and strong measured ANC that approaches 30dB around 250Hz. The on-ear form factor makes them highly portable, and in lab testing they exceeded their advertised endurance, lasting 54 hours and 57 minutes. They connect via Bluetooth 5.3, support multipoint, and include a 3.5mm cable for airplane systems, though codec support is limited to SBC and AAC. On our MDAQS scale the"
+    },
+    "recordedAt": "2026-11-15T20:06:33.338Z"
+  },
+  {
+    "id": "C4",
+    "source": 6,
+    "option": "Sony ULT WEAR",
+    "criterion": "Noise cancellation",
+    "claim": "Sony ULT WEAR delivers more than 25dB attenuation above 80Hz",
+    "quote": "In lab testing they lasted 32 hours and 35 minutes and deliver more than 25dB of attenuation above 80Hz, making them well suited for commutes and travel.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [
+      8
+    ],
+    "note": "Source 8 claims barely 15dB",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[6.p14]",
+      "text": "the ULT button’s heavy bass boost. In lab testing they lasted 32 hours and 35 minutes and deliver more than 25dB of attenuation above 80Hz, making them well suited for commutes and travel. They support Bluetooth 5.2 with LDAC and multipoint, and offer a wired 3.5mm option though no USB-C audio; the Sony Sound Connect app also unlocks ANC and EQ customization. The ULT WEAR also earned Best ANC, Best Battery Life, Best Call Quality, Best Over-Ear Headphones, Best for iPhone users and Best for Comfort recognition.Sourced from Sony ULT WEAR review – SoundGuys."
+    },
+    "recordedAt": "2026-11-15T20:06:33.500Z"
+  },
+  {
+    "id": "C5",
+    "source": 8,
+    "option": "Sony ULT WEAR",
+    "criterion": "Noise cancellation",
+    "claim": "Sony ULT WEAR low-frequency attenuation barely reaches 15dB",
+    "quote": "Measured attenuation in the low frequencies where train rumble sits barely reaches 15dB, which is fine for a café but leaves a lot of carriage noise intact.",
+    "support": "unsupported",
+    "corroborating": [],
+    "conflicting": [
+      6
+    ],
+    "note": "Conflicts with SoundGuys lab data",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "unsupported",
+    "passage": {
+      "id": "[8.p5]",
+      "text": "lasted 32 hours and 35 minutes in independent lab testing, so endurance is not the problem. Noise cancelling is. Measured attenuation in the low frequencies where train rumble sits barely reaches 15dB, which is fine for a café but leaves a lot of carriage noise intact. The ULT button's heavy bass boost also needs taming in the app, which is not what anyone prioritising comfort and quiet is after."
+    },
+    "recordedAt": "2026-11-15T20:06:33.703Z"
+  },
+  {
+    "id": "C6",
+    "source": 6,
+    "option": "Sony ULT WEAR",
+    "criterion": "Form factor and ANC",
+    "claim": "Sony ULT WEAR is a compact foldable over-ear with effective ANC",
+    "quote": "Sony ULT WEAR are our best overall pick because they combine effective ANC, long battery life, and broad connectivity in a compact, foldable over-ear package.",
+    "support": "supported",
+    "corroborating": [
+      8
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p13]",
+      "text": "about the inner workings of audio. To see why you can trust us with your purchase decision, make sure to check out our ethics policy. Poll How much are you willing to spend on good headphones? Best overall pick: Sony ULT WEAR Sony ULT WEAR are our best overall pick because they combine effective ANC, long battery life, and broad connectivity in a compact, foldable over-ear package. Our MDAQS assessment shows the ULT WEAR are bass-forward, so we recommend using the app EQ to tame the ULT button’s heavy bass boost. In lab testing they lasted 32 hours and 35 minutes and deliver more than 25dB of attenuation above 80Hz,"
+    },
+    "recordedAt": "2026-11-15T20:06:33.888Z"
+  },
+  {
+    "id": "C7",
+    "source": 6,
+    "option": "Sony ULT WEAR",
+    "criterion": "Sound tuning",
+    "claim": "Sony ULT WEAR is bass-forward with a heavy ULT bass boost needing EQ",
+    "quote": "Our MDAQS assessment shows the ULT WEAR are bass-forward",
+    "support": "supported",
+    "corroborating": [
+      8
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p13]",
+      "text": "about the inner workings of audio. To see why you can trust us with your purchase decision, make sure to check out our ethics policy. Poll How much are you willing to spend on good headphones? Best overall pick: Sony ULT WEAR Sony ULT WEAR are our best overall pick because they combine effective ANC, long battery life, and broad connectivity in a compact, foldable over-ear package. Our MDAQS assessment shows the ULT WEAR are bass-forward, so we recommend using the app EQ to tame the ULT button’s heavy bass boost. In lab testing they lasted 32 hours and 35 minutes and deliver more than 25dB of attenuation above 80Hz,"
+    },
+    "recordedAt": "2026-11-15T20:06:34.067Z"
+  },
+  {
+    "id": "C8",
+    "source": 1,
+    "option": "Sony WH-1000XM5",
+    "criterion": "Weight",
+    "claim": "Sony WH-1000XM5 weighs 250g",
+    "quote": "Bluetooth SBC, AAC, LDACBattery life 30hrsCharging USB-CTransparency mode YesBuilt-in mic and controls YesFinishes Black, Platinum Silver, Midnight Blue, Smoky PinkWeight 250g",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [
+      8
+    ],
+    "note": "Source 8 says around 320g; source 1 is spec list from review",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[1.p13]",
+      "text": "they also feel different. In-hand they feel lighter although the scales suggest there are only four grams between them and the XM4s (254g vs 250g). (Image credit: Sony) Bluetooth SBC, AAC, LDACBattery life 30hrsCharging USB-CTransparency mode YesBuilt-in mic and controls YesFinishes Black, Platinum Silver, Midnight Blue, Smoky PinkWeight 250g The plastics used are nice to touch, even if the older model still feels a bit more premium. They are made predominantly from Acrylonitrile Butadiene Styrene (ABS), a material formed by taking certain car parts made in the US and Japan, recycling and refining them and blending them with mica to get that final finish. It’s a material that was first"
+    },
+    "recordedAt": "2026-11-15T20:06:34.269Z"
+  },
+  {
+    "id": "C9",
+    "source": 1,
+    "option": "Sony WH-1000XM5",
+    "criterion": "Comfort",
+    "claim": "Sony WH-1000XM5 comfort is up there with the best with good clamping force",
+    "quote": "Comfort levels are up there with the best and the Sonys deliver just the right amount of clamping force, so they feel secure without threatening to crush our ears.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Source 8 disagrees on weight only, not tested comfort",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p15]",
+      "text": "little, and we wonder if Sony could have trimmed a little off the edges just to smooth out their profile. But that’s a minor thing. A section of memory foam in the middle of the headband helps with support and comfort. The band is completely covered in a new synthetic leather that also covers the memory-foam earpads. It’s soft and smooth to the touch. Comfort levels are up there with the best and the Sonys deliver just the right amount of clamping force, so they feel secure without threatening to crush our ears."
+    },
+    "recordedAt": "2026-11-15T20:06:34.456Z"
+  },
+  {
+    "id": "C10",
+    "source": 1,
+    "option": "Sony WH-1000XM5",
+    "criterion": "Noise cancellation",
+    "claim": "Sony WH-1000XM5 is among class leaders for isolating train drone",
+    "quote": "They’re among the class leaders when it comes to isolating us from constant drones and noises within train and underground carriages.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p21]",
+      "text": "the headphones. Alternatively, you can flick between noise-cancelling and the headphones’ Ambient mode by tapping the corresponding button on the edge of the left earcup. And once again Sony generally impresses on the noise-cancelling front. They’re among the class leaders when it comes to isolating us from constant drones and noises within train and underground carriages. They also help cut out loud conversations in crowded spaces that you don't want to be part of. We think the Bose QuietComfort Ultra Headphones are a little more invasive and manage to cut out even more noise, but the Sonys are still very good for the money."
+    },
+    "recordedAt": "2026-11-15T20:06:34.644Z"
+  },
+  {
+    "id": "C11",
+    "source": 1,
+    "option": "Sony WH-1000XM5",
+    "criterion": "Price",
+    "claim": "Sony WH-1000XM5 launched at 380 pounds",
+    "quote": "the Sony WH-1000XM5 haven’t managed to escape a slight increase, coming in at £380",
+    "support": "supported",
+    "corroborating": [
+      8
+    ],
+    "conflicting": [],
+    "note": "Under 200 only if heavily discounted; review does not state a sub-200 price",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p7]",
+      "text": "to find a discount which makes their engaging sound quality, impressive noise-cancelling, great call quality and comfortable fit a match for any rival at the money.Our original review of the Sony WH-1000XM5 is presented below. • More expensive than WH-1000XM4 at launch • Bose, Bowers & Wilkins and Sennheiser all have rival pairs With the current market conditions, we have seen quite a few price rises across the industry, and the Sony WH-1000XM5 haven’t managed to escape a slight increase, coming in at £380 / $399 / AU$549."
+    },
+    "recordedAt": "2026-11-15T20:06:34.844Z"
+  },
+  {
+    "id": "C12",
+    "source": 1,
+    "option": "Bose QuietComfort Ultra",
+    "criterion": "Noise cancellation",
+    "claim": "Bose QC Ultra cuts out more noise than XM5",
+    "quote": "We think the Bose QuietComfort Ultra Headphones are a little more invasive and manage to cut out even more noise, but the Sonys are still very good for the money.",
+    "support": "supported",
+    "corroborating": [
+      8
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p21]",
+      "text": "the headphones. Alternatively, you can flick between noise-cancelling and the headphones’ Ambient mode by tapping the corresponding button on the edge of the left earcup. And once again Sony generally impresses on the noise-cancelling front. They’re among the class leaders when it comes to isolating us from constant drones and noises within train and underground carriages. They also help cut out loud conversations in crowded spaces that you don't want to be part of. We think the Bose QuietComfort Ultra Headphones are a little more invasive and manage to cut out even more noise, but the Sonys are still very good for the money."
+    },
+    "recordedAt": "2026-11-15T20:06:35.005Z"
+  },
+  {
+    "id": "C13",
+    "source": 5,
+    "option": "General",
+    "criterion": "Noise cancellation",
+    "claim": "ANC works best on steady low-frequency noise like train rumble",
+    "quote": "It works best on steady, low-frequency noise, such as train rumble, aircraft engines, traffic and air conditioning.",
+    "support": "supported",
+    "corroborating": [
+      8
+    ],
+    "conflicting": [],
+    "note": "Anker is a vendor",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[5.p22]",
+      "text": "to detect outside sound and reduce it electronically. It works best on steady, low-frequency noise, such as train rumble, aircraft engines, traffic and air conditioning. Passive isolation comes from the physical seal of the ear cups and helps more with higher-frequency sounds, such as voices, keyboard taps and general chatter. A good pair of headphones needs both. ANC handles the low rumble; the ear cup seal helps with the rest."
+    },
+    "recordedAt": "2026-11-15T20:06:35.180Z"
+  },
+  {
+    "id": "C14",
+    "source": 7,
+    "option": "General",
+    "criterion": "Comfort",
+    "claim": "Over-ear headphones are generally good for comfort",
+    "quote": "Over-ear headphones - generally good for comfort, but can sometimes be let down by bulky design",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "2019 source, generic",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[7.p6]",
+      "text": "won't have to untangle your cables when you dig the headphones out of your bag. Different types of headphones have their own pros and cons: • In-ear headphones - design reduces sound leakage, although some people can struggle to get a good fit in their ears • On-ear headphones - easy to put on, but not all of them are comfortable for long listening sessions • Over-ear headphones - generally good for comfort, but can sometimes be let down by bulky design"
+    },
+    "recordedAt": "2026-11-15T20:06:35.356Z"
+  },
+  {
+    "id": "C15",
+    "source": 6,
+    "option": "Anker Soundcore Space One",
+    "criterion": "Comfort",
+    "claim": "Soundcore Space One folds, feels lightweight, has aux cable",
+    "quote": "The headphones fold, feel lightweight, and include USB-C charging plus an auxiliary cable for wired listening when needed.",
+    "support": "supported",
+    "corroborating": [
+      8
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p18]",
+      "text": "on, and the app offers adjustable ANC strength, wind-noise reduction, and a decibel meter for safe listening. The headphones fold, feel lightweight, and include USB-C charging plus an auxiliary cable for wired listening when needed. While the Space One doesn’t provide audio over USB-C, the mix of LDAC, multipoint, and app-driven tuning makes it especially appealing to Android-first listeners who prioritize codec support. That combination is why we singled out the Space One for Android-oriented buyers shopping under $200.Sourced from Anker Soundcore Space One review – SoundGuys."
+    },
+    "recordedAt": "2026-11-15T20:06:35.531Z"
+  },
+  {
+    "id": "C16",
+    "source": 6,
+    "option": "JLab JBuds Lux ANC",
+    "criterion": "Noise cancellation",
+    "claim": "JLab JBuds Lux ANC cancels 10-20dB under 700Hz, respectable not top",
+    "quote": "reducing much commuting noise though not matching higher-end models, with measured 10–20dB cancellation under 700Hz",
+    "support": "supported",
+    "corroborating": [
+      8
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p15]",
+      "text": "Best Battery Life, Best Call Quality, Best Over-Ear Headphones, Best for iPhone users and Best for Comfort recognition.Sourced from Sony ULT WEAR review – SoundGuys. Best Value pick: JLab JBuds Lux ANC JLab JBuds Lux ANC is our Best Value pick thanks to its very long 44-hour battery, compact foldable design, and a useful companion app with a 10-band EQ. The headphones deliver respectable ANC for the price — reducing much commuting noise though not matching higher-end models, with measured 10–20dB cancellation under 700Hz — and the ear cups provide strong high-frequency isolation. Fast charging provides around four hours of playback from a ten-minute charge, and Bluetooth 5.3 plus USB-C"
+    },
+    "recordedAt": "2026-11-15T20:06:35.701Z"
+  },
+  {
+    "id": "C17",
+    "source": 4,
+    "option": "Sennheiser Accentum",
+    "criterion": "Noise cancellation",
+    "claim": "Sennheiser Accentum has effective everyday ANC and long battery",
+    "quote": "Beyond sound, it brings a well-rounded feature set that includes effective active noise cancellation for everyday environments and an impressively long battery life that easily supports extended listening sessions.",
+    "support": "partial",
+    "corroborating": [
+      8
+    ],
+    "conflicting": [],
+    "note": "No measurements, editorial description only",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[4.p4]",
+      "text": "it a strong pick for casual listeners. Beyond sound, it brings a well-rounded feature set that includes effective active noise cancellation for everyday environments and an impressively long battery life that easily supports extended listening sessions. Its overall usability and performance make it one of the more appealing value-focused wireless headphones in its class. Final Audio UX2000 Price: $149.95 The Final Audio UX2000 offers a balanced and approachable sound signature that works well across a wide variety of music, with a clean presentation that avoids sounding overly colored. It provides a comfortable and consistent listening experience that feels reliable whether you’re commuting, working, or just relaxing at home. The inclusion"
+    },
+    "recordedAt": "2026-11-15T20:06:35.867Z"
+  },
+  {
+    "id": "C18",
+    "source": 5,
+    "option": "Soundcore Space 2",
+    "criterion": "Comfort",
+    "claim": "Soundcore Space 2 uses pressure-relieving headband and memory foam for long sessions",
+    "quote": "It uses a pressure-relieving headband, upgraded protein leather cushions and slow-rebound memory foam, making it suitable for long workdays, study sessions and travel.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Vendor marketing, single source",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[5.p9]",
+      "text": "diaphragm drivers with LDAC: Supports higher-detail wireless listening on compatible Android devices. • Pressure-relieving headband and soft ear cups: Helps comfort during longer listening sessions. The soundcore Space 2 is the best choice if comfort and battery life are your top priorities. It uses a pressure-relieving headband, upgraded protein leather cushions and slow-rebound memory foam, making it suitable for long workdays, study sessions and travel. It also offers up to 50 hours of playtime with ANC on and up to 70 hours with ANC off."
+    },
+    "recordedAt": "2026-11-15T20:06:36.022Z"
+  },
+  {
+    "id": "C19",
+    "source": 6,
+    "option": "Sony ULT WEAR",
+    "criterion": "Comfort",
+    "claim": "Sony ULT WEAR earned SoundGuys Best ANC and Best for Comfort recognition",
+    "quote": "The ULT WEAR also earned Best ANC, Best Battery Life, Best Call Quality, Best Over-Ear Headphones, Best for iPhone users and Best for Comfort recognition.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Single independent source; SoundGuys is also the source of the lab data",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p14]",
+      "text": "the ULT button’s heavy bass boost. In lab testing they lasted 32 hours and 35 minutes and deliver more than 25dB of attenuation above 80Hz, making them well suited for commutes and travel. They support Bluetooth 5.2 with LDAC and multipoint, and offer a wired 3.5mm option though no USB-C audio; the Sony Sound Connect app also unlocks ANC and EQ customization. The ULT WEAR also earned Best ANC, Best Battery Life, Best Call Quality, Best Over-Ear Headphones, Best for iPhone users and Best for Comfort recognition.Sourced from Sony ULT WEAR review – SoundGuys."
+    },
+    "recordedAt": "2026-11-15T20:06:55.085Z"
+  },
+  {
+    "id": "C20",
+    "source": 8,
+    "option": "Sony WH-1000XM5",
+    "criterion": "Price",
+    "claim": "XM5 discounts can bring them closer to a 200 pound budget",
+    "quote": "They launched at £380, but now that Sony has replaced them with the WH-1000XM6, discounts can bring them closer to a £200 budget if you shop around.",
+    "support": "partial",
+    "corroborating": [
+      1
+    ],
+    "conflicting": [],
+    "note": "Source 1 only says discounts likely; closer to 200 not equal to under 200",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[8.p3]",
+      "text": "seal of the ear cups. A good commuting pair needs both, which is why fit and cushion design matter as much as the processing inside. The pair everyone asks about first is Sony's WH-1000XM5. They launched at £380, but now that Sony has replaced them with the WH-1000XM6, discounts can bring them closer to a £200 budget if you shop around. On paper they are formidable: eight microphones, Sony's Integrated Processor V1, noise cancelling that optimises itself automatically as you move around, and a quoted 30 hours of battery. The trouble on a long commute is the hardware. At around 320g they are one of the heavier pairs in this"
+    },
+    "recordedAt": "2026-11-15T20:06:55.268Z"
+  }
+]

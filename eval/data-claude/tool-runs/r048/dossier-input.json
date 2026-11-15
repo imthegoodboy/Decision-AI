@@ -1,0 +1,34 @@
+{"criteria":[
+{"name":"CADR for 350 sq ft","weight":40,"description":"Rated CADR vs the ~235 floor and ~300 m3/h target"},
+{"name":"True HEPA","weight":30,"description":"True HEPA H13 or better"},
+{"name":"Replacement filter cost","weight":30,"description":"Affordable, available filters"}],
+"options":[
+{"name":"Eureka Forbes 355","summary":"355 m3/h, HEPA H13, pre-filter, carbon, plasma stage; 63 dB","price":"Rs 9,999"},
+{"name":"Realme TechLife","summary":"330 m3/h; HEPA grade disputed (H13 vs H12); 64 dB at top speed","price":"Rs 7,999"},
+{"name":"Qubo Q600","summary":"450 m3/h, HEPA H13; ~55 dB","price":"Rs 14,490"},
+{"name":"Honeywell Air Touch V5","summary":"H13, quiet; CADR disputed (380 vs 250)","price":"Rs 10,199"}],
+"scores":[
+{"option":"Eureka Forbes 355","criterion":"CADR for 350 sq ft","score":9,"rationale":"355 m3/h exceeds the 300 target; two sources agree","claims":["C1","C9","C10"]},
+{"option":"Eureka Forbes 355","criterion":"True HEPA","score":8,"rationale":"Both sources say True HEPA H13","claims":["C1","C18"]},
+{"option":"Eureka Forbes 355","criterion":"Replacement filter cost","score":null,"rationale":"No model-specific filter price in any source","claims":["C21"]},
+{"option":"Realme TechLife","criterion":"CADR for 350 sq ft","score":8,"rationale":"330 m3/h, two sources agree","claims":["C2","C10"]},
+{"option":"Realme TechLife","criterion":"True HEPA","score":3,"rationale":"Hands-on review says H12, conflicting with source 2's H13","claims":["C3","C4"]},
+{"option":"Realme TechLife","criterion":"Replacement filter cost","score":null,"rationale":"Only 2,800 h indicator interval; no price","claims":["C12"]},
+{"option":"Qubo Q600","criterion":"CADR for 350 sq ft","score":10,"rationale":"450 m3/h","claims":["C14"]},
+{"option":"Qubo Q600","criterion":"True HEPA","score":8,"rationale":"H13","claims":["C14"]},
+{"option":"Honeywell Air Touch V5","criterion":"CADR for 350 sq ft","score":null,"rationale":"380 vs 250 conflict unresolved","claims":["C5","C6"]}],
+"recommendation":{"option":"Eureka Forbes 355","headline":"Eureka Forbes 355 for about Rs 9,999","summary":"It is the only affordable option where two sources agree on both a CADR above 300 m3/h and True HEPA H13. Filter cost is unverified and it is loud.","reasons":[
+{"text":"355 m3/h CADR clears the 300 m3/h target for a 350 sq ft room","claims":["C1","C10"]},
+{"text":"True HEPA H13 confirmed by two sources","claims":["C1","C18"]}],
+"tradeoffs":[{"text":"Rated 63 dB, loud for a bedroom; plasma stage can be avoided","claims":["C19"]}],
+"alternatives":[{"option":"Qubo Q600","when":"You want maximum CADR and can pay Rs 14,490"},{"option":"Realme TechLife","when":"Budget matters most and you accept H12 vs H13 uncertainty"}],
+"caveats":["No source gives Eureka Forbes filter prices"],
+"nextSteps":["Check Eureka Forbes filter price and availability","Confirm HEPA grade on the listing"]},
+"contradictions":[
+{"option":"Realme TechLife","topic":"HEPA grade H13 vs H12","claims":["C3","C4"],"assessment":"Source 7 is a hands-on review of the product but from 2021; source 2 is newer but unsourced. Unresolved; treat Realme as not verified True HEPA H13.","severity":"high"},
+{"option":"Honeywell Air Touch V5","topic":"CADR 380 vs 250","claims":["C5","C6"],"assessment":"Unresolved; neither source cites a test.","severity":"medium"},
+{"option":"Mi Air Purifier 4","topic":"Price","claims":["C7","C8"],"assessment":"Rs 14,999 vs 17,999; prices vary; likely over budget.","severity":"low"}],
+"uncertainties":[
+{"kind":"incomplete","text":"No filter price for Eureka Forbes 355 or Realme","option":"Eureka Forbes 355","impact":"high","howToResolve":"Check brand store or Amazon for filter price"},
+{"kind":"single-source","text":"Specs are advertised, not lab tested","option":null,"impact":"medium","howToResolve":"Look for certified CADR reports"},
+{"kind":"outdated","text":"Prices from 2025-2026 articles","option":null,"impact":"low","howToResolve":"Check current price"}]}

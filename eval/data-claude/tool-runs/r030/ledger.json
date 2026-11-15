@@ -1,0 +1,396 @@
+[
+  {
+    "id": "C1",
+    "source": 7,
+    "option": "Vio Bank",
+    "criterion": "No monthly fees",
+    "claim": "Vio Bank pays 4.00% APY on all balances with no required monthly activity and no monthly fees",
+    "quote": "Vio Bank’s impressive 4.00% APY applies to all balances with absolutely no extracurricular monthly activities necessary to earn it.",
+    "support": "supported",
+    "corroborating": [
+      4
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p12]",
+      "text": "2018 as the online banking division of MidFirst Bank—the largest privately owned bank in the U.S. It specializes in savings, CDs, and money market accounts. • Year Founded: 2018 • Company Headquarters: Oklahoma City, OK • CEO: Todd Dobson (MidFirst Bank CEO) Why we picked Vio Bank Vio Bank’s impressive 4.00% APY applies to all balances with absolutely no extracurricular monthly activities necessary to earn it. There are no monthly fees, either. Vio does stipulate that you must deposit at least $100 to open an account, but that shouldn’t be an issue for most who are in the market for a high-yield savings account."
+    },
+    "recordedAt": "2026-11-15T20:34:07.156Z"
+  },
+  {
+    "id": "C2",
+    "source": 7,
+    "option": "Vio Bank",
+    "criterion": "No monthly fees",
+    "claim": "Vio requires a $100 opening deposit",
+    "quote": "Vio does stipulate that you must deposit at least $100 to open an account, but that shouldn’t be an issue for most who are in the market for a high-yield savings account.",
+    "support": "supported",
+    "corroborating": [
+      4
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p12]",
+      "text": "2018 as the online banking division of MidFirst Bank—the largest privately owned bank in the U.S. It specializes in savings, CDs, and money market accounts. • Year Founded: 2018 • Company Headquarters: Oklahoma City, OK • CEO: Todd Dobson (MidFirst Bank CEO) Why we picked Vio Bank Vio Bank’s impressive 4.00% APY applies to all balances with absolutely no extracurricular monthly activities necessary to earn it. There are no monthly fees, either. Vio does stipulate that you must deposit at least $100 to open an account, but that shouldn’t be an issue for most who are in the market for a high-yield savings account."
+    },
+    "recordedAt": "2026-11-15T20:34:07.363Z"
+  },
+  {
+    "id": "C3",
+    "source": 7,
+    "option": "Vio Bank",
+    "criterion": "Easy transfers",
+    "claim": "Vio has no checking account and no branches; you must transfer to an external bank to spend",
+    "quote": "In other words, you’ll need to transfer your money to an external bank before you can spend it.",
+    "support": "supported",
+    "corroborating": [
+      4
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p13]",
+      "text": "at least $100 to open an account, but that shouldn’t be an issue for most who are in the market for a high-yield savings account. Vio Bank isn’t perfect for everyone, however. It doesn’t offer a checking account, so deploying your money isn’t as easy as with banks that allow you to instantly transfer funds between checking and savings. It does issue a money market account, but it doesn’t offer a debit card or check-writing privileges. In other words, you’ll need to transfer your money to an external bank before you can spend it."
+    },
+    "recordedAt": "2026-11-15T20:34:07.533Z"
+  },
+  {
+    "id": "C4",
+    "source": 7,
+    "option": "EverBank",
+    "criterion": "No monthly fees",
+    "claim": "EverBank pays 3.90% APY with no minimum opening deposit, no monthly fees, no required monthly behavior",
+    "quote": "No minimum opening deposit, no monthly fees, no required monthly behavior to achieve its 3.90% APY.",
+    "support": "supported",
+    "corroborating": [
+      4
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p16]",
+      "text": "that’s more accessible than what EverBank has on offer. No minimum opening deposit, no monthly fees, no required monthly behavior to achieve its 3.90% APY. Plus, its mobile app receives an impressive 4.7 stars on Google Play and the Apple App Store as of this writing—one of the highest ratings on our list. A solid online banking experience is an important factor to consider when deciding which HYSA to open."
+    },
+    "recordedAt": "2026-11-15T20:34:07.746Z"
+  },
+  {
+    "id": "C5",
+    "source": 7,
+    "option": "EverBank",
+    "criterion": "Easy transfers",
+    "claim": "EverBank mobile app is rated 4.7 stars on Google Play and Apple App Store",
+    "quote": "Plus, its mobile app receives an impressive 4.7 stars on Google Play and the Apple App Store as of this writing—one of the highest ratings on our list.",
+    "support": "supported",
+    "corroborating": [
+      4
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p16]",
+      "text": "that’s more accessible than what EverBank has on offer. No minimum opening deposit, no monthly fees, no required monthly behavior to achieve its 3.90% APY. Plus, its mobile app receives an impressive 4.7 stars on Google Play and the Apple App Store as of this writing—one of the highest ratings on our list. A solid online banking experience is an important factor to consider when deciding which HYSA to open."
+    },
+    "recordedAt": "2026-11-15T20:34:07.968Z"
+  },
+  {
+    "id": "C6",
+    "source": 4,
+    "option": "EverBank",
+    "criterion": "Easy transfers",
+    "claim": "EverBank branches are mostly in Florida, California and New York",
+    "quote": "Its branches are concentrated mostly in Florida, California and New York.",
+    "support": "supported",
+    "corroborating": [
+      7
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[4.p6]",
+      "text": "MidFirst Bank, has no checking account and no physical branches, so you have to transfer money to an external bank before you can spend it. EverBank is the pick for people who want a bank with some physical footprint. It pays 3.90% APY with no minimum opening deposit, no monthly fees and no required monthly behavior, and its mobile app holds a 4.7-star rating on Google Play and the Apple App Store. Its branches are concentrated mostly in Florida, California and New York."
+    },
+    "recordedAt": "2026-11-15T20:34:08.155Z"
+  },
+  {
+    "id": "C7",
+    "source": 7,
+    "option": "Varo",
+    "criterion": "No monthly fees",
+    "claim": "Varo 3.75% applies only to the first $5,000 and 1.00% above",
+    "quote": "The 3.75% rate applies to a maximum balance of $5,000.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [
+      4
+    ],
+    "note": "Source 4 says no cap; source 5 (older) also describes tiering",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[7.p10]",
+      "text": "there’s a very accessible minimum deposit required to open an account. As long as you’ve got at least $0.01 in your account, you’ll earn interest. That said, Varo has two sizable footnotes: • You must receive qualifying direct deposits totaling $1,000 or more in your account each month. • The 3.75% rate applies to a maximum balance of $5,000. Any money beyond that number will earn a less impressive 1.00%."
+    },
+    "recordedAt": "2026-11-15T20:34:08.315Z"
+  },
+  {
+    "id": "C8",
+    "source": 4,
+    "option": "Varo",
+    "criterion": "No monthly fees",
+    "claim": "Varo 3.75% applies to the entire balance with no cap",
+    "quote": "Its 3.75% APY applies to your entire balance with no cap, so a full $15,000 emergency fund earns the headline rate.",
+    "support": "unsupported",
+    "corroborating": [],
+    "conflicting": [
+      7
+    ],
+    "note": "Contradicted by Fortune (dated July 2026) and the older BankBonus tiering",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "unsupported",
+    "passage": {
+      "id": "[4.p4]",
+      "text": "$0.01 in the account. Its 3.75% APY applies to your entire balance with no cap, so a full $15,000 emergency fund earns the headline rate. The one condition is that you need qualifying direct deposits totaling $1,000 or more each month, which most people with a regular paycheck clear without thinking about it. Because Varo also offers a checking account, your emergency money sits under the same roof as your everyday spending account."
+    },
+    "recordedAt": "2026-11-15T20:34:08.491Z"
+  },
+  {
+    "id": "C9",
+    "source": 4,
+    "option": "Marcus",
+    "criterion": "Easy transfers",
+    "claim": "Marcus has no same-day transfers; external transfers take 3-5 business days",
+    "quote": "Marcus does not offer same-day transfers; moving money out to an external checking account typically takes three to five business days.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [
+      5
+    ],
+    "note": "Source 5 is undated-ish 2023 and says same-day",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[4.p9]",
+      "text": "an ATM card with no ATM fees, which is unusual for an online savings account and handy if you ever need cash in a hurry. Marcus by Goldman Sachs has long been a default recommendation, and it is still a clean product: no monthly fee, no minimum opening deposit, no minimum balance to earn its 3.50% APY, and customer service available around the clock. But it is a weaker fit for emergency money than its reputation suggests. Marcus does not offer same-day transfers; moving money out to an external checking account typically takes three to five business days. It also limits savings withdrawals to six per month and charges $10"
+    },
+    "recordedAt": "2026-11-15T20:34:08.679Z"
+  },
+  {
+    "id": "C10",
+    "source": 5,
+    "option": "Marcus",
+    "criterion": "Easy transfers",
+    "claim": "Marcus allows same-day transfers up to $100,000",
+    "quote": "They pay an APY 8 times the national rate and allow same-day transfers on amounts up to $100,000.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [
+      4
+    ],
+    "note": "Published 2023, flagged possibly outdated",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[5.p18]",
+      "text": "making a $1 minimum deposit. You can also make unlimited deposits and withdrawals from the account, which are processed in one to three business days. 8. Marcus by Goldman Sachs HYSA Marcus by Goldman Sachs offers a high-yield savings account with no fees or no minimum deposit. They pay an APY 8 times the national rate and allow same-day transfers on amounts up to $100,000. The Marcus app is intuitive and user-friendly, allowing you to make important financial decisions quickly. It takes only minutes to open an account, and you can link external accounts to transfer money."
+    },
+    "recordedAt": "2026-11-15T20:34:08.859Z"
+  },
+  {
+    "id": "C11",
+    "source": 4,
+    "option": "Marcus",
+    "criterion": "Easy transfers",
+    "claim": "Marcus limits savings withdrawals to six per month, $10 per extra",
+    "quote": "It also limits savings withdrawals to six per month and charges $10 for each one beyond that.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [
+      2
+    ],
+    "note": "CBS says no cap on withdrawals/transfers",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[4.p10]",
+      "text": "out to an external checking account typically takes three to five business days. It also limits savings withdrawals to six per month and charges $10 for each one beyond that. With no checking account and no ATM access, there is no faster route to your cash when an emergency hits. Ally remains a reasonable choice if you like organization tools. Its Buckets feature lets you label part of a single balance for emergencies, there is no monthly maintenance fee, and standard ACH transfers are free. Be aware that Ally charges $10 per excess withdrawal after six in a month and offers no branch or ATM access. Synchrony is another no-fee,"
+    },
+    "recordedAt": "2026-11-15T20:34:09.045Z"
+  },
+  {
+    "id": "C12",
+    "source": 2,
+    "option": "Marcus",
+    "criterion": "Easy transfers",
+    "claim": "Marcus has no cap on withdrawals or transfers",
+    "quote": "This account strips away the friction points with no monthly fee, no minimum opening deposit, no minimum balance to earn the full APY and no cap on withdrawals or transfers.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [
+      4
+    ],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[2.p25]",
+      "text": "who can't reliably hit the $250 monthly deposit requirement, though, may find themselves toggling between rates month to month, which could be frustrating to track. Best no-fee, no-minimum savings account: Marcus by Goldman Sachs For savers who are skeptical of conditional rates or tired of reading fine print, Marcus delivers a genuinely clean proposition. This account strips away the friction points with no monthly fee, no minimum opening deposit, no minimum balance to earn the full APY and no cap on withdrawals or transfers. The 3.50% rate isn't the highest available, but it requires nothing beyond simply opening and funding the account."
+    },
+    "recordedAt": "2026-11-15T20:34:09.221Z"
+  },
+  {
+    "id": "C13",
+    "source": 4,
+    "option": "Axos Bank",
+    "criterion": "Easy transfers",
+    "claim": "Axos rate drops to 1.00% if requirements are missed",
+    "quote": "Fall short in any month and the rate drops to a 1.00% base APY.",
+    "support": "supported",
+    "corroborating": [
+      2,
+      7
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[4.p7]",
+      "text": "mobile app holds a 4.7-star rating on Google Play and the Apple App Store. Its branches are concentrated mostly in Florida, California and New York. Axos Bank posts the biggest number on most rate tables: up to 4.21% APY through its ONE bundle. Earning it requires $1,500 in monthly direct deposits plus a $1,500 average daily balance in checking, or $5,000 in monthly deposits and a $5,000 average daily balance. Fall short in any month and the rate drops to a 1.00% base APY. For an emergency fund, money you may have to drain at an inconvenient moment, that cliff is a real risk."
+    },
+    "recordedAt": "2026-11-15T20:34:09.402Z"
+  },
+  {
+    "id": "C14",
+    "source": 4,
+    "option": "General",
+    "criterion": "FDIC insured",
+    "claim": "All accounts listed in source 4 carry FDIC insurance up to $250,000",
+    "quote": "Every account below carries federal deposit insurance up to $250,000, so a $15,000 balance is fully covered at any of them.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Single source blanket statement; Fortune does not state FDIC for Vio/EverBank",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[4.p2]",
+      "text": "most are no monthly fees, federal deposit insurance, and transfers that move quickly when you need the cash. Yield matters too, but it comes fourth. The good news is that the bar to clear is low. The FDIC puts the national average savings rate at just 0.38%, and basic savings accounts at big banks such as Chase, Wells Fargo and Bank of America still pay around 0.01%. On $15,000, that is the difference between pocket change and several hundred dollars a year at a competitive online bank. Every account below carries federal deposit insurance up to $250,000, so a $15,000 balance is fully covered at any of them."
+    },
+    "recordedAt": "2026-11-15T20:34:09.555Z"
+  },
+  {
+    "id": "C15",
+    "source": 4,
+    "option": "Ally",
+    "criterion": "Easy transfers",
+    "claim": "Ally charges $10 per excess withdrawal after six per month, no branch or ATM",
+    "quote": "Be aware that Ally charges $10 per excess withdrawal after six in a month and offers no branch or ATM access.",
+    "support": "supported",
+    "corroborating": [
+      6
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[4.p10]",
+      "text": "out to an external checking account typically takes three to five business days. It also limits savings withdrawals to six per month and charges $10 for each one beyond that. With no checking account and no ATM access, there is no faster route to your cash when an emergency hits. Ally remains a reasonable choice if you like organization tools. Its Buckets feature lets you label part of a single balance for emergencies, there is no monthly maintenance fee, and standard ACH transfers are free. Be aware that Ally charges $10 per excess withdrawal after six in a month and offers no branch or ATM access. Synchrony is another no-fee,"
+    },
+    "recordedAt": "2026-11-15T20:34:09.746Z"
+  },
+  {
+    "id": "C16",
+    "source": 7,
+    "option": "LendingClub",
+    "criterion": "No monthly fees",
+    "claim": "LendingClub LevelUp pays 4.00% with $250 monthly deposit, else 3.00%",
+    "quote": "Its one minor annoyance is that you must deposit at least $250 into the account each month to earn that rate.",
+    "support": "supported",
+    "corroborating": [
+      2,
+      4
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p22]",
+      "text": "It offers a high-yield savings account—and it’s a good one. Minimum opening depsoit • Year Founded: 2006 • CEO: Scott Sanborn Why we picked LendingClub Happen Bank’s savings “LevelUp” savings account comes with an excellent 4.00% APY with no fees and no minimum balance. Its one minor annoyance is that you must deposit at least $250 into the account each month to earn that rate. If you don’t, you’ll earn a (still respectable) 3.00%."
+    },
+    "recordedAt": "2026-11-15T20:34:09.929Z"
+  },
+  {
+    "id": "C17",
+    "source": 4,
+    "option": "General",
+    "criterion": "Rates",
+    "claim": "Rates are variable and can change at any time",
+    "quote": "Every rate here is variable and can change at any time, so do not over-optimize for a few hundredths of a percent; a quarter-point difference on $15,000 is under $40 a year.",
+    "support": "supported",
+    "corroborating": [
+      2
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[4.p11]",
+      "text": "Be aware that Ally charges $10 per excess withdrawal after six in a month and offers no branch or ATM access. Synchrony is another no-fee, no-minimum option at 3.40% APY, and it adds an optional ATM card that works at machines showing the Plus or Accel logo. A few final rules of thumb. Every rate here is variable and can change at any time, so do not over-optimize for a few hundredths of a percent; a quarter-point difference on $15,000 is under $40 a year. Put speed of access ahead of yield, keep the account at a federally insured institution, and be wary of rates that hinge on keeping a"
+    },
+    "recordedAt": "2026-11-15T20:34:10.087Z"
+  },
+  {
+    "id": "C18",
+    "source": 7,
+    "option": "ZYNLO Bank",
+    "criterion": "Easy transfers",
+    "claim": "ZYNLO has no transfer limits",
+    "quote": "Plus, ZYNLO does not enforce transfer limitations on its savings account.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p24]",
+      "text": "founded in 2020, ZYNLO Bank is part of PeoplesBank which is headquartered in Holyoke, Massachusetts. ZYNLO issues high-yield checking, savings, money market accounts, and CDs. • Year Founded: 2020 (division of PeoplesBank which was founded in 1885) • Company Headquarters: Holyoke, MA • CEO: Tom Senecal Why we picked ZYNLO Bank Earning ZYNLO’s 3.85% APY with its Tomorrow Savings account is simple: Keep a minimum of $0.01 in your bank account. You won’t be subject to fees or throttled earning rates. Plus, ZYNLO does not enforce transfer limitations on its savings account. While many banks limit the number of transactions you can make with your savings account (often six per"
+    },
+    "recordedAt": "2026-11-15T20:34:10.275Z"
+  }
+]

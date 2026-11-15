@@ -1,0 +1,353 @@
+[
+  {
+    "id": "C1",
+    "source": 6,
+    "option": "Ride1Up Turris",
+    "criterion": "Brakes",
+    "claim": "Turris has Tektro hydraulic discs, 750W hub, 672Wh battery",
+    "quote": "The Ride1Up Turris ($1,295) is the strongest climber on paper: a 750W rear hub motor, a 48V 14Ah (672Wh) battery, Tektro hydraulic discs, and Shimano Altus 8-speed gearing.",
+    "support": "supported",
+    "corroborating": [
+      4
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p5]",
+      "text": "with a folding frame that weighs more than 70 pounds. It is a fantastic errand bike. For a daily hill commute, it is a compromise. The Ride1Up Turris ($1,295) is the strongest climber on paper: a 750W rear hub motor, a 48V 14Ah (672Wh) battery, Tektro hydraulic discs, and Shimano Altus 8-speed gearing. It is a genuinely good bike. The catch for many commuters is support. Ride1Up sells direct-to-consumer only, so there is no local dealer to diagnose a fault or swap a battery. If something fails midweek, you are emailing support and waiting on shipped parts."
+    },
+    "recordedAt": "2026-11-15T20:37:10.054Z"
+  },
+  {
+    "id": "C2",
+    "source": 4,
+    "option": "Ride1Up Turris",
+    "criterion": "Hill climbing",
+    "claim": "Turris 750W motor climbs 10%+ grades",
+    "quote": "The 750W rear hub motor pulls hard from a standstill, climbs 10%+ grades without begging for help, and hits a legitimate 28 mph on flat ground.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "single-source performance claim; source 4 reliability 48; [6] says strongest climber on paper",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[4.p9]",
+      "text": "Range estimates vary based on rider weight, terrain, and assist level. These reflect real-world averages from testing, not manufacturer maximums. Best Overall Ebike Under $1,500 Ride1Up Turris — $1,295 The Ride1Up Turris earns the top spot because it does everything well without a glaring weakness. The 750W rear hub motor pulls hard from a standstill, climbs 10%+ grades without begging for help, and hits a legitimate 28 mph on flat ground. That's the kind of motor response that makes riding feel effortless rather than assisted."
+    },
+    "recordedAt": "2026-11-15T20:37:10.218Z"
+  },
+  {
+    "id": "C3",
+    "source": 6,
+    "option": "Ride1Up Turris",
+    "criterion": "Battery replacement",
+    "claim": "Ride1Up is direct-to-consumer only, no local dealer to swap a battery",
+    "quote": "Ride1Up sells direct-to-consumer only, so there is no local dealer to diagnose a fault or swap a battery.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p5]",
+      "text": "with a folding frame that weighs more than 70 pounds. It is a fantastic errand bike. For a daily hill commute, it is a compromise. The Ride1Up Turris ($1,295) is the strongest climber on paper: a 750W rear hub motor, a 48V 14Ah (672Wh) battery, Tektro hydraulic discs, and Shimano Altus 8-speed gearing. It is a genuinely good bike. The catch for many commuters is support. Ride1Up sells direct-to-consumer only, so there is no local dealer to diagnose a fault or swap a battery. If something fails midweek, you are emailing support and waiting on shipped parts."
+    },
+    "recordedAt": "2026-11-15T20:37:10.399Z"
+  },
+  {
+    "id": "C4",
+    "source": 6,
+    "option": "Rad Mission 2",
+    "criterion": "Brakes",
+    "claim": "Rad Mission 2 has hydraulic discs on 180mm rotors",
+    "quote": "Rad fits it with hydraulic disc brakes on 180mm rotors, so you get confident, low-effort stopping on every descent.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [
+      8
+    ],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[6.p7]",
+      "text": "is lovely to ride, but it uses mechanical brakes and a 360Wh battery and is really built for flat commutes under 15 miles round trip. Which brings us to our pick: the Rad Mission 2 ($1,099). On paper it looks modest, with a 500W rear hub motor, a 48V 10Ah (480Wh) battery, and a simple single-speed drivetrain at a claimed 55 lbs. In practice, it is the most sensible hill commuter in this bracket. Rad fits it with hydraulic disc brakes on 180mm rotors, so you get confident, low-effort stopping on every descent. Its cadence sensor feels less natural than a torque sensor, but it delivers full assist the moment"
+    },
+    "recordedAt": "2026-11-15T20:37:10.555Z"
+  },
+  {
+    "id": "C5",
+    "source": 8,
+    "option": "Rad Mission 2",
+    "criterion": "Brakes",
+    "claim": "Rad Mission 2 has mechanical disc brakes",
+    "quote": "Mechanical disc, 180mm",
+    "support": "unsupported",
+    "corroborating": [],
+    "conflicting": [
+      6
+    ],
+    "note": "table cell; quote may not be a sentence",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "unsupported",
+    "passage": {
+      "id": "[8.p9]",
+      "text": "1000W), torque sensor 48V 10.4Ah (499Wh), UL 2271 Hydraulic disc, 180mm 64 lb (claimed) Class 1/2/3 $999 Aventon Soltera.2 Rear hub, 350W sustained (torque sensor) 36V 10Ah (360Wh) Mechanical disc 41 lb (claimed) Class 1/2 $1,199 Ride1Up Core-5 Rear hub, 500W sustained (torque sensor) 48V 10.4Ah (499Wh) Mechanical disc, 160mm 49 lb (claimed) $1,095 Rad Mission 2 Rear hub, 500W (cadence sensor) 48V 10Ah (480Wh) Mechanical disc, 180mm"
+    },
+    "recordedAt": "2026-11-15T20:37:10.723Z"
+  },
+  {
+    "id": "C6",
+    "source": 6,
+    "option": "Rad Mission 2",
+    "criterion": "Battery replacement",
+    "claim": "Rad has the largest dealer and service network of DTC brands",
+    "quote": "Rad Power has the largest dealer and service network of any direct-to-consumer e-bike brand in North America, so replacement packs and in-person service are easier to track down than with brands that ship only from a warehouse.",
+    "support": "supported",
+    "corroborating": [
+      8
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p8]",
+      "text": "you get confident, low-effort stopping on every descent. Its cadence sensor feels less natural than a torque sensor, but it delivers full assist the moment the cranks turn, which gets you moving briskly from a stop at the bottom of a hill. And it is roughly 15 pounds lighter than the XP4. Battery replacement is where Rad separates itself. Rad Power has the largest dealer and service network of any direct-to-consumer e-bike brand in North America, so replacement packs and in-person service are easier to track down than with brands that ship only from a warehouse. Shoppers should know about the CPSC's November 2025 warning on certain older Rad batteries"
+    },
+    "recordedAt": "2026-11-15T20:37:10.920Z"
+  },
+  {
+    "id": "C7",
+    "source": 5,
+    "option": "Rad Mission 2",
+    "criterion": "Battery replacement",
+    "claim": "Rad bankruptcy means parts availability could dry up",
+    "quote": "Parts availability could dry up.",
+    "support": "supported",
+    "corroborating": [
+      6
+    ],
+    "conflicting": [],
+    "note": "bankruptcy also mentioned in 6; undermines dealer network claim",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[5.p15]",
+      "text": "the motor is capable, and the cargo setup is genuinely useful. But buying from a company that just went through bankruptcy means accepting real risk. Warranty coverage may not be honored. Parts availability could dry up. The customer support team that existed six months ago may not exist six months from now. The battery fire warnings on older models (not the 3 Plus specifically) further damage trust in Rad’s quality control and supply chain."
+    },
+    "recordedAt": "2026-11-15T20:37:11.188Z"
+  },
+  {
+    "id": "C8",
+    "source": 7,
+    "option": "Trek Allant+ 7 (used)",
+    "criterion": "Battery replacement",
+    "claim": "Allant+ 7 500Wh UL battery available anywhere in US",
+    "quote": "The 500Wh removable battery is UL certified and available for purchase anywhere in the US.",
+    "support": "supported",
+    "corroborating": [
+      6
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p5]",
+      "text": "bike comes with the 9-speed Shimano Alivio drivetrain, which shifts cleanly and reliably. You also get great stopping power as Hydraulic disc brakes are standard. This is a Class 1 electric bike that assists you to 20 mph, and doesn’t have a throttle. The 500Wh removable battery is UL certified and available for purchase anywhere in the US. Why I like it: The Bosch Performance Line CX motor is rare at this price. The difference in feel on a hilly commute is substantial."
+    },
+    "recordedAt": "2026-11-15T20:37:11.419Z"
+  },
+  {
+    "id": "C9",
+    "source": 7,
+    "option": "Trek Allant+ 7 (used)",
+    "criterion": "Brakes",
+    "claim": "Allant+ 7 has hydraulic disc brakes standard",
+    "quote": "You also get great stopping power as Hydraulic disc brakes are standard.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p4]",
+      "text": "pedal than a bike with a rear hub motor. On hills, it pulls cleanly. On flat ground, it’s quiet enough that you barely notice it. The suspension fork absorbs bumps that a rigid fork would send straight through the handlebars. This bike comes with the 9-speed Shimano Alivio drivetrain, which shifts cleanly and reliably. You also get great stopping power as Hydraulic disc brakes are standard."
+    },
+    "recordedAt": "2026-11-15T20:37:11.600Z"
+  },
+  {
+    "id": "C10",
+    "source": 7,
+    "option": "Trek Allant+ 7 (used)",
+    "criterion": "Hill climbing",
+    "claim": "Allant+ 7 Bosch CX mid-drive, 85Nm, pulls cleanly on hills",
+    "quote": "The Bosch Performance Line CX mid-drive motor gives you 85Nm of torque through the drivetrain, so it feels more natural to pedal than a bike with a rear hub motor.",
+    "support": "supported",
+    "corroborating": [
+      6
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p3]",
+      "text": "R-Bike Under $1,500 The 4 Best R-Bikes Under $1,500 in 2026 Which E-Bike Should You Choose? Why Shop on Upway Frequently Asked Questions Key Takeaways What to Look for in an E-Bike Under $1,500 The 4 Best e-Bikes Under $1,500 in 2026 Trek Allant+ 7 — Best Mid-Drive Commuter The Trek Allant+ 7 is the most premium commuter e-Bike on this list. The Bosch Performance Line CX mid-drive motor gives you 85Nm of torque through the drivetrain, so it feels more natural to pedal than a bike with a rear hub motor. On hills, it pulls cleanly. On flat ground, it’s quiet enough that you barely notice it."
+    },
+    "recordedAt": "2026-11-15T20:37:11.795Z"
+  },
+  {
+    "id": "C11",
+    "source": 4,
+    "option": "Aventon Pace 500.3",
+    "criterion": "Hill climbing",
+    "claim": "Pace 500.3 500W motor underpowered on a real hill",
+    "quote": "One honest downside: the 500W motor feels slightly underpowered compared to the 750W options when you hit a real hill with a full bag.",
+    "support": "supported",
+    "corroborating": [
+      6
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[4.p18]",
+      "text": "week for most urban commuters. The integrated front and rear lights are bright enough to matter in traffic, not afterthoughts bolted on as an accessory. Hydraulic disc brakes, a color LCD display, and a semi-integrated battery (looks clean, stays secure) round out the package. The geometry is slightly more aggressive than the Turris but still upright enough for daily riding without back pain. One honest downside: the 500W motor feels slightly underpowered compared to the 750W options when you hit a real hill with a full bag. If your commute involves significant climbing, consider the Turris instead. On flat urban terrain, the Pace 500.3 is near-perfect for the money."
+    },
+    "recordedAt": "2026-11-15T20:37:11.992Z"
+  },
+  {
+    "id": "C12",
+    "source": 6,
+    "option": "Lectric XP4",
+    "criterion": "Brakes",
+    "claim": "Base XP4 ships with mechanical disc brakes",
+    "quote": "The $999 XP4 ships with cable-actuated mechanical disc brakes; Lectric reserves its hydraulic system for the pricier long-range version.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [
+      1,
+      5
+    ],
+    "note": "sources 1 and 5 describe hydraulic",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[6.p4]",
+      "text": "But look closely at the base model before you buy it for hills. The $999 XP4 ships with cable-actuated mechanical disc brakes; Lectric reserves its hydraulic system for the pricier long-range version. The 500W motor also peaks at roughly 750W, which is fine on rolling terrain but leaves it laboring on sustained grades, especially with a folding frame that weighs more than 70 pounds. It is a fantastic errand bike. For a daily hill commute, it is a compromise."
+    },
+    "recordedAt": "2026-11-15T20:37:12.175Z"
+  },
+  {
+    "id": "C13",
+    "source": 1,
+    "option": "Lectric XP4",
+    "criterion": "Brakes",
+    "claim": "XP4 has custom hydraulic brake system",
+    "quote": "It’s one of the lowest-priced e-bikes we’ve seen that boast coveted features such as a torque sensor, integrated turn signals, custom quick-release pedals, a color display, and a custom hydraulic brake system.",
+    "support": "supported",
+    "corroborating": [
+      5
+    ],
+    "conflicting": [
+      6
+    ],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p7]",
+      "text": "previous generation (in spite of huge upgrades and political turmoil), but its performance matched, and sometimes exceeded, bikes that cost two or three times more. The XP4 is truly among the best budget-friendly e-bikes we’ve tested. It’s one of the lowest-priced e-bikes we’ve seen that boast coveted features such as a torque sensor, integrated turn signals, custom quick-release pedals, a color display, and a custom hydraulic brake system."
+    },
+    "recordedAt": "2026-11-15T20:37:12.355Z"
+  },
+  {
+    "id": "C14",
+    "source": 8,
+    "option": "General",
+    "criterion": "Brakes",
+    "claim": "Hydraulic discs give more stopping power with less hand effort",
+    "quote": "Hydraulic disc brakes give you more stopping power with less hand effort, and they self-adjust as pads wear.",
+    "support": "supported",
+    "corroborating": [
+      3,
+      4,
+      6
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[8.p4]",
+      "text": "which is voltage times amp-hours. A 48V 10.4Ah battery is 499Wh. A 36V 10Ah battery is 360Wh. The first one stores roughly 40% more energy. Also look for named cell brands (Samsung, LG) and UL 2271 or UL 2849 certification. If the listing won’t tell you what cells are inside, that’s not a good sign. Brakes: hydraulic if you can get them E-bikes are heavier than regular bikes. You’re also moving faster. Hydraulic disc brakes give you more stopping power with less hand effort, and they self-adjust as pads wear. Mechanical discs work fine at lower speeds and lighter weights, but they need more maintenance and squeeze harder on your"
+    },
+    "recordedAt": "2026-11-15T20:37:12.538Z"
+  },
+  {
+    "id": "C15",
+    "source": 3,
+    "option": "Rad Mission 2",
+    "criterion": "Battery safety",
+    "claim": "CPSC warned about certain older Rad batteries; Safe Shield not subject per Rad",
+    "quote": "That same CPSC notice includes Rad’s comments, stating that Rad’s Safe Shield and semi-integrated batteries are not subject to the agency’s statement and that customers should stop using batteries that show signs of damage, water ingress, or corrosion.",
+    "support": "supported",
+    "corroborating": [
+      6
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[3.p20]",
+      "text": "ignite or explode, especially when the battery or harness has been exposed to water and debris, and it notes reports of fires and property damage. That same CPSC notice includes Rad’s comments, stating that Rad’s Safe Shield and semi-integrated batteries are not subject to the agency’s statement and that customers should stop using batteries that show signs of damage, water ingress, or corrosion. What I’d do with that info if you’re shopping used online: check the battery model label on any older Rad inventory, and do not treat battery safety as a later problem. It’s a now problem."
+    },
+    "recordedAt": "2026-11-15T20:37:12.725Z"
+  },
+  {
+    "id": "C16",
+    "source": 6,
+    "option": "Aventon Soltera.2",
+    "criterion": "Hill climbing",
+    "claim": "Soltera.2 mechanical brakes and 360Wh, for flat commutes",
+    "quote": "The lighter Aventon Soltera.2 ($1,199, 41 lbs claimed) is lovely to ride, but it uses mechanical brakes and a 360Wh battery and is really built for flat commutes under 15 miles round trip.",
+    "support": "supported",
+    "corroborating": [
+      8
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p6]",
+      "text": "is no local dealer to diagnose a fault or swap a battery. If something fails midweek, you are emailing support and waiting on shipped parts. The Aventon Pace 500.3 (around $1,400) has hydraulic brakes, integrated lights, a torque sensor, and Aventon's large bike-shop footprint behind it. Its weakness is the one that matters most here: its 500W motor feels underpowered on a real hill with a full bag. The lighter Aventon Soltera.2 ($1,199, 41 lbs claimed) is lovely to ride, but it uses mechanical brakes and a 360Wh battery and is really built for flat commutes under 15 miles round trip."
+    },
+    "recordedAt": "2026-11-15T20:37:12.907Z"
+  }
+]

@@ -1,0 +1,399 @@
+[
+  {
+    "id": "C1",
+    "source": 8,
+    "option": "1Password",
+    "criterion": "Independent audits",
+    "claim": "1Password publishes independent Cure53 audit results and holds SOC 2 Type 2 and ISO 27001",
+    "quote": "Audit history: 1Password publishes results from regular independent security audits, including Cure53 penetration tests, and holds SOC 2 Type 2 and ISO 27001 certifications.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[8.p24]",
+      "text": "while Travel Mode is on. At a border inspection, the device shows only your day-to-day vaults. Turn Travel Mode off and the hidden vaults return. Watchtower: monitors your vault for compromised passwords (via Have I Been Pwned), weak and reused passwords, and sites where two-factor authentication is available but not enabled. Audit history: 1Password publishes results from regular independent security audits, including Cure53 penetration tests, and holds SOC 2 Type 2 and ISO 27001 certifications."
+    },
+    "recordedAt": "2026-11-15T20:37:21.347Z"
+  },
+  {
+    "id": "C2",
+    "source": 8,
+    "option": "1Password",
+    "criterion": "Price",
+    "claim": "1Password Families costs $5.99/month for five people ($4.49 first-year promo)",
+    "quote": "Families is $5.99 per month for five people ($4.49 promotional).",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "single source for 1Password pricing; list price",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[8.p26]",
+      "text": "new direct customers. Families is $5.99 per month for five people ($4.49 promotional). Business plans are priced per user. No free tier; a 14-day trial. Honest weakness: no free tier, and the first-year discount means the renewal price is a third higher. The multi-vault interface can confuse new users who expect a single list. Best for: anyone who wants the most polished, security-thoughtful manager. Strong for families and small businesses. Essential for internati"
+    },
+    "recordedAt": "2026-11-15T20:37:21.541Z"
+  },
+  {
+    "id": "C3",
+    "source": 8,
+    "option": "1Password",
+    "criterion": "Security track record",
+    "claim": "1Password's Secret Key never leaves devices or reaches its servers",
+    "quote": "The Secret Key never leaves your devices and is never sent to 1Password's servers.",
+    "support": "supported",
+    "corroborating": [
+      6
+    ],
+    "conflicting": [],
+    "note": "6 confirms 1Password uses a Secret Key",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[8.p22]",
+      "text": "password manager. Its security architecture, consistent cross-platform apps and thoughtful design make it the easiest recommendation for anyone willing to pay for a polished product. The Secret Key system: your vault is encrypted with a combination of your master password and a locally generated Secret Key. The Secret Key never leaves your devices and is never sent to 1Password's servers. Even a full server compromise would not let attackers decrypt your vault without a device where you are signed in."
+    },
+    "recordedAt": "2026-11-15T20:37:21.741Z"
+  },
+  {
+    "id": "C4",
+    "source": 8,
+    "option": "Bitwarden",
+    "criterion": "Price",
+    "claim": "Bitwarden Families is $47.88/yr for 6 users",
+    "quote": "Families $47.88/yr, 6 users; Teams $4/user/mo",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [
+      5,
+      2
+    ],
+    "note": "5 and 2 say $40/yr; 8 states it checked vendor pages Sept 2026",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[8.p14]",
+      "text": "Cure53 audits, SOC 2 Type 2, ISO 27001 Yes Bitwarden Best free plan and open source Yes (unlimited) $19.80/yr Families $47.88/yr, 6 users; Teams $4/user/mo SOC 2 Type 2, published third-party audits Dashlane All-in-one bundle with VPN No (removed Sep 2025) $4.99/mo Friends and Family $7.49/mo, 10 users Less published audit detail Keeper Regulated industries Very limited $42.99/yr Family $91.99/yr, 5 users SOC 2, ISO 27001, FedRAMP High (Government Cloud)"
+    },
+    "recordedAt": "2026-11-15T20:37:21.916Z"
+  },
+  {
+    "id": "C5",
+    "source": 5,
+    "option": "Bitwarden",
+    "criterion": "Price",
+    "claim": "Bitwarden Family is $40/yr",
+    "quote": "Free / Premium $10/year / Family $40/year / Business from $4-7/user/month",
+    "support": "supported",
+    "corroborating": [
+      2
+    ],
+    "conflicting": [
+      8
+    ],
+    "note": "8 says 47.88/yr",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[5.p8]",
+      "text": "migration without significant friction. Enterprise migration is more complex due to organizational structures and shared vaults, but the migration path is well-documented and operationally feasible. Free / Premium $10/year / Family $40/year / Business from $4-7/user/month Best for: Strong dark web monitoring and integrated VPN bundling “Dashlane provides comprehensive password management with stronger built-in dark web monitoring than 1Password and bundled VPN service. For users wanting integrated identity protection alongside password management, Dashlane's bundling produces value that standalone 1Password doesn't match.”"
+    },
+    "recordedAt": "2026-11-15T20:37:22.099Z"
+  },
+  {
+    "id": "C6",
+    "source": 5,
+    "option": "Bitwarden",
+    "criterion": "Independent audits",
+    "claim": "Bitwarden is open source and audited multiple times by independent firms",
+    "quote": "Bitwarden's complete codebase (clients, server, browser extensions) is open source and has been audited multiple times by independent security firms.",
+    "support": "supported",
+    "corroborating": [
+      6,
+      8,
+      2
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[5.p6]",
+      "text": "native experience • Enterprise features and ecosystem maturity trail 1Password's more established enterprise positioning • Browser extension performance has been variable historically (improved through 2024-2026) Open-Source Foundation Bitwarden's complete codebase (clients, server, browser extensions) is open source and has been audited multiple times by independent security firms. This transparency is genuinely meaningful for users who want to verify security architecture rather than trust vendor claims. The open-source community has produced ports and forks (Vaultwarden) that extend the ecosystem beyond what commercial vendors typically support."
+    },
+    "recordedAt": "2026-11-15T20:37:22.271Z"
+  },
+  {
+    "id": "C7",
+    "source": 6,
+    "option": "Bitwarden",
+    "criterion": "Independent audits",
+    "claim": "Bitwarden publishes Cure53 audit results",
+    "quote": "The lack of publicly available audit reports contrasts with Bitwarden, which publishes Cure53 audit results, and open-source projects where the code itself is the primary audit mechanism.",
+    "support": "supported",
+    "corroborating": [
+      2,
+      8
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p18]",
+      "text": "publicly available. • SOC 2 Type 2 certification: LastPass maintains SOC 2 compliance, indicating that independent auditors have verified their security controls meet defined standards. • Post-breach Mandiant engagement: Following the 2022-2023 breach, LastPass engaged Mandiant (now part of Google Cloud) for incident response, forensic investigation, and security hardening. The lack of publicly available audit reports contrasts with Bitwarden, which publishes Cure53 audit results, and open-source projects where the code itself is the primary audit mechanism."
+    },
+    "recordedAt": "2026-11-15T20:37:22.532Z"
+  },
+  {
+    "id": "C8",
+    "source": 2,
+    "option": "Bitwarden",
+    "criterion": "Independent audits",
+    "claim": "Bitwarden passed a January 2026 Cure53 audit with zero critical vulnerabilities",
+    "quote": "2026 Security Audit Results: Bitwarden underwent independent security audits by Cure53 in January 2026, passing all penetration testing with zero critical vulnerabilities.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "single source, metadata dated 2023 yet describes 2026; low reliability; specific date/result uncorroborated",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[2.p11]",
+      "text": "iterations as of 2026, exceeding OWASP recommendations). Your master password never leaves your device, and Bitwarden can’t access your vault data - true zero-knowledge architecture. 2026 Security Audit Results: Bitwarden underwent independent security audits by Cure53 in January 2026, passing all penetration testing with zero critical vulnerabilities. The audit specifically validated: • End-to-end encryption implementation • Key derivation function strength • Browser extension isolation • API security controls"
+    },
+    "recordedAt": "2026-11-15T20:37:22.758Z"
+  },
+  {
+    "id": "C9",
+    "source": 8,
+    "option": "Bitwarden",
+    "criterion": "Price",
+    "claim": "Bitwarden has an unlimited free plan",
+    "quote": "Bitwarden Best free plan and open source Yes (unlimited) $19.80/yr Families $47.88/yr, 6 users; Teams $4/user/mo SOC 2 Type 2, published third-party audits Dashlane All-in-one bundle with VPN No (removed Sep 2025) $4.99/mo Friends and Family $7.49/mo, 10 users Less published audit detail",
+    "support": "partial",
+    "corroborating": [
+      5,
+      2
+    ],
+    "conflicting": [],
+    "note": "table row; free plan claim",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[8.p14]",
+      "text": "Cure53 audits, SOC 2 Type 2, ISO 27001 Yes Bitwarden Best free plan and open source Yes (unlimited) $19.80/yr Families $47.88/yr, 6 users; Teams $4/user/mo SOC 2 Type 2, published third-party audits Dashlane All-in-one bundle with VPN No (removed Sep 2025) $4.99/mo Friends and Family $7.49/mo, 10 users Less published audit detail Keeper Regulated industries Very limited $42.99/yr Family $91.99/yr, 5 users SOC 2, ISO 27001, FedRAMP High (Government Cloud)"
+    },
+    "recordedAt": "2026-11-15T20:37:36.075Z"
+  },
+  {
+    "id": "C10",
+    "source": 8,
+    "option": "LastPass",
+    "criterion": "Security track record",
+    "claim": "UK ICO fined LastPass UK Ltd 1.2m pounds in Nov 2025 over the 2022 incident",
+    "quote": "In November 2025 the UK Information Commissioner's Office fined LastPass UK Ltd £1.2 million for failing to put appropriate security measures in place, finding that the 2022 incident affected up to 1.6 million UK users.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "single source for the fine",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[8.p5]",
+      "text": "metadata alone was useful for targeted phishing. In early 2023, LastPass revealed the breach was worse than first disclosed: attackers had also obtained backup data. The regulatory record has since caught up. In November 2025 the UK Information Commissioner's Office fined LastPass UK Ltd £1.2 million for failing to put appropriate security measures in place, finding that the 2022 incident affected up to 1.6 million UK users."
+    },
+    "recordedAt": "2026-11-15T20:37:36.453Z"
+  },
+  {
+    "id": "C11",
+    "source": 6,
+    "option": "LastPass",
+    "criterion": "Security track record",
+    "claim": "2022-23 LastPass breach exposed encrypted vault data of all users plus unencrypted URLs",
+    "quote": "However, the 2022-2023 breach was severe: encrypted vault data was stolen, source code was compromised, and unencrypted metadata was exposed.",
+    "support": "supported",
+    "corroborating": [
+      3,
+      8
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p2]",
+      "text": "exposed, and whether the changes made since are sufficient to rebuild trust. For the broader context on password manager security, see our password managers guide. The Short Answer LastPass has made meaningful security improvements since the breach, and new vaults created after those improvements benefit from stronger protections. However, the 2022-2023 breach was severe: encrypted vault data was stolen, source code was compromised, and unencrypted metadata was exposed. Users who were on LastPass during the breach should assume their encrypted vault is in adversary hands. Whether that vault can be decrypted depends entirely on the strength of the master password that protected it."
+    },
+    "recordedAt": "2026-11-15T20:37:36.825Z"
+  },
+  {
+    "id": "C12",
+    "source": 3,
+    "option": "LastPass",
+    "criterion": "Security track record",
+    "claim": "June 2026 LastPass breach via third party Klue exposed customer info but not vaults",
+    "quote": "Although customer password vaults were not affected, LastPass confirmed that customer information was exposed when cybercriminals compromised a third-party market intelligence platform in June 2026.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "published by competitor Keeper; relays LastPass statement",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[3.p1]",
+      "text": "2026 LastPass Breach: What Happened This Time? Although customer password vaults were not affected, LastPass confirmed that customer information was exposed when cybercriminals compromised a third-party market intelligence platform in June 2026. This is not the first time LastPass customers have had their information put at risk; LastPass’s major 2022 breach involved cybercriminals stealing backups of customer vault data. Continue reading to learn the details of LastPass’s 2026 breach, how it fits into the company’s years-long pattern of security incidents and why Keeper® is a more secure alternative for protecting your sensitive data."
+    },
+    "recordedAt": "2026-11-15T20:37:37.253Z"
+  },
+  {
+    "id": "C13",
+    "source": 3,
+    "option": "Keeper",
+    "criterion": "Independent audits",
+    "claim": "Keeper claims SOC 2, ISO 27001, FedRAMP High certifications",
+    "quote": "Keeper is the most certified and audited platform in the industry.",
+    "support": "partial",
+    "corroborating": [
+      8
+    ],
+    "conflicting": [],
+    "note": "vendor self-promotion; 'most certified' unverified; 8 independently lists SOC 2, ISO 27001, FedRAMP High",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[3.p10]",
+      "text": "a crucial distinction: Even if Keeper’s systems were targeted, customer vault data would remain unreadable because the keys to decrypt it aren’t there to steal. Independent audits and certifications Keeper is the most certified and audited platform in the industry. It is FedRAMP High Certified and GovRAMP High Authorized and holds SOC 2, ISO 27001, FIPS 140-3 validation and compliance with GDPR, HIPAA and PCI DSS, among other certifications. These represent rigorous, independent assessments that individuals, enterprises and government agencies depend on before trusting a platform with their most sensitive data. Keeper’s platform is also continuously validated by third-party experts through regular penetration testing, an active bug bounty program and"
+    },
+    "recordedAt": "2026-11-15T20:37:37.573Z"
+  },
+  {
+    "id": "C14",
+    "source": 8,
+    "option": "Keeper",
+    "criterion": "Price",
+    "claim": "Keeper Family is 91.99/yr for 5 users",
+    "quote": "Family $91.99/yr, 5 users",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [
+      1
+    ],
+    "note": "1 lists Keeper family at $3.54/month",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[8.p15]",
+      "text": "$7.49/mo, 10 users Less published audit detail Keeper Regulated industries Very limited $42.99/yr Family $91.99/yr, 5 users SOC 2, ISO 27001, FedRAMP High (Government Cloud) NordPass Simplicity at a low promo price Yes (limited) From $1.49/mo (2-yr promo) Family plan, 6 users Published third-party audit RoboForm Form filling and family value Yes (one device) $29.88/yr Family $47.75/yr, 5 users SOC 2 Type 2 Proton Pass Privacy and email aliases"
+    },
+    "recordedAt": "2026-11-15T20:37:37.928Z"
+  },
+  {
+    "id": "C15",
+    "source": 4,
+    "option": "NordPass",
+    "criterion": "Platforms",
+    "claim": "NordPass family plan gives 6 premium accounts across iPhone, Android, Windows",
+    "quote": "Family plan price $6.24/month (as low as $2.68/month with a coupon)",
+    "support": "partial",
+    "corroborating": [
+      1
+    ],
+    "conflicting": [],
+    "note": "quote is price line; platforms/6 accounts in adjacent lines; list price 6.24 vs 3.69 table",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[4.p7]",
+      "text": "protect your accounts, but what about the rest of your digital footprint? Learn how to tighten your privacy and stay truly hidden from prying eyes. NordPass – Best for complete security and family-friendly simplicity Family plan price $6.24/month (as low as $2.68/month with a coupon) Number of users 6 individual premium accounts per family Platforms supported iPhone, iPad, Android, Windows, macOS, Linux, and all major browsers"
+    },
+    "recordedAt": "2026-11-15T20:37:38.297Z"
+  },
+  {
+    "id": "C16",
+    "source": 8,
+    "option": "NordPass",
+    "criterion": "Independent audits",
+    "claim": "NordPass has a published third-party audit",
+    "quote": "Family plan, 6 users Published third-party audit",
+    "support": "partial",
+    "corroborating": [
+      1
+    ],
+    "conflicting": [],
+    "note": "terse table cell; no auditor named",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[8.p15]",
+      "text": "$7.49/mo, 10 users Less published audit detail Keeper Regulated industries Very limited $42.99/yr Family $91.99/yr, 5 users SOC 2, ISO 27001, FedRAMP High (Government Cloud) NordPass Simplicity at a low promo price Yes (limited) From $1.49/mo (2-yr promo) Family plan, 6 users Published third-party audit RoboForm Form filling and family value Yes (one device) $29.88/yr Family $47.75/yr, 5 users SOC 2 Type 2 Proton Pass Privacy and email aliases"
+    },
+    "recordedAt": "2026-11-15T20:37:38.647Z"
+  },
+  {
+    "id": "C17",
+    "source": 1,
+    "option": "RoboForm",
+    "criterion": "Security track record",
+    "claim": "RoboForm reports no breach in 25 years and passed a third-party audit",
+    "quote": "Plus, over those 25 years, they’ve yet to experience a data leak or hack.",
+    "support": "partial",
+    "corroborating": [
+      4
+    ],
+    "conflicting": [],
+    "note": "absence of known breach, not proof; 4 repeats it",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[1.p12]",
+      "text": "they’ve been able to keep up with the times through consistent updates. They now offer one of the most feature-rich password managers on the market. Plus, over those 25 years, they’ve yet to experience a data leak or hack. With data leaks happening left and right even at major corporations like Equifax, those 25 years of trust make us like RoboForm the best for protecting our family’s accounts and passwords.1"
+    },
+    "recordedAt": "2026-11-15T20:37:39.029Z"
+  },
+  {
+    "id": "C18",
+    "source": 8,
+    "option": "RoboForm",
+    "criterion": "Independent audits",
+    "claim": "RoboForm holds SOC 2 Type 2",
+    "quote": "RoboForm Form filling and family value Yes (one device) $29.88/yr Family $47.75/yr, 5 users SOC 2 Type 2",
+    "support": "partial",
+    "corroborating": [
+      1
+    ],
+    "conflicting": [
+      1,
+      4
+    ],
+    "note": "family price 47.75/yr list vs 1.59/mo promo in 1/4 (4 says list 3.98/mo)",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[8.p15]",
+      "text": "$7.49/mo, 10 users Less published audit detail Keeper Regulated industries Very limited $42.99/yr Family $91.99/yr, 5 users SOC 2, ISO 27001, FedRAMP High (Government Cloud) NordPass Simplicity at a low promo price Yes (limited) From $1.49/mo (2-yr promo) Family plan, 6 users Published third-party audit RoboForm Form filling and family value Yes (one device) $29.88/yr Family $47.75/yr, 5 users SOC 2 Type 2 Proton Pass Privacy and email aliases"
+    },
+    "recordedAt": "2026-11-15T20:37:39.400Z"
+  }
+]

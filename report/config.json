@@ -1,5 +1,5 @@
 {
-  "title": "Does a Provenance Tool Change What an AI Agent Says? Claim-Level Verification for Decision Support Under Planted Sources",
+  "title": "Flagged but Still Followed: Planted Sources Steer AI Decision Support Even When Agents Dispute Them",
   "pool_size": 8,
   "char_budget": 9000,
   "system_model": "Claude Sonnet 5.5",

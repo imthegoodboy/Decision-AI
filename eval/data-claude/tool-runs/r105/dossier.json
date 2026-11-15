@@ -1,0 +1,1379 @@
+{
+  "dossier": {
+    "plan": {
+      "decisionType": "decision",
+      "criteria": [
+        {
+          "id": "crit_1",
+          "name": "Security track record",
+          "description": "Breach history and architecture",
+          "weight": 40,
+          "origin": "user"
+        },
+        {
+          "id": "crit_2",
+          "name": "Independent audits",
+          "description": "Published third-party audits and certifications",
+          "weight": 35,
+          "origin": "user"
+        },
+        {
+          "id": "crit_3",
+          "name": "Price",
+          "description": "Cost of a family plan covering four users",
+          "weight": 25,
+          "origin": "user"
+        }
+      ],
+      "queries": [],
+      "freshnessDays": 365,
+      "region": null,
+      "rationale": ""
+    },
+    "options": [
+      {
+        "id": "opt_1",
+        "name": "Bitwarden",
+        "summary": "Open-source manager with published audits and a 6-user family plan",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "about $40-$47.88/yr (sources disagree)",
+        "userNamed": false,
+        "sourceIds": [
+          "6",
+          "5",
+          "8",
+          "2"
+        ]
+      },
+      {
+        "id": "opt_2",
+        "name": "1Password",
+        "summary": "Polished, audited, Secret Key design; pricier",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "$5.99/mo for 5 users",
+        "userNamed": false,
+        "sourceIds": [
+          "8"
+        ]
+      },
+      {
+        "id": "opt_3",
+        "name": "NordPass",
+        "summary": "Cheap promo family plan, 6 users, audit details thin",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "$3.69/mo 1-year promo",
+        "userNamed": false,
+        "sourceIds": [
+          "7",
+          "8"
+        ]
+      },
+      {
+        "id": "opt_4",
+        "name": "RoboForm",
+        "summary": "Cheapest family plan, no reported breach",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "$1.59/mo promo",
+        "userNamed": false,
+        "sourceIds": [
+          "1",
+          "4"
+        ]
+      },
+      {
+        "id": "opt_5",
+        "name": "LastPass",
+        "summary": "Breached in 2022-23 and 2026; avoid",
+        "image": null,
+        "officialUrl": null,
+        "priceText": null,
+        "userNamed": false,
+        "sourceIds": [
+          "6",
+          "8",
+          "3"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "text": "Bitwarden publishes Cure53 audit results",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "The lack of publicly available audit reports contrasts with Bitwarden, which publishes Cure53 audit results, and open-source projects where the code itself is the primary audit mechanism.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p18]",
+            "text": "publicly available. • SOC 2 Type 2 certification: LastPass maintains SOC 2 compliance, indicating that independent auditors have verified their security controls meet defined standards. • Post-breach Mandiant engagement: Following the 2022-2023 breach, LastPass engaged Mandiant (now part of Google Cloud) for incident response, forensic investigation, and security hardening. The lack of publicly available audit reports contrasts with Bitwarden, which publishes Cure53 audit results, and open-source projects where the code itself is the primary audit mechanism."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "2",
+            "5",
+            "8"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:54.796Z"
+        }
+      },
+      {
+        "id": "C2",
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "text": "Bitwarden's codebase is open source and has been audited multiple times by independent security firms",
+        "kind": "fact",
+        "sourceId": "5",
+        "quote": "Bitwarden's complete codebase (clients, server, browser extensions) is open source and has been audited multiple times by independent security firms.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[5.p6]",
+            "text": "native experience • Enterprise features and ecosystem maturity trail 1Password's more established enterprise positioning • Browser extension performance has been variable historically (improved through 2024-2026) Open-Source Foundation Bitwarden's complete codebase (clients, server, browser extensions) is open source and has been audited multiple times by independent security firms. This transparency is genuinely meaningful for users who want to verify security architecture rather than trust vendor claims. The open-source community has produced ports and forks (Vaultwarden) that extend the ecosystem beyond what commercial vendors typically support."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "6",
+            "8"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:54.970Z"
+        }
+      },
+      {
+        "id": "C3",
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "text": "Bitwarden Families costs $47.88/yr for 6 users",
+        "kind": "fact",
+        "sourceId": "8",
+        "quote": "Families $47.88/yr, 6 users; Teams $4/user/mo",
+        "verification": {
+          "status": "contradicted",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[8.p14]",
+            "text": "Cure53 audits, SOC 2 Type 2, ISO 27001 Yes Bitwarden Best free plan and open source Yes (unlimited) $19.80/yr Families $47.88/yr, 6 users; Teams $4/user/mo SOC 2 Type 2, published third-party audits Dashlane All-in-one bundle with VPN No (removed Sep 2025) $4.99/mo Friends and Family $7.49/mo, 10 users Less published audit detail Keeper Regulated industries Very limited $42.99/yr Family $91.99/yr, 5 users SOC 2, ISO 27001, FedRAMP High (Government Cloud)"
+          },
+          "rationale": "Sources 2 and 5 say $40/yr; source 8 states prices verified Sept 2026 against vendor pages",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "2",
+            "5"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:55.132Z"
+        }
+      },
+      {
+        "id": "C4",
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "text": "Bitwarden Family plan is $40/yr for 6 users",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "The Family plan at $40/year for 6 users ($6.67/user) represents exceptional value.",
+        "verification": {
+          "status": "contradicted",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p19]",
+            "text": "reports, priority support, emergency access Family $40/year All Premium features, shared collections, family health reports Teams $60/year/user Unlimited Business features, event logs, directory sync, groups Enterprise $96/year/user SSO, policies, self-hosting, enterprise support Value Analysis: At $10/year for Premium, Bitwarden offers the best price-to-feature ratio in the industry. The Family plan at $40/year for 6 users ($6.67/user) represents exceptional value. Self-Hosting with Vaultwarden For maximum control, Bitwarden can be self-hosted using either the official Bitwarden server or Vaultwarden (formerly bitwarden_rs), an unofficial compatible server written in Rust."
+          },
+          "rationale": "Source 2 dated 2023 yet claims 2026; likely stale",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "8"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:55.272Z"
+        }
+      },
+      {
+        "id": "C5",
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "text": "Bitwarden has an unlimited free tier",
+        "kind": "fact",
+        "sourceId": "8",
+        "quote": "Bitwarden Best free plan and open source Yes (unlimited)",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[8.p13]",
+            "text": "Confirm on the vendor's site before buying. Quick Comparison: Top 10 Password Managers 2026 Manager Best For Free Tier Individual Price Family / Team Price Audits and Certifications Passkeys 1Password Best overall UX and security No (14-day trial) $3.99/mo ($2.99 first year) Families $5.99/mo, 5 users Cure53 audits, SOC 2 Type 2, ISO 27001 Yes Bitwarden Best free plan and open source Yes (unlimited) $19.80/yr Families $47.88/yr, 6 users; Teams $4/user/mo"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "2",
+            "5"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:55.447Z"
+        }
+      },
+      {
+        "id": "C6",
+        "optionId": "opt_1",
+        "criterionId": null,
+        "text": "Bitwarden has iOS/Android mobile apps and Windows desktop apps",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "Desktop applications available for Windows, macOS, and Linux provide offline access to your vault with local caching and full feature parity with the web interface.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p15]",
+            "text": "Desktop applications available for Windows, macOS, and Linux provide offline access to your vault with local caching and full feature parity with the web interface. 2026 Performance Metrics: • Extension memory footprint: 28 MB (Chrome, idle state) • Vault unlock time: 180ms average (10,000 item vault) • Autofill latency: 95ms average • Sync time: 1.2 seconds (1,000 items, 50 Mbps connection) Mobile Applications Bitwarden’s mobile apps for iOS and Android provide:"
+          },
+          "rationale": "Windows desktop stated; mobile iOS/Android in separate sentence of same source",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:55.619Z"
+        }
+      },
+      {
+        "id": "C7",
+        "optionId": "opt_2",
+        "criterionId": "crit_3",
+        "text": "1Password Families is $5.99/mo for five people",
+        "kind": "fact",
+        "sourceId": "8",
+        "quote": "Families is $5.99 per month for five people ($4.49 promotional).",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[8.p25]",
+            "text": "enabled. Audit history: 1Password publishes results from regular independent security audits, including Cure53 penetration tests, and holds SOC 2 Type 2 and ISO 27001 certifications. Pricing: per 1Password's pricing page, Individual is $3.99 per month billed annually, with a $2.99 promotional rate in the first year for new direct customers. Families is $5.99 per month for five people ($4.49 promotional). Business plans are priced per user. No free tier; a 14-day trial."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:55.798Z"
+        }
+      },
+      {
+        "id": "C8",
+        "optionId": "opt_2",
+        "criterionId": "crit_2",
+        "text": "1Password publishes regular independent audits incl Cure53 and holds SOC 2 Type 2 and ISO 27001",
+        "kind": "fact",
+        "sourceId": "8",
+        "quote": "Audit history: 1Password publishes results from regular independent security audits, including Cure53 penetration tests, and holds SOC 2 Type 2 and ISO 27001 certifications.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[8.p24]",
+            "text": "while Travel Mode is on. At a border inspection, the device shows only your day-to-day vaults. Turn Travel Mode off and the hidden vaults return. Watchtower: monitors your vault for compromised passwords (via Have I Been Pwned), weak and reused passwords, and sites where two-factor authentication is available but not enabled. Audit history: 1Password publishes results from regular independent security audits, including Cure53 penetration tests, and holds SOC 2 Type 2 and ISO 27001 certifications."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:56.003Z"
+        }
+      },
+      {
+        "id": "C9",
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "text": "1Password Secret Key never leaves devices",
+        "kind": "fact",
+        "sourceId": "8",
+        "quote": "The Secret Key never leaves your devices and is never sent to 1Password's servers.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[8.p22]",
+            "text": "password manager. Its security architecture, consistent cross-platform apps and thoughtful design make it the easiest recommendation for anyone willing to pay for a polished product. The Secret Key system: your vault is encrypted with a combination of your master password and a locally generated Secret Key. The Secret Key never leaves your devices and is never sent to 1Password's servers. Even a full server compromise would not let attackers decrypt your vault without a device where you are signed in."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "6"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:56.202Z"
+        }
+      },
+      {
+        "id": "C10",
+        "optionId": "opt_5",
+        "criterionId": "crit_1",
+        "text": "LastPass 2022-23 breach stole encrypted vault data",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "However, the 2022-2023 breach was severe: encrypted vault data was stolen, source code was compromised, and unencrypted metadata was exposed.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p2]",
+            "text": "exposed, and whether the changes made since are sufficient to rebuild trust. For the broader context on password manager security, see our password managers guide. The Short Answer LastPass has made meaningful security improvements since the breach, and new vaults created after those improvements benefit from stronger protections. However, the 2022-2023 breach was severe: encrypted vault data was stolen, source code was compromised, and unencrypted metadata was exposed. Users who were on LastPass during the breach should assume their encrypted vault is in adversary hands. Whether that vault can be decrypted depends entirely on the strength of the master password that protected it."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "3",
+            "8"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:56.388Z"
+        }
+      },
+      {
+        "id": "C11",
+        "optionId": "opt_5",
+        "criterionId": "crit_1",
+        "text": "UK ICO fined LastPass 1.2M GBP in Nov 2025",
+        "kind": "fact",
+        "sourceId": "8",
+        "quote": "In November 2025 the UK Information Commissioner's Office fined LastPass UK Ltd £1.2 million for failing to put appropriate security measures in place, finding that the 2022 incident affected up to 1.6 million UK users.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[8.p5]",
+            "text": "metadata alone was useful for targeted phishing. In early 2023, LastPass revealed the breach was worse than first disclosed: attackers had also obtained backup data. The regulatory record has since caught up. In November 2025 the UK Information Commissioner's Office fined LastPass UK Ltd £1.2 million for failing to put appropriate security measures in place, finding that the 2022 incident affected up to 1.6 million UK users."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:56.590Z"
+        }
+      },
+      {
+        "id": "C12",
+        "optionId": "opt_5",
+        "criterionId": "crit_1",
+        "text": "June 2026 LastPass breach exposed customer info but not vaults",
+        "kind": "fact",
+        "sourceId": "3",
+        "quote": "Although customer password vaults were not affected, LastPass confirmed that customer information was exposed when cybercriminals compromised a third-party market intelligence platform in June 2026.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[3.p1]",
+            "text": "2026 LastPass Breach: What Happened This Time? Although customer password vaults were not affected, LastPass confirmed that customer information was exposed when cybercriminals compromised a third-party market intelligence platform in June 2026. This is not the first time LastPass customers have had their information put at risk; LastPass’s major 2022 breach involved cybercriminals stealing backups of customer vault data. Continue reading to learn the details of LastPass’s 2026 breach, how it fits into the company’s years-long pattern of security incidents and why Keeper® is a more secure alternative for protecting your sensitive data."
+          },
+          "rationale": "Keeper is a competitor; relays LastPass statements",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:56.789Z"
+        }
+      },
+      {
+        "id": "C13",
+        "optionId": "opt_3",
+        "criterionId": "crit_3",
+        "text": "NordPass family gives six premium accounts",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "You get six premium accounts, each with their own private vault",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p10]",
+            "text": "auto fill on every device, and you’ve got a password manager that quietly handles the hard stuff while your family just logs in and goes. The Family Plan is where NordPass really hits its stride. You get six premium accounts, each with their own private vault — no awkward sharing, no mixed-up logins, no “Mom, what’s the Netflix password again?” Premium features like password health reports, a data breach scanner, secure item sharing, and email masking are available to every member. It’s a solid safety net for families who want extra protection without fiddling with settings all day."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "1",
+            "8"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:56.957Z"
+        }
+      },
+      {
+        "id": "C14",
+        "optionId": "opt_3",
+        "criterionId": "crit_2",
+        "text": "NordPass has a published third-party audit",
+        "kind": "fact",
+        "sourceId": "8",
+        "quote": "Family plan, 6 users Published third-party audit RoboForm",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[8.p15]",
+            "text": "$7.49/mo, 10 users Less published audit detail Keeper Regulated industries Very limited $42.99/yr Family $91.99/yr, 5 users SOC 2, ISO 27001, FedRAMP High (Government Cloud) NordPass Simplicity at a low promo price Yes (limited) From $1.49/mo (2-yr promo) Family plan, 6 users Published third-party audit RoboForm Form filling and family value Yes (one device) $29.88/yr Family $47.75/yr, 5 users SOC 2 Type 2 Proton Pass Privacy and email aliases"
+          },
+          "rationale": "no auditor named",
+          "corroboratingSourceIds": [
+            "1"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:57.136Z"
+        }
+      },
+      {
+        "id": "C15",
+        "optionId": "opt_4",
+        "criterionId": "crit_1",
+        "text": "RoboForm no breach in 25 years",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "Plus, over those 25 years, they’ve yet to experience a data leak or hack.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p12]",
+            "text": "they’ve been able to keep up with the times through consistent updates. They now offer one of the most feature-rich password managers on the market. Plus, over those 25 years, they’ve yet to experience a data leak or hack. With data leaks happening left and right even at major corporations like Equifax, those 25 years of trust make us like RoboForm the best for protecting our family’s accounts and passwords.1"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "4"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:57.324Z"
+        }
+      },
+      {
+        "id": "C16",
+        "optionId": "opt_4",
+        "criterionId": "crit_3",
+        "text": "RoboForm family covers up to five accounts at $1.59/mo promo",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "The Family plan covers up to five premium accounts, giving everyone — parents, kids, even tech-shy grandparents — their own private vault.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p17]",
+            "text": "a simple form-filler (and still absolutely crushes that job), but today it’s a full-fledged password manager that works on every major device without feeling complicated. RoboForm paid plans Business Price $2.49/month ($0.99 with our coupon) $1.59/month $3.33/user/month Devices Unlimited 5 accounts Multiple users Support Priority support with phone/live chat Priority support Admin controls and dedicated manager The Family plan covers up to five premium accounts, giving everyone — parents, kids, even tech-shy grandparents — their own private vault."
+          },
+          "rationale": "list price differs: 8 says $47.75/yr, 4 says $3.98/mo list",
+          "corroboratingSourceIds": [
+            "1",
+            "8"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:57.504Z"
+        }
+      },
+      {
+        "id": "C17",
+        "optionId": null,
+        "criterionId": "crit_1",
+        "text": "Keeper has never had a breach",
+        "kind": "fact",
+        "sourceId": "3",
+        "quote": "Beyond its zero-knowledge architecture and extensive certifications, Keeper has never had a breach of its encrypted vaults or underlying infrastructure.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[3.p11]",
+            "text": "platform with their most sensitive data. Keeper’s platform is also continuously validated by third-party experts through regular penetration testing, an active bug bounty program and a public vulnerability disclosure program to ensure that its solutions are tested, verified and improved consistently. Clean breach record Beyond its zero-knowledge architecture and extensive certifications, Keeper has never had a breach of its encrypted vaults or underlying infrastructure. Keeper’s long, unbroken record, backed by zero-knowledge encryption and independent verification, shows that its security model is built to protect customer data even in worst-case scenarios."
+          },
+          "rationale": "self-reported by vendor blog, single source",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:57.686Z"
+        }
+      }
+    ],
+    "contradictions": [
+      {
+        "id": "con_1",
+        "optionId": "opt_1",
+        "criterionId": null,
+        "topic": "Family plan price ($40 vs $47.88/yr)",
+        "statements": [
+          {
+            "claimId": "C3",
+            "sourceId": "8",
+            "text": "Bitwarden Families costs $47.88/yr for 6 users"
+          },
+          {
+            "claimId": "C4",
+            "sourceId": "2",
+            "text": "Bitwarden Family plan is $40/yr for 6 users"
+          }
+        ],
+        "assessment": "Source 8 states prices verified Sept 2026 against vendor pages; source 2 is dated 2023 and its reliability dropped, so $47.88 is likelier but unconfirmed.",
+        "favoredSourceId": null,
+        "severity": "low"
+      }
+    ],
+    "uncertainties": [
+      {
+        "id": "unc_1",
+        "kind": "incomplete",
+        "text": "No source covers Bitwarden's breach history",
+        "optionId": "opt_1",
+        "impact": "medium",
+        "howToResolve": "Check Bitwarden security incident history"
+      },
+      {
+        "id": "unc_2",
+        "kind": "single-source",
+        "text": "Keeper no-breach claim comes from Keeper's own blog",
+        "optionId": null,
+        "impact": "low",
+        "howToResolve": "Seek independent confirmation"
+      },
+      {
+        "id": "unc_3",
+        "kind": "outdated",
+        "text": "Source 1 published 2024 and source 2 2023",
+        "optionId": null,
+        "impact": "medium",
+        "howToResolve": "Verify current prices on vendor sites"
+      }
+    ],
+    "scores": [
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "score": null,
+        "rationale": "No verified claim on Bitwarden breach history in sources",
+        "claimIds": []
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "score": 9,
+        "rationale": "Published Cure53 results and multiple independent audits",
+        "claimIds": [
+          "C1",
+          "C2"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "score": 8,
+        "rationale": "Unlimited free tier; family price $40 or $47.88/yr (conflict) either way low",
+        "claimIds": [
+          "C5",
+          "C3",
+          "C4"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "score": 6,
+        "rationale": "Secret Key design; no breach claims verified either way",
+        "claimIds": [
+          "C9"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_2",
+        "score": 9,
+        "rationale": "Regular published audits, SOC 2 Type 2, ISO 27001",
+        "claimIds": [
+          "C8"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_3",
+        "score": 5,
+        "rationale": "Highest list price among main options, no free tier",
+        "claimIds": [
+          "C7"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "score": null,
+        "rationale": "No verified claim",
+        "claimIds": []
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_2",
+        "score": 5,
+        "rationale": "Audit exists but auditor unnamed",
+        "claimIds": [
+          "C14"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_3",
+        "score": 8,
+        "rationale": "Six accounts at low promo price; renewal rises",
+        "claimIds": [
+          "C13"
+        ]
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_1",
+        "score": 7,
+        "rationale": "No reported breach in 25 years per two sources",
+        "claimIds": [
+          "C15"
+        ]
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_2",
+        "score": null,
+        "rationale": "No claim recorded",
+        "claimIds": []
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_3",
+        "score": 9,
+        "rationale": "Cheapest family plan, five accounts",
+        "claimIds": [
+          "C16"
+        ]
+      },
+      {
+        "optionId": "opt_5",
+        "criterionId": "crit_1",
+        "score": 1,
+        "rationale": "2022-23 vault theft, ICO fine, 2026 incident",
+        "claimIds": [
+          "C10",
+          "C11",
+          "C12"
+        ]
+      }
+    ],
+    "recommendation": {
+      "optionId": "opt_1",
+      "headline": "Bitwarden Families is the best fit for audits and price",
+      "summary": "Open source, publishes independent audit results, supports all three platforms and costs well under other family plans.",
+      "reasons": [
+        {
+          "text": "Publishes Cure53 audits and is independently audited multiple times",
+          "claimIds": [
+            "C1",
+            "C2"
+          ]
+        },
+        {
+          "text": "Unlimited free tier and low family price",
+          "claimIds": [
+            "C5"
+          ]
+        }
+      ],
+      "tradeoffs": [
+        {
+          "text": "Less polished UI than 1Password; family price figure disputed",
+          "claimIds": [
+            "C3",
+            "C4"
+          ]
+        }
+      ],
+      "alternatives": [
+        {
+          "optionId": "opt_2",
+          "when": "You will pay more for polish and the Secret Key design"
+        },
+        {
+          "optionId": "opt_4",
+          "when": "Lowest price matters most"
+        },
+        {
+          "optionId": "opt_3",
+          "when": "You want simplicity at promo price"
+        }
+      ],
+      "caveats": [
+        "Bitwarden breach history not covered by sources",
+        "Most sources are review sites, some affiliate"
+      ],
+      "nextSteps": [
+        "Check current Bitwarden pricing page",
+        "Read latest Cure53 report",
+        "Try free tier first"
+      ]
+    },
+    "metrics": {
+      "sourcesConsulted": 8,
+      "sourcesRead": 8,
+      "claimsTotal": 17,
+      "supported": 11,
+      "partial": 4,
+      "unsupported": 0,
+      "contradicted": 2,
+      "contradictions": 1,
+      "averageReliability": 74,
+      "freshShare": 0,
+      "durationMs": 0,
+      "modelCalls": 0,
+      "tokens": 0
+    }
+  },
+  "sources": [
+    {
+      "id": "1",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.security.org/password-manager/best/families/",
+      "domain": "security.org",
+      "title": "The Best Password Managers for Families in 2026",
+      "siteName": "Security.org",
+      "author": "Paul Frew",
+      "publishedAt": "2024-11-07T19:59:27.000Z",
+      "retrievedAt": "2026-11-15T19:03:32.521Z",
+      "contentHash": "b5542879610a44a380fa6ffca95e57a27982b46414c9e603e299f00ca4950603",
+      "wordCount": 7408,
+      "excerpt": "The Best Password Managers for Families in 2026\nHave a family to digitally protect? Our experts found the best password managers for people just like you, and RoboForm came out on top.\n• Easily share account credentials with your family members\n• Support is available by email, live chat, or phone\n•…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 70,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Security.org"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Paul Frew"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2024-11-07"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 738 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "7408 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 3,
+            "detail": "1 of 1 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://simeononsecurity.com/articles/bitwarden-and-keepassxc-vs-the-rest/",
+      "domain": "simeononsecurity.com",
+      "title": "Best Password Managers 2026: Bitwarden vs KeePassXC",
+      "siteName": "simeononsecurity",
+      "author": "SimeonOnSecurity",
+      "publishedAt": "2023-02-28T00:00:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:32.521Z",
+      "contentHash": "8db8c60b30763d887cda8c840740aae9d134706efd77844afd0fc8e38fabf9fc",
+      "wordCount": 7807,
+      "excerpt": "Best Password Managers 2026: Bitwarden vs KeePassXC\nSafeguarding Your Online Identity and Accounts.\n\nTable of Contents\n\nBest Password Managers 2026: Complete Comparison Guide\nWith the average person managing over 100 online accounts in 2026, effective password management has become critical for…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 51,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "simeononsecurity"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "SimeonOnSecurity"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2023-02-28"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 1357 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "7807 words of readable text."
+          },
+          {
+            "key": "contradicted",
+            "label": "Contradicted by other sources",
+            "effect": -8,
+            "detail": "1 of 2 claims conflict with other sources."
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.keepersecurity.com/blog/2026/06/29/2026-lastpass-breach-what-happened-this-time/",
+      "domain": "keepersecurity.com",
+      "title": "2026 LastPass Breach: What Happened This Time?",
+      "siteName": "Keeper Security Blog - Cybersecurity News & Product Updates",
+      "author": "Ashley D'Andrea",
+      "publishedAt": "2026-06-29T14:25:10.000Z",
+      "retrievedAt": "2026-11-15T19:03:32.521Z",
+      "contentHash": "d9b36f2cf0280780226d4a5e2b22772f93002bf1a9bf21555109f26a34814c05",
+      "wordCount": 1247,
+      "excerpt": "2026 LastPass Breach: What Happened This Time?\nAlthough customer password vaults were not affected, LastPass confirmed that customer information was exposed when cybercriminals compromised a third-party market intelligence platform in June 2026. This is not the first time LastPass customers have…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 74,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Keeper Security Blog - Cybersecurity News & Product Updates"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Ashley D'Andrea"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-06-29"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 139 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "1247 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://cyberinsider.com/password-manager/best-password-manager/family/",
+      "domain": "cyberinsider.com",
+      "title": "The Best Family Password Managers for 2026",
+      "siteName": "CyberInsider",
+      "author": "Sead Fadilpašić",
+      "publishedAt": "2026-06-08T20:20:51.000Z",
+      "retrievedAt": "2026-11-15T19:03:32.521Z",
+      "contentHash": "fd2f921103b1bee7c4a6280a720b8dd11a9dc6cd3bd0de9609d98b5e4e0a4885",
+      "wordCount": 3988,
+      "excerpt": "The Best Family Password Managers for 2026\nReused or weak passwords across your family’s devices leave your household exposed every single day. Coordinating secure access for everyone from kids to grandparents adds layers of complexity that basic solutions simply cannot handle.\nFamily-specific…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 85,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "CyberInsider"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Sead Fadilpašić"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-06-08"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 160 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "3988 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 3,
+            "detail": "1 of 1 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://guptadeepak.com/tools/alternatives-to-1password/",
+      "domain": "guptadeepak.com",
+      "title": "Top 5 Alternatives to 1Password in 2026",
+      "siteName": "Deepak Gupta",
+      "author": "Deepak Gupta",
+      "publishedAt": "2026-05-08T00:00:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:34.341Z",
+      "contentHash": "cf3e69bc30f92bcf352a76da41a244a835c414e64ee8f78c0030076a7b58d277",
+      "wordCount": 1318,
+      "excerpt": "Top 5 Alternatives to 1Password in 2026\n1Password alternatives compared: Bitwarden, Dashlane, Keeper, NordPass, and Proton Pass.\n\nQuick Comparison\nPlatform\nBest For\nvs 1Password\nPricing\nOpen Source\nBitwarden\nOpen-source password management at any scale\nOpen source + free tier; less polished UX\nFree…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 77,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Deepak Gupta"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Deepak Gupta"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-05-08"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 192 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "1318 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 3,
+            "detail": "1 of 1 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.panicvault.org/password-managers/is-lastpass-safe/",
+      "domain": "panicvault.org",
+      "title": "Is LastPass Safe? (2026)",
+      "siteName": "PanicVault",
+      "author": "PanicVault",
+      "publishedAt": "2026-03-08T00:00:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:34.951Z",
+      "contentHash": "451e44348abedfafbd6736991bd0129ace85f38fe118036f3525db6bc8ab010b",
+      "wordCount": 2081,
+      "excerpt": "LastPass was once the most popular password manager in the world, with over 33 million users and 100,000 business customers. Then came the 2022-2023 breach – one of the most consequential security incidents in password management history. The question of whether LastPass is safe cannot be answered…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 80,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "PanicVault"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "PanicVault"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-03-08"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 253 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "2081 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 6,
+            "detail": "2 of 2 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://cyberinsider.com/password-manager/best-password-manager/family/",
+      "domain": "cyberinsider.com",
+      "title": "The Best Family Password Managers for 2026",
+      "siteName": "CyberInsider",
+      "author": "Sead Fadilpašić",
+      "publishedAt": "2026-06-08T20:20:51.000Z",
+      "retrievedAt": "2026-11-15T19:03:35.150Z",
+      "contentHash": "fd2f921103b1bee7c4a6280a720b8dd11a9dc6cd3bd0de9609d98b5e4e0a4885",
+      "wordCount": 3988,
+      "excerpt": "The Best Family Password Managers for 2026\nReused or weak passwords across your family’s devices leave your household exposed every single day. Coordinating secure access for everyone from kids to grandparents adds layers of complexity that basic solutions simply cannot handle.\nFamily-specific…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 85,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "CyberInsider"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Sead Fadilpašić"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-06-08"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 160 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "3988 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 3,
+            "detail": "1 of 1 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://guptadeepak.com/top-10-password-managers-of-2026-features-security-and-value-compared/",
+      "domain": "guptadeepak.com",
+      "title": "Best Password Managers 2026: 10 Compared (No LastPass)",
+      "siteName": null,
+      "author": "Deepak Gupta",
+      "publishedAt": "2026-03-02T20:25:43.000Z",
+      "retrievedAt": "2026-11-15T19:03:35.225Z",
+      "contentHash": "b6ef863d07a2a5a8690b598ab415b767af6497f027815fe0879cf5376e32d991",
+      "wordCount": 4025,
+      "excerpt": "Short answer: pick 1Password if you will pay for the most polished, audited manager, and Bitwarden if you want a genuinely free plan or open-source code you can self-host. Keeper is the pick for regulated teams, Proton Pass for privacy-first users, and Apple Passwords if every device you own is…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 69,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Publisher not stated",
+            "effect": -2,
+            "detail": "No publisher metadata on the page."
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Deepak Gupta"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-03-02"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 258 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "4025 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 9,
+            "detail": "3 of 7 claims were confirmed by an independent source."
+          },
+          {
+            "key": "contradicted",
+            "label": "Contradicted by other sources",
+            "effect": -8,
+            "detail": "1 of 7 claims conflict with other sources."
+          }
+        ]
+      }
+    }
+  ]
+}

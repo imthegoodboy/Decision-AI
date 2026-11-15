@@ -1,0 +1,35 @@
+{"criteria":[
+{"name":"no-logs audit","weight":40,"description":"Independent audit of no-logs claims"},
+{"name":"streaming and speed","weight":35,"description":"Streaming unblocking and speed loss"},
+{"name":"price","weight":25,"description":"Under $5/month on a long-term plan"}],
+"options":[
+{"name":"Surfshark","summary":"Deloitte-audited, 13/14 services, about $2.50/month on 27 months","price":"about $2.50/month (27-month Starter)"},
+{"name":"ExpressVPN","summary":"14/14 services, 7.8% speed loss, audited, under $3 on 28 months, high renewal","price":"under $3/month (28 months)"},
+{"name":"NordVPN","summary":"14/14 services, six audits, price disputed between sources","price":"$3.50 (two sources) or $5.99 (one source)"},
+{"name":"Proton VPN","summary":"Five annual Securitum audits, 10/14 services, under $3","price":"under $3/month (two years)"},
+{"name":"PrivadoVPN","summary":"Cheapest, but audit claim rests on one source","price":"about $1.11/month"}],
+"scores":[
+{"option":"Surfshark","criterion":"no-logs audit","score":8,"rationale":"Deloitte audits 2023 and 2025, two sources","claims":["C10"]},
+{"option":"Surfshark","criterion":"streaming and speed","score":8,"rationale":"13/14, 9.6% loss","claims":["C11"]},
+{"option":"Surfshark","criterion":"price","score":9,"rationale":"About $2.50","claims":["C12"]},
+{"option":"ExpressVPN","criterion":"no-logs audit","score":6,"rationale":"Audit stated but auditor not named","claims":["C13"]},
+{"option":"ExpressVPN","criterion":"streaming and speed","score":9,"rationale":"14/14, 7.8% loss","claims":["C14"]},
+{"option":"ExpressVPN","criterion":"price","score":8,"rationale":"Under $3 but high renewal","claims":["C13"]},
+{"option":"NordVPN","criterion":"no-logs audit","score":9,"rationale":"Six audits since 2018","claims":["C7"]},
+{"option":"NordVPN","criterion":"streaming and speed","score":9,"rationale":"14/14, top speed","claims":["C6","C19"]},
+{"option":"NordVPN","criterion":"price","score":6,"rationale":"Sources disagree, $3.50 vs $5.99","claims":["C8","C9"]},
+{"option":"Proton VPN","criterion":"no-logs audit","score":7,"rationale":"Five audits but paid-server coverage disputed","claims":["C1","C2","C3"]},
+{"option":"Proton VPN","criterion":"streaming and speed","score":6,"rationale":"10/14, 10.2% loss","claims":["C4"]},
+{"option":"Proton VPN","criterion":"price","score":9,"rationale":"Under $3","claims":["C5"]},
+{"option":"PrivadoVPN","criterion":"no-logs audit","score":3,"rationale":"Audit single-source and conflicting","claims":["C15"]},
+{"option":"PrivadoVPN","criterion":"streaming and speed","score":6,"rationale":"Older source, partial","claims":["C16"]},
+{"option":"PrivadoVPN","criterion":"price","score":10,"rationale":"About $1.11","claims":["C17"]}],
+"recommendation":{"option":"Surfshark","headline":"Surfshark: audited, strong streaming, about $2.50 a month","summary":"Best verified mix of audit, streaming and price.","reasons":[{"text":"Deloitte audited the no-log policy in 2023 and 2025","claims":["C10"]},{"text":"Unblocked 13 of 14 services","claims":["C11"]},{"text":"About $2.50 a month on 27 months","claims":["C12"]}],"tradeoffs":[{"text":"Fails ITVX, slow to connect at times, no Smart DNS","claims":["C11"]}],"alternatives":[{"option":"ExpressVPN","when":"You want 14/14 unblocking and accept a high renewal price"},{"option":"NordVPN","when":"You want the most audits and the price is confirmed at $3.50"},{"option":"Proton VPN","when":"Privacy and open source matter more than streaming breadth"}],"caveats":["Audit scope of Proton disputed","NordVPN price disputed"],"nextSteps":["Check renewal price at checkout","Use the refund window"]},
+"contradictions":[
+{"option":"Proton VPN","topic":"Whether 2026 audit covered paid servers","claims":["C2","C3"],"assessment":"CyberInsider cites the audit report (free and paid); Bandwidth Ledger alone says free only and has lowest reliability. Unresolved.","severity":"medium"},
+{"option":"NordVPN","topic":"Long-plan price","claims":["C8","C9"],"assessment":"Gizmodo x2 and Tom's Guide say about $3.50; Bandwidth Ledger says $5.99. Majority more credible.","severity":"medium"},
+{"option":"PrivadoVPN","topic":"Independent audit","claims":["C15","C16"],"assessment":"One recent source claims audit; older Tom's Guide says none. Unverified.","severity":"medium"}],
+"uncertainties":[
+{"kind":"single-source","text":"PrivadoVPN audit appears in one source only","option":"PrivadoVPN","impact":"medium","howToResolve":"Find the published audit report"},
+{"kind":"incomplete","text":"ExpressVPN auditor not named in sources","option":"ExpressVPN","impact":"low","howToResolve":"Check ExpressVPN transparency page"},
+{"kind":"assumption","text":"Streaming results are one reviewer's tests (Gizmodo)","option":null,"impact":"medium","howToResolve":"Use refund window to test your services"}]}

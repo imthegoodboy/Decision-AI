@@ -1,7 +1,7 @@
 {
-  "_comment": "Edit names and affiliations before building the final PDF (npm run report).",
+  "_comment": "Edit names and affiliations, then rebuild: python report/build.py",
   "team": "Decision AI",
   "authors": [
-    { "name": "Your Name", "affiliation": "Your Affiliation" }
+    { "name": "Nikhil Sharma", "affiliation": "Independent Researcher" }
   ]
 }

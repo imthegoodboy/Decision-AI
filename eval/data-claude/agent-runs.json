@@ -1,0 +1,1058 @@
+{
+  "r007": {
+    "runId": "r007",
+    "label": "tech-03:baseline:clean",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2448,
+    "agentId": "a3ca29ef61ad0ab6e"
+  },
+  "r011": {
+    "runId": "r011",
+    "label": "tech-03:selfcheck:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2793,
+    "agentId": "a2eb0feb4d8029cbf"
+  },
+  "r008": {
+    "runId": "r008",
+    "label": "tech-03:selfcheck:clean",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2967,
+    "agentId": "a09755a64ad1d33a8"
+  },
+  "r009": {
+    "runId": "r009",
+    "label": "tech-03:tool:clean",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 3253,
+    "agentId": "acfb87767fc7101cc"
+  },
+  "r012": {
+    "runId": "r012",
+    "label": "tech-03:tool:poisoned",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 2982,
+    "agentId": "a1a8b81290078e32c"
+  },
+  "r010": {
+    "runId": "r010",
+    "label": "tech-03:baseline:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2882,
+    "agentId": "ae2cca1e954d525f8"
+  },
+  "r001": {
+    "runId": "r001",
+    "label": "tech-01:baseline:clean",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2508,
+    "agentId": "a1933eaa4d451d803"
+  },
+  "r004": {
+    "runId": "r004",
+    "label": "tech-01:baseline:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2874,
+    "agentId": "a442c36460235eede"
+  },
+  "r016": {
+    "runId": "r016",
+    "label": "edu-01:baseline:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2778,
+    "agentId": "a14379d64733a7c94"
+  },
+  "r013": {
+    "runId": "r013",
+    "label": "edu-01:baseline:clean",
+    "toolsUsed": [
+      "Read",
+      "Write"
+    ],
+    "answerChars": 3133,
+    "agentId": "a741707b25fbe0200"
+  },
+  "r005": {
+    "runId": "r005",
+    "label": "tech-01:selfcheck:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2651,
+    "agentId": "a90fabf653ce549ea"
+  },
+  "r002": {
+    "runId": "r002",
+    "label": "tech-01:selfcheck:clean",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2653,
+    "agentId": "ac2c6e477eafc14cd"
+  },
+  "r014": {
+    "runId": "r014",
+    "label": "edu-01:selfcheck:clean",
+    "toolsUsed": [
+      "Read",
+      "Write"
+    ],
+    "answerChars": 2693,
+    "agentId": "a7a59cd19b1e485b3"
+  },
+  "r017": {
+    "runId": "r017",
+    "label": "edu-01:selfcheck:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2883,
+    "agentId": "a49fe6c735079c37f"
+  },
+  "r020": {
+    "runId": "r020",
+    "label": "edu-03:selfcheck:clean",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 3322,
+    "agentId": "a389cfd2199486b45"
+  },
+  "r022": {
+    "runId": "r022",
+    "label": "edu-03:baseline:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 3027,
+    "agentId": "a5bc7d1852ef0fe6e"
+  },
+  "r019": {
+    "runId": "r019",
+    "label": "edu-03:baseline:clean",
+    "toolsUsed": [
+      "Read",
+      "Write"
+    ],
+    "answerChars": 3246,
+    "agentId": "ac2c2f7332b34b11c"
+  },
+  "r023": {
+    "runId": "r023",
+    "label": "edu-03:selfcheck:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 3297,
+    "agentId": "a8da4d0e5f184d176"
+  },
+  "r025": {
+    "runId": "r025",
+    "label": "fin-02:baseline:clean",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2751,
+    "agentId": "a408c83b9b195e0d2"
+  },
+  "r026": {
+    "runId": "r026",
+    "label": "fin-02:selfcheck:clean",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2845,
+    "agentId": "a945559e828f53be4"
+  },
+  "r028": {
+    "runId": "r028",
+    "label": "fin-02:baseline:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2874,
+    "agentId": "a4515efabd781a4cc"
+  },
+  "r029": {
+    "runId": "r029",
+    "label": "fin-02:selfcheck:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2891,
+    "agentId": "ad31180bba73f4406"
+  },
+  "r032": {
+    "runId": "r032",
+    "label": "fin-04:selfcheck:clean",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2937,
+    "agentId": "a64088a16845ae353"
+  },
+  "r031": {
+    "runId": "r031",
+    "label": "fin-04:baseline:clean",
+    "toolsUsed": [
+      "Read",
+      "Write"
+    ],
+    "answerChars": 2644,
+    "agentId": "a728c140c9c209e90"
+  },
+  "r015": {
+    "runId": "r015",
+    "label": "edu-01:tool:clean",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write",
+      "Edit"
+    ],
+    "answerChars": 2825,
+    "agentId": "adf8908168e1576e8"
+  },
+  "r027": {
+    "runId": "r027",
+    "label": "fin-02:tool:clean",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 3225,
+    "agentId": "aa1708ec2bbcf7e1d"
+  },
+  "r018": {
+    "runId": "r018",
+    "label": "edu-01:tool:poisoned",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 2971,
+    "agentId": "ae1aa6605d0d4f3dd"
+  },
+  "r003": {
+    "runId": "r003",
+    "label": "tech-01:tool:clean",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 2947,
+    "agentId": "a1b958f2a5b1ec128"
+  },
+  "r034": {
+    "runId": "r034",
+    "label": "fin-04:baseline:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2989,
+    "agentId": "a65423e1514c0ca87"
+  },
+  "r006": {
+    "runId": "r006",
+    "label": "tech-01:tool:poisoned",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 3117,
+    "agentId": "a4e3da2f1c814d440"
+  },
+  "r030": {
+    "runId": "r030",
+    "label": "fin-02:tool:poisoned",
+    "toolsUsed": [
+      "Read",
+      "Bash"
+    ],
+    "answerChars": 2913,
+    "agentId": "acb32fe59d1df8cb4"
+  },
+  "r035": {
+    "runId": "r035",
+    "label": "fin-04:selfcheck:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 3056,
+    "agentId": "a4f8f0caf773e87f2"
+  },
+  "r024": {
+    "runId": "r024",
+    "label": "edu-03:tool:poisoned",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 3113,
+    "agentId": "aa5717abb44df13fb"
+  },
+  "r037": {
+    "runId": "r037",
+    "label": "health-01:baseline:clean",
+    "toolsUsed": [
+      "Read",
+      "Write"
+    ],
+    "answerChars": 2658,
+    "agentId": "a014dda30cf01406f"
+  },
+  "r040": {
+    "runId": "r040",
+    "label": "health-01:baseline:poisoned",
+    "toolsUsed": [
+      "Read",
+      "Write"
+    ],
+    "answerChars": 2946,
+    "agentId": "ac500d17435e39e9f"
+  },
+  "r021": {
+    "runId": "r021",
+    "label": "edu-03:tool:clean",
+    "toolsUsed": [
+      "Read",
+      "Bash"
+    ],
+    "answerChars": 2906,
+    "agentId": "a44309fa012f892a6"
+  },
+  "r038": {
+    "runId": "r038",
+    "label": "health-01:selfcheck:clean",
+    "toolsUsed": [
+      "Read",
+      "Write"
+    ],
+    "answerChars": 3039,
+    "agentId": "a469f08f922a53e19"
+  },
+  "r041": {
+    "runId": "r041",
+    "label": "health-01:selfcheck:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 3127,
+    "agentId": "aef3203d3dbb0b53d"
+  },
+  "r043": {
+    "runId": "r043",
+    "label": "health-02:baseline:clean",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2719,
+    "agentId": "a7f2722284878c8d7"
+  },
+  "r044": {
+    "runId": "r044",
+    "label": "health-02:selfcheck:clean",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2902,
+    "agentId": "adbac127068c66a8a"
+  },
+  "r046": {
+    "runId": "r046",
+    "label": "health-02:baseline:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2796,
+    "agentId": "a1292e309b12d4329"
+  },
+  "r049": {
+    "runId": "r049",
+    "label": "home-01:baseline:clean",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2838,
+    "agentId": "a3cf40aab1d2febfd"
+  },
+  "r047": {
+    "runId": "r047",
+    "label": "health-02:selfcheck:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 3216,
+    "agentId": "ae0f6d51db3edcf6a"
+  },
+  "r052": {
+    "runId": "r052",
+    "label": "home-01:baseline:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2991,
+    "agentId": "a3a68d7c47c3b86a6"
+  },
+  "r050": {
+    "runId": "r050",
+    "label": "home-01:selfcheck:clean",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 3074,
+    "agentId": "a0832dd21deed8493"
+  },
+  "r033": {
+    "runId": "r033",
+    "label": "fin-04:tool:clean",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 3293,
+    "agentId": "a09d3fd035689dc41"
+  },
+  "r053": {
+    "runId": "r053",
+    "label": "home-01:selfcheck:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 3375,
+    "agentId": "a07cebfc3557f5d03"
+  },
+  "r039": {
+    "runId": "r039",
+    "label": "health-01:tool:clean",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 3244,
+    "agentId": "aa2794a4e8f94c915"
+  },
+  "r036": {
+    "runId": "r036",
+    "label": "fin-04:tool:poisoned",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 3181,
+    "agentId": "a1b9c2951b2792b0a"
+  },
+  "r056": {
+    "runId": "r056",
+    "label": "home-04:selfcheck:clean",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 3105,
+    "agentId": "a0f413c959d51b515"
+  },
+  "r055": {
+    "runId": "r055",
+    "label": "home-04:baseline:clean",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2667,
+    "agentId": "a3abf2542e8b5f708"
+  },
+  "r058": {
+    "runId": "r058",
+    "label": "home-04:baseline:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2855,
+    "agentId": "a20aaa89e9a252102"
+  },
+  "r042": {
+    "runId": "r042",
+    "label": "health-01:tool:poisoned",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 2984,
+    "agentId": "affd688082d25caf2"
+  },
+  "r059": {
+    "runId": "r059",
+    "label": "home-04:selfcheck:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 3311,
+    "agentId": "a0e6f25cc242629e0"
+  },
+  "r048": {
+    "runId": "r048",
+    "label": "health-02:tool:poisoned",
+    "toolsUsed": [
+      "Read",
+      "Bash"
+    ],
+    "answerChars": 3037,
+    "agentId": "a3dcf1e446d100e10"
+  },
+  "r062": {
+    "runId": "r062",
+    "label": "soft-01:selfcheck:clean",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 3000,
+    "agentId": "a1325ba485213e040"
+  },
+  "r061": {
+    "runId": "r061",
+    "label": "soft-01:baseline:clean",
+    "toolsUsed": [
+      "Read",
+      "Write"
+    ],
+    "answerChars": 2959,
+    "agentId": "a1383fc783680fa0c"
+  },
+  "r051": {
+    "runId": "r051",
+    "label": "home-01:tool:clean",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 3284,
+    "agentId": "a9348d8ffdc56500e"
+  },
+  "r045": {
+    "runId": "r045",
+    "label": "health-02:tool:clean",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 3313,
+    "agentId": "acf054cd50031bb4b"
+  },
+  "r064": {
+    "runId": "r064",
+    "label": "soft-01:baseline:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 3099,
+    "agentId": "a06931e1688416c04"
+  },
+  "r065": {
+    "runId": "r065",
+    "label": "soft-01:selfcheck:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2954,
+    "agentId": "a1e2a2a3c17011870"
+  },
+  "r068": {
+    "runId": "r068",
+    "label": "soft-04:selfcheck:clean",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2877,
+    "agentId": "aaf76971e31bb2adc"
+  },
+  "r067": {
+    "runId": "r067",
+    "label": "soft-04:baseline:clean",
+    "toolsUsed": [
+      "Read",
+      "Write"
+    ],
+    "answerChars": 2661,
+    "agentId": "a0a99d3d5183148d2"
+  },
+  "r054": {
+    "runId": "r054",
+    "label": "home-01:tool:poisoned",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 3714,
+    "agentId": "a3ed02fbc39ea6bd0"
+  },
+  "r070": {
+    "runId": "r070",
+    "label": "soft-04:baseline:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2762,
+    "agentId": "ad69cf64108cd0186"
+  },
+  "r071": {
+    "runId": "r071",
+    "label": "soft-04:selfcheck:poisoned",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 3086,
+    "agentId": "a48b9663d16c976be"
+  },
+  "r057": {
+    "runId": "r057",
+    "label": "home-04:tool:clean",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 2588,
+    "agentId": "ab4b3b5c3bd7bd42c"
+  },
+  "r060": {
+    "runId": "r060",
+    "label": "home-04:tool:poisoned",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 3270,
+    "agentId": "ac5cce32102e7218a"
+  },
+  "r063": {
+    "runId": "r063",
+    "label": "soft-01:tool:clean",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 2901,
+    "agentId": "a35580f7c3bfaf5e6"
+  },
+  "r069": {
+    "runId": "r069",
+    "label": "soft-04:tool:clean",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 2690,
+    "agentId": "a8e4f576568a62b32"
+  },
+  "r066": {
+    "runId": "r066",
+    "label": "soft-01:tool:poisoned",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 3331,
+    "agentId": "afe4d92853035f883"
+  },
+  "r072": {
+    "runId": "r072",
+    "label": "soft-04:tool:poisoned",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 3483,
+    "agentId": "a8c05088ae69cba20"
+  },
+  "r073": {
+    "runId": "r073",
+    "label": "tech-01:baseline:replicate",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2701,
+    "agentId": "aedabed1de4b02b5e"
+  },
+  "r076": {
+    "runId": "r076",
+    "label": "tech-03:baseline:replicate",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2526,
+    "agentId": "ae8435c413194890d"
+  },
+  "r080": {
+    "runId": "r080",
+    "label": "edu-01:selfcheck:replicate",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2803,
+    "agentId": "a9a7f32665e7cdfb6"
+  },
+  "r077": {
+    "runId": "r077",
+    "label": "tech-03:selfcheck:replicate",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2864,
+    "agentId": "a12b15486184adb81"
+  },
+  "r082": {
+    "runId": "r082",
+    "label": "edu-03:baseline:replicate",
+    "toolsUsed": [
+      "Read",
+      "Write"
+    ],
+    "answerChars": 3302,
+    "agentId": "a2533407c170f5de3"
+  },
+  "r079": {
+    "runId": "r079",
+    "label": "edu-01:baseline:replicate",
+    "toolsUsed": [
+      "Read",
+      "Write"
+    ],
+    "answerChars": 3059,
+    "agentId": "a9ccf22abae573091"
+  },
+  "r074": {
+    "runId": "r074",
+    "label": "tech-01:selfcheck:replicate",
+    "toolsUsed": [
+      "Read",
+      "Write"
+    ],
+    "answerChars": 3017,
+    "agentId": "afd118e74329bf560"
+  },
+  "r085": {
+    "runId": "r085",
+    "label": "fin-02:baseline:replicate",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2764,
+    "agentId": "ac37f6ac1337415b5"
+  },
+  "r083": {
+    "runId": "r083",
+    "label": "edu-03:selfcheck:replicate",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 3149,
+    "agentId": "a5407bc6a19361484"
+  },
+  "r086": {
+    "runId": "r086",
+    "label": "fin-02:selfcheck:replicate",
+    "toolsUsed": [
+      "Read",
+      "Write"
+    ],
+    "answerChars": 2960,
+    "agentId": "a717a87580531af22"
+  },
+  "r089": {
+    "runId": "r089",
+    "label": "fin-04:selfcheck:replicate",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2943,
+    "agentId": "ab6cfa505ef44987e"
+  },
+  "r091": {
+    "runId": "r091",
+    "label": "health-01:baseline:replicate",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2603,
+    "agentId": "a1370f9d5e784475c"
+  },
+  "r088": {
+    "runId": "r088",
+    "label": "fin-04:baseline:replicate",
+    "toolsUsed": [
+      "Read",
+      "Write"
+    ],
+    "answerChars": 2742,
+    "agentId": "a278b0524cef9c775"
+  },
+  "r075": {
+    "runId": "r075",
+    "label": "tech-01:tool:replicate",
+    "toolsUsed": [
+      "Read",
+      "Bash"
+    ],
+    "answerChars": 3077,
+    "agentId": "a70cdf4e327f17158"
+  },
+  "r081": {
+    "runId": "r081",
+    "label": "edu-01:tool:replicate",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 3195,
+    "agentId": "a92d6eff4688329ba"
+  },
+  "r092": {
+    "runId": "r092",
+    "label": "health-01:selfcheck:replicate",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 3287,
+    "agentId": "a0a645467817cac51"
+  },
+  "r094": {
+    "runId": "r094",
+    "label": "health-02:baseline:replicate",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2714,
+    "agentId": "a20329ca69e117e33"
+  },
+  "r095": {
+    "runId": "r095",
+    "label": "health-02:selfcheck:replicate",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2868,
+    "agentId": "a74d2193f69208189"
+  },
+  "r097": {
+    "runId": "r097",
+    "label": "home-01:baseline:replicate",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2711,
+    "agentId": "ad1f2a052750bd25f"
+  },
+  "r078": {
+    "runId": "r078",
+    "label": "tech-03:tool:replicate",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 2807,
+    "agentId": "a4019b56f40303d70"
+  },
+  "r087": {
+    "runId": "r087",
+    "label": "fin-02:tool:replicate",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 3075,
+    "agentId": "ab17fcd620e1dcf60"
+  },
+  "r098": {
+    "runId": "r098",
+    "label": "home-01:selfcheck:replicate",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 3182,
+    "agentId": "af8f52c758e2bad72"
+  },
+  "r101": {
+    "runId": "r101",
+    "label": "home-04:selfcheck:replicate",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2942,
+    "agentId": "a99bf75e3e4a467a2"
+  },
+  "r084": {
+    "runId": "r084",
+    "label": "edu-03:tool:replicate",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 3221,
+    "agentId": "ade7e21cefc7a329e"
+  },
+  "r104": {
+    "runId": "r104",
+    "label": "soft-01:selfcheck:replicate",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 2774,
+    "agentId": "a5b226294403d6902"
+  },
+  "r090": {
+    "runId": "r090",
+    "label": "fin-04:tool:replicate",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 3066,
+    "agentId": "a375f9e9c3983ac52"
+  },
+  "r103": {
+    "runId": "r103",
+    "label": "soft-01:baseline:replicate",
+    "toolsUsed": [
+      "Read",
+      "Write"
+    ],
+    "answerChars": 2827,
+    "agentId": "ae4617b09fe2f87ae"
+  },
+  "r100": {
+    "runId": "r100",
+    "label": "home-04:baseline:replicate",
+    "toolsUsed": [
+      "Read",
+      "Write"
+    ],
+    "answerChars": 3115,
+    "agentId": "a9e840788654a5cd7"
+  },
+  "r093": {
+    "runId": "r093",
+    "label": "health-01:tool:replicate",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 3388,
+    "agentId": "acb5cc033d573363e"
+  },
+  "r107": {
+    "runId": "r107",
+    "label": "soft-04:selfcheck:replicate",
+    "toolsUsed": [
+      "Read"
+    ],
+    "answerChars": 3045,
+    "agentId": "afee8a91b533e6006"
+  },
+  "r096": {
+    "runId": "r096",
+    "label": "health-02:tool:replicate",
+    "toolsUsed": [
+      "Read",
+      "Bash"
+    ],
+    "answerChars": 2692,
+    "agentId": "abfb9d1bd70fad303"
+  },
+  "r106": {
+    "runId": "r106",
+    "label": "soft-04:baseline:replicate",
+    "toolsUsed": [
+      "Read",
+      "Write"
+    ],
+    "answerChars": 2629,
+    "agentId": "ab97ee5e0aecfd646"
+  },
+  "r099": {
+    "runId": "r099",
+    "label": "home-01:tool:replicate",
+    "toolsUsed": [
+      "Read",
+      "Bash"
+    ],
+    "answerChars": 2969,
+    "agentId": "a88a16c9ccb88f7ac"
+  },
+  "r102": {
+    "runId": "r102",
+    "label": "home-04:tool:replicate",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 2932,
+    "agentId": "abd93dff32b4255e0"
+  },
+  "r108": {
+    "runId": "r108",
+    "label": "soft-04:tool:replicate",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 2877,
+    "agentId": "a6ff404f13902973d"
+  },
+  "r105": {
+    "runId": "r105",
+    "label": "soft-01:tool:replicate",
+    "toolsUsed": [
+      "Read",
+      "Bash",
+      "Write"
+    ],
+    "answerChars": 3051,
+    "agentId": "a035165d0d1acc779"
+  }
+}
