@@ -1,9 +1,9 @@
 {
-  "title": "Does Provenance Change What an AI Says? Claim-Level Verification for Decision-Support Agents Under Planted Sources",
-  "queries": 5,
+  "title": "Does a Provenance Tool Change What an AI Agent Says? Claim-Level Verification for Decision Support Under Planted Sources",
   "pool_size": 8,
   "char_budget": 9000,
-  "fast_model": "gpt-5.4-mini",
-  "judge_model": "gpt-5.5",
+  "system_model": "Claude Sonnet 5.5",
+  "judge_model": "Claude Opus 5.5",
+  "n_questions": 12,
   "artifacts": "Demo video and slides are linked in the submission form."
 }

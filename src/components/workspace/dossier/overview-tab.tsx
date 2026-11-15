@@ -113,11 +113,19 @@ function RecommendationCard() {
       {leaderChanged && (
         <div className="flex items-start gap-2 border-t border-sky/50 bg-sky-soft/60 px-5 py-3 text-[0.8125rem] text-ink">
           <Info aria-hidden className="mt-0.5 size-4 shrink-0 text-cobalt" />
-          <p>
-            With your adjusted priorities, <strong className="font-semibold">{optionById.get(leader.optionId)?.name}</strong> now
-            ranks first ({leader.total.toFixed(1)} vs {recRank?.total.toFixed(1)}). This recommendation was written for your stated
-            priorities{baselineLeader ? `, where ${optionById.get(baselineLeader.optionId)?.name} led` : ""}.
-          </p>
+          {baselineLeader && baselineLeader.optionId === rec.optionId ? (
+            <p>
+              With your adjusted priorities, <strong className="font-semibold">{optionById.get(leader.optionId)?.name}</strong> now
+              ranks first ({leader.total.toFixed(1)} vs {recRank?.total.toFixed(1)}). This recommendation was written for your
+              stated priorities.
+            </p>
+          ) : (
+            <p>
+              The evidence-weighted ranking puts <strong className="font-semibold">{optionById.get(leader.optionId)?.name}</strong>{" "}
+              first ({leader.total.toFixed(1)} vs {recRank?.total.toFixed(1)}). The recommendation departs from it on purpose; the
+              reasons and trade-offs below explain why.
+            </p>
+          )}
         </div>
       )}
 

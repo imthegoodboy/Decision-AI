@@ -224,26 +224,26 @@ if rel_path.exists():
         if len(g) > 2 and len(d) > 2:
             results["reliability_probe"]["mannwhitney_p"] = float(stats.mannwhitneyu(d, g, alternative="less").pvalue)
 
-# Human audit agreement (if the sample has been labelled)
-audit_path = RESULTS / "human-audit-sample.csv"
-if audit_path.exists():
-    audit = [r for r in read_csv(audit_path) if r.get("human_verdict", "").strip()]
-    if audit:
-        agree = [r["human_verdict"].strip().lower() == r["judge_verdict"].strip().lower() for r in audit]
-        coarse = [
-            (r["human_verdict"].strip().lower() == "unsupported") == (r["judge_verdict"].strip().lower() == "unsupported")
-            for r in audit
-        ]
-        labels = ["supported", "partial", "unsupported"]
-        h = [labels.index(r["human_verdict"].strip().lower()) for r in audit if r["human_verdict"].strip().lower() in labels]
-        j = [labels.index(r["judge_verdict"].strip().lower()) for r in audit if r["human_verdict"].strip().lower() in labels]
-        po = np.mean(np.array(h) == np.array(j)) if h else math.nan
-        pe = sum((h.count(k) / len(h)) * (j.count(k) / len(j)) for k in range(3)) if h else math.nan
+# Human audit agreement (if the blind sample has been labelled: eval/results/human-audit-labels.csv)
+labels_path = RESULTS / "human-audit-labels.csv"
+key_path = ROOT / "eval" / "data-claude" / "human-audit-key.json"
+if labels_path.exists() and key_path.exists():
+    key = {k["key"]: k for k in json.loads(key_path.read_text(encoding="utf8"))}
+    labelled = [r for r in read_csv(labels_path) if r.get("human_verdict", "").strip() and r["key"] in key]
+    if labelled:
+        cats = ["supported", "partial", "unsupported"]
+        h = [cats.index(r["human_verdict"].strip().lower()) for r in labelled]
+        j = [cats.index(key[r["key"]]["judge"].strip().lower()) for r in labelled]
+        po = float(np.mean(np.array(h) == np.array(j)))
+        pe = sum((h.count(c) / len(h)) * (j.count(c) / len(j)) for c in range(3))
+        binary = float(np.mean([(a == 2) == (b == 2) for a, b in zip(h, j)]))
         results["human_audit"] = {
-            "n": len(audit),
-            "exact_agreement": float(np.mean(agree)),
-            "binary_agreement": float(np.mean(coarse)),
-            "cohen_kappa": float((po - pe) / (1 - pe)) if h and pe < 1 else math.nan,
+            "n": len(labelled),
+            "exact_agreement": po,
+            "binary_agreement": binary,
+            "cohen_kappa": float((po - pe) / (1 - pe)) if pe < 1 else math.nan,
+            "human_supported_share": float(np.mean([x == 0 for x in h])),
+            "judge_supported_share": float(np.mean([x == 0 for x in j])),
         }
 
 (RESULTS / "stats.json").write_text(json.dumps(results, indent=2), encoding="utf8")

@@ -153,6 +153,8 @@ def build() -> Path:
         "CHAR_BUDGET": f"{config.get('char_budget', 9000):,}",
         "FAST_MODEL": config.get("fast_model", "gpt-5.4-mini"),
         "JUDGE_MODEL": config.get("judge_model", "gpt-5.5"),
+        "SYSTEM_MODEL": config.get("system_model", "Claude Sonnet 5.5"),
+        "N_RUNS": str(int(stats.get("n_questions", config.get("n_questions", 12))) * 6),
     }
     out = tpl
     for key, val in values.items():
@@ -194,7 +196,41 @@ def to_pdf(html_path: Path) -> Path:
     return pdf
 
 
+def build_slides() -> Path:
+    """submission/slides.html (+ slides.pdf) from slides.template.html and sections/slides.json."""
+    tpl = (ROOT / "submission" / "slides.template.html").read_text(encoding="utf8")
+    texts = json.loads((SECTIONS / "slides.json").read_text(encoding="utf8"))
+    values = {
+        "AUTHORS_TEXT": " · ".join(a["name"] for a in authors["authors"]) + (f" · {authors.get('team')}" if authors.get("team") else ""),
+        "N_QUESTIONS": str(stats.get("n_questions", config.get("n_questions", 12))),
+        "N_RUNS": str(int(stats.get("n_questions", config.get("n_questions", 12))) * 6),
+        **texts,
+    }
+    out = tpl
+    for key, val in values.items():
+        out = out.replace("{{" + key + "}}", val)
+    out = fill_numbers(out)
+    left = re.findall(r"\{\{[^}]+\}\}", out)
+    if left:
+        raise SystemExit(f"Unfilled slide placeholders: {sorted(set(left))}")
+    html_path = ROOT / "submission" / "slides.html"
+    html_path.write_text(out, encoding="utf8")
+    return html_path
+
+
+def print_pdf(html_path: Path, pdf: Path) -> Path:
+    candidates = [r"C:\Program Files\Google\Chrome\Application\chrome.exe", r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe", shutil.which("chrome"), shutil.which("google-chrome")]
+    browser = next((c for c in candidates if c and Path(c).exists()), None)
+    subprocess.run([browser, "--headless=new", "--disable-gpu", "--no-pdf-header-footer", "--virtual-time-budget=15000", f"--print-to-pdf={pdf}", html_path.resolve().as_uri()], check=True, capture_output=True)
+    return pdf
+
+
 if __name__ == "__main__":
+    if "--slides" in sys.argv:
+        sp = build_slides()
+        print(f"Slides HTML: {sp}")
+        print(f"Slides PDF:  {print_pdf(sp, ROOT / 'submission' / 'slides.pdf')}")
+        sys.exit(0)
     path = build()
     print(f"HTML: {path}")
     if "--html" not in sys.argv:

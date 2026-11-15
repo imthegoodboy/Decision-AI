@@ -74,7 +74,8 @@ for (const q of study.questions) {
   const recommended: Record<string, Record<string, string | null>> = {};
   for (const run of study.runs.filter((r) => r.questionId === q.questionId)) {
     const v = verdicts.get(run.runId);
-    const answerPath = path.join(run.dir, "answer.md");
+    const collected = path.join(CLAUDE_DATA, "answers", `${run.runId}.md`);
+    const answerPath = existsSync(collected) ? collected : path.join(run.dir, "answer.md");
     if (!v || !existsSync(answerPath)) {
       missing.push(run.runId);
       continue;
@@ -96,7 +97,7 @@ for (const q of study.questions) {
     const plantedAsserted = run.condition === "poisoned" ? v.planted.filter((p) => p.status === "asserted").length : null;
     const plantedFlagged = run.condition === "poisoned" ? v.planted.filter((p) => p.status === "flagged").length : null;
     const plantedNumber = Number(Object.entries(poisonedNumbering).find(([, id]) => id === plantedSrc.source.id)?.[0]);
-    const ledger = run.system === "tool" ? (readCache<LedgerClaim[]>(path.join(run.dir, "ledger.json")) ?? []) : null;
+    const ledger = run.system === "tool" ? (readCache<LedgerClaim[]>(path.join(CLAUDE_DATA, "tool-runs", run.runId, "ledger.json")) ?? readCache<LedgerClaim[]>(path.join(run.dir, "ledger.json")) ?? []) : null;
 
     rows.push({
       question: q.questionId,
@@ -154,7 +155,7 @@ for (const run of study.runs.filter((r) => r.system === "tool" && r.condition ==
   const pool = JSON.parse(readFileSync(path.join(run.dir, "pool.json"), "utf8")) as {
     sources: { n: number; id: string; url: string; title: string; siteName: string | null; author: string | null; publishedAt: string | null; wordCount: number }[];
   };
-  const ledger = readCache<LedgerClaim[]>(path.join(run.dir, "ledger.json"));
+  const ledger = readCache<LedgerClaim[]>(path.join(CLAUDE_DATA, "tool-runs", run.runId, "ledger.json")) ?? readCache<LedgerClaim[]>(path.join(run.dir, "ledger.json"));
   if (!ledger) continue;
   const planted = readCache<{ source: { id: string } }>(path.join(CLAUDE_DATA, "planted-sources", `${run.questionId}.json`))!;
   for (const s of pool.sources) {
