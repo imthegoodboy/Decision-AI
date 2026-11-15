@@ -1,0 +1,35 @@
+{"criteria":[
+{"name":"Heart-rate accuracy","weight":35,"description":"Tested HR accuracy"},
+{"name":"Sleep accuracy","weight":35,"description":"Reliability of sleep tracking"},
+{"name":"No mandatory subscription","weight":30,"description":"Core data free"}],
+"options":[
+{"name":"Amazfit Balance","summary":"Smartwatch, top-class HR in tests, only non-essential extras paywalled","price":"$199"},
+{"name":"Garmin vivosmart 5","summary":"Band with free data access, solid HR","price":null},
+{"name":"Fitbit Air","summary":"Screenless band, core free but sleep features disputed","price":"$99"},
+{"name":"Xiaomi Band 7 Pro","summary":"Sleep accuracy disputed","price":null},
+{"name":"Whoop","summary":"Mandatory paid membership","price":null}],
+"scores":[
+{"option":"Amazfit Balance","criterion":"Heart-rate accuracy","score":8,"rationale":"Two verified statements from Live Science and Steady State","claims":["C1","C2"]},
+{"option":"Amazfit Balance","criterion":"Sleep accuracy","score":null,"rationale":"No verified sleep-accuracy claim","claims":[]},
+{"option":"Amazfit Balance","criterion":"No mandatory subscription","score":8,"rationale":"Only non-essential extras paywalled","claims":["C3"]},
+{"option":"Garmin vivosmart 5","criterion":"Heart-rate accuracy","score":7,"rationale":"Solid HR sensor, corroborated","claims":["C16"]},
+{"option":"Garmin vivosmart 5","criterion":"Sleep accuracy","score":5,"rationale":"Only a pros bullet; consistency data conflicted","claims":["C15"]},
+{"option":"Garmin vivosmart 5","criterion":"No mandatory subscription","score":9,"rationale":"No extra charge for data","claims":["C9"]},
+{"option":"Fitbit Air","criterion":"No mandatory subscription","score":5,"rationale":"Core free but sleep stages disputed","claims":["C7","C6"]},
+{"option":"Xiaomi Band 7 Pro","criterion":"Sleep accuracy","score":null,"rationale":"Sources directly conflict","claims":["C4","C5"]},
+{"option":"Whoop","criterion":"No mandatory subscription","score":1,"rationale":"Annual membership required","claims":["C13"]},
+{"option":"Fitbit Inspire 3","criterion":"No mandatory subscription","score":3,"rationale":"Detailed sleep data needs Premium","claims":["C14"]}],
+"recommendation":{"option":"Amazfit Balance","headline":"Amazfit Balance for heart rate; sleep accuracy remains unproven","summary":"Best-supported heart-rate accuracy at $199 without essential paywalls; Garmin vivosmart 5 is the cheaper subscription-free alternative.",
+"reasons":[{"text":"Top-class HR sensors in tests","claims":["C1","C2"]},{"text":"Nothing essential paywalled","claims":["C3"]}],
+"tradeoffs":[{"text":"Some extras like AI coach are paywalled; not rugged","claims":["C3"]}],
+"alternatives":[{"option":"Garmin vivosmart 5","when":"Cheaper band with free data"},{"option":"Fitbit Air","when":"Only if you accept possible Premium for sleep stages"}],
+"caveats":["No verified independent sleep-accuracy data for any specific model"],
+"nextSteps":["Check current price and return policy","Compare against a reference device for a week"]},
+"contradictions":[
+{"option":"Xiaomi Band 7 Pro","topic":"Sleep accuracy","claims":["C4","C5"],"assessment":"Steady State says most accurate; Popular Science says not accurate. Neither cites data; unresolved, avoid relying on it.","severity":"high"},
+{"option":"Fitbit Air","topic":"Sleep features free or paywalled","claims":["C6","C8"],"assessment":"Tom's Guide says detailed sleep reports, only AI trends need Premium; Steady State says stages and score need Premium. Tom's Guide is hands-on and higher reliability, but unresolved.","severity":"high"},
+{"option":"Garmin vivosmart 5","topic":"Garmin sleep consistency","claims":["C10","C11"],"assessment":"Steady State misstates the Terra data it cites; Terra itself says Garmin was most consistent. Trust Terra, but it measures consistency, not accuracy.","severity":"medium"}],
+"uncertainties":[
+{"kind":"incomplete","text":"No source provides reference-grade sleep accuracy for any sub-$200 device","option":null,"impact":"high","howToResolve":"Look for PSG validation studies"},
+{"kind":"single-source","text":"Balance HR accuracy comes from journalistic testing, not lab data","option":"Amazfit Balance","impact":"medium","howToResolve":"Find chest-strap comparisons"},
+{"kind":"outdated","text":"Garmin vivosmart 5 evidence is from a 2023 review","option":"Garmin vivosmart 5","impact":"medium","howToResolve":"Check recent reviews and price"}]}

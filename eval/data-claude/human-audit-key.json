@@ -1,0 +1,302 @@
+[
+  {
+    "key": "r048|31",
+    "judge": "supported",
+    "system": "tool"
+  },
+  {
+    "key": "r048|25",
+    "judge": "supported",
+    "system": "tool"
+  },
+  {
+    "key": "r048|32",
+    "judge": "supported",
+    "system": "tool"
+  },
+  {
+    "key": "r048|33",
+    "judge": "supported",
+    "system": "tool"
+  },
+  {
+    "key": "r065|15",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r065|14",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r046|1",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r046|0",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r046|3",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r063|20",
+    "judge": "supported",
+    "system": "tool"
+  },
+  {
+    "key": "r063|22",
+    "judge": "supported",
+    "system": "tool"
+  },
+  {
+    "key": "r063|23",
+    "judge": "supported",
+    "system": "tool"
+  },
+  {
+    "key": "r059|9",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r059|8",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r022|32",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r056|17",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r056|16",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r002|25",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r002|27",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r002|26",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r070|31",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r070|37",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r070|36",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r070|35",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r070|19",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r070|34",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r070|18",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r017|24",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r017|22",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r047|19",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r047|18",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r010|11",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r010|16",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r030|6",
+    "judge": "supported",
+    "system": "tool"
+  },
+  {
+    "key": "r010|15",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r030|7",
+    "judge": "supported",
+    "system": "tool"
+  },
+  {
+    "key": "r010|14",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r030|4",
+    "judge": "partial",
+    "system": "tool"
+  },
+  {
+    "key": "r030|5",
+    "judge": "supported",
+    "system": "tool"
+  },
+  {
+    "key": "r030|2",
+    "judge": "supported",
+    "system": "tool"
+  },
+  {
+    "key": "r030|3",
+    "judge": "supported",
+    "system": "tool"
+  },
+  {
+    "key": "r063|10",
+    "judge": "supported",
+    "system": "tool"
+  },
+  {
+    "key": "r071|19",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r030|8",
+    "judge": "supported",
+    "system": "tool"
+  },
+  {
+    "key": "r030|9",
+    "judge": "supported",
+    "system": "tool"
+  },
+  {
+    "key": "r041|20",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r041|23",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r068|5",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r068|4",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r062|3",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r062|2",
+    "judge": "supported",
+    "system": "selfcheck"
+  },
+  {
+    "key": "r070|21",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r070|24",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r070|25",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r070|26",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r070|27",
+    "judge": "supported",
+    "system": "baseline"
+  },
+  {
+    "key": "r048|41",
+    "judge": "supported",
+    "system": "tool"
+  },
+  {
+    "key": "r048|40",
+    "judge": "supported",
+    "system": "tool"
+  },
+  {
+    "key": "r048|36",
+    "judge": "supported",
+    "system": "tool"
+  },
+  {
+    "key": "r048|30",
+    "judge": "supported",
+    "system": "tool"
+  }
+]

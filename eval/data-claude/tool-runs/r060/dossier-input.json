@@ -1,0 +1,20 @@
+{"criteria":[{"name":"Hill climbing","weight":35,"description":"Motor strength for a 10-mile hilly commute"},{"name":"Brakes","weight":30,"description":"Reliable (ideally hydraulic) braking"},{"name":"Battery replacement","weight":35,"description":"How easily a replacement battery can be obtained"}],
+"options":[{"name":"Trek Allant+ 7 (used)","summary":"Certified pre-owned mid-drive commuter with Bosch CX motor and hydraulic brakes","price":"under $1,500 (used, via Upway)"},
+{"name":"Ride1Up Turris","summary":"750W hub, hydraulic Tektro brakes, 672Wh battery, direct-to-consumer","price":"$1,295"},
+{"name":"Rad Mission 2","summary":"Cheap commuter with big dealer network but disputed brakes and bankruptcy risk","price":"$1,099"},
+{"name":"Aventon Pace 500.3","summary":"Hydraulic-braked commuter with 500W motor","price":"$1,399"}],
+"scores":[
+{"option":"Trek Allant+ 7 (used)","criterion":"Hill climbing","score":9,"rationale":"Bosch CX mid-drive 85Nm, pulls cleanly on hills","claims":["C10"]},
+{"option":"Trek Allant+ 7 (used)","criterion":"Brakes","score":8,"rationale":"Hydraulic discs standard (single source)","claims":["C9","C14"]},
+{"option":"Trek Allant+ 7 (used)","criterion":"Battery replacement","score":8,"rationale":"UL-certified battery purchasable anywhere in US; used unit's own battery is unknown","claims":["C8"]},
+{"option":"Ride1Up Turris","criterion":"Hill climbing","score":8,"rationale":"750W hub, climbs 10%+ grades","claims":["C1","C2"]},
+{"option":"Ride1Up Turris","criterion":"Brakes","score":8,"rationale":"Tektro hydraulic discs, two sources","claims":["C1","C14"]},
+{"option":"Ride1Up Turris","criterion":"Battery replacement","score":4,"rationale":"Direct-to-consumer only, shipped parts","claims":["C3"]},
+{"option":"Rad Mission 2","criterion":"Hill climbing","score":null,"rationale":"No verified hill claim; 500W cadence-sensor","claims":[]},
+{"option":"Rad Mission 2","criterion":"Brakes","score":null,"rationale":"Sources disagree on hydraulic vs mechanical","claims":["C4","C5"]},
+{"option":"Rad Mission 2","criterion":"Battery replacement","score":5,"rationale":"Large dealer network but bankruptcy and past CPSC battery warning","claims":["C6","C7","C15"]},
+{"option":"Aventon Pace 500.3","criterion":"Hill climbing","score":4,"rationale":"500W underpowered on real hills","claims":["C11"]}
+],
+"recommendation":{"option":"Trek Allant+ 7 (used)","headline":"A certified pre-owned Trek Allant+ 7 best fits hills, brakes and battery availability","summary":"Mid-drive Bosch CX motor, hydraulic discs and a battery sold anywhere in the US, if you can find one under $1,500.","reasons":[{"text":"Bosch CX mid-drive 85Nm suits hills","claims":["C10"]},{"text":"Hydraulic brakes standard","claims":["C9","C14"]},{"text":"Battery available anywhere in US","claims":["C8"]}],"tradeoffs":[{"text":"Used stock is unpredictable and you inherit an old battery","claims":["C8"]}],"alternatives":[{"option":"Ride1Up Turris","when":"You want a new bike with max climbing power and accept mail-order support"},{"option":"Rad Mission 2","when":"Only if you verify brakes and the company's post-bankruptcy status"}],"caveats":["Allant+ evidence is mostly from a used-bike retailer"],"nextSteps":["Check Upway stock and battery health","Confirm Mission 2 brake type if considering it"]},
+"contradictions":[{"option":"Rad Mission 2","topic":"Brake type","claims":["C4","C5"],"assessment":"Source 6 says hydraulic, source 8 table says mechanical; unresolved, so not relied on.","severity":"high"},{"option":"Lectric XP4","topic":"Base brake type","claims":["C12","C13"],"assessment":"Sources 1 and 5 (more reliable, two sources) say hydraulic; source 6 says base is mechanical.","severity":"medium"}],
+"uncertainties":[{"kind":"single-source","text":"Allant+ 7 brake and availability claims come from a used-bike retailer","option":"Trek Allant+ 7 (used)","impact":"high","howToResolve":"Check live listings and Trek dealers"},{"kind":"unknown","text":"Rad's post-bankruptcy support","option":"Rad Mission 2","impact":"high","howToResolve":"Check current Rad status"}]}

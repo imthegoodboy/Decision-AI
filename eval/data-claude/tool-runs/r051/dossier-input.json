@@ -1,0 +1,30 @@
+{"criteria":[
+{"name":"Reliability","weight":35,"description":"Evidence of dependable operation"},
+{"name":"Real-world range","weight":25,"description":"Verified real range for a 20 km commute"},
+{"name":"Service network","weight":25,"description":"Service coverage and responsiveness"},
+{"name":"Commute suitability","weight":15,"description":"Ease and comfort in city commuting"}],
+"options":[
+{"name":"TVS iQube","summary":"Comfortable, easy city commuter per Autocar; little direct reliability or service data in sources","price":null},
+{"name":"Ather 450","summary":"Best handling, but least comfortable and stiff ride in 2022 test","price":null},
+{"name":"Bajaj Chetak","summary":"Comfortable but dated; almost no evidence on reliability or service","price":null},
+{"name":"Ola S1","summary":"Documented service backlog in 2024 reports","price":null},
+{"name":"Ampere","summary":"Vendor-claimed real range and service points; unverified","price":null}],
+"scores":[
+{"option":"TVS iQube","criterion":"Commute suitability","score":7,"rationale":"Autocar ranks it a step above Chetak as a comfortable commuter","claims":["C4","C14"]},
+{"option":"TVS iQube","criterion":"Real-world range","score":5,"rationale":"Only claimed range (140 km, 2022) is available","claims":["C10"]},
+{"option":"TVS iQube","criterion":"Reliability","score":null,"rationale":"No verified reliability claim","claims":[]},
+{"option":"TVS iQube","criterion":"Service network","score":null,"rationale":"No verified claim","claims":[]},
+{"option":"Ather 450","criterion":"Real-world range","score":5,"rationale":"Claimed 146 km; Eco mode usable at low charge","claims":["C11","C3"]},
+{"option":"Ather 450","criterion":"Commute suitability","score":5,"rationale":"Best handling but least comfortable","claims":["C1","C2"]},
+{"option":"Bajaj Chetak","criterion":"Commute suitability","score":6,"rationale":"Comfortable commuter but dated features","claims":["C4","C9"]},
+{"option":"Ola S1","criterion":"Reliability","score":3,"rationale":"Brake power cut and complaint volume","claims":["C5","C6"]},
+{"option":"Ola S1","criterion":"Service network","score":3,"rationale":"430 centres but 80,000 monthly complaints and 30-45 day waits (2024); fix plans unverified","claims":["C6","C7","C8","C15"]},
+{"option":"Ampere","criterion":"Service network","score":4,"rationale":"Vendor claim only","claims":["C12"]},
+{"option":"Ampere","criterion":"Real-world range","score":5,"rationale":"Vendor claim of 85 km real","claims":["C13"]}],
+"recommendation":{"option":"TVS iQube","headline":"TVS iQube, as a provisional pick on thin evidence","summary":"The sources give no direct reliability or service-network data for iQube, Ather or Chetak. iQube is leaned towards because it is the only major option with a positive commuter assessment and no documented service problems, while Ola has documented ones.","reasons":[{"text":"Autocar describes the iQube as a comfortable, easy-to-ride commuter, a step above the Chetak","claims":["C4"]},{"text":"Ola has documented service strain, which counts against it on your top priorities","claims":["C6","C7"]}],"tradeoffs":[{"text":"Aggressive regen takes getting used to; claimed range only","claims":["C14","C10"]}],"alternatives":[{"option":"Ather 450","when":"You prioritise handling and can accept a stiff, cramped ride"},{"option":"Bajaj Chetak","when":"You want a comfortable commuter and do not need modern features"},{"option":"Ampere","when":"Budget matters; its range and service figures are vendor claims"}],"caveats":["Autocar test is from 2022 in Mumbai","Absence of evidence on iQube service is not evidence of good service"],"nextSteps":["Check Bengaluru service centre density and owner reviews for each brand","Test ride and ask dealers for real range at your route"]},
+"contradictions":[{"option":"Ola S1","topic":"Ola service improvement vs complaints","claims":["C6","C8"],"assessment":"Ola announced a 1,000-centre plan; whether it was delivered is not in the sources","severity":"medium"}],
+"uncertainties":[
+{"kind":"incomplete","text":"No source gives real-world range for iQube, Ather or Chetak; only claimed figures","option":null,"impact":"high","howToResolve":"Check owner-reported range in Bengaluru"},
+{"kind":"incomplete","text":"No service-network data for TVS, Ather or Bajaj in Bengaluru","option":null,"impact":"high","howToResolve":"Check brand dealer locators and recent owner forums"},
+{"kind":"outdated","text":"Reviews are from 2022 and Ola reports from 2024","option":null,"impact":"medium","howToResolve":"Find 2026 reviews"},
+{"kind":"single-source","text":"Ampere claims come only from its own page","option":"Ampere","impact":"medium","howToResolve":"Independent range tests"}]}

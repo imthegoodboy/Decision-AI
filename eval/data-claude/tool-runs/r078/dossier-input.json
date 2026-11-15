@@ -1,0 +1,35 @@
+{"criteria":[
+{"name":"Noise cancellation","weight":45,"description":"Measured or reviewed ANC on train-type noise"},
+{"name":"Comfort","weight":35,"description":"Fit and weight for 90 minutes daily"},
+{"name":"Price within 200 pounds","weight":20,"description":"Evidence the model fits the budget"}],
+"options":[
+{"name":"Sony ULT WEAR","summary":"Over-ear, SoundGuys best overall under $200, strong measured ANC, bass-forward by default.","price":null},
+{"name":"Soundcore Space 2","summary":"Lightweight comfort-focused over-ear from Anker, only vendor evidence.","price":null},
+{"name":"Sony WH-1000XM5","summary":"Class-leading train ANC and comfort but launched at 380 pounds.","price":"380 pounds at launch"},
+{"name":"JBL Live 650BTNC","summary":"Cheaper 2019 option with good but not top ANC.","price":"179.99 pounds (2019)"}],
+"scores":[
+{"option":"Sony ULT WEAR","criterion":"Noise cancellation","score":8,"rationale":"Over 25dB attenuation above 80Hz in lab and Best ANC award.","claims":["C1","C2","C3"]},
+{"option":"Sony ULT WEAR","criterion":"Comfort","score":7,"rationale":"Best for Comfort recognition from one source.","claims":["C3"]},
+{"option":"Sony ULT WEAR","criterion":"Price within 200 pounds","score":null,"rationale":"No GBP price verified.","claims":["C5"]},
+{"option":"Soundcore Space 2","criterion":"Noise cancellation","score":null,"rationale":"No ANC evidence beyond vendor claims.","claims":[]},
+{"option":"Soundcore Space 2","criterion":"Comfort","score":6,"rationale":"Vendor-only comfort claim.","claims":["C6"]},
+{"option":"Soundcore Space 2","criterion":"Price within 200 pounds","score":null,"rationale":"No price stated.","claims":[]},
+{"option":"Sony WH-1000XM5","criterion":"Noise cancellation","score":9,"rationale":"Class leader on train drone, though 2022 review.","claims":["C9"]},
+{"option":"Sony WH-1000XM5","criterion":"Comfort","score":9,"rationale":"Comfort up there with the best.","claims":["C11"]},
+{"option":"Sony WH-1000XM5","criterion":"Price within 200 pounds","score":2,"rationale":"380 pounds at launch; discounts likely but unquantified.","claims":["C10","C12"]},
+{"option":"JBL Live 650BTNC","criterion":"Noise cancellation","score":5,"rationale":"Good but not a patch on Bose or Sony; 2019.","claims":["C13"]},
+{"option":"JBL Live 650BTNC","criterion":"Price within 200 pounds","score":6,"rationale":"179.99 pounds in 2019 listing.","claims":["C13"]}],
+"recommendation":{"option":"Sony ULT WEAR","headline":"Sony ULT WEAR is the best-evidenced pick, with price to check","summary":"Best verified ANC and comfort credentials among budget over-ears, but confirm the UK price.","reasons":[
+{"text":"SoundGuys names it best overall under $200 for effective ANC in a foldable over-ear.","claims":["C1"]},
+{"text":"Lab result of over 25dB attenuation above 80Hz suits commutes.","claims":["C2"]},
+{"text":"Also won Best ANC and Best for Comfort.","claims":["C3"]}],
+"tradeoffs":[{"text":"Bass-forward by default; EQ advised.","claims":["C4"]},{"text":"UK price under 200 pounds not verified.","claims":["C5"]}],
+"alternatives":[{"option":"Sony WH-1000XM5","when":"If you find it discounted under 200 pounds; best train ANC and comfort."},{"option":"Soundcore Space 2","when":"If lightness matters most and you accept vendor-only evidence."}],
+"caveats":["Evidence is mostly one US-dollar roundup and dated reviews."],
+"nextSteps":["Check current GBP prices.","Try them in-store for fit."]},
+"contradictions":[],
+"uncertainties":[
+{"kind":"single-source","text":"ULT WEAR evidence comes from one SoundGuys roundup.","option":"Sony ULT WEAR","impact":"high","howToResolve":"Read independent reviews."},
+{"kind":"incomplete","text":"No GBP price for ULT WEAR in sources.","option":"Sony ULT WEAR","impact":"high","howToResolve":"Check UK retailers."},
+{"kind":"outdated","text":"XM5 and JBL 650 reviews are 2022 and 2019.","option":null,"impact":"medium","howToResolve":"Check recent reviews."},
+{"kind":"assumption","text":"Anker blog is a vendor with self-interest.","option":"Soundcore Space 2","impact":"medium","howToResolve":"Find independent tests."}]}

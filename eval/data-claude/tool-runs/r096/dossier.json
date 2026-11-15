@@ -1,0 +1,1120 @@
+{
+  "dossier": {
+    "plan": {
+      "decisionType": "decision",
+      "criteria": [
+        {
+          "id": "crit_1",
+          "name": "CADR",
+          "description": "Clean air delivery rate versus 350 sq ft room",
+          "weight": 40,
+          "origin": "user"
+        },
+        {
+          "id": "crit_2",
+          "name": "True HEPA",
+          "description": "True HEPA H13/H14 filtration",
+          "weight": 25,
+          "origin": "user"
+        },
+        {
+          "id": "crit_3",
+          "name": "Replacement filters",
+          "description": "Cost and life of replacement filters",
+          "weight": 25,
+          "origin": "user"
+        },
+        {
+          "id": "crit_4",
+          "name": "Price",
+          "description": "Under Rs 15,000",
+          "weight": 10,
+          "origin": "user"
+        }
+      ],
+      "queries": [],
+      "freshnessDays": 365,
+      "region": null,
+      "rationale": ""
+    },
+    "options": [
+      {
+        "id": "opt_1",
+        "name": "Honeywell Air Touch V5",
+        "summary": "380 m3/h CADR, H13 HEPA, about 22 dB",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "Rs 10,199",
+        "userNamed": false,
+        "sourceIds": [
+          "1",
+          "5"
+        ]
+      },
+      {
+        "id": "opt_2",
+        "name": "Qubo Q600",
+        "summary": "450 m3/h CADR, H13 HEPA",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "Rs 14,490",
+        "userNamed": false,
+        "sourceIds": [
+          "1"
+        ]
+      },
+      {
+        "id": "opt_3",
+        "name": "Eureka Forbes 355",
+        "summary": "355 m3/h, True HEPA H13, noisy",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "Rs 9,999",
+        "userNamed": false,
+        "sourceIds": [
+          "1"
+        ]
+      },
+      {
+        "id": "opt_4",
+        "name": "Coway Airmega AIM",
+        "summary": "303 m3/h, H13",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "Rs 12,499",
+        "userNamed": false,
+        "sourceIds": [
+          "1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "text": "Honeywell Air Touch V5 has a CADR of 380 m3/h",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "Its CADR of 380 m³/h makes it suited for large rooms like a living room.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p7]",
+            "text": "PC1 – TP11 with 350° oscillation, Air Multiplier launched in India: Price, availability Honeywell Air Touch V5 380 m³/h ~22 dB HEPA H13, Pre, Carbon 589 The Honeywell Air Touch V5 is a well-rounded and trusted option, offering a strong feature set with a highly reliable brand name. Its CADR of 380 m³/h makes it suited for large rooms like a living room. The low noise level (22 dB) can seem peaceful."
+          },
+          "rationale": "advertised spec, not tested",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:01.521Z"
+        }
+      },
+      {
+        "id": "C2",
+        "optionId": "opt_1",
+        "criterionId": "crit_4",
+        "text": "Honeywell Air Touch V5 costs Rs 10,199 on Amazon (within budget)",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "You can grab the Honeywell Air Touch V5 on Amazon at Rs 10,199.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p8]",
+            "text": "name. Its CADR of 380 m³/h makes it suited for large rooms like a living room. The low noise level (22 dB) can seem peaceful. You can grab the Honeywell Air Touch V5 on Amazon at Rs 10,199. Lower budget alternative (Honeywell): For smaller rooms or personal spaces, you can consider the Honeywell Air Touch V2 (Rs 8,398, CADR ~250 m³/h), which still maintains the essential filtration required for effective cleaning. The entry-level Air Touch V1 (Rs 4,998, around 150 m³/h CADR) will be suitable for very small personal rooms or offices."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:01.739Z"
+        }
+      },
+      {
+        "id": "C3",
+        "optionId": "opt_1",
+        "criterionId": null,
+        "text": "Honeywell Air Touch V5 runs at about 22 dB",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "The low noise level (22 dB) can seem peaceful.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p7]",
+            "text": "PC1 – TP11 with 350° oscillation, Air Multiplier launched in India: Price, availability Honeywell Air Touch V5 380 m³/h ~22 dB HEPA H13, Pre, Carbon 589 The Honeywell Air Touch V5 is a well-rounded and trusted option, offering a strong feature set with a highly reliable brand name. Its CADR of 380 m³/h makes it suited for large rooms like a living room. The low noise level (22 dB) can seem peaceful."
+          },
+          "rationale": "single source, advertised",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:01.898Z"
+        }
+      },
+      {
+        "id": "C4",
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "text": "Eureka Forbes 355 has CADR 355 m3/h and True HEPA H13 at Rs 9,999 but is noisy",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "It offers a True HEPA H13 filter as well. But the noise levels are high.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p4]",
+            "text": "above given CADR can be suited for a medium room. You get good features like an 'automatic mode,' air quality display, and HEPA H13 filter. You can check out the Karcher AF20 on Amazon for Rs 8,999. Eureka Forbes 355 355 m³/h 63 dB HEPA H13, Pre-filter, Carbon, Plasma filter 480 This is an extremely strong budget choice, offering a CADR of 355 m³/h, which is more than enough for most large apartments. It offers a True HEPA H13 filter as well. But the noise levels are high."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:02.133Z"
+        }
+      },
+      {
+        "id": "C5",
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "text": "Qubo Q600 has CADR 450 m3/h, H13 HEPA, Rs 14,490",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "You can buy the Qubo Q600 at Rs 14,490 on Amazon.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p15]",
+            "text": "HEPA H13 filter. It can be considered by anyone with a massive open-plan living area or those who want the fastest possible air cleaning time. You can buy the Qubo Q600 at Rs 14,490 on Amazon. Lower budget alternative (Qubo): The Qubo Q200 (Rs 6,790, CADR ~150 m³/h) provides a balance of features and price for standard bedrooms. Mi Air Purifier 4 387 m³/h ~32 dB"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:02.332Z"
+        }
+      },
+      {
+        "id": "C6",
+        "optionId": null,
+        "criterionId": "crit_1",
+        "text": "Rule of thumb: CADR at least two-thirds of room area in sq ft (8 ft ceiling)",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "As a rule of thumb, the CADR should be at least two-thirds of the room’s area in square feet, with an assumption that the room has an 8-foot ceiling.",
+        "verification": {
+          "status": "contradicted",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p19]",
+            "text": "things you should check while buying a purifier: Buyer's guide: checklist • Filter type: True HEPA H13/H14 and Activated Carbon are essential. Avoid 'HEPA-type' filters. • CADR: Choose a purifier with a CADR (m³/h) suitable for your room size. As a rule of thumb, the CADR should be at least two-thirds of the room’s area in square feet, with an assumption that the room has an 8-foot ceiling. Example: For a 150 sq. ft. room, look for a CADR of around 100 m³/h or higher."
+          },
+          "rationale": "Smartprix suggests a stricter standard",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "2"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:02.537Z"
+        }
+      },
+      {
+        "id": "C7",
+        "optionId": null,
+        "criterionId": "crit_3",
+        "text": "Replacement filters generally cost Rs 1,500 to Rs 5,000 per year",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "Cost of ownership: Replacement filters (Rs 1,500 to Rs 5,000 per year) affect the total cost.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p20]",
+            "text": "assumption that the room has an 8-foot ceiling. Example: For a 150 sq. ft. room, look for a CADR of around 100 m³/h or higher. • Low noise: Below 30dB is generally considered ideal for bedrooms. But try it out for yourself in the product return window. • Cost of ownership: Replacement filters (Rs 1,500 to Rs 5,000 per year) affect the total cost. Check their local availability before you purchase the purifier."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:02.780Z"
+        }
+      },
+      {
+        "id": "C8",
+        "optionId": null,
+        "criterionId": null,
+        "text": "Digit picks are based on advertised specs without testing",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "Note that our selections are based purely on advertised specifications, as we have not conducted hands-on testing.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p2]",
+            "text": "selection prioritise True HEPA H13/H14 filtration and high Clean Air Delivery Rate (CADR) over marketing buzzwords. Note that our selections are based purely on advertised specifications, as we have not conducted hands-on testing. We have selected the highest-spec model from each of the ten leading brands within the budget, and ranked them in ascending order of price for easy comparison. Disclaimer: Prices and availability may change with time. Please check the final price before purchase. Affiliate links are included under each contender for your convenience."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:03.022Z"
+        }
+      },
+      {
+        "id": "C9",
+        "optionId": null,
+        "criterionId": "crit_1",
+        "text": "Smartprix: 400 m3/h CADR suits a 250 sq ft bedroom; aim 3-4 air changes per hour in Delhi",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "A model with a 400 m³/h CADR is a great fit for a standard 250 sq. ft. bedroom.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p10]",
+            "text": "For a high-pollution zone like Delhi, you want a purifier that can “clean” all the air in your room at least 3-4 times per hour. A model with a 400 m³/h CADR is a great fit for a standard 250 sq. ft. bedroom. When in doubt, buy a purifier that is oversized for your room. • Don’t just trust the “room size” a brand advertises (e.g., “up to 500 sq. ft.”). This is often a marketing-driven number."
+          },
+          "rationale": "stricter than Digit rule",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:03.247Z"
+        }
+      },
+      {
+        "id": "C10",
+        "optionId": null,
+        "criterionId": "crit_3",
+        "text": "Qubo Q1000 has 600 m3/h CADR, True HEPA H13 and 15,000-hour filter life",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "Its best feature? An incredible 15,000-hour filter life, which means minimal running costs.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p25]",
+            "text": "(Sleep) – 59dB (Max) ~3,000 hours (Approx. 1 year) ~₹8,400 (for the set) 4. Qubo Q1000 Best for: Getting maximum CADR-for-your-rupee in a large space. The Good: The Qubo Q1000 proves you don’t need to spend a fortune for power. It delivers a 600 m³/h CADR, easily enough for a 750 sq. ft. living room, at a very competitive price. It has the essentials: a True HEPA H13 filter, an Activated Carbon layer, and a clear PM2.5 display. Its best feature? An incredible 15,000-hour filter life, which means minimal running costs."
+          },
+          "rationale": "price not given in sources; may exceed budget",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:03.439Z"
+        }
+      },
+      {
+        "id": "C11",
+        "optionId": null,
+        "criterionId": "crit_2",
+        "text": "True HEPA H13 captures 99.97%; avoid HEPA-type labels",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "A True HEPA H13 filter is a medical-grade standard certified to capture 99.97% of those microscopic PM2.5 particles.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p7]",
+            "text": "PuriCare AS60GDWT0 9. Xiaomi Smart Air Purifier 4 10. Coway AirMega 150 (AP-1019C) • 8. LG PuriCare AS60GDWT0 • 9. Xiaomi Smart Air Purifier 4 • 10. Coway AirMega 150 (AP-1019C) How to Buy an Air Purifier for Delhi/NCR Before you buy, understand these five things. • Look for “True HEPA H13” (or H14). This is non-negotiable. Don’t fall for vague labels like “HEPA-type” or “HEPA-like.” A True HEPA H13 filter is a medical-grade standard certified to capture 99.97% of those microscopic PM2.5 particles. H14 is even better (99.995%), but H13 is the gold standard for home use."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:03.628Z"
+        }
+      },
+      {
+        "id": "C12",
+        "optionId": null,
+        "criterionId": "crit_3",
+        "text": "Honeywell U2 full filter set costs over Rs 8,000",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "The 7-stage system is complex, and the full set of replacement filters is very expensive (over ₹8,000).",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p23]",
+            "text": "H13, Activated Carbon, and a UV sterilization lamp. This layered approach attacks everything: PM2.5, VOCs, odors, and germs. It’s also fully app-enabled for remote control. The Catch: The 7-stage system is complex, and the full set of replacement filters is very expensive (over ₹8,000). At full speed (59dB), it’s one of the loudest models on this list. How it Lives: This is a large unit that makes a statement. Its touch panel is responsive, and the app works well. In a bedroom, its “Sleep Mode” is a perfectly acceptable 38dB. You buy this if you believe in the “more is more” approach to filtration and want that extra (and optional)"
+          },
+          "rationale": "different model from V5; V5 filter price unknown",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:03.827Z"
+        }
+      },
+      {
+        "id": "C13",
+        "optionId": "opt_4",
+        "criterionId": "crit_1",
+        "text": "Coway Airmega AIM has CADR 303 m3/h, H13, Rs 12,499",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "Buy Coway Airmega AIM at Rs 12,499 from Amazon.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p12]",
+            "text": "powerful budget alternative, and for an even stricter budget, the Philips AC0920 (Rs 7,999, CADR 250 m³/h) can be considered as a mid-sized room option. Coway Airmega AIM (Rs 12,499) 303 m³/h HEPA H13, Pre-filter, Deodorisation 355 Coway is a respected South Korean brand in air purification, known for its sturdy build quality and high performance. The Airmega AIM could be effective for targeted purification in open-plan living areas. It runs quietly and is designed for long-term reliability."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:04.013Z"
+        }
+      },
+      {
+        "id": "C14",
+        "optionId": null,
+        "criterionId": "crit_4",
+        "text": "Mi Air Purifier 4 is Rs 14,999 on Flipkart and Rs 17,999 on Amazon",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "This purifier is available for Rs 14,999 on Flipkart and Rs 17,999 on Amazon.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p17]",
+            "text": "price segment, tackling large living spaces of over 500 sq. ft. Its strengths lie in smart features, seamless app integration, and a highly competitive price. This purifier is available for Rs 14,999 on Flipkart and Rs 17,999 on Amazon. With card offers or sale discounts, you may be able to grab other purifiers below Rs 15K. And if you can further stretch your budget, you can consider premium purifiers from the likes of Dyson, Coway, etc."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:04.195Z"
+        }
+      },
+      {
+        "id": "C15",
+        "optionId": "opt_1",
+        "criterionId": null,
+        "text": "Flipkart lists Honeywell Air Touch V2 as H13 HEPA covering 388 sq ft at Rs 9,148",
+        "kind": "fact",
+        "sourceId": "5",
+        "quote": "Honeywell Air Touch V2 3 Stage Filtration, Covers 388 sq.ft, High Efficiency Pre-Filter, H13 HEPA Filter, Activated Carbon Filter, Removes 99.99% Pollutants & Micro Allergens Portable Room Air Purifier White43% OFF₹15,999₹9,148₹8,507 with Bank offer",
+        "verification": {
+          "status": "contradicted",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[5.p7]",
+            "text": "offer AD4.2Honeywell Air Touch V1 3 Stage Filtration, Covers 235 Sq.ft, 3-in-1 filter - Pre-Filter, H13 HEPA Filter, Activated Carbon Filter, Removes 99.97% Pollutants, Allergens, Pet Danger, Smoke, Dust & Pollens Portable Room Air Purifier White48% OFF₹9,999₹5,158₹4,796 with Bank offer AD4.2Honeywell Air Touch V2 3 Stage Filtration, Covers 388 sq.ft, High Efficiency Pre-Filter, H13 HEPA Filter, Activated Carbon Filter, Removes 99.99% Pollutants & Micro Allergens Portable Room Air Purifier White43% OFF₹15,999₹9,148₹8,507 with Bank offerHang on, loading contentMore about Qubo Q200 Up to 200 Sq. Ft. True HEPA H13 Removes 99.99% Dust, Allergens, Smoke, Virus & PM2.5 150 m/h CADR 5-Stage FilterApp & Voice Control 9000 Hrs Filter Life Portable Room"
+          },
+          "rationale": "Digit rates V2 CADR ~250 and Rs 8,398; retailer coverage claim vs CADR",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "1"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:04.386Z"
+        }
+      }
+    ],
+    "contradictions": [
+      {
+        "id": "con_1",
+        "optionId": null,
+        "criterionId": null,
+        "topic": "CADR sizing rule: Digit two-thirds of area vs Smartprix 400 m3/h for 250 sq ft",
+        "statements": [
+          {
+            "claimId": "C6",
+            "sourceId": "1",
+            "text": "Rule of thumb: CADR at least two-thirds of room area in sq ft (8 ft ceiling)"
+          },
+          {
+            "claimId": "C9",
+            "sourceId": "2",
+            "text": "Smartprix: 400 m3/h CADR suits a 250 sq ft bedroom; aim 3-4 air changes per hour in Delhi"
+          }
+        ],
+        "assessment": "Digit's rule implies about 233 m3/h for 350 sq ft; Smartprix is much stricter. Digit rated more reliable by the tool (59 vs 55) but neither is tested; Smartprix reasoning (3-4 air changes/hour) suits Delhi's heavy pollution.",
+        "favoredSourceId": null,
+        "severity": "medium"
+      },
+      {
+        "id": "con_2",
+        "optionId": "opt_1",
+        "criterionId": null,
+        "topic": "Honeywell V2 data differs between Flipkart listing and Digit",
+        "statements": [
+          {
+            "claimId": "C15",
+            "sourceId": "5",
+            "text": "Flipkart lists Honeywell Air Touch V2 as H13 HEPA covering 388 sq ft at Rs 9,148"
+          }
+        ],
+        "assessment": "Flipkart is a retailer listing with coverage not CADR; low reliability; not relied upon.",
+        "favoredSourceId": null,
+        "severity": "low"
+      }
+    ],
+    "uncertainties": [
+      {
+        "id": "unc_1",
+        "kind": "incomplete",
+        "text": "No source gives V5 or Q600 replacement filter price/life",
+        "optionId": "opt_1",
+        "impact": "high",
+        "howToResolve": "Check retailer listings for filter price"
+      },
+      {
+        "id": "unc_2",
+        "kind": "single-source",
+        "text": "V5 specs and 22 dB come only from Digit's advertised-spec table",
+        "optionId": "opt_1",
+        "impact": "medium",
+        "howToResolve": "Check manufacturer certified CADR"
+      },
+      {
+        "id": "unc_3",
+        "kind": "outdated",
+        "text": "Prices dated Oct-Nov 2025",
+        "optionId": null,
+        "impact": "medium",
+        "howToResolve": "Check current prices"
+      }
+    ],
+    "scores": [
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "score": 7,
+        "rationale": "380 m3/h passes Digit rule, short of Smartprix-style standard",
+        "claimIds": [
+          "C1",
+          "C6",
+          "C9"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "score": 7,
+        "rationale": "Listed HEPA H13 in Digit table",
+        "claimIds": [
+          "C1",
+          "C11"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "score": null,
+        "rationale": "V5 filter price not in sources",
+        "claimIds": []
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_4",
+        "score": 9,
+        "rationale": "Rs 10,199",
+        "claimIds": [
+          "C2"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "score": 9,
+        "rationale": "450 m3/h, highest verified in budget",
+        "claimIds": [
+          "C5",
+          "C9"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_2",
+        "score": 7,
+        "rationale": "H13 listed",
+        "claimIds": [
+          "C5",
+          "C11"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_3",
+        "score": null,
+        "rationale": "Filter cost unknown",
+        "claimIds": []
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_4",
+        "score": 6,
+        "rationale": "Rs 14,490 near cap",
+        "claimIds": [
+          "C5"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "score": 7,
+        "rationale": "355 m3/h",
+        "claimIds": [
+          "C4"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_2",
+        "score": 8,
+        "rationale": "True HEPA H13",
+        "claimIds": [
+          "C4"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_4",
+        "score": 9,
+        "rationale": "Rs 9,999",
+        "claimIds": [
+          "C4"
+        ]
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_1",
+        "score": 5,
+        "rationale": "303 m3/h",
+        "claimIds": [
+          "C13"
+        ]
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_2",
+        "score": 7,
+        "rationale": "H13",
+        "claimIds": [
+          "C13"
+        ]
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_4",
+        "score": 7,
+        "rationale": "Rs 12,499",
+        "claimIds": [
+          "C13"
+        ]
+      }
+    ],
+    "recommendation": {
+      "optionId": "opt_1",
+      "headline": "Honeywell Air Touch V5 balances CADR, H13 HEPA, quiet and price",
+      "summary": "380 m3/h, H13, about 22 dB at Rs 10,199, all advertised figures from one source.",
+      "reasons": [
+        {
+          "text": "CADR 380 m3/h",
+          "claimIds": [
+            "C1"
+          ]
+        },
+        {
+          "text": "Rs 10,199 leaves budget headroom",
+          "claimIds": [
+            "C2"
+          ]
+        },
+        {
+          "text": "Quiet for bedroom",
+          "claimIds": [
+            "C3"
+          ]
+        }
+      ],
+      "tradeoffs": [
+        {
+          "text": "Filter cost for V5 not verified; generic range Rs 1,500-5,000 per year",
+          "claimIds": [
+            "C7"
+          ]
+        },
+        {
+          "text": "Spec-sheet only, no testing",
+          "claimIds": [
+            "C8"
+          ]
+        }
+      ],
+      "alternatives": [
+        {
+          "optionId": "opt_2",
+          "when": "you want maximum CADR within budget and accept noise and price near cap"
+        },
+        {
+          "optionId": "opt_3",
+          "when": "you want cheapest True HEPA H13 with high CADR and tolerate noise"
+        }
+      ],
+      "caveats": [
+        "Evidence rests mostly on one advertised-spec article"
+      ],
+      "nextSteps": [
+        "Check V5 filter price and availability before buying"
+      ]
+    },
+    "metrics": {
+      "sourcesConsulted": 6,
+      "sourcesRead": 6,
+      "claimsTotal": 15,
+      "supported": 11,
+      "partial": 2,
+      "unsupported": 0,
+      "contradicted": 2,
+      "contradictions": 2,
+      "averageReliability": 53,
+      "freshShare": 0,
+      "durationMs": 0,
+      "modelCalls": 0,
+      "tokens": 0
+    }
+  },
+  "sources": [
+    {
+      "id": "1",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.digit.in/features/general/top-air-purifiers-to-buy-under-rs-15000-in-india.html",
+      "domain": "digit.in",
+      "title": "Top Air Purifiers to buy under Rs 15,000 in India",
+      "siteName": "Digit",
+      "author": "G. S. Vasan",
+      "publishedAt": "2025-10-22T16:37:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:27.655Z",
+      "contentHash": "33667c181c0b0ae33564fd2d81d2c7eeba92274c2be5ba28b39243f6a6ff4b73",
+      "wordCount": 1418,
+      "excerpt": "Top Air Purifiers to buy under Rs 15,000 in India\nToday, air purifiers have evolved beyond simple dust filters. They now include multi-layered filtration systems, sensors, and smart automation that make breathing cleaner air at home much easier. While we have a dedicated guide on things to consider…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 59,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Digit"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "G. S. Vasan"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2025-10-22"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 389 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "1418 words of readable text."
+          },
+          {
+            "key": "contradicted",
+            "label": "Contradicted by other sources",
+            "effect": -8,
+            "detail": "1 of 10 claims conflict with other sources."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.smartprix.com/bytes/top-10-best-air-purifiers-to-buy/",
+      "domain": "smartprix.com",
+      "title": "The 10 Best Air Purifiers to Survive Delhi NCR's Pollution in 2025 - Smartprix",
+      "siteName": "Smartprix",
+      "author": "Ashok Kumar",
+      "publishedAt": "2025-11-10T09:20:52.000Z",
+      "retrievedAt": "2026-11-15T19:03:27.655Z",
+      "contentHash": "8791659649d866c35c528a2791629ecdc73af9aac27f57c1f6cfc63b73bf7d7d",
+      "wordCount": 3291,
+      "excerpt": "The 10 Best Air Purifiers to Survive Delhi NCR’s Pollution in 2025\n• Like\n• Comment\n• Share\nThe air in Delhi isn’t just “polluted” anymore—it’s toxic.\n“Delhi’s air has reached toxic levels, with PM2.5 and volatile organic compounds (VOCs) penetrating deep into the lungs and bloodstream,” says Dr.…",
+      "image": null,
+      "favicon": null,
+      "kind": "retailer",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 55,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Smartprix"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Ashok Kumar"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2025-11-10"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 370 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: retailer",
+            "effect": -4,
+            "detail": "Retail listing; prices are useful, descriptions are promotional."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "3291 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.digit.in/?p=1179328",
+      "domain": "digit.in",
+      "title": "Digit: Technology Advice, Product Reviews, Latest News | Digit",
+      "siteName": "Digit",
+      "author": null,
+      "publishedAt": null,
+      "retrievedAt": "2026-11-15T19:03:27.655Z",
+      "contentHash": "91d78622f97db38bf7d8165064cd790603ba6c4e2d457dd1b4aab81dbe18d275",
+      "wordCount": 907,
+      "excerpt": "Beyond design: Intel needs India more than ever, Gokul Subramaniam explains why\nVivo X500 Pro vs Vivo X300 Pro: 5 Biggest changes you can expect in India\nAdobe Max 2026 brought on-device agentic AI on laptops and PCs in sharper focus\n'You don't know d*ck about my business': Inside Jensen Huang's…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 62,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Digit"
+          },
+          {
+            "key": "dated",
+            "label": "No publication date",
+            "effect": -6,
+            "detail": "Age of the information cannot be checked."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "907 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://us.smartprix.com/bytes/top-10-best-air-purifiers-to-buy/",
+      "domain": "us.smartprix.com",
+      "title": "The 10 Best Air Purifiers to Survive Delhi NCR's Pollution in 2025 - Smartprix",
+      "siteName": "Smartprix",
+      "author": "Ashok Kumar",
+      "publishedAt": "2025-11-10T09:20:52.000Z",
+      "retrievedAt": "2026-11-15T19:03:27.993Z",
+      "contentHash": "8791659649d866c35c528a2791629ecdc73af9aac27f57c1f6cfc63b73bf7d7d",
+      "wordCount": 3291,
+      "excerpt": "The 10 Best Air Purifiers to Survive Delhi NCR’s Pollution in 2025\n• Like\n• Comment\n• Share\nThe air in Delhi isn’t just “polluted” anymore—it’s toxic.\n“Delhi’s air has reached toxic levels, with PM2.5 and volatile organic compounds (VOCs) penetrating deep into the lungs and bloodstream,” says Dr.…",
+      "image": null,
+      "favicon": null,
+      "kind": "retailer",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 55,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Smartprix"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Ashok Kumar"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2025-11-10"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 370 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: retailer",
+            "effect": -4,
+            "detail": "Retail listing; prices are useful, descriptions are promotional."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "3291 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.flipkart.com/qubo-q200-smart-room-air-purifier/p/itm37552517f58d6",
+      "domain": "flipkart.com",
+      "title": "Qubo Q200 Up to 200 Sq. Ft. True HEPA H13 Removes 99.99% Dust, Allergens, Smoke, Virus & PM2.5 150 m/h CADR 5-Stage FilterApp & Voice Control 9000 Hrs Filter Life Portable Room Air Purifier Price in India - Buy Qubo Q200 Up to 200 Sq. Ft. True HEPA H13 Removes 99.99% Dust, Allergens, Smoke, Virus & ",
+      "siteName": null,
+      "author": null,
+      "publishedAt": null,
+      "retrievedAt": "2026-11-15T19:03:28.797Z",
+      "contentHash": "42910bc0f4438a25e7e2cb48888aa6ae58986bd1a969386163f165802edaea22",
+      "wordCount": 754,
+      "excerpt": "Home/Home & Kitchen/Home Appliances/Air Purifiers/Qubo Air Purifiers/Q200 Up to 200 Sq. Ft. True HEPA H13 Removes 99.99% Dust, Allergens, Smoke, Virus & PM2.5 150 m/h CADR 5-Stage FilterApp & Voice Control 9000 Hrs Filter Life Portable Room Air PurifierKey HighlightsTRENDINGKey HighlightsKey…",
+      "image": null,
+      "favicon": null,
+      "kind": "retailer",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 33,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Publisher not stated",
+            "effect": -2,
+            "detail": "No publisher metadata on the page."
+          },
+          {
+            "key": "dated",
+            "label": "No publication date",
+            "effect": -6,
+            "detail": "Age of the information cannot be checked."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: retailer",
+            "effect": -4,
+            "detail": "Retail listing; prices are useful, descriptions are promotional."
+          },
+          {
+            "key": "contradicted",
+            "label": "Contradicted by other sources",
+            "effect": -8,
+            "detail": "1 of 1 claims conflict with other sources."
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://us.smartprix.com/bytes/realme-techlife-air-purifier-review/",
+      "domain": "us.smartprix.com",
+      "title": "Realme TechLife Air Purifier Review: Should you buy it? - Smartprix",
+      "siteName": "Smartprix",
+      "author": "Shivangi Agarwal",
+      "publishedAt": "2021-12-09T12:29:34.000Z",
+      "retrievedAt": "2026-11-15T19:03:30.292Z",
+      "contentHash": "4173c8f5166dda9eee4966650b5527f6b1de7edf8c5a1b2a02f8fb85ddcfc8d7",
+      "wordCount": 1699,
+      "excerpt": "Realme TechLife Air Purifier Review\n• Like\n• Comment\n• Share\nAir is essential for our survival yet it is neglected by most of us. All of us take Air pollution seriously only in winters when air quality deteriorates to hazardous levels in Delhi and surrounding cities every year. While some pundits…",
+      "image": null,
+      "favicon": null,
+      "kind": "retailer",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 55,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Smartprix"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Shivangi Agarwal"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2021-12-09"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 1802 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: retailer",
+            "effect": -4,
+            "detail": "Retail listing; prices are useful, descriptions are promotional."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "1699 words of readable text."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{"criteria":[
+{"name":"Audited no-logs","weight":35,"description":"Independent audit of no-logs claims"},
+{"name":"Streaming","weight":30,"description":"Unblocking of streaming services"},
+{"name":"Speed","weight":20,"description":"Speed loss / retention"},
+{"name":"Price","weight":15,"description":"Under $5 per month on a long-term plan"}],
+"options":[
+{"name":"NordVPN","summary":"Unblocked 14/14 services, lowest speed loss, six audits reported by one source","price":"under $3.50/month on 2-year Basic"},
+{"name":"Proton VPN","summary":"Five consecutive Securitum audits; 10/14 services; slower","price":"under $3/month on 2-year plan"},
+{"name":"Surfshark","summary":"13/14 services; Deloitte audits 2023 and 2025","price":"about $2.50/month on 27-month plan"},
+{"name":"ExpressVPN","summary":"Audited; per Gizmodo unblocked 14/14 and 7.8% loss; high renewal","price":"under $3/month on 28-month plan"},
+{"name":"DuckDuckGo VPN","summary":"Audited but no streaming-optimized servers","price":"$9.99/month"}],
+"scores":[
+{"option":"NordVPN","criterion":"Audited no-logs","score":7,"rationale":"Six audits reported only by Gizmodo; not corroborated elsewhere","claims":["C7"]},
+{"option":"NordVPN","criterion":"Streaming","score":9,"rationale":"All 14 services unblocked","claims":["C6"]},
+{"option":"NordVPN","criterion":"Speed","score":9,"rationale":"7.8% loss; Comparitech top-three","claims":["C9","C13"]},
+{"option":"NordVPN","criterion":"Price","score":9,"rationale":"Under $3.50/month but largest renewal rise","claims":["C8","C16"]},
+{"option":"Proton VPN","criterion":"Audited no-logs","score":10,"rationale":"Fifth consecutive audit confirmed by two sources, with point-in-time caveat","claims":["C1","C2"]},
+{"option":"Proton VPN","criterion":"Streaming","score":6,"rationale":"10 of 14 services","claims":["C3"]},
+{"option":"Proton VPN","criterion":"Speed","score":6,"rationale":"10.2% loss; high EU latency","claims":["C4","C12"]},
+{"option":"Proton VPN","criterion":"Price","score":9,"rationale":"Under $3/month","claims":["C5"]},
+{"option":"Surfshark","criterion":"Audited no-logs","score":8,"rationale":"Deloitte audits 2023 and 2025, single source","claims":["C10"]},
+{"option":"ExpressVPN","criterion":"Price","score":9,"rationale":"Under $3/month; audited","claims":["C11"]},
+{"option":"DuckDuckGo VPN","criterion":"Streaming","score":2,"rationale":"No streaming-optimized servers","claims":["C15"]}],
+"recommendation":{"option":"NordVPN","headline":"NordVPN on a 2-year plan","summary":"Best streaming and speed evidence, audited, under $3.50/month; Proton VPN is the better-verified audit choice.","reasons":[{"text":"Unblocked all 14 services tested","claims":["C6"]},{"text":"Lowest speed loss, 7.8%","claims":["C9","C13"]},{"text":"Under $3.50/month on two years","claims":["C8"]},{"text":"Six audits since 2018 (single source)","claims":["C7"]}],"tradeoffs":[{"text":"Renewal rises the most","claims":["C16"]},{"text":"Audit count single-source","claims":["C7"]}],"alternatives":[{"option":"Proton VPN","when":"Audit transparency matters most"},{"option":"Surfshark","when":"Many devices, cheapest"},{"option":"ExpressVPN","when":"Simple apps"}],"caveats":["Audit reports for NordVPN were not in the sources"],"nextSteps":["Check renewal price and audit report before buying"]},
+"contradictions":[{"option":"Proton VPN","topic":"Proton speed: 2022 Tom's Guide says very impressive; 2026 Gizmodo and Comparitech show slower than NordVPN","claims":["C14","C12","C4"],"assessment":"Prefer recent tested data over the outdated 2022 article","severity":"medium"}],
+"uncertainties":[{"kind":"single-source","text":"NordVPN six-audit claim appears only in Gizmodo","option":"NordVPN","impact":"medium","howToResolve":"Read NordVPN audit reports"},{"kind":"outdated","text":"Tom's Guide pricing/speed article dated 2022","option":null,"impact":"low","howToResolve":"Use 2026 sources"}]}

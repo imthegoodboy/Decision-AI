@@ -1,0 +1,391 @@
+[
+  {
+    "id": "C1",
+    "source": 1,
+    "option": "General",
+    "criterion": "Acceptance",
+    "claim": "The Home Office accepts only SELTs from approved providers.",
+    "quote": "The UK Home Office only accepts SELTs from approved providers.",
+    "support": "supported",
+    "corroborating": [
+      7
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p1]",
+      "text": "18 lip UKVI English Language Tests: Your Essential Guide to IELTS and PTE If you’re applying for a UK visa—whether to study, work, or settle—you’ll likely need to prove your English proficiency with a Secure English Language Test (SELT). The UK Home Office only accepts SELTs from approved providers. Among the most widely accepted and trusted options are IELTS for UKVI and PTE Academic UKVI. In this guide, we’ll walk you through both tests to help you understand which one aligns best with your visa type and language needs."
+    },
+    "recordedAt": "2026-11-15T20:33:37.740Z"
+  },
+  {
+    "id": "C2",
+    "source": 1,
+    "option": "IELTS for UKVI",
+    "criterion": "Acceptance",
+    "claim": "IELTS for UKVI Academic or General Training is suitable for student visas.",
+    "quote": "IELTS for UKVI (Academic or General Training) Suitable for student visas, work visas, and other general immigration routes",
+    "support": "supported",
+    "corroborating": [
+      6
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p3]",
+      "text": "writing, and speaking. IELTS Test Options: • IELTS for UKVI (Academic or General Training) Suitable for student visas, work visas, and other general immigration routes • Suitable for student visas, work visas, and other general immigration routes • IELTS Life Skills (A1, A2, B1) Designed for specific visa categories such as spouse/partner visas and citizenship/settlement applications Focuses on speaking and listening only • Designed for specific visa categories such as spouse/partner visas and citizenship/settlement applications"
+    },
+    "recordedAt": "2026-11-15T20:33:37.919Z"
+  },
+  {
+    "id": "C3",
+    "source": 1,
+    "option": "PTE Academic UKVI",
+    "criterion": "Acceptance",
+    "claim": "PTE Academic UKVI is a fully computer-based test approved by UKVI.",
+    "quote": "PTE Academic UKVI is a fully computer-based English language test approved by UKVI.",
+    "support": "supported",
+    "corroborating": [
+      3
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p5]",
+      "text": "• Those applying for visas requiring detailed assessment across all language skills • Individuals more comfortable with a traditional exam structure and face-to-face speaking component PTE Academic UKVI: Fast, Modern, and AI-Scored PTE Academic UKVI is a fully computer-based English language test approved by UKVI. It uses AI-driven scoring to ensure consistency and quick turnaround times, assessing speaking, listening, reading, and writing in one session. PTE Test Options:"
+    },
+    "recordedAt": "2026-11-15T20:33:38.172Z"
+  },
+  {
+    "id": "C4",
+    "source": 1,
+    "option": "PTE Academic UKVI",
+    "criterion": "Speed of results",
+    "claim": "PTE Academic UKVI offers quick results, often within 48 hours.",
+    "quote": "Applicants looking for a fast and efficient testing process with quick results (often within 48 hours)",
+    "support": "supported",
+    "corroborating": [
+      3
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p7]",
+      "text": "skilled worker visas • PTE Home (A1, A2, B1) Designed for visa categories that only require speaking and listening, such as family or settlement applications • Designed for visa categories that only require speaking and listening, such as family or settlement applications • Applicants looking for a fast and efficient testing process with quick results (often within 48 hours) • Those who prefer a fully digital, integrated test experience"
+    },
+    "recordedAt": "2026-11-15T20:33:38.344Z"
+  },
+  {
+    "id": "C5",
+    "source": 3,
+    "option": "PTE Academic UKVI",
+    "criterion": "Speed of results",
+    "claim": "In 2018, 85.7% of PTE Academic test takers got results within 2 days.",
+    "quote": "In fact, during 2018, 85.7% of PTE Academic test takers received their results within just 2 days.",
+    "support": "partial",
+    "corroborating": [
+      1
+    ],
+    "conflicting": [],
+    "note": "Pearson self-reported, 2018 data, about standard PTE Academic not UKVI specifically; dated 2021",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[3.p1]",
+      "text": "How long will I wait for my PTE Academic results? Most test scores are now returned within just 2 days During 2018 students, migrants, and professionals that sat PTE Academic received their scores in even less time than ever before. In fact, during 2018, 85.7% of PTE Academic test takers received their results within just 2 days. Why could my score take longer than 2 days?"
+    },
+    "recordedAt": "2026-11-15T20:33:38.515Z"
+  },
+  {
+    "id": "C6",
+    "source": 3,
+    "option": "PTE Academic UKVI",
+    "criterion": "Speed of results",
+    "claim": "Some PTE scores take longer than 2 days because of extra review or security checks.",
+    "quote": "Our system sometimes flags results for additional review which can take more time.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Pearson source",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[3.p2]",
+      "text": "fact, during 2018, 85.7% of PTE Academic test takers received their results within just 2 days. Why could my score take longer than 2 days? There are a number of reasons why a score may take over 2 days. These can include: Certainty: Our system sometimes flags results for additional review which can take more time. Because PTE Academic is used to make important decisions, it is important that we get your score right every time and this can take extra time."
+    },
+    "recordedAt": "2026-11-15T20:33:38.684Z"
+  },
+  {
+    "id": "C7",
+    "source": 6,
+    "option": "IELTS for UKVI",
+    "criterion": "Acceptance",
+    "claim": "IELTS is accepted by over 13,500 organisations while only around 3,000 accept PTE.",
+    "quote": "In fact, over 13,500 organisations worldwide trust IELTS’ evaluation of English language skills while only around 3,000 organisations accept the PTE.",
+    "support": "partial",
+    "corroborating": [
+      8
+    ],
+    "conflicting": [],
+    "note": "IDP co-owns IELTS so commercial interest; figures unsourced and global not UK-specific; not in other sources",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[6.p9]",
+      "text": "o be aware of. Besides that, PTE is a much newer test as compared to the IELTS for UKVI, and is not as recognised globally. In fact, over 13,500 organisations worldwide trust IELTS’ evaluation of English language skills while only around 3,000 organisations accept the PTE. If you are looking for the widest breadth of acceptance from a test, IELTS will be the right choice to make. The last thing you want is for your certification to not be recognised, and still ending up needing to take the IELTS test."
+    },
+    "recordedAt": "2026-11-15T20:33:38.857Z"
+  },
+  {
+    "id": "C8",
+    "source": 6,
+    "option": "IELTS for UKVI",
+    "criterion": "Acceptance",
+    "claim": "IELTS is claimed to be favoured over PTE by most.",
+    "quote": "As IELTS is the world’s number one English test for migration, it is still favoured over the PTE by most.",
+    "support": "partial",
+    "corroborating": [
+      8
+    ],
+    "conflicting": [],
+    "note": "Vendor claim, unsourced",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[6.p8]",
+      "text": "administrative requirements outlined by the UK Home Office. In addition, your test report form will look slightly different than the regular PTE or IELTS tests. 3. IELTS is the preferred qualification vs PTE As IELTS is the world’s number one English test for migration, it is still favoured over the PTE by most. This is an important distinction o be aware of. Besides that, PTE is a much newer test as compared to the IELTS for UKVI, and is not as recognised globally."
+    },
+    "recordedAt": "2026-11-15T20:33:39.049Z"
+  },
+  {
+    "id": "C9",
+    "source": 6,
+    "option": "PTE Academic UKVI",
+    "criterion": "Flexibility",
+    "claim": "PTE is computer-only while IELTS offers paper or computer.",
+    "quote": "This is because the PTE is available only on computer, whereas with IELTS you will have the flexibility to choose between taking your test on computer or paper in many locations globally.",
+    "support": "supported",
+    "corroborating": [
+      8
+    ],
+    "conflicting": [],
+    "note": "Paper IELTS availability varies by location",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p10]",
+      "text": "to make. The last thing you want is for your certification to not be recognised, and still ending up needing to take the IELTS test. 4. IELTS offers the option of paper and pen test If you’re more comfortable with using pen and paper to write your answers, then IELTS for UKVI would be a better option. This is because the PTE is available only on computer, whereas with IELTS you will have the flexibility to choose between taking your test on computer or paper in many locations globally."
+    },
+    "recordedAt": "2026-11-15T20:33:39.242Z"
+  },
+  {
+    "id": "C10",
+    "source": 6,
+    "option": "Both",
+    "criterion": "Acceptance",
+    "claim": "UKVI Academic versions of both IELTS and PTE are accepted for UK study.",
+    "quote": "If you want to further their studies in the UK, the UKVI Academic version of both the IELTS and PTE are accepted.",
+    "support": "supported",
+    "corroborating": [
+      1,
+      2
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p5]",
+      "text": "and the most popular. It has both paper-based and computer-based versions of its test, which is split into four sections: speaking, writing, listening and reading. If you lean towards reliability and decide to go with IELTS, the suitable test option would be the IELTS for UKVI Academic. Understanding the PTE and IELTS for UKVI tests 1. Both tests allow students to study in the UK If you want to further their studies in the UK, the UKVI Academic version of both the IELTS and PTE are accepted."
+    },
+    "recordedAt": "2026-11-15T20:33:39.415Z"
+  },
+  {
+    "id": "C11",
+    "source": 2,
+    "option": "Both",
+    "criterion": "Acceptance",
+    "claim": "SELT list for qualifications after 6 April 2015 includes IELTS UKVI, Trinity ISE (in UK), PTE Academic and LanguageCert International ESOL.",
+    "quote": "Pearson Test of English Academic (PTE Academic)",
+    "support": "supported",
+    "corroborating": [
+      7
+    ],
+    "conflicting": [],
+    "note": "Sheffield list is older (2015) and narrower than 7ESL's",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[2.p1]",
+      "text": "UK government Secure English Language Tests From 6 April 2015, the UK government made changes to the list of qualifications it considers Secure English Language Tests (SELTs) for visa purposes. For qualifications completed on or after 6 April 2015, the following qualifications only are considered SELTs: • IELTS taken at UK government-approved test centres (IELTS for UKVI) • Trinity ISE taken inside the UK • Pearson Test of English Academic (PTE Academic)"
+    },
+    "recordedAt": "2026-11-15T20:33:39.582Z"
+  },
+  {
+    "id": "C12",
+    "source": 2,
+    "option": "Alternatives",
+    "criterion": "Acceptance",
+    "claim": "Universities may accept non-SELT qualifications as English evidence.",
+    "quote": "The government allows universities to accept achievement in non-SELT qualifications as evidence of English language proficiency.",
+    "support": "supported",
+    "corroborating": [
+      7
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[2.p2]",
+      "text": "IELTS taken at UK government-approved test centres (IELTS for UKVI) • Trinity ISE taken inside the UK • Pearson Test of English Academic (PTE Academic) • LanguageCert International ESOL You can find more information about the policy on the UK Visas and Immigration web pages: Applying for a UK visa: approved English language tests The government allows universities to accept achievement in non-SELT qualifications as evidence of English language proficiency. The University of Sheffield accepts all the qualifications listed on our English language requirements webpages, including all IELTS qualifications, for direct entry to its undergraduate and postgraduate degree courses."
+    },
+    "recordedAt": "2026-11-15T20:33:39.735Z"
+  },
+  {
+    "id": "C13",
+    "source": 7,
+    "option": "LanguageCert",
+    "criterion": "Acceptance",
+    "claim": "As of September 2026 approved SELTs also include LanguageCert and PSI Skills for English UKVI (outside UK).",
+    "quote": "PSI: Skills for English UKVI (outside the UK).",
+    "support": "supported",
+    "corroborating": [
+      2
+    ],
+    "conflicting": [],
+    "note": "7ESL undated page but says checked Sept 2026; Sheffield list older",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p3]",
+      "text": "UKVI and PTE Home. • LanguageCert: International ESOL SELT, Academic SELT and General SELT. • Trinity College London: ISE and GESE SELTs (in the UK). • PSI: Skills for English UKVI (outside the UK). When you book, choose the UKVI version. IELTS for UKVI and PTE Academic UKVI have the same content and format as the standard tests, so our IELTS and PTE Academic practice tests prepare you for them. We do not offer practice for LanguageCert, Trinity, Skills for English, PTE Home or IELTS Life Skills."
+    },
+    "recordedAt": "2026-11-15T20:33:39.924Z"
+  },
+  {
+    "id": "C14",
+    "source": 7,
+    "option": "Alternatives",
+    "criterion": "Acceptance",
+    "claim": "For degree-level study B2 is needed; universities that are HEPs may assess English themselves, so TOEFL iBT, Duolingo, Cambridge C1 can be accepted.",
+    "quote": "This is why universities can accept tests that are not SELTs, such as TOEFL iBT, the Duolingo English Test or Cambridge C1 Advanced.",
+    "support": "supported",
+    "corroborating": [
+      2
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p4]",
+      "text": "PTE Academic practice tests prepare you for them. We do not offer practice for LanguageCert, Trinity, Skills for English, PTE Home or IELTS Life Skills. Studying at a UK university For degree-level study on a Student visa you need English at CEFR B2. You can prove it with a SELT, but a university that is a Higher Education Provider may also assess your English itself. This is why universities can accept tests that are not SELTs, such as TOEFL iBT, the Duolingo English Test or Cambridge C1 Advanced. For study below degree level, the requirement is B1 and a SELT is normally needed. Always check your university's list."
+    },
+    "recordedAt": "2026-11-15T20:33:40.161Z"
+  },
+  {
+    "id": "C15",
+    "source": 7,
+    "option": "General",
+    "criterion": "Validity",
+    "claim": "A SELT result must be awarded within two years before application.",
+    "quote": "The result must have been awarded in the two years before the date you apply.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p19]",
+      "text": "Worker visa? B2 for new applications made since 8 January 2026. People who already held the visa before that date need B1 when they extend. How long is a SELT result valid? The result must have been awarded in the two years before the date you apply. Is the Duolingo English Test accepted for an Irish study visa? Yes, it is on the ISD list of recognised tests. Your college may still ask for a specific test or a higher score."
+    },
+    "recordedAt": "2026-11-15T20:33:40.364Z"
+  },
+  {
+    "id": "C16",
+    "source": 7,
+    "option": "IELTS for UKVI",
+    "criterion": "Acceptance",
+    "claim": "IELTS for UKVI has same content as standard IELTS; only booking and centre differ.",
+    "quote": "IELTS for UKVI uses the same Listening, Reading, Writing and Speaking papers as IELTS Academic or General Training.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p7]",
+      "text": "accepts only IELTS Academic and OET as English tests for registration, with minimum scores in each skill. That registration requirement is separate from your visa. Preparing for a UKVI test IELTS for UKVI uses the same Listening, Reading, Writing and Speaking papers as IELTS Academic or General Training. PTE Academic UKVI is the same computer-based test as PTE Academic. The only differences are how you book and where you sit it: choose the UKVI option and take the test at an approved SELT centre. This means you can prepare with standard practice material. Start with a full timed test to find your weakest skill, then focus on that skill before"
+    },
+    "recordedAt": "2026-11-15T20:33:40.575Z"
+  },
+  {
+    "id": "C17",
+    "source": 7,
+    "option": "Alternatives",
+    "criterion": "Acceptance",
+    "claim": "Duolingo is not a SELT.",
+    "quote": "It is not a SELT, so it cannot be used where the Home Office asks for one.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p17]",
+      "text": "(or IELTS Life Skills) at an approved centre. The test content is the same as standard IELTS, but the booking and the centre are different. Is the Duolingo English Test accepted for UK visas? It is not a SELT, so it cannot be used where the Home Office asks for one. Some universities accept it when they assess your English themselves for a Student visa. Is TOEFL iBT accepted in the UK?"
+    },
+    "recordedAt": "2026-11-15T20:33:40.745Z"
+  },
+  {
+    "id": "C18",
+    "source": 3,
+    "option": "PTE Academic UKVI",
+    "criterion": "Acceptance",
+    "claim": "PTE Academic UKVI is accepted by the Home Office for all UK visas.",
+    "quote": "Our Secure English Language test, PTE Academic UKVI, is accepted by the UK’s Home Office for all UK visas to test your four language skills – including the Skilled Worker visa.",
+    "support": "partial",
+    "corroborating": [
+      1
+    ],
+    "conflicting": [],
+    "note": "Pearson marketing; overgeneral",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[3.p23]",
+      "text": "Nurses.co.uk, which features thousands of nursing jobs. More generally, websites like Reed and Jobsite are also good places to look for employment in the UK. All in all, the UK is an excellent place to call home. And better yet, there’s plenty of job opportunities to help you thrive. Our Secure English Language test, PTE Academic UKVI, is accepted by the UK’s Home Office for all UK visas to test your four language skills – including the Skilled Worker visa."
+    },
+    "recordedAt": "2026-11-15T20:33:40.955Z"
+  }
+]

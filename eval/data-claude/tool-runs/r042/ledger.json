@@ -1,0 +1,351 @@
+[
+  {
+    "id": "C1",
+    "source": 1,
+    "option": "Amazfit Balance",
+    "criterion": "Heart-rate accuracy",
+    "claim": "Amazfit Balance heart rate sensors were top-class in Live Science tests; costs $199",
+    "quote": "✅ You want accurate tracking features: Its heart rate and body composition sensors were top-class in our tests.",
+    "support": "supported",
+    "corroborating": [
+      3
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p6]",
+      "text": "expert review: Specifications Reasons to buy Reasons to avoid ✅ You are on a budget: It costs a reasonable $199 and is frequently on sale. ✅ You want long battery life: It can last up to two weeks on a single charge. ✅ You want accurate tracking features: Its heart rate and body composition sensors were top-class in our tests. ❌ You are an outdoor adventurer: It may not survive some of the more extreme conditions."
+    },
+    "recordedAt": "2026-11-15T20:35:51.190Z"
+  },
+  {
+    "id": "C2",
+    "source": 1,
+    "option": "Amazfit Balance",
+    "criterion": "Heart-rate accuracy",
+    "claim": "Amazfit Balance accurately measured heart rate, breathing rate and HRV",
+    "quote": "This smartwatch accurately measured our heart rate, breathing rate, heart rate variability, and even body composition (!), and it never slid from our wrists or got in the way during intense workouts.",
+    "support": "supported",
+    "corroborating": [
+      3
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p10]",
+      "text": "understand and track over time. That said, its fitness-tracking performance would still satisfy most serious exercisers, as we discovered during our full Amazfit Balance review. This smartwatch accurately measured our heart rate, breathing rate, heart rate variability, and even body composition (!), and it never slid from our wrists or got in the way during intense workouts. We also liked its easy-to-use, colorful display and comfortable, buttery-soft strap. Not to mention, it was one of the lightest and most compact smartwatches we have ever tested."
+    },
+    "recordedAt": "2026-11-15T20:35:51.394Z"
+  },
+  {
+    "id": "C3",
+    "source": 3,
+    "option": "Amazfit Balance",
+    "criterion": "No mandatory subscription",
+    "claim": "Balance has only non-essential extras (AI coach chatbot) behind a paywall",
+    "quote": "A few extras, such as the AI fitness coach chatbot, sit behind a paywall, but nothing essential does.",
+    "support": "supported",
+    "corroborating": [
+      1
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[3.p8]",
+      "text": "impossible values. At full price an Apple Watch sits outside this budget anyway, but it is worth knowing before you buy a discounted older model. If you want a proper smartwatch, the Amazfit Balance is the strongest option right at the $199 ceiling, and it is frequently on sale for less. Its heart-rate tracking is excellent, it measures heart-rate variability, breathing rate and even body composition, and its battery lasts up to 14 days with dual-band GPS on board. A few extras, such as the AI fitness coach chatbot, sit behind a paywall, but nothing essential does. The trade-offs are a display without Gorilla Glass and a build better suited"
+    },
+    "recordedAt": "2026-11-15T20:35:51.563Z"
+  },
+  {
+    "id": "C4",
+    "source": 3,
+    "option": "Xiaomi Band 7 Pro",
+    "criterion": "Sleep accuracy",
+    "claim": "Xiaomi Band 7 Pro had the most accurate sleep tracking of budget bands tested",
+    "quote": "Its sleep tracking was the most accurate of any budget band I tested, reliably separating light, deep and REM sleep and catching the brief overnight wake-ups that other bands smoothed over.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [
+      8
+    ],
+    "note": "Directly opposed by Popular Science",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[3.p9]",
+      "text": "AI fitness coach chatbot, sit behind a paywall, but nothing essential does. The trade-offs are a display without Gorilla Glass and a build better suited to the gym and office than to rough outdoor use. For most people, though, my pick is the Xiaomi Band 7 Pro. Its sleep tracking was the most accurate of any budget band I tested, reliably separating light, deep and REM sleep and catching the brief overnight wake-ups that other bands smoothed over. You also get a large, high-quality display, built-in GPS that most cheap bands lack, and around 12 days of battery, with no subscription standing between you and your own data. The Mi"
+    },
+    "recordedAt": "2026-11-15T20:35:51.755Z"
+  },
+  {
+    "id": "C5",
+    "source": 8,
+    "option": "Xiaomi Band 7 Pro",
+    "criterion": "Sleep accuracy",
+    "claim": "Xiaomi Band 7 Pro sleep tracking is not accurate",
+    "quote": "Sleep tracking isn’t accurate",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [
+      3
+    ],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[8.p22]",
+      "text": "get a bit annoying at times, but the touchscreen is nice and bright, so you’ll easily be able to see it even in bright sunlight. Best value: Xiaomi Band 7 Pro Best value Xiaomi Band 7 Pro • Large, high-quality display • Built-in GPS • Affordable price • Lots of workout and health-tracking features • Sleep tracking isn’t accurate • Mi Fitness app isn’t very user-friendly"
+    },
+    "recordedAt": "2026-11-15T20:35:51.921Z"
+  },
+  {
+    "id": "C6",
+    "source": 3,
+    "option": "Fitbit Air",
+    "criterion": "No mandatory subscription",
+    "claim": "Fitbit Air sleep stages and sleep score need Google Health Premium",
+    "quote": "Sleep stages and the nightly sleep score are reserved for Google Health Premium members, at $9.99 a month or $99 a year; without it, you see total sleep time, steps and resting heart rate and little else.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [
+      2
+    ],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[3.p4]",
+      "text": "the launch coverage implies. Sleep stages and the nightly sleep score are reserved for Google Health Premium members, at $9.99 a month or $99 a year; without it, you see total sleep time, steps and resting heart rate and little else. The included three-month Premium trial hides this at first, but once it lapses you are effectively paying a subscription for the very feature most buyers want. There is also no onboard GPS, so runners will need to carry a phone."
+    },
+    "recordedAt": "2026-11-15T20:35:52.106Z"
+  },
+  {
+    "id": "C7",
+    "source": 2,
+    "option": "Fitbit Air",
+    "criterion": "No mandatory subscription",
+    "claim": "Fitbit Air is $99 and subscription-free for core features",
+    "quote": "At $99 and subscription-free for core features, the Fitbit Air is one of the best value screenless trackers available in 2026",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[2.p11]",
+      "text": "rate, SpO2, Skin temp, Accelerometer, Gyroscope Heart rate, Skin temp, Accelerometer Water resistance 50 meters 10 meters 30 meters Battery life 7 days 14 days 10 days 8 days Compatibility Android, iOS Fitbit Air value: 5/5 • At $99 and subscription-free for core features, the Fitbit Air is one of the best value screenless trackers available in 2026 • An optional Google Health Premium account unlocks personalized AI-backed health and fitness insights, along with deeper dives into your holistic trends; it's $9.99 a month or $99 a year"
+    },
+    "recordedAt": "2026-11-15T20:35:52.302Z"
+  },
+  {
+    "id": "C8",
+    "source": 2,
+    "option": "Fitbit Air",
+    "criterion": "Sleep accuracy",
+    "claim": "Fitbit Air gives detailed sleep reports on par with top smartwatches",
+    "quote": "For a $99 wearable, the Fitbit Air provides detailed sleep reports on par with some of the best smartwatch models in 2026, with insights into your sleep duration, time spent in sleep cycles, restlessness, and daily sleep quality rating and score, also out of 100.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [
+      3
+    ],
+    "note": "Not accuracy measurement; unclear which parts need Premium",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[2.p24]",
+      "text": "tabs on all your core holistic metrics, including heart rate variability trends, breath rate, cardio load, and daily readiness, a numeric score out of 100. For a $99 wearable, the Fitbit Air provides detailed sleep reports on par with some of the best smartwatch models in 2026, with insights into your sleep duration, time spent in sleep cycles, restlessness, and daily sleep quality rating and score, also out of 100."
+    },
+    "recordedAt": "2026-11-15T20:35:52.489Z"
+  },
+  {
+    "id": "C9",
+    "source": 8,
+    "option": "Garmin vivosmart 5",
+    "criterion": "No mandatory subscription",
+    "claim": "Garmin does not charge extra to access data on vivosmart 5",
+    "quote": "Plus, Garmin doesn’t charge extra to access all of your data and training assistance features, which is why it earns our top spot.",
+    "support": "supported",
+    "corroborating": [
+      3
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[8.p8]",
+      "text": "price point with more beginner-friendly features. Plus, Garmin doesn’t charge extra to access all of your data and training assistance features, which is why it earns our top spot. Despite being a cheap fitness tracker, the vívosmart 5 still gets plenty of Garmin’s advanced technology and accurate data collection so that you can maximize your training without spending too much. The built-in heart rate monitor constantly monitors and can alert you if your rhythm is too high or low while at rest. And it helps you understand how hard you are working during an activity. It also features a pulse ox sensor to check your blood oxygen saturation, though you’ll"
+    },
+    "recordedAt": "2026-11-15T20:35:52.830Z"
+  },
+  {
+    "id": "C10",
+    "source": 7,
+    "option": "Garmin vivosmart 5",
+    "criterion": "Sleep accuracy",
+    "claim": "Garmin sleep data was the most consistent with lowest outliers (consistency, not accuracy vs reference)",
+    "quote": "Garmin produces the most consistent data – it shows the longest average sleep duration, the lowest variability, and very low outlier rates, making it the most reliable for long-term trend tracking.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [
+      3
+    ],
+    "note": "Measures consistency across users, not accuracy vs PSG; platform-level not model-specific",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[7.p1]",
+      "text": "Crunch Time: Embrace the Cookie Monster Within! We use cookies to enhance your browsing experience and analyse our traffic. Nothing beyond essential cookies runs until you choose. You can change your mind any time in our Cookie Policy. Key takeaways • Garmin produces the most consistent data – it shows the longest average sleep duration, the lowest variability, and very low outlier rates, making it the most reliable for long-term trend tracking."
+    },
+    "recordedAt": "2026-11-15T20:35:53.014Z"
+  },
+  {
+    "id": "C11",
+    "source": 3,
+    "option": "Garmin vivosmart 5",
+    "criterion": "Sleep accuracy",
+    "claim": "Garmin had the highest outlier rates and widest variability in Terra benchmark",
+    "quote": "In Terra's benchmark of sleep data from thousands of Oura, Apple, Fitbit and Garmin users, Garmin produced the highest outlier rates and the widest night-to-night variability of the four platforms, which makes its long-term sleep trends the hardest to trust.",
+    "support": "unsupported",
+    "corroborating": [],
+    "conflicting": [
+      7
+    ],
+    "note": "Contradicts the Terra source it cites (Garmin lowest variability, lowest outliers)",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "unsupported",
+    "passage": {
+      "id": "[3.p6]",
+      "text": "and respiration alongside sleep. There is no built-in GPS, and the pulse-ox reading has to be taken manually during the day. The bigger issue is sleep. In Terra's benchmark of sleep data from thousands of Oura, Apple, Fitbit and Garmin users, Garmin produced the highest outlier rates and the widest night-to-night variability of the four platforms, which makes its long-term sleep trends the hardest to trust. If sleep is the reason you are buying, that matters more than any spec sheet."
+    },
+    "recordedAt": "2026-11-15T20:35:53.229Z"
+  },
+  {
+    "id": "C12",
+    "source": 7,
+    "option": "Apple Watch",
+    "criterion": "Sleep accuracy",
+    "claim": "Apple recorded only 10.5% deep sleep vs ~18% others",
+    "quote": "Apple recorded an average of only 10.5% deep sleep, compared with nearly 18% for Garmin, Fitbit, and Oura.",
+    "support": "supported",
+    "corroborating": [
+      3
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p9]",
+      "text": "recovery and growth, revealed the most striking difference. Apple recorded an average of only 10.5% deep sleep, compared with nearly 18% for Garmin, Fitbit, and Oura. This suggests Apple’s algorithms may be systematically underestimating deep sleep. When sleep is filtered to exclude short naps (less than four hours), the percentages settle further. Garmin and Fitbit maintained a deep sleep rate of nearly 18%, Oura came in at 17.8%, while Apple remained at 10.5%. In other words, no matter how you slice it, Apple stands apart in reporting less deep sleep than other devices."
+    },
+    "recordedAt": "2026-11-15T20:35:53.396Z"
+  },
+  {
+    "id": "C13",
+    "source": 3,
+    "option": "Whoop",
+    "criterion": "No mandatory subscription",
+    "claim": "Whoop membership costs $199-$359 per year",
+    "quote": "Whoop is the clearest example: the strap itself comes free, but membership costs $199, $239 or $359 per year depending on tier, so over two years it costs more than anything else in this guide.",
+    "support": "supported",
+    "corroborating": [
+      2,
+      8
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[3.p2]",
+      "text": "night after night, and cross-checked what I saw against the independent accuracy data that is publicly available. Here is how the field actually shakes out. Start with the subscription trap, because it rules out several popular choices before accuracy even enters the picture. Whoop is the clearest example: the strap itself comes free, but membership costs $199, $239 or $359 per year depending on tier, so over two years it costs more than anything else in this guide. The Fitbit Inspire 3, which Google still sells and frequently discounts to around $79, looks like a bargain until you notice that detailed sleep data, wellness reports and the Daily Readiness Score"
+    },
+    "recordedAt": "2026-11-15T20:35:53.604Z"
+  },
+  {
+    "id": "C14",
+    "source": 8,
+    "option": "Fitbit Inspire 3",
+    "criterion": "No mandatory subscription",
+    "claim": "Inspire 3 needs Premium for detailed sleep data",
+    "quote": "In fact, you need to pay for the Premium subscription for quite a few insights—including detailed sleep data, wellness reports, and a Daily Readiness Score—which keeps the Inspire 3 from earning the top spot.",
+    "support": "supported",
+    "corroborating": [
+      3
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[8.p12]",
+      "text": "It provides a Sleep Score at the night’s end so you can get the big picture. Plus, you can set a vibrating alarm to wake you up during the optimal sleep stage so that you actually feel refreshed when you wake up. To keep things fun, the Inspire 3 pairs you with a sleep animal and shares a monthly personalized analysis of your sleep. However, you’ll need to pay for a Fitbit Premium subscription to get this feature. In fact, you need to pay for the Premium subscription for quite a few insights—including detailed sleep data, wellness reports, and a Daily Readiness Score—which keeps the Inspire 3 from earning the"
+    },
+    "recordedAt": "2026-11-15T20:35:53.811Z"
+  },
+  {
+    "id": "C15",
+    "source": 8,
+    "option": "Garmin vivosmart 5",
+    "criterion": "Sleep accuracy",
+    "claim": "Popular Science lists accurate heart rate and sleep tracking as a vivosmart 5 pro",
+    "quote": "Accurate heart rate and sleep tracking",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Pros bullet, 2023, no test data",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[8.p6]",
+      "text": "the options below are highly capable and offer a range of capabilities and designs so that you can find the best device for your lifestyle. Best overall: Garmin vívosmart 5 Pros • Free access to all your data • Available in two sizes • Lightweight, minimal design • Accurate heart rate and sleep tracking • Activity tracking for a range of activities Cons • No built-in GPS"
+    },
+    "recordedAt": "2026-11-15T20:35:53.994Z"
+  },
+  {
+    "id": "C16",
+    "source": 3,
+    "option": "Garmin vivosmart 5",
+    "criterion": "Heart-rate accuracy",
+    "claim": "vivosmart 5 optical HR sensor is solid",
+    "quote": "Its optical heart-rate sensor is solid, and it tracks stress and respiration alongside sleep.",
+    "support": "supported",
+    "corroborating": [
+      8
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[3.p5]",
+      "text": "effectively paying a subscription for the very feature most buyers want. There is also no onboard GPS, so runners will need to carry a phone. Garmin is the brand most people reach for when accuracy is the priority, and to its credit Garmin does not charge extra to access your data. The vivosmart 5 is a slim, lightweight band available in two sizes, with roughly seven days of battery and water resistance to 164 feet. Its optical heart-rate sensor is solid, and it tracks stress and respiration alongside sleep. There is no built-in GPS, and the pulse-ox reading has to be taken manually during the day. The bigger issue is"
+    },
+    "recordedAt": "2026-11-15T20:35:54.171Z"
+  }
+]

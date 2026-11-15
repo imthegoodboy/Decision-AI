@@ -1,0 +1,44 @@
+{"criteria":[
+{"name":"Certificate recognition","weight":35,"description":"Brand recognition of the certificate"},
+{"name":"Hands-on projects","weight":30,"description":"Practical projects"},
+{"name":"Python for data analysis","weight":20,"description":"Python-focused data analysis content"},
+{"name":"Time fit (5 h/week)","weight":10,"description":"Realistic at 5 hours a week"},
+{"name":"Cost","weight":5,"description":"Price"}],
+"options":[
+{"name":"Coursera","summary":"IBM Data Analyst Professional Certificate (Python) and others from recognised companies/universities","price":"Coursera Plus around $399/year"},
+{"name":"DataCamp","summary":"Hands-on interactive learning; not accredited per one source","price":null},
+{"name":"edX","summary":"University-backed; Harvard CS50P is intro Python only","price":"CS50P free certificate or $219 verified"},
+{"name":"Dataquest","summary":"Project-based Python for data analysis path","price":"$33-49/month"}],
+"scores":[
+{"option":"Coursera","criterion":"Certificate recognition","score":8,"rationale":"Brand recognition of Google/IBM certificates, though completion-based","claims":["C8","C11"]},
+{"option":"Coursera","criterion":"Hands-on projects","score":6,"rationale":"Guided projects exist; one source only","claims":["C15"]},
+{"option":"Coursera","criterion":"Python for data analysis","score":7,"rationale":"IBM certificate focuses on Python and SQL; Google's uses R","claims":["C1","C2"]},
+{"option":"Coursera","criterion":"Time fit (5 h/week)","score":5,"rationale":"Estimates assume 10 h/week; at 5 h/week expect roughly twice as long","claims":["C3","C19"]},
+{"option":"Coursera","criterion":"Cost","score":7,"rationale":"About $399/year for Plus","claims":["C14"]},
+{"option":"DataCamp","criterion":"Certificate recognition","score":3,"rationale":"Reported as not accredited","claims":["C12"]},
+{"option":"DataCamp","criterion":"Hands-on projects","score":6,"rationale":"Described as more hands-on; single source","claims":["C13"]},
+{"option":"edX","criterion":"Certificate recognition","score":6,"rationale":"University brands, but one source says fewer industry certificates and accreditation claims conflict","claims":["C10","C16"]},
+{"option":"edX","criterion":"Cost","score":6,"rationale":"CS50P free or $219 verified","claims":["C10"]},
+{"option":"Dataquest","criterion":"Hands-on projects","score":8,"rationale":"Project-based, but vendor's own claim","claims":["C6","C9"]},
+{"option":"Dataquest","criterion":"Time fit (5 h/week)","score":8,"rationale":"Designed for 5-10 h/week (vendor claim)","claims":["C7"]},
+{"option":"Dataquest","criterion":"Certificate recognition","score":3,"rationale":"Portfolio-based; recognition not shown in sources","claims":["C9"]}],
+"recommendation":{"option":"Coursera","headline":"Coursera's IBM Data Analyst Professional Certificate, paired with your own portfolio project","summary":"Best match for a recognised certificate and Python, but expect it to take longer than the 4-month estimate at 5 hours a week.","reasons":[
+{"text":"IBM certificate focuses on Python and SQL, unlike Google's R-based one","claims":["C1","C2"]},
+{"text":"Google and IBM certificates carry strong brand recognition, though completion-based","claims":["C8"]},
+{"text":"Coursera partners with many universities and companies and offers guided projects","claims":["C11","C15"]}],
+"tradeoffs":[
+{"text":"Estimated 4 months is at 10 h/week; at 5 h/week expect about double (inference)","claims":["C3","C19"]},
+{"text":"Certificates are not proctored","claims":["C8"]}],
+"alternatives":[
+{"option":"Dataquest","when":"You prioritise project-based Python and flexible pacing over certificate brand"},
+{"option":"DataCamp","when":"You want bite-sized hands-on practice and do not need accreditation"},
+{"option":"edX","when":"You want a free or cheap Harvard CS50P intro to Python first"}],
+"caveats":["Sources are mostly vendor or low-reliability; no primary DataCamp or edX source","Prices may be outdated"],
+"nextSteps":["Preview the first module free","Plan a personal portfolio project","Check current pricing"]},
+"contradictions":[
+{"option":"Coursera","topic":"Number of courses in IBM certificate","claims":["C4","C5"],"assessment":"Coursera's page (2025) says 11; a 2024 personal blog says 9. Coursera is more authoritative and recent.","severity":"low"},
+{"option":"edX","topic":"Whether edX certificates are accredited","claims":["C17","C16"],"assessment":"Upskillwise says accredited; Dataquest quotes Harvard CS50P as not accredited; Analytics Insight says fewer industry certificates. Treat edX accreditation as unverified.","severity":"medium"}],
+"uncertainties":[
+{"kind":"single-source","text":"DataCamp claims rest on one third-party article","option":"DataCamp","impact":"medium","howToResolve":"Check DataCamp's own certificate pages"},
+{"kind":"outdated","text":"Sources dated 2024-2025 flagged possibly outdated","option":null,"impact":"medium","howToResolve":"Verify current prices"},
+{"kind":"assumption","text":"Time at 5 h/week is extrapolated","option":"Coursera","impact":"medium","howToResolve":"Check course hour estimates"}]}

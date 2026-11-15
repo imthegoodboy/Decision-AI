@@ -1,0 +1,402 @@
+[
+  {
+    "id": "C1",
+    "source": 1,
+    "option": "Betterment",
+    "criterion": "Account minimum",
+    "claim": "Betterment has a $10 minimum to start investing",
+    "quote": "Betterment: $10 minimum to start investing.",
+    "support": "supported",
+    "corroborating": [
+      2,
+      3,
+      5
+    ],
+    "conflicting": [],
+    "note": "Other sources say $0; trivial difference",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p5]",
+      "text": "minimum. Betterment: $10 minimum to start investing. Vanguard Digital Advisor: $100 minimum to open an account. E*TRADE Core Portfolios: $500 minimum to open an account. Merrill Guided Investing: $1,000 minimum to open an account. Robinhood Strategies: $3,000 minimum for tax-loss harvesting. Fidelity Go: $25,000 minimum for tax-loss harvesting. Schwab Intelligent Portfolios: $50,000 minimum for tax-loss harvesting. Company NerdWallet rating Fees Promotion Learn more $10 minimum to start investingBetterment5.0NerdWallet rating Reviewed in: Oct. 2025Period considered:Aug. - Oct. 2025"
+    },
+    "recordedAt": "2026-11-15T20:35:15.143Z"
+  },
+  {
+    "id": "C2",
+    "source": 7,
+    "option": "Betterment",
+    "criterion": "Fees",
+    "claim": "Betterment standard digital fee is 0.25% annually",
+    "quote": "The platform’s standard digital offering carries a baseline advisory fee of 0.25% annually.",
+    "support": "supported",
+    "corroborating": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p15]",
+      "text": "(AUM), the actual mechanisms of fee assessment vary radically, particularly when contrasting the models of independent financial technology firms against those of legacy retail brokerages. Betterment: Tiered Explicit Pricing and Micro-Account Friction Betterment utilizes an explicit fee structure, but one characterized by tiered complexities based on account size, household aggregation, and deposit velocity. The platform’s standard digital offering carries a baseline advisory fee of 0.25% annually."
+    },
+    "recordedAt": "2026-11-15T20:35:15.291Z"
+  },
+  {
+    "id": "C3",
+    "source": 2,
+    "option": "Betterment",
+    "criterion": "Fees",
+    "claim": "Betterment charges a flat $5/month at low balances instead of 0.25%, which is costly on small accounts",
+    "quote": "The $5/month fee at low balances is a 6% annual fee equivalent on a $1,000 account.",
+    "support": "partial",
+    "corroborating": [
+      1,
+      7,
+      8
+    ],
+    "conflicting": [],
+    "note": "Thresholds differ (25k vs 20k) and exact conditions unclear; source 2 low reliability",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[2.p8]",
+      "text": "each with its own risk level and timeline. The app tracks progress toward each goal and adjusts recommendations. If you're someone who thinks in 'I want X by year Y' terms rather than abstract portfolio percentages, Betterment clicks. **What's annoying:** The $5/month fee at low balances is a 6% annual fee equivalent on a $1,000 account. That's brutal. If you're just starting out with small amounts, this bites. Once you hit $25,000+ the percentage fee kicks in and it's more reasonable."
+    },
+    "recordedAt": "2026-11-15T20:35:15.451Z"
+  },
+  {
+    "id": "C4",
+    "source": 2,
+    "option": "Betterment",
+    "criterion": "Tax features",
+    "claim": "Betterment offers tax-loss harvesting on taxable accounts at all balance levels",
+    "quote": "Yes, on taxable accounts at all balance levels.",
+    "support": "supported",
+    "corroborating": [
+      1,
+      3,
+      5
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[2.p7]",
+      "text": "unlimited access to human CFPs. **Account minimum:** $0. You can open and fund it with whatever you have. Doesn't matter if that's $50 or $50,000. **Tax-loss harvesting:** Yes, on taxable accounts at all balance levels. Betterment's TLH+ also coordinates between your IRA and taxable account to avoid buying back similar positions that would trigger wash sale rules. That's actually a meaningful feature. **What makes Betterment good:** Goal-based interface is genuinely well-designed. You can set up separate goals — retirement, house down payment, emergency fund — each with its own risk level and timeline. The app tracks progress toward each goal and adjusts recommendations. If you're someone who thinks in 'I"
+    },
+    "recordedAt": "2026-11-15T20:35:15.634Z"
+  },
+  {
+    "id": "C5",
+    "source": 3,
+    "option": "Wealthfront",
+    "criterion": "Fees",
+    "claim": "Wealthfront core charges 0.25% with a $500 minimum",
+    "quote": "Core Wealthfront: 0.25% annual fee, $500 minimum",
+    "support": "supported",
+    "corroborating": [
+      2,
+      4,
+      5,
+      6
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[3.p17]",
+      "text": "analysis (shows scenarios for different contribution amounts) • Core Wealthfront: 0.25% annual fee, $500 minimum • Wealthfront Premium: 0.35% for financial advisor access, $100K minimum • Direct Indexing: 0.25% + lower costs, $500K minimum The crypto thing caught me off-guard. Most robo-advisors ignore digital assets. Wealthfront treats them as portfolio components. It's a small detail, but it signals they're thinking forward. • Tax-loss harvesting is legitimately sophisticated"
+    },
+    "recordedAt": "2026-11-15T20:35:15.820Z"
+  },
+  {
+    "id": "C6",
+    "source": 2,
+    "option": "Wealthfront",
+    "criterion": "Tax features",
+    "claim": "Wealthfront harvests losses daily",
+    "quote": "Wealthfront harvests losses daily — not just when the algorithm gets around to it — and uses a large ETF universe to find replacement positions that maintain your target allocation while avoiding wash sales.",
+    "support": "partial",
+    "corroborating": [
+      7
+    ],
+    "conflicting": [],
+    "note": "Only a low-reliability source details this",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[2.p11]",
+      "text": "Best for Tax Optimization and Tech People Wealthfront is NerdWallet's top pick for best overall robo-advisor right now, and I think the ranking is fair. **Fees:** 0.25% annually. Flat, simple, no tiers, no monthly minimums. **Account minimum:** $500. Small barrier, nothing prohibitive. **Tax-loss harvesting:** Probably the most sophisticated daily TLH in the consumer robo-advisor space. Wealthfront harvests losses daily — not just when the algorithm gets around to it — and uses a large ETF universe to find replacement positions that maintain your target allocation while avoiding wash sales. At $100,000+ they add direct indexing (holding individual stocks instead of ETFs in large-cap exposure) for even more TLH opportunities."
+    },
+    "recordedAt": "2026-11-15T20:35:15.981Z"
+  },
+  {
+    "id": "C7",
+    "source": 6,
+    "option": "Wealthfront",
+    "criterion": "Tax features",
+    "claim": "Wealthfront direct indexing unlocks at a $5,000 minimum",
+    "quote": "Wealthfront’s direct-indexing products (S&P 500 Direct and Nasdaq-100 Direct) unlock at a $5,000 minimum per its Form ADV wrap fee brochure, and the core advisory fee stays flat at 0.25% – the best price-to-feature ratio on the list.",
+    "support": "partial",
+    "corroborating": [
+      1
+    ],
+    "conflicting": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "note": "Source 1 says much lower minimums than six-figure; cites Form ADV",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[6.p9]",
+      "text": "Robo Advisor • $100,000 Account Minimum • 0.30% - 0.40% Annual Fee • Human Financial Advice • Excellent Banking Features • Socially-Responsible & Crypto Investing • Low 0.25% Annual Fee • Individual Stock Investing • Stock-Level Tax Loss Harvesting • Smart Beta Available • Risk Parity Available Best Robo Advisors for High-Net-Worth Investors: The List A quick orientation before the cards. Wealthfront’s direct-indexing products (S&P 500 Direct and Nasdaq-100 Direct) unlock at a $5,000 minimum per its Form ADV wrap fee brochure, and the core advisory fee stays flat at 0.25% – the best price-to-feature ratio on the list. Per its SEC prospectus, Wealthfront had over 180,000 clients with at"
+    },
+    "recordedAt": "2026-11-15T20:35:16.172Z"
+  },
+  {
+    "id": "C8",
+    "source": 2,
+    "option": "Wealthfront",
+    "criterion": "Tax features",
+    "claim": "Wealthfront direct indexing starts at $100,000+",
+    "quote": "At $100,000+ they add direct indexing (holding individual stocks instead of ETFs in large-cap exposure) for even more TLH opportunities.",
+    "support": "partial",
+    "corroborating": [
+      4,
+      5
+    ],
+    "conflicting": [
+      6,
+      3
+    ],
+    "note": "Conflicts with 6 ($5,000) and 3 ($500K); source 6 cites Form ADV but is dated 2023 metadata",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[2.p12]",
+      "text": "allocation while avoiding wash sales. At $100,000+ they add direct indexing (holding individual stocks instead of ETFs in large-cap exposure) for even more TLH opportunities. **Path financial planning tool:** This is what really sets Wealthfront apart. It's a free financial planning tool — connects to all your accounts (not just Wealthfront), models your full financial picture, and answers questions like 'can I take a sabbatical next year?' or 'when can I retire if I save X/month?' The modeling is genuinely good. I know people who use Wealthfront just for Path and keep their money elsewhere."
+    },
+    "recordedAt": "2026-11-15T20:35:16.384Z"
+  },
+  {
+    "id": "C9",
+    "source": 2,
+    "option": "Schwab Intelligent Portfolios",
+    "criterion": "Fees",
+    "claim": "Schwab charges 0% management fee but allocates 6-10% to cash",
+    "quote": "Fees:** 0% management fee. But — and this is an important but — Schwab allocates 6-10% of every portfolio to cash (swept into a Schwab Bank account earning whatever Schwab feels like paying, which is typically lower than money market rates).",
+    "support": "partial",
+    "corroborating": [
+      4,
+      5
+    ],
+    "conflicting": [
+      4
+    ],
+    "note": "Source 4 says 6-30% cash range",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[2.p15]",
+      "text": "financial planning tools beyond just portfolio management. The headline here is simple: Schwab charges zero management fee. 4Schwab Intelligent Portfolios: Best for Zero Management Fees The headline here is simple: Schwab charges zero management fee. $0. For a robo-advisor that automatically builds and rebalances a diversified portfolio, that's unusual. **Fees:** 0% management fee. But — and this is an important but — Schwab allocates 6-10% of every portfolio to cash (swept into a Schwab Bank account earning whatever Schwab feels like paying, which is typically lower than money market rates). That cash drag is effectively the fee. On a $50,000 portfolio, $3,000–$5,000 sitting in low-yield cash instead of invested is"
+    },
+    "recordedAt": "2026-11-15T20:35:16.594Z"
+  },
+  {
+    "id": "C10",
+    "source": 4,
+    "option": "Schwab Intelligent Portfolios",
+    "criterion": "Fees",
+    "claim": "Schwab has mandatory 6-30% cash drag",
+    "quote": "Schwab Intelligent Portfolios wins on 0% fee, but mandatory 6-30% cash drag suppresses returns — useful only for existing Schwab customers.",
+    "support": "partial",
+    "corroborating": [
+      2,
+      5
+    ],
+    "conflicting": [],
+    "note": "Range differs from source 2 but both confirm substantial cash drag",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[4.p2]",
+      "text": "Intelligent Portfolios wins on 0% fee, but mandatory 6-30% cash drag suppresses returns — useful only for existing Schwab customers. Ideal 2026 stack for US residents: Wealthfront (main, $100K+ for Direct Indexing) + Betterment Premium (FP + goal management) + Schwab (emergency fund). Net 7-9% annual returns + tax optimization push $50K → ~$5.5M over 30 years for FIRE. Table of Contents • 1. Wealthfront & Betterment Overview"
+    },
+    "recordedAt": "2026-11-15T20:35:16.782Z"
+  },
+  {
+    "id": "C11",
+    "source": 5,
+    "option": "Schwab Intelligent Portfolios",
+    "criterion": "Account minimum",
+    "claim": "Schwab has a $5,000 minimum",
+    "quote": "Minimum investment: $5,000",
+    "support": "supported",
+    "corroborating": [
+      2,
+      4
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[5.p20]",
+      "text": "the underlying ETFs, making it one of the cheapest options available. • Minimum investment: $5,000 • Annual fee: $0 advisory fee (only ETF expense ratios) • Automatic rebalancing • Access to Schwab's banking and brokerage services Pros: No advisory fees, trusted brand, comprehensive financial services, strong customer support Cons: $5,000 minimum is high for beginners, cash drag can reduce returns, limited tax-loss harvesting Real Example: David, a 35-year-old accountant, transferred $10,000 from his savings to Schwab Intelligent Portfolios. He appreciated the no-fee structure and the ability to access Schwab's banking services. His portfolio returned 6.8% annually over 3 years."
+    },
+    "recordedAt": "2026-11-15T20:35:16.962Z"
+  },
+  {
+    "id": "C12",
+    "source": 1,
+    "option": "Schwab Intelligent Portfolios",
+    "criterion": "Tax features",
+    "claim": "Schwab tax-loss harvesting requires $50,000",
+    "quote": "Schwab Intelligent Portfolios: $50,000 minimum for tax-loss harvesting.",
+    "support": "supported",
+    "corroborating": [
+      2
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p5]",
+      "text": "minimum. Betterment: $10 minimum to start investing. Vanguard Digital Advisor: $100 minimum to open an account. E*TRADE Core Portfolios: $500 minimum to open an account. Merrill Guided Investing: $1,000 minimum to open an account. Robinhood Strategies: $3,000 minimum for tax-loss harvesting. Fidelity Go: $25,000 minimum for tax-loss harvesting. Schwab Intelligent Portfolios: $50,000 minimum for tax-loss harvesting. Company NerdWallet rating Fees Promotion Learn more $10 minimum to start investingBetterment5.0NerdWallet rating Reviewed in: Oct. 2025Period considered:Aug. - Oct. 2025"
+    },
+    "recordedAt": "2026-11-15T20:35:17.141Z"
+  },
+  {
+    "id": "C13",
+    "source": 5,
+    "option": "Fidelity Go",
+    "criterion": "Fees",
+    "claim": "Fidelity Go charges $0 under $10,000 and 0.35% above",
+    "quote": "Annual fee: $0 for balances under $10,000, 0.35% for balances above",
+    "support": "partial",
+    "corroborating": [
+      3
+    ],
+    "conflicting": [],
+    "note": "Single detailed source, blog",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[5.p16]",
+      "text": "He appreciated the tax-loss harvesting feature, which saved him approximately $400 in taxes during his first year. His portfolio returned 8.1% annually over 4 years. 3. Fidelity Go Best For: Investors who want Fidelity's reputation with robo-advice Fidelity Go combines Fidelity's trusted brand with automated investing. It is ideal for beginners who want the security of a well-established financial institution. • Annual fee: $0 for balances under $10,000, 0.35% for balances above"
+    },
+    "recordedAt": "2026-11-15T20:35:17.318Z"
+  },
+  {
+    "id": "C14",
+    "source": 1,
+    "option": "Vanguard Digital Advisor",
+    "criterion": "Tax features",
+    "claim": "Vanguard Digital Advisor offers automated TLH with $100 minimum",
+    "quote": "Vanguard Digital Advisor: $100 minimum to open an account.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [
+      2
+    ],
+    "note": "Source 1 lists it among robo-advisors offering automated TLH; source 2 says no TLH. Source 1 more reliable",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[1.p4]",
+      "text": "a higher minimum to be eligible for tax-loss harvesting. You generally have to opt in to the service, and it may have an additional fee. Below is a list of the robo-advisors we review that offer automated tax-loss harvesting, in order from lowest to highest minimum. Betterment: $10 minimum to start investing. Vanguard Digital Advisor: $100 minimum to open an account. E*TRADE Core Portfolios: $500 minimum to open an account."
+    },
+    "recordedAt": "2026-11-15T20:35:17.506Z"
+  },
+  {
+    "id": "C15",
+    "source": 2,
+    "option": "Vanguard Digital Advisor",
+    "criterion": "Tax features",
+    "claim": "Vanguard Digital Advisor does not offer TLH",
+    "quote": "Tax-loss harvesting: No. Vanguard Digital Advisor doesn't offer TLH.",
+    "support": "unsupported",
+    "corroborating": [],
+    "conflicting": [
+      1
+    ],
+    "note": "Contradicted by higher-reliability source 1",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "unsupported",
+    "passage": {
+      "id": "[2.p22]",
+      "text": "genuinely competitive — lower than Betterment and Wealthfront. **Account minimum:** $100 (reduced from $3,000 in recent years). They also offer a 90-day fee-free trial period. **Tax-loss harvesting:** No. Vanguard Digital Advisor doesn't offer TLH. If TLH matters to you (and it does matter, especially on larger taxable accounts), this is a real knock against Vanguard for that use case. **Who this is for:** Someone with a longer time horizon focused on retirement accumulation, who's using tax-advantaged accounts (IRA, Roth IRA) where TLH doesn't apply anyway. If you're building a retirement account and want to ride Vanguard's legendary low costs and philosophy, Digital Advisor is excellent. If you have substantial taxable"
+    },
+    "recordedAt": "2026-11-15T20:35:17.691Z"
+  },
+  {
+    "id": "C16",
+    "source": 1,
+    "option": "Robinhood Strategies",
+    "criterion": "Tax features",
+    "claim": "Robinhood Strategies has $3,000 minimum for TLH",
+    "quote": "Robinhood Strategies: $3,000 minimum for tax-loss harvesting.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p5]",
+      "text": "minimum. Betterment: $10 minimum to start investing. Vanguard Digital Advisor: $100 minimum to open an account. E*TRADE Core Portfolios: $500 minimum to open an account. Merrill Guided Investing: $1,000 minimum to open an account. Robinhood Strategies: $3,000 minimum for tax-loss harvesting. Fidelity Go: $25,000 minimum for tax-loss harvesting. Schwab Intelligent Portfolios: $50,000 minimum for tax-loss harvesting. Company NerdWallet rating Fees Promotion Learn more $10 minimum to start investingBetterment5.0NerdWallet rating Reviewed in: Oct. 2025Period considered:Aug. - Oct. 2025"
+    },
+    "recordedAt": "2026-11-15T20:35:17.881Z"
+  },
+  {
+    "id": "C17",
+    "source": 8,
+    "option": "Acorns",
+    "criterion": "Fees",
+    "claim": "Acorns has high fixed fees for small balances",
+    "quote": "High fixed fees for small balances",
+    "support": "supported",
+    "corroborating": [
+      3,
+      5
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[8.p21]",
+      "text": "in your first year.* • Special offer: Get a free $20 bonus investment when you sign up with our link and start making recurring investments.** • Robo-advisor with affordable fees (on larger portfolios) • Fixed fee model • Round-ups • FDIC/SIPC insurance • IRA match (Silver and Gold) • High fixed fees for small balances • Limited investment selections • Must subscribe to Gold for any self-directed investing options"
+    },
+    "recordedAt": "2026-11-15T20:35:18.086Z"
+  }
+]

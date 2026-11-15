@@ -1,0 +1,36 @@
+{"criteria":[
+{"name":"Recognised certificate","weight":35,"description":"Certificate with brand recognition"},
+{"name":"Hands-on projects","weight":30,"description":"Practical, project-based learning"},
+{"name":"Python for data analysis","weight":20,"description":"Python (pandas etc.) taught for analysis"},
+{"name":"Time fit for 5 hours/week","weight":15,"description":"Finishable on a part-time schedule"}],
+"options":[
+{"name":"Coursera (IBM Data Analyst or Meta Data Analyst certificate)","summary":"University/company-branded professional certificates; IBM and Meta use Python, Google uses R.","price":"Subscription; sources disagree ($49-59/month vs $79/month for Plus)"},
+{"name":"DataCamp","summary":"Hands-on data-focused learning; certificate accreditation unverified.","price":null},
+{"name":"edX (Harvard CS50P)","summary":"Free Harvard certificate, general Python, not data analysis.","price":"Free certificate, or $219 verified"},
+{"name":"Dataquest","summary":"Project-based Python for data analysis path.","price":"$33-49/month"}],
+"scores":[
+{"option":"Coursera (IBM Data Analyst or Meta Data Analyst certificate)","criterion":"Recognised certificate","score":8,"rationale":"Branded certificates with university/company partners; completion-based.","claims":["C7","C12"]},
+{"option":"Coursera (IBM Data Analyst or Meta Data Analyst certificate)","criterion":"Hands-on projects","score":null,"rationale":"No verified claim.","claims":[]},
+{"option":"Coursera (IBM Data Analyst or Meta Data Analyst certificate)","criterion":"Python for data analysis","score":7,"rationale":"IBM and Meta teach Python; Google uses R.","claims":["C1","C2","C4"]},
+{"option":"Coursera (IBM Data Analyst or Meta Data Analyst certificate)","criterion":"Time fit for 5 hours/week","score":4,"rationale":"Long programs; duration estimates conflict; completion rates low.","claims":["C16","C17"]},
+{"option":"DataCamp","criterion":"Recognised certificate","score":null,"rationale":"Accreditation claim contradicted; unverified.","claims":[]},
+{"option":"DataCamp","criterion":"Hands-on projects","score":7,"rationale":"Described as more hands-on for data topics.","claims":["C11"]},
+{"option":"DataCamp","criterion":"Python for data analysis","score":null,"rationale":"No verified claim.","claims":[]},
+{"option":"DataCamp","criterion":"Time fit for 5 hours/week","score":null,"rationale":"No verified claim.","claims":[]},
+{"option":"edX (Harvard CS50P)","criterion":"Recognised certificate","score":7,"rationale":"Free Harvard certificate; completion-based.","claims":["C8","C7"]},
+{"option":"edX (Harvard CS50P)","criterion":"Hands-on projects","score":null,"rationale":"No verified claim.","claims":[]},
+{"option":"edX (Harvard CS50P)","criterion":"Python for data analysis","score":3,"rationale":"General programming, not data analysis.","claims":["C9"]},
+{"option":"edX (Harvard CS50P)","criterion":"Time fit for 5 hours/week","score":null,"rationale":"100-150 hours stated but no verified claim recorded.","claims":[]},
+{"option":"Dataquest","criterion":"Recognised certificate","score":null,"rationale":"No verified claim.","claims":[]},
+{"option":"Dataquest","criterion":"Hands-on projects","score":8,"rationale":"Project-based; vendor's own claim.","claims":["C5"]},
+{"option":"Dataquest","criterion":"Python for data analysis","score":8,"rationale":"Built for Python data analysis.","claims":["C5"]},
+{"option":"Dataquest","criterion":"Time fit for 5 hours/week","score":null,"rationale":"No verified claim.","claims":[]}],
+"recommendation":{"option":"Coursera (IBM Data Analyst or Meta Data Analyst certificate)","headline":"Coursera's IBM or Meta certificate is the best-verified fit for a recognised Python certificate, but expect a long haul at 5 hours a week.","summary":"Coursera offers the best-evidenced recognised certificates with Python content; hands-on strength and DataCamp's credential status are unverified.","reasons":[{"text":"IBM and Meta certificates teach Python; Google's uses R.","claims":["C1","C2","C4"]},{"text":"Coursera partners with major universities and companies; platform certificates carry brand recognition.","claims":["C12","C7"]}],"tradeoffs":[{"text":"Long programs; low MOOC completion; a 300-hour course at 5 hours/week takes over a year.","claims":["C16","C17"]}],"alternatives":[{"option":"DataCamp","when":"You prioritise hands-on practice and can accept an unverified credential."},{"option":"edX (Harvard CS50P)","when":"You want a free, well-known certificate for programming basics."},{"option":"Dataquest","when":"Portfolio projects matter more than a certificate."}],"caveats":["Coursera time estimates and prices conflict across sources.","DataCamp accreditation is single-source and contradicted."],"nextSteps":["Check the current IBM/Meta duration and price on Coursera.","Check DataCamp's certificate accreditation on its own site."]},
+"contradictions":[
+{"option":"DataCamp","topic":"DataCamp accreditation","claims":["C10"],"assessment":"Source 7 (now lower reliability) says accredited; sources 2/5 say not accredited but older. Unresolved; treat as unverified.","severity":"high"},
+{"option":"Coursera (IBM Data Analyst or Meta Data Analyst certificate)","topic":"IBM duration","claims":["C3","C18"],"assessment":"Coursera's article says 4 months at 10 h/week; source 7 says 8 months citing Coursera. Primary source [1] more credible.","severity":"medium"},
+{"option":"Coursera (IBM Data Analyst or Meta Data Analyst certificate)","topic":"Coursera Plus price","claims":["C15"],"assessment":"Source 7 says $79/$599; sources 2/6 say $59/$399 (older). Possibly price rise.","severity":"medium"}],
+"uncertainties":[
+{"kind":"single-source","text":"DataCamp certificate accreditation rests on one source.","option":"DataCamp","impact":"high","howToResolve":"Check DataCamp's site."},
+{"kind":"outdated","text":"Prices come from 2024 sources and a conflicting 2026 one.","option":null,"impact":"medium","howToResolve":"Check current pricing."},
+{"kind":"incomplete","text":"No verified evidence about hands-on projects in Coursera certificates.","option":"Coursera (IBM Data Analyst or Meta Data Analyst certificate)","impact":"medium","howToResolve":"Review course syllabi."}]}

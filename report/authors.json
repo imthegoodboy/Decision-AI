@@ -1,0 +1,7 @@
+{
+  "_comment": "Edit names and affiliations, then rebuild: python report/build.py",
+  "team": "Decision AI",
+  "authors": [
+    { "name": "Nikhil Sharma", "affiliation": "Independent Researcher" }
+  ]
+}

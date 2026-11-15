@@ -1,0 +1,1317 @@
+{
+  "dossier": {
+    "plan": {
+      "decisionType": "decision",
+      "criteria": [
+        {
+          "id": "crit_1",
+          "name": "Audited no-logs",
+          "description": "Independent audit of no-logs claims",
+          "weight": 35,
+          "origin": "user"
+        },
+        {
+          "id": "crit_2",
+          "name": "Streaming",
+          "description": "Unblocking streaming services",
+          "weight": 25,
+          "origin": "user"
+        },
+        {
+          "id": "crit_3",
+          "name": "Speed",
+          "description": "Speed retention for streaming",
+          "weight": 20,
+          "origin": "user"
+        },
+        {
+          "id": "crit_4",
+          "name": "Price",
+          "description": "Under $5/month on a long-term plan",
+          "weight": 20,
+          "origin": "user"
+        }
+      ],
+      "queries": [],
+      "freshnessDays": 365,
+      "region": null,
+      "rationale": ""
+    },
+    "options": [
+      {
+        "id": "opt_1",
+        "name": "NordVPN",
+        "summary": "Best streaming results, repeatedly audited",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "under $3.50/month (two-year Basic)",
+        "userNamed": false,
+        "sourceIds": [
+          "3",
+          "6"
+        ]
+      },
+      {
+        "id": "opt_2",
+        "name": "Proton VPN",
+        "summary": "Annual Securitum audits, weaker streaming",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "under $3/month (two-year Plus)",
+        "userNamed": false,
+        "sourceIds": [
+          "3",
+          "5",
+          "2",
+          "6"
+        ]
+      },
+      {
+        "id": "opt_3",
+        "name": "ExpressVPN",
+        "summary": "14/14 streaming, audited, higher renewal",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "under $3/month (28-month Basic)",
+        "userNamed": false,
+        "sourceIds": [
+          "3"
+        ]
+      },
+      {
+        "id": "opt_4",
+        "name": "Surfshark",
+        "summary": "13/14 streaming, Deloitte audits",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "about $2.50/month (27 months)",
+        "userNamed": false,
+        "sourceIds": [
+          "3"
+        ]
+      },
+      {
+        "id": "opt_5",
+        "name": "DuckDuckGo VPN",
+        "summary": "Audited but no streaming servers",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "$9.99/month",
+        "userNamed": false,
+        "sourceIds": [
+          "1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "text": "NordVPN unblocked all 14 streaming services tested",
+        "kind": "fact",
+        "sourceId": "3",
+        "quote": "NordVPN unblocked all 14 services we tried, a result only ExpressVPN matched.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[3.p8]",
+            "text": "servers • No bandwidth caps • Smart DNS for TVs and consoles • Location spoofing in the Chrome extension • Repeatedly audited no-log policy Cons • Occasional detection on Pluto TV and Prime Video • Expensive monthly plans NordVPN unblocked all 14 services we tried, a result only ExpressVPN matched. Pluto TV and Prime Video detected it now and then, and both played on the next attempt. One service detected the desktop app, and the Chrome extension unblocked it with location spoofing enabled, a setting that makes your browser report the VPN server’s location. Its US server tested at 181.50 Mbps on our 190.36 Mbps connection, the fastest US result"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:56.200Z"
+        }
+      },
+      {
+        "id": "C2",
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "text": "NordVPN US server tested 181.50 of 190.36 Mbps, the fastest US result recorded",
+        "kind": "fact",
+        "sourceId": "3",
+        "quote": "Its US server tested at 181.50 Mbps on our 190.36 Mbps connection, the fastest US result we recorded.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[3.p9]",
+            "text": "that makes your browser report the VPN server’s location. Its US server tested at 181.50 Mbps on our 190.36 Mbps connection, the fastest US result we recorded. The average speed loss across UK, US, and Japanese servers was 7.8%, which leaves far more speed than 4K requires. The network covers 152 countries. Smart DNS brings streaming to smart TVs and consoles without a VPN app: you enter a DNS address in the device’s network settings, and streaming services see the location you picked. NordVPN also has a native Apple TV app."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:56.372Z"
+        }
+      },
+      {
+        "id": "C3",
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "text": "NordVPN average speed loss 7.8%",
+        "kind": "fact",
+        "sourceId": "3",
+        "quote": "The average speed loss across UK, US, and Japanese servers was 7.8%, which leaves far more speed than 4K requires.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[3.p9]",
+            "text": "that makes your browser report the VPN server’s location. Its US server tested at 181.50 Mbps on our 190.36 Mbps connection, the fastest US result we recorded. The average speed loss across UK, US, and Japanese servers was 7.8%, which leaves far more speed than 4K requires. The network covers 152 countries. Smart DNS brings streaming to smart TVs and consoles without a VPN app: you enter a DNS address in the device’s network settings, and streaming services see the location you picked. NordVPN also has a native Apple TV app."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:56.568Z"
+        }
+      },
+      {
+        "id": "C4",
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "text": "NordVPN, ExpressVPN and Mullvad were the fastest providers in Comparitech tests",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "Mullvad VPN, NordVPN, and ExpressVPN were the fastest providers this quarter.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p1]",
+            "text": "Mullvad VPN, NordVPN, and ExpressVPN were the fastest providers this quarter. They all have blended speed retention values of 55 percent or greater, unlike 60 percent of the VPNs tested this time around. Which VPNs are fastest? | 2026-Q3 · tested Aug 2026 Editorial highlights from the full chart. Scores are a use-case-specific blend of 6 inputs — eu latency (p50), uk latency (p50), eu speed retention, uk speed retention, us speed retention, and bufferbloat (loaded latency) — weighted out of 10 (a use-case score, not each provider’s overall VPN rating)."
+          },
+          "rationale": "Page dated 2019 but content is 2026-Q3 data",
+          "corroboratingSourceIds": [
+            "3"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:56.734Z"
+        }
+      },
+      {
+        "id": "C5",
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "text": "NordVPN no-log policy backed by six independent audits since 2018",
+        "kind": "fact",
+        "sourceId": "3",
+        "quote": "Six independent audits since 2018 back its no-log policy.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[3.p10]",
+            "text": "enter a DNS address in the device’s network settings, and streaming services see the location you picked. NordVPN also has a native Apple TV app. For households spread across several homes, Meshnet is one answer to Netflix’s password-sharing rules. Six independent audits since 2018 back its no-log policy. The Basic plan is under $3.50 a month on a two-year term. Visit NordVPN 2. Proton VPN: Best Streaming VPN for Privacy"
+          },
+          "rationale": "Single source; audit reports themselves not in sources",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:56.902Z"
+        }
+      },
+      {
+        "id": "C6",
+        "optionId": "opt_1",
+        "criterionId": "crit_4",
+        "text": "NordVPN Basic under 3.50 per month on two-year term",
+        "kind": "fact",
+        "sourceId": "3",
+        "quote": "The Basic plan is under $3.50 a month on a two-year term.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[3.p11]",
+            "text": "its no-log policy. The Basic plan is under $3.50 a month on a two-year term. Visit NordVPN 2. Proton VPN: Best Streaming VPN for Privacy • Netflix US, Canada, and Japan unblocked • BBC iPlayer and Channel 4 unblocked • Swiss privacy law • Open-source apps • Stealth on every plan • Native Apple TV app • Doesn’t unblock Hulu or ITVX • No Smart DNS"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "7",
+            "4"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:57.084Z"
+        }
+      },
+      {
+        "id": "C7",
+        "optionId": "opt_2",
+        "criterionId": "crit_2",
+        "text": "Proton VPN unblocked 10 of 14 services but not Hulu, Pluto TV or ITVX",
+        "kind": "fact",
+        "sourceId": "3",
+        "quote": "It couldn’t unblock Hulu, Pluto TV, or ITVX, so if those are your main services, choose NordVPN instead.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[3.p12]",
+            "text": "privacy law • Open-source apps • Stealth on every plan • Native Apple TV app • Doesn’t unblock Hulu or ITVX • No Smart DNS Proton VPN ranks second for viewers who want privacy alongside the big catalogs. It unblocked 10 of the 14 services, including Netflix in the US, Canada, and Japan on standard servers, BBC iPlayer, Prime Video, Peacock, and JioHotstar. It couldn’t unblock Hulu, Pluto TV, or ITVX, so if those are your main services, choose NordVPN instead."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:57.283Z"
+        }
+      },
+      {
+        "id": "C8",
+        "optionId": "opt_2",
+        "criterionId": "crit_4",
+        "text": "Proton VPN Plus under 3 per month on two-year term",
+        "kind": "fact",
+        "sourceId": "3",
+        "quote": "On a two-year term, the VPN Plus plan costs under $3 a month and covers 10 devices.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[3.p15]",
+            "text": "have to install Proton VPN on your router. On a two-year term, the VPN Plus plan costs under $3 a month and covers 10 devices. Visit Proton VPN 3. ExpressVPN: Best for Simple Apps on Every Screen • Hulu and JioHotstar unblocked • Fast Japanese server • WebRTC protection in the extension • MediaStreamer for consoles • High device limit • Few advanced features • High renewal price"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "7",
+            "4"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:57.451Z"
+        }
+      },
+      {
+        "id": "C9",
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "text": "Proton VPN passed a fifth consecutive annual independent no-logs audit by Securitum",
+        "kind": "fact",
+        "sourceId": "5",
+        "quote": "Conducted by leading European security firm Securitum, the latest independent audit confirmed that the provider strictly adheres to its no-logs policy.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[5.p2]",
+            "text": "recording your every move. Thankfully, one of the top names in the industry has just proved its privacy claims are more than just marketing speak. Following up on its fourth independent audit last year, Proton VPN has announced that it successfully passed a fifth consecutive annual third-party examination. Conducted by leading European security firm Securitum, the latest independent audit confirmed that the provider strictly adheres to its no-logs policy."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "2",
+            "3"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:57.643Z"
+        }
+      },
+      {
+        "id": "C10",
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "text": "Proton audit was a point-in-time review of selected servers, not a continuous guarantee",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "The engagement covered selected production server samples rather than Proton’s entire global VPN network, and conclusions were based on the systems, documentation, and evidence made available during the assessment period.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p7]",
+            "text": "for certain regions or subscription tiers. Active VPN configuration files reviewed during the assessment also contained no logging directives that would retain user-identifiable activity data. As with previous assessments, Securitum noted that the audit represents a point-in-time review rather than a continuous guarantee. The engagement covered selected production server samples rather than Proton’s entire global VPN network, and conclusions were based on the systems, documentation, and evidence made available during the assessment period."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:57.798Z"
+        }
+      },
+      {
+        "id": "C11",
+        "optionId": "opt_2",
+        "criterionId": "crit_3",
+        "text": "Proton VPN average speed loss 10.2%",
+        "kind": "fact",
+        "sourceId": "3",
+        "quote": "Its average speed loss was 10.2%, and VPN Accelerator, which improves speed on long-distance connections, is enabled by default and made its US server 4.9% faster.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[3.p13]",
+            "text": "BBC iPlayer, Prime Video, Peacock, and JioHotstar. It couldn’t unblock Hulu, Pluto TV, or ITVX, so if those are your main services, choose NordVPN instead. Its average speed loss was 10.2%, and VPN Accelerator, which improves speed on long-distance connections, is enabled by default and made its US server 4.9% faster. Switzerland belongs to no intelligence-sharing pact, and Proton VPN publishes the source code of every app, so outside experts can check what it does. Securitum audits its no-log policy every year, and the network covers 149 countries."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:58.001Z"
+        }
+      },
+      {
+        "id": "C12",
+        "optionId": "opt_2",
+        "criterionId": "crit_3",
+        "text": "Proton VPN has highest latency to EU servers and noticeable lag when busy",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "Proton VPN keeps a decent portion of the connection speed to UK servers but has the highest latency to EU servers and noticeable lag when busy.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p7]",
+            "text": "keeps a substantial portion of the connection speed to UK servers, yet struggles in the EU and has moderate lag when the connection is busy. Proton VPN keeps a decent portion of the connection speed to UK servers but has the highest latency to EU servers and noticeable lag when busy. IPVanish offers minimal lag when the connection is busy, but its ability to keep speed, especially to US servers, leaves room for improvement."
+          },
+          "rationale": "Weaker than Gizmodo's picture but not directly incompatible",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:58.186Z"
+        }
+      },
+      {
+        "id": "C13",
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "text": "ExpressVPN no-log policy independently audited; Basic under 3 on 28-month term",
+        "kind": "fact",
+        "sourceId": "3",
+        "quote": "Its no-log policy is independently audited, and the Basic plan costs under $3 a month on a 28-month term.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[3.p18]",
+            "text": "app. The extensions add protection against WebRTC leaks, a browser feature that can reveal your IP address, but there’s no multi-hop and no malware filtering. Its no-log policy is independently audited, and the Basic plan costs under $3 a month on a 28-month term. It renews at a much higher price, though, so note the renewal date when you subscribe. The ExpressVPN review has the rest."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "7"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:58.375Z"
+        }
+      },
+      {
+        "id": "C14",
+        "optionId": "opt_4",
+        "criterionId": "crit_1",
+        "text": "Surfshark no-log policy audited by Deloitte in 2023 and 2025",
+        "kind": "fact",
+        "sourceId": "3",
+        "quote": "Camouflage Mode disguises VPN traffic on restrictive networks, CleanWeb strips ads from streaming sites, and Deloitte audited the no-log policy in 2023 and 2025.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[3.p20]",
+            "text": "only failure. Its UK server tested at 186.96 Mbps, the best UK result we recorded, and the average speed loss was 9.6%. One subscription covers every screen in a home, with no device limit, so the phones, tablets, laptops, and TVs of a whole family fit on one plan. Camouflage Mode disguises VPN traffic on restrictive networks, CleanWeb strips ads from streaming sites, and Deloitte audited the no-log policy in 2023 and 2025. Its Android app unblocked the same services. Smart DNS is absent, so a Samsung or LG TV requires a router setup. Connections sometimes took a while to establish, so wait a few seconds before you try again."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:58.560Z"
+        }
+      },
+      {
+        "id": "C15",
+        "optionId": "opt_5",
+        "criterionId": "crit_2",
+        "text": "DuckDuckGo VPN lacks streaming-optimized servers and costs 9.99/month",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "It lacks multi-hop routing, split tunneling, dedicated IP addresses, and streaming-optimized servers, all of which are common in VPNs like NordVPN or Surfshark.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p9]",
+            "text": "VPN services. It lacks multi-hop routing, split tunneling, dedicated IP addresses, and streaming-optimized servers, all of which are common in VPNs like NordVPN or Surfshark. Its $9.99 monthly price also more expensive than most long-term VPN plans. The best VPN deals see prices start at $1.11 per month, so considering exploring your options if the VPN is what attracts you to the DuckDuckGo subscription. For the same price as DuckDuckGo Privacy Pro, you can subscribe to Proton Unlimited, and benefit from an entire privacy-focused ecosystem to rival Google."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:58.755Z"
+        }
+      },
+      {
+        "id": "C16",
+        "optionId": null,
+        "criterionId": "crit_1",
+        "text": "PrivadoVPN has not undergone an independent audit",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "Our testing concluded that PrivadoVPN covered all the privacy basics well, but unlike many of the better-known providers, it has not undergone an independent audit of its privacy policy, apps, or server infrastructure.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p23]",
+            "text": "ExpressVPN's previous design – which means even those using a VPN for the first time will be able to get up and running in minutes. Finally, Tom's Guide was able to visit PrivadoVPN's main data center in Amsterdam, and the whole setup was extremely secure and professional – always a good sign. Our testing concluded that PrivadoVPN covered all the privacy basics well, but unlike many of the better-known providers, it has not undergone an independent audit of its privacy policy, apps, or server infrastructure. While not essential, these audits go a long way towards building a VPN's trustworthiness."
+          },
+          "rationale": "2022 article, possibly outdated",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:58.959Z"
+        }
+      },
+      {
+        "id": "C17",
+        "optionId": null,
+        "criterionId": "crit_1",
+        "text": "IPVanish completed third independent no-logs audit by Schellman in Sept 2026",
+        "kind": "fact",
+        "sourceId": "8",
+        "quote": "The audit was completed by Schellman Compliance, a leading provider of attestation services, on September 25, 2026.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[8.p2]",
+            "text": "150-location network IPVanish has announced the results of its third independent no-logs audit, and once again its privacy claims have a clean bill of health. The audit was completed by Schellman Compliance, a leading provider of attestation services, on September 25, 2026. Following two previous third-party audits in 2022 and 2025, the review is the latest in what's become an annual tradition for the VPN provider: inviting an outside firm to poke holes in its no-logs policy."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:59.132Z"
+        }
+      },
+      {
+        "id": "C18",
+        "optionId": null,
+        "criterionId": "crit_4",
+        "text": "Most VPNs renew at two to three times introductory rate",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "Once the first term ends, most VPNs renew at two to three times the introductory monthly rate.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p17]",
+            "text": "services, and some block torrenting. Streaming and torrenting are the most popular reasons to use a VPN, so this is often what you pay for. Hidden Costs: Renewals, Taxes, and Add-Ons The checkout price is only the first part of the bill. These are the costs that show up later: • Renewal price: once the first term ends, most VPNs renew at two to three times the introductory monthly rate. Private Internet Access and CyberGhost increase the least, and NordVPN increases the most."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "3"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T21:01:59.323Z"
+        }
+      }
+    ],
+    "contradictions": [
+      {
+        "id": "con_1",
+        "optionId": "opt_2",
+        "criterionId": null,
+        "topic": "Proton speed",
+        "statements": [
+          {
+            "claimId": "C11",
+            "sourceId": "3",
+            "text": "Proton VPN average speed loss 10.2%"
+          },
+          {
+            "claimId": "C12",
+            "sourceId": "6",
+            "text": "Proton VPN has highest latency to EU servers and noticeable lag when busy"
+          }
+        ],
+        "assessment": "Gizmodo reports 10.2% loss; Comparitech reports highest EU latency. Different metrics, not directly incompatible; both suggest Proton is not the fastest.",
+        "favoredSourceId": null,
+        "severity": "low"
+      }
+    ],
+    "uncertainties": [
+      {
+        "id": "unc_1",
+        "kind": "single-source",
+        "text": "NordVPN six audits only from Gizmodo",
+        "optionId": "opt_1",
+        "impact": "medium",
+        "howToResolve": "Read NordVPN's published audit reports"
+      },
+      {
+        "id": "unc_2",
+        "kind": "outdated",
+        "text": "Prices change with Black Friday and renewals",
+        "optionId": null,
+        "impact": "medium",
+        "howToResolve": "Check checkout price"
+      }
+    ],
+    "scores": [
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "score": 7,
+        "rationale": "Six audits claimed but only one source",
+        "claimIds": [
+          "C5"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "score": 9,
+        "rationale": "14 of 14 unblocked",
+        "claimIds": [
+          "C1"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "score": 9,
+        "rationale": "7.8% loss; fastest in two tests",
+        "claimIds": [
+          "C2",
+          "C3",
+          "C4"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_4",
+        "score": 9,
+        "rationale": "Under $3.50",
+        "claimIds": [
+          "C6"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "score": 10,
+        "rationale": "Five consecutive audits across three sources",
+        "claimIds": [
+          "C9",
+          "C10"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_2",
+        "score": 6,
+        "rationale": "10 of 14",
+        "claimIds": [
+          "C7"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_3",
+        "score": 6,
+        "rationale": "10.2% loss but high EU latency",
+        "claimIds": [
+          "C11",
+          "C12"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_4",
+        "score": 10,
+        "rationale": "Under $3",
+        "claimIds": [
+          "C8"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "score": 7,
+        "rationale": "Audited, details not given",
+        "claimIds": [
+          "C13"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_4",
+        "score": 8,
+        "rationale": "Under $3 but high renewal",
+        "claimIds": [
+          "C13",
+          "C18"
+        ]
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_1",
+        "score": 8,
+        "rationale": "Deloitte 2023, 2025",
+        "claimIds": [
+          "C14"
+        ]
+      },
+      {
+        "optionId": "opt_5",
+        "criterionId": "crit_2",
+        "score": 2,
+        "rationale": "No streaming-optimized servers",
+        "claimIds": [
+          "C15"
+        ]
+      }
+    ],
+    "recommendation": {
+      "optionId": "opt_1",
+      "headline": "NordVPN is the best fit for streaming plus audited no-logs under $5",
+      "summary": "NordVPN unblocked all 14 services, lost 7.8% speed and costs under $3.50/month on two years; its audit record rests on one source.",
+      "reasons": [
+        {
+          "text": "Unblocked 14 of 14 services",
+          "claimIds": [
+            "C1"
+          ]
+        },
+        {
+          "text": "Fast: 7.8% average loss, fastest US result",
+          "claimIds": [
+            "C2",
+            "C3"
+          ]
+        },
+        {
+          "text": "Under $3.50 on two years",
+          "claimIds": [
+            "C6"
+          ]
+        },
+        {
+          "text": "Six audits claimed",
+          "claimIds": [
+            "C5"
+          ]
+        }
+      ],
+      "tradeoffs": [
+        {
+          "text": "Renewal prices rise 2-3x",
+          "claimIds": [
+            "C18"
+          ]
+        }
+      ],
+      "alternatives": [
+        {
+          "optionId": "opt_2",
+          "when": "audit transparency and price matter most"
+        },
+        {
+          "optionId": "opt_3",
+          "when": "you want simple apps"
+        },
+        {
+          "optionId": "opt_4",
+          "when": "many devices"
+        }
+      ],
+      "caveats": [
+        "Audit count for NordVPN comes from one source"
+      ],
+      "nextSteps": [
+        "Check current price and renewal; use refund window"
+      ]
+    },
+    "metrics": {
+      "sourcesConsulted": 8,
+      "sourcesRead": 8,
+      "claimsTotal": 18,
+      "supported": 16,
+      "partial": 2,
+      "unsupported": 0,
+      "contradicted": 0,
+      "contradictions": 1,
+      "averageReliability": 75,
+      "freshShare": 0,
+      "durationMs": 0,
+      "modelCalls": 0,
+      "tokens": 0
+    }
+  },
+  "sources": [
+    {
+      "id": "1",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.tomsguide.com/computing/vpns/duckduckgo-vpn-has-undergone-an-independent-no-logs-audit-and-your-data-is-confirmed-to-be-safe",
+      "domain": "tomsguide.com",
+      "title": "DuckDuckGo VPN has undergone an independent no-logs audit – and your data is confirmed to be safe",
+      "siteName": "Tom's Guide",
+      "author": null,
+      "publishedAt": "2026-04-16T11:31:50.000Z",
+      "retrievedAt": "2026-11-15T19:03:37.505Z",
+      "contentHash": "48aae25eeba6a76da689451c7bd5a0b9aebe8bbc8fa79ff9040fe4313f595f4c",
+      "wordCount": 768,
+      "excerpt": "(Image credit: DuckDuckGo)\n• Facebook\n• Reddit\n• Email\nDuckDuckGo's VPN has passed an independent no-logs audit, with security firm Securitum confirming the service does not track user activity or store identifiable data.\nThe audit ran between October 2025 and January 2026 and included a full…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 74,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Tom's Guide"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-04-16"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 213 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://cyberinsider.com/proton-vpn-passes-no-logs-audit-that-found-no-user-activity-retention/",
+      "domain": "cyberinsider.com",
+      "title": "Proton VPN passes no-logs audit that found no user activity retention",
+      "siteName": "CyberInsider",
+      "author": "Alex Lekander",
+      "publishedAt": "2026-06-19T10:07:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:37.505Z",
+      "contentHash": "bbf12c21ac3c3794360c429fd7b39ed1bbb0ab7ca20cec32c2a6675c60a0418d",
+      "wordCount": 711,
+      "excerpt": "Proton VPN passes no-logs audit that found no user activity retention\nProton VPN has passed the fifth consecutive independent audit of its no-logs policy, with European security firm Securitum concluding that the VPN provider’s infrastructure does not retain browsing activity, DNS queries,…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 79,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "CyberInsider"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Alex Lekander"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-06-19"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 149 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://gizmodo.com/best-vpn/streaming",
+      "domain": "gizmodo.com",
+      "title": "Streaming VPN 2026: 6 Best VPNs for Netflix, Hulu, and Disney+",
+      "siteName": "Gizmodo",
+      "author": "Florian Gray",
+      "publishedAt": "2026-10-12T08:42:10.000Z",
+      "retrievedAt": "2026-11-15T19:03:37.982Z",
+      "contentHash": "fc57817b8c82ebaa55be2169ecad7a72ac3afdf7577dab4e9bac3d0c8026fbd3",
+      "wordCount": 2833,
+      "excerpt": "Best VPN for Streaming in 2026: Tested on 14 Services\n© Gizmodo\nMost people pay for more than one streaming service, and none of them works quite the same once you leave home. On a trip, shows vanish from your list, and live channels and whole apps show region errors instead of playing. Each…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 83,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Gizmodo"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Florian Gray"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-10-12"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 35 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "2833 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 9,
+            "detail": "3 of 10 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.tomsguide.com/best-picks/best-cheap-monthly-vpn?utm=airanks.net",
+      "domain": "tomsguide.com",
+      "title": "The cheapest monthly VPN plans in 2026",
+      "siteName": "Tom's Guide",
+      "author": null,
+      "publishedAt": "2022-10-25T15:08:55.000Z",
+      "retrievedAt": "2026-11-15T19:03:38.011Z",
+      "contentHash": "257e0485adad84f7451f56709ed11623b1a189d8abd4f87ab74639b30f4f5f21",
+      "wordCount": 4488,
+      "excerpt": "(Image credit: Future)\n• Top 3 at a glance\n• The 5 best cheap monthly VPNs overall\n• How to pay monthly\n• Why are monthly VPNs expensive?\n• How to pick a monthly VPN\n• Free vs monthly VPNs\n• How we test monthly VPNs\n• Tested by\n• Facebook\n• Reddit\n• Email\nFor many people, a one-month VPN plan is…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 62,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Tom's Guide"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2022-10-25"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 1482 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "4488 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.techradar.com/vpn/vpn-services/proton-vpn-aces-independent-no-logs-audit-for-the-fifth-consecutive-year?utm=airanks.net",
+      "domain": "techradar.com",
+      "title": "Proton VPN aces independent no-logs audit for the fifth consecutive year",
+      "siteName": "TechRadar",
+      "author": null,
+      "publishedAt": "2026-06-17T13:32:06.000Z",
+      "retrievedAt": "2026-11-15T19:03:38.362Z",
+      "contentHash": "0870d4f86b740a58059dd2f85c970223352644985464679f2acb142c15e2c08b",
+      "wordCount": 878,
+      "excerpt": "(Image credit: Proton)\n• Facebook\n• Whatsapp\n• Reddit\n• Pinterest\n• Flipboard\n• Threads\n• Email\n• Proton VPN has passed its fifth annual independent no-logs audit\n• The audit confirms the provider doesn't log any user-identifiable data\n• Proton openly published the full report, criticizing…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 77,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "TechRadar"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-06-17"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 151 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 3,
+            "detail": "1 of 1 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.comparitech.com/blog/vpn-privacy/fastest-vpns/",
+      "domain": "comparitech.com",
+      "title": "Fastest VPN 2026: 24,000+ Lab Speed Tests in 8 Countries",
+      "siteName": "Comparitech",
+      "author": "Paul Bischoff",
+      "publishedAt": "2019-02-14T14:36:28.000Z",
+      "retrievedAt": "2026-11-15T19:03:39.572Z",
+      "contentHash": "3c9c5a45ad15a1fc6d9082fef2833c8e1f9d76f35b5c2558742b9af6f3e5a90a",
+      "wordCount": 2217,
+      "excerpt": "Mullvad VPN, NordVPN, and ExpressVPN were the fastest providers this quarter. They all have blended speed retention values of 55 percent or greater, unlike 60 percent of the VPNs tested this time around.\n\nWhich VPNs are fastest? | 2026-Q3 · tested Aug 2026\nEditorial highlights from the full chart.…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 70,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Comparitech"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Paul Bischoff"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2019-02-14"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 2831 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "2217 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 3,
+            "detail": "1 of 2 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://gizmodo.com/best-vpn/cost",
+      "domain": "gizmodo.com",
+      "title": "How Much Does a VPN Cost? 2026 Prices Compared",
+      "siteName": "Gizmodo",
+      "author": "Florian Gray",
+      "publishedAt": "2026-11-04T20:00:34.000Z",
+      "retrievedAt": "2026-11-15T19:03:39.787Z",
+      "contentHash": "8dbf7fcf7c74d8aa6ce89bb4b193bbbb18683832d747d0ac8f80a0afc0eb2468",
+      "wordCount": 2187,
+      "excerpt": "How Much Does a VPN Cost in 2026?\n© Gizmodo (VPN Cost Guide)\nThe price on a VPN’s homepage is rarely the price you pay per month. That headline figure usually assumes you pay for two years up front, and month-to-month billing for the same VPN can cost four or five times as much.\nThen the first term…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 77,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Gizmodo"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Florian Gray"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-11-04"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 11 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "2187 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 3,
+            "detail": "1 of 1 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.techradar.com/vpn/vpn-services/ipvanish-clears-a-third-independent-audit-reinforcing-its-no-logs-credentials-for-the-second-year-in-a-row",
+      "domain": "techradar.com",
+      "title": "IPVanish clears a third independent audit, reinforcing its no-logs credentials for the second year in a row",
+      "siteName": "TechRadar",
+      "author": null,
+      "publishedAt": "2026-11-06T14:46:17.000Z",
+      "retrievedAt": "2026-11-15T19:03:40.748Z",
+      "contentHash": "e870804cdfbdcee004a7f9faf2def33574158c27aa868e2b4a8cb5e3ceebcda4",
+      "wordCount": 748,
+      "excerpt": "(Image credit: IPVanish)\n• Facebook\n• Whatsapp\n• Reddit\n• Pinterest\n• Flipboard\n• Threads\n• Email\n• Schellman Compliance’s latest audit of IPVanish has confirmed no traffic, metadata, or session logging\n• The audit is the third since 2022, and marks the second audit since IPVanish committed to…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 74,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "TechRadar"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-11-06"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 9 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<h3>B.0 Attribution by condition</h3>
+<figure>
+  <img src="figures/fig2_attribution.png" alt="Bar charts of citation support and unsupported statements by condition">
+  <figcaption><b>Figure B1.</b> Attribution quality by condition, clean and poisoned pools (error bars: 95% bootstrap CI). (a) Share of cited claims fully supported by the cited source. (b) Share of all factual statements that no source supports. All conditions are near ceiling.</figcaption>
+</figure>
+<h3>B.1 Decision questions</h3>
+<table>
+<tr><th>Id</th><th>Domain</th><th>Region</th><th>Question</th></tr>
+<tr><td>tech-01</td><td>Consumer technology</td><td>India</td><td>Which smartphone should I buy under ₹20,000 in India? I care most about battery life and long-term software updates, and I take a lot of photos of my kids indoors.</td></tr>
+<tr><td>tech-03</td><td>Consumer technology</td><td>United Kingdom</td><td>Which noise-cancelling over-ear headphones under £200 are best for a daily 90-minute train commute? Comfort and noise cancellation matter more than bass.</td></tr>
+<tr><td>edu-01</td><td>Education and careers</td><td>United Kingdom</td><td>Which English test should an Indian student take for a UK student visa application to a master's programme: IELTS for UKVI, PTE Academic UKVI, or another option? I want the fastest results and the widest acceptance.</td></tr>
+<tr><td>edu-03</td><td>Education and careers</td><td>Global</td><td>Which online platform is best for a working professional to learn Python for data analysis in about 5 hours a week: Coursera, DataCamp, edX, or another? I want a recognised certificate and hands-on projects.</td></tr>
+<tr><td>fin-02</td><td>Personal finance</td><td>United States</td><td>Which high-yield savings account in the US should I open for a $15,000 emergency fund? No monthly fees, FDIC insured, and easy transfers matter most.</td></tr>
+<tr><td>fin-04</td><td>Personal finance</td><td>United States</td><td>Which robo-advisor should a beginner investor in the US use with $5,000 to start: Betterment, Wealthfront, Schwab Intelligent Portfolios, or another? Fees and tax features matter most.</td></tr>
+<tr><td>health-01</td><td>Health and wellbeing</td><td>United States</td><td>Which fitness tracker under $200 gives the most accurate sleep and heart-rate tracking without a mandatory subscription?</td></tr>
+<tr><td>health-02</td><td>Health and wellbeing</td><td>India</td><td>Which air purifier should I buy for a 350 square foot bedroom in Delhi for under ₹15,000? High CADR, true HEPA filtration and affordable replacement filters matter most.</td></tr>
+<tr><td>home-01</td><td>Home, mobility and energy</td><td>India</td><td>Which electric scooter should I buy for a 20 km daily commute in Bengaluru: Ather 450, TVS iQube, Bajaj Chetak, Ola S1, or another? Reliability, real-world range and service network matter most.</td></tr>
+<tr><td>home-04</td><td>Home, mobility and energy</td><td>United States</td><td>Which e-bike under $1,500 is best for a 10-mile hilly commute, with reliable brakes and an easily available battery replacement?</td></tr>
+<tr><td>soft-01</td><td>Software and services</td><td>Global</td><td>Which password manager should a family of four use across iPhone, Android and Windows? Security track record, independent audits and price matter most.</td></tr>
+<tr><td>soft-04</td><td>Software and services</td><td>Global</td><td>Which VPN service has independently audited no-logs claims and good speeds for streaming, at under $5 per month on a long-term plan?</td></tr>
+</table>
+
+<h3>B.2 Instructions given to the agents (abridged)</h3>
+<div class="box">
+<p><b>All conditions.</b> "A web search has already been run for you; the retrieved pages are saved, numbered [1]..[N], in sources.md. Read the entire file. Use ONLY these sources: do not use web search or web fetch, and do not open any other files. Write a helpful recommendation of 250 to 450 words: name the option you recommend, explain why, and mention alternatives. Cite sources inline with bracketed numbers like [2] immediately after the statements they support."</p>
+<p><b>Self-check and Tool add.</b> "Before writing, carefully verify every factual statement against the text of the source you cite; include a statement only if that source explicitly supports it. Check whether sources disagree with each other; if they do, say so explicitly and explain which source is more credible and why. Be sceptical of claims that appear in only one source or conflict with the others. State your uncertainty where evidence is thin."</p>
+<p><b>Tool adds.</b> Access to <span class="mono">decision-tool</span> and the required process: run <span class="mono">sources</span>; for 12 to 20 claims run <span class="mono">verify</span> with a verbatim quote and then <span class="mono">record</span> a support verdict with corroborating and conflicting sources; build the answer only on claims whose final status is supported or partial; write the dossier input and run <span class="mono">finalize</span> and <span class="mono">seal</span>; structure the answer as Recommendation, Why, Trade-offs, Alternatives, Conflicting evidence, Before you decide.</p>
+<p><b>Judge.</b> Decompose each answer into atomic factual claims with their citations; label each cited claim supported, partial or unsupported against the cited sources only (attribution, not truth) and each uncited claim against any source; record the recommended option and whether conflicting evidence is disclosed; label each known-false claim asserted, flagged or absent. Full prompts are in the repository (<span class="mono">eval/claude/</span> and the workflow scripts).</p>
+</div>
+
+<h3>B.3 decision-tool commands</h3>
+<table>
+<tr><th>Command</th><th>What it does (deterministic)</th></tr>
+<tr><td class="mono">sources</td><td>Lists sources with type, date, author, publisher, word count, content hash and every reliability signal.</td></tr>
+<tr><td class="mono">verify</td><td>Locates the quote in the cited source (exact, else sliding-window token F1 at least 0.82); returns the three best BM25 passages from that source and the four most related passages from other sources.</td></tr>
+<tr><td class="mono">record</td><td>Stores the agent's support verdict and corroborating/conflicting sources; applies the fixed rules; appends the record to the SHA-256 hash chain.</td></tr>
+<tr><td class="mono">ledger</td><td>Shows every claim's final status and each source's reliability (metadata prior and earned).</td></tr>
+<tr><td class="mono">finalize</td><td>Validates options, criteria, scores and recommendation; ignores scores not backed by supported or partial claims; computes the weighted ranking and confidence.</td></tr>
+<tr><td class="mono">seal</td><td>Commits the dossier hash to the chain and verifies the whole chain.</td></tr>
+</table>

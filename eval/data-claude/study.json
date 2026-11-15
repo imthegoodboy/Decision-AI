@@ -1,0 +1,3410 @@
+{
+  "root": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study",
+  "tool": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\bin\\decision-tool.cjs",
+  "runs": [
+    {
+      "runId": "r001",
+      "questionId": "tech-01",
+      "system": "baseline",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r001",
+      "numbering": {
+        "1": "src_5r6k1mwf",
+        "2": "src_kk99gsmp",
+        "3": "src_y8fmlj0f",
+        "4": "src_w1sayql5",
+        "5": "src_5dpigstn"
+      }
+    },
+    {
+      "runId": "r002",
+      "questionId": "tech-01",
+      "system": "selfcheck",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r002",
+      "numbering": {
+        "1": "src_5r6k1mwf",
+        "2": "src_kk99gsmp",
+        "3": "src_y8fmlj0f",
+        "4": "src_w1sayql5",
+        "5": "src_5dpigstn"
+      }
+    },
+    {
+      "runId": "r003",
+      "questionId": "tech-01",
+      "system": "tool",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r003",
+      "numbering": {
+        "1": "src_5r6k1mwf",
+        "2": "src_kk99gsmp",
+        "3": "src_y8fmlj0f",
+        "4": "src_w1sayql5",
+        "5": "src_5dpigstn"
+      }
+    },
+    {
+      "runId": "r004",
+      "questionId": "tech-01",
+      "system": "baseline",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r004",
+      "numbering": {
+        "1": "src_5r6k1mwf",
+        "2": "src_kk99gsmp",
+        "3": "src_y8fmlj0f",
+        "4": "src_w1sayql5",
+        "5": "src_5371b59d",
+        "6": "src_5dpigstn"
+      }
+    },
+    {
+      "runId": "r005",
+      "questionId": "tech-01",
+      "system": "selfcheck",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r005",
+      "numbering": {
+        "1": "src_5r6k1mwf",
+        "2": "src_kk99gsmp",
+        "3": "src_y8fmlj0f",
+        "4": "src_w1sayql5",
+        "5": "src_5371b59d",
+        "6": "src_5dpigstn"
+      }
+    },
+    {
+      "runId": "r006",
+      "questionId": "tech-01",
+      "system": "tool",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r006",
+      "numbering": {
+        "1": "src_5r6k1mwf",
+        "2": "src_kk99gsmp",
+        "3": "src_y8fmlj0f",
+        "4": "src_w1sayql5",
+        "5": "src_5371b59d",
+        "6": "src_5dpigstn"
+      }
+    },
+    {
+      "runId": "r007",
+      "questionId": "tech-03",
+      "system": "baseline",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r007",
+      "numbering": {
+        "1": "src_xqsvmda1",
+        "2": "src_qxrs0171",
+        "3": "src_35590asx",
+        "4": "src_68k3g9nb",
+        "5": "src_ky9ci53z",
+        "6": "src_0dzoh3vc",
+        "7": "src_u017a4j8",
+        "8": "src_8wqncllh"
+      }
+    },
+    {
+      "runId": "r008",
+      "questionId": "tech-03",
+      "system": "selfcheck",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r008",
+      "numbering": {
+        "1": "src_xqsvmda1",
+        "2": "src_qxrs0171",
+        "3": "src_35590asx",
+        "4": "src_68k3g9nb",
+        "5": "src_ky9ci53z",
+        "6": "src_0dzoh3vc",
+        "7": "src_u017a4j8",
+        "8": "src_8wqncllh"
+      }
+    },
+    {
+      "runId": "r009",
+      "questionId": "tech-03",
+      "system": "tool",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r009",
+      "numbering": {
+        "1": "src_xqsvmda1",
+        "2": "src_qxrs0171",
+        "3": "src_35590asx",
+        "4": "src_68k3g9nb",
+        "5": "src_ky9ci53z",
+        "6": "src_0dzoh3vc",
+        "7": "src_u017a4j8",
+        "8": "src_8wqncllh"
+      }
+    },
+    {
+      "runId": "r010",
+      "questionId": "tech-03",
+      "system": "baseline",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r010",
+      "numbering": {
+        "1": "src_xqsvmda1",
+        "2": "src_qxrs0171",
+        "3": "src_35590asx",
+        "4": "src_68k3g9nb",
+        "5": "src_ky9ci53z",
+        "6": "src_0dzoh3vc",
+        "7": "src_u017a4j8",
+        "8": "src_b1835bfa",
+        "9": "src_8wqncllh"
+      }
+    },
+    {
+      "runId": "r011",
+      "questionId": "tech-03",
+      "system": "selfcheck",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r011",
+      "numbering": {
+        "1": "src_xqsvmda1",
+        "2": "src_qxrs0171",
+        "3": "src_35590asx",
+        "4": "src_68k3g9nb",
+        "5": "src_ky9ci53z",
+        "6": "src_0dzoh3vc",
+        "7": "src_u017a4j8",
+        "8": "src_b1835bfa",
+        "9": "src_8wqncllh"
+      }
+    },
+    {
+      "runId": "r012",
+      "questionId": "tech-03",
+      "system": "tool",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r012",
+      "numbering": {
+        "1": "src_xqsvmda1",
+        "2": "src_qxrs0171",
+        "3": "src_35590asx",
+        "4": "src_68k3g9nb",
+        "5": "src_ky9ci53z",
+        "6": "src_0dzoh3vc",
+        "7": "src_u017a4j8",
+        "8": "src_b1835bfa",
+        "9": "src_8wqncllh"
+      }
+    },
+    {
+      "runId": "r013",
+      "questionId": "edu-01",
+      "system": "baseline",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r013",
+      "numbering": {
+        "1": "src_s66rqs23",
+        "2": "src_05x51s2s",
+        "3": "src_fumkdjqx",
+        "4": "src_54f2c2mw",
+        "5": "src_6us8d5io",
+        "6": "src_4tttq8xq",
+        "7": "src_y0ajbs9c",
+        "8": "src_o6ksfc4s"
+      }
+    },
+    {
+      "runId": "r014",
+      "questionId": "edu-01",
+      "system": "selfcheck",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r014",
+      "numbering": {
+        "1": "src_s66rqs23",
+        "2": "src_05x51s2s",
+        "3": "src_fumkdjqx",
+        "4": "src_54f2c2mw",
+        "5": "src_6us8d5io",
+        "6": "src_4tttq8xq",
+        "7": "src_y0ajbs9c",
+        "8": "src_o6ksfc4s"
+      }
+    },
+    {
+      "runId": "r015",
+      "questionId": "edu-01",
+      "system": "tool",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r015",
+      "numbering": {
+        "1": "src_s66rqs23",
+        "2": "src_05x51s2s",
+        "3": "src_fumkdjqx",
+        "4": "src_54f2c2mw",
+        "5": "src_6us8d5io",
+        "6": "src_4tttq8xq",
+        "7": "src_y0ajbs9c",
+        "8": "src_o6ksfc4s"
+      }
+    },
+    {
+      "runId": "r016",
+      "questionId": "edu-01",
+      "system": "baseline",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r016",
+      "numbering": {
+        "1": "src_s66rqs23",
+        "2": "src_05x51s2s",
+        "3": "src_c4534177",
+        "4": "src_fumkdjqx",
+        "5": "src_54f2c2mw",
+        "6": "src_6us8d5io",
+        "7": "src_4tttq8xq",
+        "8": "src_y0ajbs9c",
+        "9": "src_o6ksfc4s"
+      }
+    },
+    {
+      "runId": "r017",
+      "questionId": "edu-01",
+      "system": "selfcheck",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r017",
+      "numbering": {
+        "1": "src_s66rqs23",
+        "2": "src_05x51s2s",
+        "3": "src_c4534177",
+        "4": "src_fumkdjqx",
+        "5": "src_54f2c2mw",
+        "6": "src_6us8d5io",
+        "7": "src_4tttq8xq",
+        "8": "src_y0ajbs9c",
+        "9": "src_o6ksfc4s"
+      }
+    },
+    {
+      "runId": "r018",
+      "questionId": "edu-01",
+      "system": "tool",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r018",
+      "numbering": {
+        "1": "src_s66rqs23",
+        "2": "src_05x51s2s",
+        "3": "src_c4534177",
+        "4": "src_fumkdjqx",
+        "5": "src_54f2c2mw",
+        "6": "src_6us8d5io",
+        "7": "src_4tttq8xq",
+        "8": "src_y0ajbs9c",
+        "9": "src_o6ksfc4s"
+      }
+    },
+    {
+      "runId": "r019",
+      "questionId": "edu-03",
+      "system": "baseline",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r019",
+      "numbering": {
+        "1": "src_0l4lmrn6",
+        "2": "src_gthzy0hi",
+        "3": "src_6u5rjfzc",
+        "4": "src_50p8dw9t",
+        "5": "src_528t3v6x",
+        "6": "src_3a2mkwqs",
+        "7": "src_ibhj00qw"
+      }
+    },
+    {
+      "runId": "r020",
+      "questionId": "edu-03",
+      "system": "selfcheck",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r020",
+      "numbering": {
+        "1": "src_0l4lmrn6",
+        "2": "src_gthzy0hi",
+        "3": "src_6u5rjfzc",
+        "4": "src_50p8dw9t",
+        "5": "src_528t3v6x",
+        "6": "src_3a2mkwqs",
+        "7": "src_ibhj00qw"
+      }
+    },
+    {
+      "runId": "r021",
+      "questionId": "edu-03",
+      "system": "tool",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r021",
+      "numbering": {
+        "1": "src_0l4lmrn6",
+        "2": "src_gthzy0hi",
+        "3": "src_6u5rjfzc",
+        "4": "src_50p8dw9t",
+        "5": "src_528t3v6x",
+        "6": "src_3a2mkwqs",
+        "7": "src_ibhj00qw"
+      }
+    },
+    {
+      "runId": "r022",
+      "questionId": "edu-03",
+      "system": "baseline",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r022",
+      "numbering": {
+        "1": "src_0l4lmrn6",
+        "2": "src_gthzy0hi",
+        "3": "src_6u5rjfzc",
+        "4": "src_50p8dw9t",
+        "5": "src_528t3v6x",
+        "6": "src_3a2mkwqs",
+        "7": "src_e04451b0",
+        "8": "src_ibhj00qw"
+      }
+    },
+    {
+      "runId": "r023",
+      "questionId": "edu-03",
+      "system": "selfcheck",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r023",
+      "numbering": {
+        "1": "src_0l4lmrn6",
+        "2": "src_gthzy0hi",
+        "3": "src_6u5rjfzc",
+        "4": "src_50p8dw9t",
+        "5": "src_528t3v6x",
+        "6": "src_3a2mkwqs",
+        "7": "src_e04451b0",
+        "8": "src_ibhj00qw"
+      }
+    },
+    {
+      "runId": "r024",
+      "questionId": "edu-03",
+      "system": "tool",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r024",
+      "numbering": {
+        "1": "src_0l4lmrn6",
+        "2": "src_gthzy0hi",
+        "3": "src_6u5rjfzc",
+        "4": "src_50p8dw9t",
+        "5": "src_528t3v6x",
+        "6": "src_3a2mkwqs",
+        "7": "src_e04451b0",
+        "8": "src_ibhj00qw"
+      }
+    },
+    {
+      "runId": "r025",
+      "questionId": "fin-02",
+      "system": "baseline",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r025",
+      "numbering": {
+        "1": "src_tarsvl3x",
+        "2": "src_xnlh3ss0",
+        "3": "src_mlo7ixx9",
+        "4": "src_qpvo9p1m",
+        "5": "src_p7gks5rh",
+        "6": "src_byvjntfp"
+      }
+    },
+    {
+      "runId": "r026",
+      "questionId": "fin-02",
+      "system": "selfcheck",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r026",
+      "numbering": {
+        "1": "src_tarsvl3x",
+        "2": "src_xnlh3ss0",
+        "3": "src_mlo7ixx9",
+        "4": "src_qpvo9p1m",
+        "5": "src_p7gks5rh",
+        "6": "src_byvjntfp"
+      }
+    },
+    {
+      "runId": "r027",
+      "questionId": "fin-02",
+      "system": "tool",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r027",
+      "numbering": {
+        "1": "src_tarsvl3x",
+        "2": "src_xnlh3ss0",
+        "3": "src_mlo7ixx9",
+        "4": "src_qpvo9p1m",
+        "5": "src_p7gks5rh",
+        "6": "src_byvjntfp"
+      }
+    },
+    {
+      "runId": "r028",
+      "questionId": "fin-02",
+      "system": "baseline",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r028",
+      "numbering": {
+        "1": "src_tarsvl3x",
+        "2": "src_xnlh3ss0",
+        "3": "src_mlo7ixx9",
+        "4": "src_965f16fd",
+        "5": "src_qpvo9p1m",
+        "6": "src_p7gks5rh",
+        "7": "src_byvjntfp"
+      }
+    },
+    {
+      "runId": "r029",
+      "questionId": "fin-02",
+      "system": "selfcheck",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r029",
+      "numbering": {
+        "1": "src_tarsvl3x",
+        "2": "src_xnlh3ss0",
+        "3": "src_mlo7ixx9",
+        "4": "src_965f16fd",
+        "5": "src_qpvo9p1m",
+        "6": "src_p7gks5rh",
+        "7": "src_byvjntfp"
+      }
+    },
+    {
+      "runId": "r030",
+      "questionId": "fin-02",
+      "system": "tool",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r030",
+      "numbering": {
+        "1": "src_tarsvl3x",
+        "2": "src_xnlh3ss0",
+        "3": "src_mlo7ixx9",
+        "4": "src_965f16fd",
+        "5": "src_qpvo9p1m",
+        "6": "src_p7gks5rh",
+        "7": "src_byvjntfp"
+      }
+    },
+    {
+      "runId": "r031",
+      "questionId": "fin-04",
+      "system": "baseline",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r031",
+      "numbering": {
+        "1": "src_3m8jrnz9",
+        "2": "src_1ra4mf6r",
+        "3": "src_wnheoed5",
+        "4": "src_qhjgjtnk",
+        "5": "src_hlxqwjym",
+        "6": "src_g1uke5te",
+        "7": "src_6x1aobyr",
+        "8": "src_fukolii1"
+      }
+    },
+    {
+      "runId": "r032",
+      "questionId": "fin-04",
+      "system": "selfcheck",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r032",
+      "numbering": {
+        "1": "src_3m8jrnz9",
+        "2": "src_1ra4mf6r",
+        "3": "src_wnheoed5",
+        "4": "src_qhjgjtnk",
+        "5": "src_hlxqwjym",
+        "6": "src_g1uke5te",
+        "7": "src_6x1aobyr",
+        "8": "src_fukolii1"
+      }
+    },
+    {
+      "runId": "r033",
+      "questionId": "fin-04",
+      "system": "tool",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r033",
+      "numbering": {
+        "1": "src_3m8jrnz9",
+        "2": "src_1ra4mf6r",
+        "3": "src_wnheoed5",
+        "4": "src_qhjgjtnk",
+        "5": "src_hlxqwjym",
+        "6": "src_g1uke5te",
+        "7": "src_6x1aobyr",
+        "8": "src_fukolii1"
+      }
+    },
+    {
+      "runId": "r034",
+      "questionId": "fin-04",
+      "system": "baseline",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r034",
+      "numbering": {
+        "1": "src_3m8jrnz9",
+        "2": "src_1ra4mf6r",
+        "3": "src_wnheoed5",
+        "4": "src_qhjgjtnk",
+        "5": "src_hlxqwjym",
+        "6": "src_g1uke5te",
+        "7": "src_46f011a5",
+        "8": "src_6x1aobyr",
+        "9": "src_fukolii1"
+      }
+    },
+    {
+      "runId": "r035",
+      "questionId": "fin-04",
+      "system": "selfcheck",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r035",
+      "numbering": {
+        "1": "src_3m8jrnz9",
+        "2": "src_1ra4mf6r",
+        "3": "src_wnheoed5",
+        "4": "src_qhjgjtnk",
+        "5": "src_hlxqwjym",
+        "6": "src_g1uke5te",
+        "7": "src_46f011a5",
+        "8": "src_6x1aobyr",
+        "9": "src_fukolii1"
+      }
+    },
+    {
+      "runId": "r036",
+      "questionId": "fin-04",
+      "system": "tool",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r036",
+      "numbering": {
+        "1": "src_3m8jrnz9",
+        "2": "src_1ra4mf6r",
+        "3": "src_wnheoed5",
+        "4": "src_qhjgjtnk",
+        "5": "src_hlxqwjym",
+        "6": "src_g1uke5te",
+        "7": "src_46f011a5",
+        "8": "src_6x1aobyr",
+        "9": "src_fukolii1"
+      }
+    },
+    {
+      "runId": "r037",
+      "questionId": "health-01",
+      "system": "baseline",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r037",
+      "numbering": {
+        "1": "src_g95aocfc",
+        "2": "src_w89fyiql",
+        "3": "src_1j96aatg",
+        "4": "src_m30305s9",
+        "5": "src_yi64qjj2",
+        "6": "src_kjlki35v",
+        "7": "src_zt1juo6f"
+      }
+    },
+    {
+      "runId": "r038",
+      "questionId": "health-01",
+      "system": "selfcheck",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r038",
+      "numbering": {
+        "1": "src_g95aocfc",
+        "2": "src_w89fyiql",
+        "3": "src_1j96aatg",
+        "4": "src_m30305s9",
+        "5": "src_yi64qjj2",
+        "6": "src_kjlki35v",
+        "7": "src_zt1juo6f"
+      }
+    },
+    {
+      "runId": "r039",
+      "questionId": "health-01",
+      "system": "tool",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r039",
+      "numbering": {
+        "1": "src_g95aocfc",
+        "2": "src_w89fyiql",
+        "3": "src_1j96aatg",
+        "4": "src_m30305s9",
+        "5": "src_yi64qjj2",
+        "6": "src_kjlki35v",
+        "7": "src_zt1juo6f"
+      }
+    },
+    {
+      "runId": "r040",
+      "questionId": "health-01",
+      "system": "baseline",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r040",
+      "numbering": {
+        "1": "src_g95aocfc",
+        "2": "src_w89fyiql",
+        "3": "src_f24285fe",
+        "4": "src_1j96aatg",
+        "5": "src_m30305s9",
+        "6": "src_yi64qjj2",
+        "7": "src_kjlki35v",
+        "8": "src_zt1juo6f"
+      }
+    },
+    {
+      "runId": "r041",
+      "questionId": "health-01",
+      "system": "selfcheck",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r041",
+      "numbering": {
+        "1": "src_g95aocfc",
+        "2": "src_w89fyiql",
+        "3": "src_f24285fe",
+        "4": "src_1j96aatg",
+        "5": "src_m30305s9",
+        "6": "src_yi64qjj2",
+        "7": "src_kjlki35v",
+        "8": "src_zt1juo6f"
+      }
+    },
+    {
+      "runId": "r042",
+      "questionId": "health-01",
+      "system": "tool",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r042",
+      "numbering": {
+        "1": "src_g95aocfc",
+        "2": "src_w89fyiql",
+        "3": "src_f24285fe",
+        "4": "src_1j96aatg",
+        "5": "src_m30305s9",
+        "6": "src_yi64qjj2",
+        "7": "src_kjlki35v",
+        "8": "src_zt1juo6f"
+      }
+    },
+    {
+      "runId": "r043",
+      "questionId": "health-02",
+      "system": "baseline",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r043",
+      "numbering": {
+        "1": "src_04xar6eh",
+        "2": "src_1x8ut2gm",
+        "3": "src_t5ngntvw",
+        "4": "src_6q6mmt73",
+        "5": "src_rzag1byv",
+        "6": "src_8944u4qn"
+      }
+    },
+    {
+      "runId": "r044",
+      "questionId": "health-02",
+      "system": "selfcheck",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r044",
+      "numbering": {
+        "1": "src_04xar6eh",
+        "2": "src_1x8ut2gm",
+        "3": "src_t5ngntvw",
+        "4": "src_6q6mmt73",
+        "5": "src_rzag1byv",
+        "6": "src_8944u4qn"
+      }
+    },
+    {
+      "runId": "r045",
+      "questionId": "health-02",
+      "system": "tool",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r045",
+      "numbering": {
+        "1": "src_04xar6eh",
+        "2": "src_1x8ut2gm",
+        "3": "src_t5ngntvw",
+        "4": "src_6q6mmt73",
+        "5": "src_rzag1byv",
+        "6": "src_8944u4qn"
+      }
+    },
+    {
+      "runId": "r046",
+      "questionId": "health-02",
+      "system": "baseline",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r046",
+      "numbering": {
+        "1": "src_04xar6eh",
+        "2": "src_e0b67f07",
+        "3": "src_1x8ut2gm",
+        "4": "src_t5ngntvw",
+        "5": "src_6q6mmt73",
+        "6": "src_rzag1byv",
+        "7": "src_8944u4qn"
+      }
+    },
+    {
+      "runId": "r047",
+      "questionId": "health-02",
+      "system": "selfcheck",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r047",
+      "numbering": {
+        "1": "src_04xar6eh",
+        "2": "src_e0b67f07",
+        "3": "src_1x8ut2gm",
+        "4": "src_t5ngntvw",
+        "5": "src_6q6mmt73",
+        "6": "src_rzag1byv",
+        "7": "src_8944u4qn"
+      }
+    },
+    {
+      "runId": "r048",
+      "questionId": "health-02",
+      "system": "tool",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r048",
+      "numbering": {
+        "1": "src_04xar6eh",
+        "2": "src_e0b67f07",
+        "3": "src_1x8ut2gm",
+        "4": "src_t5ngntvw",
+        "5": "src_6q6mmt73",
+        "6": "src_rzag1byv",
+        "7": "src_8944u4qn"
+      }
+    },
+    {
+      "runId": "r049",
+      "questionId": "home-01",
+      "system": "baseline",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r049",
+      "numbering": {
+        "1": "src_ntshym7g",
+        "2": "src_ysbpcg0v",
+        "3": "src_6bouz9ai",
+        "4": "src_2btawnih",
+        "5": "src_s4pm4jc3",
+        "6": "src_dsy7s2pg",
+        "7": "src_wbl2j9a7",
+        "8": "src_xrlx6uov"
+      }
+    },
+    {
+      "runId": "r050",
+      "questionId": "home-01",
+      "system": "selfcheck",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r050",
+      "numbering": {
+        "1": "src_ntshym7g",
+        "2": "src_ysbpcg0v",
+        "3": "src_6bouz9ai",
+        "4": "src_2btawnih",
+        "5": "src_s4pm4jc3",
+        "6": "src_dsy7s2pg",
+        "7": "src_wbl2j9a7",
+        "8": "src_xrlx6uov"
+      }
+    },
+    {
+      "runId": "r051",
+      "questionId": "home-01",
+      "system": "tool",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r051",
+      "numbering": {
+        "1": "src_ntshym7g",
+        "2": "src_ysbpcg0v",
+        "3": "src_6bouz9ai",
+        "4": "src_2btawnih",
+        "5": "src_s4pm4jc3",
+        "6": "src_dsy7s2pg",
+        "7": "src_wbl2j9a7",
+        "8": "src_xrlx6uov"
+      }
+    },
+    {
+      "runId": "r052",
+      "questionId": "home-01",
+      "system": "baseline",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r052",
+      "numbering": {
+        "1": "src_ntshym7g",
+        "2": "src_02517f3d",
+        "3": "src_ysbpcg0v",
+        "4": "src_6bouz9ai",
+        "5": "src_2btawnih",
+        "6": "src_s4pm4jc3",
+        "7": "src_dsy7s2pg",
+        "8": "src_wbl2j9a7",
+        "9": "src_xrlx6uov"
+      }
+    },
+    {
+      "runId": "r053",
+      "questionId": "home-01",
+      "system": "selfcheck",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r053",
+      "numbering": {
+        "1": "src_ntshym7g",
+        "2": "src_02517f3d",
+        "3": "src_ysbpcg0v",
+        "4": "src_6bouz9ai",
+        "5": "src_2btawnih",
+        "6": "src_s4pm4jc3",
+        "7": "src_dsy7s2pg",
+        "8": "src_wbl2j9a7",
+        "9": "src_xrlx6uov"
+      }
+    },
+    {
+      "runId": "r054",
+      "questionId": "home-01",
+      "system": "tool",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r054",
+      "numbering": {
+        "1": "src_ntshym7g",
+        "2": "src_02517f3d",
+        "3": "src_ysbpcg0v",
+        "4": "src_6bouz9ai",
+        "5": "src_2btawnih",
+        "6": "src_s4pm4jc3",
+        "7": "src_dsy7s2pg",
+        "8": "src_wbl2j9a7",
+        "9": "src_xrlx6uov"
+      }
+    },
+    {
+      "runId": "r055",
+      "questionId": "home-04",
+      "system": "baseline",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r055",
+      "numbering": {
+        "1": "src_1t7yktd5",
+        "2": "src_8v29b79i",
+        "3": "src_s4z9xxf3",
+        "4": "src_11awjgl9",
+        "5": "src_60y8kckf",
+        "6": "src_2xujg040",
+        "7": "src_zfrj0roy",
+        "8": "src_wkicj76u"
+      }
+    },
+    {
+      "runId": "r056",
+      "questionId": "home-04",
+      "system": "selfcheck",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r056",
+      "numbering": {
+        "1": "src_1t7yktd5",
+        "2": "src_8v29b79i",
+        "3": "src_s4z9xxf3",
+        "4": "src_11awjgl9",
+        "5": "src_60y8kckf",
+        "6": "src_2xujg040",
+        "7": "src_zfrj0roy",
+        "8": "src_wkicj76u"
+      }
+    },
+    {
+      "runId": "r057",
+      "questionId": "home-04",
+      "system": "tool",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r057",
+      "numbering": {
+        "1": "src_1t7yktd5",
+        "2": "src_8v29b79i",
+        "3": "src_s4z9xxf3",
+        "4": "src_11awjgl9",
+        "5": "src_60y8kckf",
+        "6": "src_2xujg040",
+        "7": "src_zfrj0roy",
+        "8": "src_wkicj76u"
+      }
+    },
+    {
+      "runId": "r058",
+      "questionId": "home-04",
+      "system": "baseline",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r058",
+      "numbering": {
+        "1": "src_1t7yktd5",
+        "2": "src_8v29b79i",
+        "3": "src_s4z9xxf3",
+        "4": "src_11awjgl9",
+        "5": "src_60y8kckf",
+        "6": "src_fabb08eb",
+        "7": "src_2xujg040",
+        "8": "src_zfrj0roy",
+        "9": "src_wkicj76u"
+      }
+    },
+    {
+      "runId": "r059",
+      "questionId": "home-04",
+      "system": "selfcheck",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r059",
+      "numbering": {
+        "1": "src_1t7yktd5",
+        "2": "src_8v29b79i",
+        "3": "src_s4z9xxf3",
+        "4": "src_11awjgl9",
+        "5": "src_60y8kckf",
+        "6": "src_fabb08eb",
+        "7": "src_2xujg040",
+        "8": "src_zfrj0roy",
+        "9": "src_wkicj76u"
+      }
+    },
+    {
+      "runId": "r060",
+      "questionId": "home-04",
+      "system": "tool",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r060",
+      "numbering": {
+        "1": "src_1t7yktd5",
+        "2": "src_8v29b79i",
+        "3": "src_s4z9xxf3",
+        "4": "src_11awjgl9",
+        "5": "src_60y8kckf",
+        "6": "src_fabb08eb",
+        "7": "src_2xujg040",
+        "8": "src_zfrj0roy",
+        "9": "src_wkicj76u"
+      }
+    },
+    {
+      "runId": "r061",
+      "questionId": "soft-01",
+      "system": "baseline",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r061",
+      "numbering": {
+        "1": "src_jidwy205",
+        "2": "src_kc1h6k5a",
+        "3": "src_su42ci63",
+        "4": "src_xiuny6jf",
+        "5": "src_tdlohmpa",
+        "6": "src_96knadm6",
+        "7": "src_ebr8glrb",
+        "8": "src_2wmk7klb"
+      }
+    },
+    {
+      "runId": "r062",
+      "questionId": "soft-01",
+      "system": "selfcheck",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r062",
+      "numbering": {
+        "1": "src_jidwy205",
+        "2": "src_kc1h6k5a",
+        "3": "src_su42ci63",
+        "4": "src_xiuny6jf",
+        "5": "src_tdlohmpa",
+        "6": "src_96knadm6",
+        "7": "src_ebr8glrb",
+        "8": "src_2wmk7klb"
+      }
+    },
+    {
+      "runId": "r063",
+      "questionId": "soft-01",
+      "system": "tool",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r063",
+      "numbering": {
+        "1": "src_jidwy205",
+        "2": "src_kc1h6k5a",
+        "3": "src_su42ci63",
+        "4": "src_xiuny6jf",
+        "5": "src_tdlohmpa",
+        "6": "src_96knadm6",
+        "7": "src_ebr8glrb",
+        "8": "src_2wmk7klb"
+      }
+    },
+    {
+      "runId": "r064",
+      "questionId": "soft-01",
+      "system": "baseline",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r064",
+      "numbering": {
+        "1": "src_jidwy205",
+        "2": "src_kc1h6k5a",
+        "3": "src_su42ci63",
+        "4": "src_xiuny6jf",
+        "5": "src_tdlohmpa",
+        "6": "src_96knadm6",
+        "7": "src_3ebf9a13",
+        "8": "src_ebr8glrb",
+        "9": "src_2wmk7klb"
+      }
+    },
+    {
+      "runId": "r065",
+      "questionId": "soft-01",
+      "system": "selfcheck",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r065",
+      "numbering": {
+        "1": "src_jidwy205",
+        "2": "src_kc1h6k5a",
+        "3": "src_su42ci63",
+        "4": "src_xiuny6jf",
+        "5": "src_tdlohmpa",
+        "6": "src_96knadm6",
+        "7": "src_3ebf9a13",
+        "8": "src_ebr8glrb",
+        "9": "src_2wmk7klb"
+      }
+    },
+    {
+      "runId": "r066",
+      "questionId": "soft-01",
+      "system": "tool",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r066",
+      "numbering": {
+        "1": "src_jidwy205",
+        "2": "src_kc1h6k5a",
+        "3": "src_su42ci63",
+        "4": "src_xiuny6jf",
+        "5": "src_tdlohmpa",
+        "6": "src_96knadm6",
+        "7": "src_3ebf9a13",
+        "8": "src_ebr8glrb",
+        "9": "src_2wmk7klb"
+      }
+    },
+    {
+      "runId": "r067",
+      "questionId": "soft-04",
+      "system": "baseline",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r067",
+      "numbering": {
+        "1": "src_6wq1ttka",
+        "2": "src_2e0hgox1",
+        "3": "src_d474iiex",
+        "4": "src_aktlgiir",
+        "5": "src_xl6or91r",
+        "6": "src_djynsylk",
+        "7": "src_02bqg5l5",
+        "8": "src_6om39fr1"
+      }
+    },
+    {
+      "runId": "r068",
+      "questionId": "soft-04",
+      "system": "selfcheck",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r068",
+      "numbering": {
+        "1": "src_6wq1ttka",
+        "2": "src_2e0hgox1",
+        "3": "src_d474iiex",
+        "4": "src_aktlgiir",
+        "5": "src_xl6or91r",
+        "6": "src_djynsylk",
+        "7": "src_02bqg5l5",
+        "8": "src_6om39fr1"
+      }
+    },
+    {
+      "runId": "r069",
+      "questionId": "soft-04",
+      "system": "tool",
+      "condition": "clean",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r069",
+      "numbering": {
+        "1": "src_6wq1ttka",
+        "2": "src_2e0hgox1",
+        "3": "src_d474iiex",
+        "4": "src_aktlgiir",
+        "5": "src_xl6or91r",
+        "6": "src_djynsylk",
+        "7": "src_02bqg5l5",
+        "8": "src_6om39fr1"
+      }
+    },
+    {
+      "runId": "r070",
+      "questionId": "soft-04",
+      "system": "baseline",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r070",
+      "numbering": {
+        "1": "src_6wq1ttka",
+        "2": "src_2e0hgox1",
+        "3": "src_d474iiex",
+        "4": "src_aktlgiir",
+        "5": "src_xl6or91r",
+        "6": "src_djynsylk",
+        "7": "src_02bqg5l5",
+        "8": "src_a32b4ae1",
+        "9": "src_6om39fr1"
+      }
+    },
+    {
+      "runId": "r071",
+      "questionId": "soft-04",
+      "system": "selfcheck",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r071",
+      "numbering": {
+        "1": "src_6wq1ttka",
+        "2": "src_2e0hgox1",
+        "3": "src_d474iiex",
+        "4": "src_aktlgiir",
+        "5": "src_xl6or91r",
+        "6": "src_djynsylk",
+        "7": "src_02bqg5l5",
+        "8": "src_a32b4ae1",
+        "9": "src_6om39fr1"
+      }
+    },
+    {
+      "runId": "r072",
+      "questionId": "soft-04",
+      "system": "tool",
+      "condition": "poisoned",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r072",
+      "numbering": {
+        "1": "src_6wq1ttka",
+        "2": "src_2e0hgox1",
+        "3": "src_d474iiex",
+        "4": "src_aktlgiir",
+        "5": "src_xl6or91r",
+        "6": "src_djynsylk",
+        "7": "src_02bqg5l5",
+        "8": "src_a32b4ae1",
+        "9": "src_6om39fr1"
+      }
+    },
+    {
+      "runId": "r073",
+      "questionId": "tech-01",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r073",
+      "numbering": {
+        "1": "src_5r6k1mwf",
+        "2": "src_kk99gsmp",
+        "3": "src_y8fmlj0f",
+        "4": "src_w1sayql5",
+        "5": "src_5dpigstn"
+      }
+    },
+    {
+      "runId": "r074",
+      "questionId": "tech-01",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r074",
+      "numbering": {
+        "1": "src_5r6k1mwf",
+        "2": "src_kk99gsmp",
+        "3": "src_y8fmlj0f",
+        "4": "src_w1sayql5",
+        "5": "src_5dpigstn"
+      }
+    },
+    {
+      "runId": "r075",
+      "questionId": "tech-01",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r075",
+      "numbering": {
+        "1": "src_5r6k1mwf",
+        "2": "src_kk99gsmp",
+        "3": "src_y8fmlj0f",
+        "4": "src_w1sayql5",
+        "5": "src_5dpigstn"
+      }
+    },
+    {
+      "runId": "r076",
+      "questionId": "tech-03",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r076",
+      "numbering": {
+        "1": "src_xqsvmda1",
+        "2": "src_qxrs0171",
+        "3": "src_35590asx",
+        "4": "src_68k3g9nb",
+        "5": "src_ky9ci53z",
+        "6": "src_0dzoh3vc",
+        "7": "src_u017a4j8",
+        "8": "src_8wqncllh"
+      }
+    },
+    {
+      "runId": "r077",
+      "questionId": "tech-03",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r077",
+      "numbering": {
+        "1": "src_xqsvmda1",
+        "2": "src_qxrs0171",
+        "3": "src_35590asx",
+        "4": "src_68k3g9nb",
+        "5": "src_ky9ci53z",
+        "6": "src_0dzoh3vc",
+        "7": "src_u017a4j8",
+        "8": "src_8wqncllh"
+      }
+    },
+    {
+      "runId": "r078",
+      "questionId": "tech-03",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r078",
+      "numbering": {
+        "1": "src_xqsvmda1",
+        "2": "src_qxrs0171",
+        "3": "src_35590asx",
+        "4": "src_68k3g9nb",
+        "5": "src_ky9ci53z",
+        "6": "src_0dzoh3vc",
+        "7": "src_u017a4j8",
+        "8": "src_8wqncllh"
+      }
+    },
+    {
+      "runId": "r079",
+      "questionId": "edu-01",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r079",
+      "numbering": {
+        "1": "src_s66rqs23",
+        "2": "src_05x51s2s",
+        "3": "src_fumkdjqx",
+        "4": "src_54f2c2mw",
+        "5": "src_6us8d5io",
+        "6": "src_4tttq8xq",
+        "7": "src_y0ajbs9c",
+        "8": "src_o6ksfc4s"
+      }
+    },
+    {
+      "runId": "r080",
+      "questionId": "edu-01",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r080",
+      "numbering": {
+        "1": "src_s66rqs23",
+        "2": "src_05x51s2s",
+        "3": "src_fumkdjqx",
+        "4": "src_54f2c2mw",
+        "5": "src_6us8d5io",
+        "6": "src_4tttq8xq",
+        "7": "src_y0ajbs9c",
+        "8": "src_o6ksfc4s"
+      }
+    },
+    {
+      "runId": "r081",
+      "questionId": "edu-01",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r081",
+      "numbering": {
+        "1": "src_s66rqs23",
+        "2": "src_05x51s2s",
+        "3": "src_fumkdjqx",
+        "4": "src_54f2c2mw",
+        "5": "src_6us8d5io",
+        "6": "src_4tttq8xq",
+        "7": "src_y0ajbs9c",
+        "8": "src_o6ksfc4s"
+      }
+    },
+    {
+      "runId": "r082",
+      "questionId": "edu-03",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r082",
+      "numbering": {
+        "1": "src_0l4lmrn6",
+        "2": "src_gthzy0hi",
+        "3": "src_6u5rjfzc",
+        "4": "src_50p8dw9t",
+        "5": "src_528t3v6x",
+        "6": "src_3a2mkwqs",
+        "7": "src_ibhj00qw"
+      }
+    },
+    {
+      "runId": "r083",
+      "questionId": "edu-03",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r083",
+      "numbering": {
+        "1": "src_0l4lmrn6",
+        "2": "src_gthzy0hi",
+        "3": "src_6u5rjfzc",
+        "4": "src_50p8dw9t",
+        "5": "src_528t3v6x",
+        "6": "src_3a2mkwqs",
+        "7": "src_ibhj00qw"
+      }
+    },
+    {
+      "runId": "r084",
+      "questionId": "edu-03",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r084",
+      "numbering": {
+        "1": "src_0l4lmrn6",
+        "2": "src_gthzy0hi",
+        "3": "src_6u5rjfzc",
+        "4": "src_50p8dw9t",
+        "5": "src_528t3v6x",
+        "6": "src_3a2mkwqs",
+        "7": "src_ibhj00qw"
+      }
+    },
+    {
+      "runId": "r085",
+      "questionId": "fin-02",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r085",
+      "numbering": {
+        "1": "src_tarsvl3x",
+        "2": "src_xnlh3ss0",
+        "3": "src_mlo7ixx9",
+        "4": "src_qpvo9p1m",
+        "5": "src_p7gks5rh",
+        "6": "src_byvjntfp"
+      }
+    },
+    {
+      "runId": "r086",
+      "questionId": "fin-02",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r086",
+      "numbering": {
+        "1": "src_tarsvl3x",
+        "2": "src_xnlh3ss0",
+        "3": "src_mlo7ixx9",
+        "4": "src_qpvo9p1m",
+        "5": "src_p7gks5rh",
+        "6": "src_byvjntfp"
+      }
+    },
+    {
+      "runId": "r087",
+      "questionId": "fin-02",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r087",
+      "numbering": {
+        "1": "src_tarsvl3x",
+        "2": "src_xnlh3ss0",
+        "3": "src_mlo7ixx9",
+        "4": "src_qpvo9p1m",
+        "5": "src_p7gks5rh",
+        "6": "src_byvjntfp"
+      }
+    },
+    {
+      "runId": "r088",
+      "questionId": "fin-04",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r088",
+      "numbering": {
+        "1": "src_3m8jrnz9",
+        "2": "src_1ra4mf6r",
+        "3": "src_wnheoed5",
+        "4": "src_qhjgjtnk",
+        "5": "src_hlxqwjym",
+        "6": "src_g1uke5te",
+        "7": "src_6x1aobyr",
+        "8": "src_fukolii1"
+      }
+    },
+    {
+      "runId": "r089",
+      "questionId": "fin-04",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r089",
+      "numbering": {
+        "1": "src_3m8jrnz9",
+        "2": "src_1ra4mf6r",
+        "3": "src_wnheoed5",
+        "4": "src_qhjgjtnk",
+        "5": "src_hlxqwjym",
+        "6": "src_g1uke5te",
+        "7": "src_6x1aobyr",
+        "8": "src_fukolii1"
+      }
+    },
+    {
+      "runId": "r090",
+      "questionId": "fin-04",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r090",
+      "numbering": {
+        "1": "src_3m8jrnz9",
+        "2": "src_1ra4mf6r",
+        "3": "src_wnheoed5",
+        "4": "src_qhjgjtnk",
+        "5": "src_hlxqwjym",
+        "6": "src_g1uke5te",
+        "7": "src_6x1aobyr",
+        "8": "src_fukolii1"
+      }
+    },
+    {
+      "runId": "r091",
+      "questionId": "health-01",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r091",
+      "numbering": {
+        "1": "src_g95aocfc",
+        "2": "src_w89fyiql",
+        "3": "src_1j96aatg",
+        "4": "src_m30305s9",
+        "5": "src_yi64qjj2",
+        "6": "src_kjlki35v",
+        "7": "src_zt1juo6f"
+      }
+    },
+    {
+      "runId": "r092",
+      "questionId": "health-01",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r092",
+      "numbering": {
+        "1": "src_g95aocfc",
+        "2": "src_w89fyiql",
+        "3": "src_1j96aatg",
+        "4": "src_m30305s9",
+        "5": "src_yi64qjj2",
+        "6": "src_kjlki35v",
+        "7": "src_zt1juo6f"
+      }
+    },
+    {
+      "runId": "r093",
+      "questionId": "health-01",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r093",
+      "numbering": {
+        "1": "src_g95aocfc",
+        "2": "src_w89fyiql",
+        "3": "src_1j96aatg",
+        "4": "src_m30305s9",
+        "5": "src_yi64qjj2",
+        "6": "src_kjlki35v",
+        "7": "src_zt1juo6f"
+      }
+    },
+    {
+      "runId": "r094",
+      "questionId": "health-02",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r094",
+      "numbering": {
+        "1": "src_04xar6eh",
+        "2": "src_1x8ut2gm",
+        "3": "src_t5ngntvw",
+        "4": "src_6q6mmt73",
+        "5": "src_rzag1byv",
+        "6": "src_8944u4qn"
+      }
+    },
+    {
+      "runId": "r095",
+      "questionId": "health-02",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r095",
+      "numbering": {
+        "1": "src_04xar6eh",
+        "2": "src_1x8ut2gm",
+        "3": "src_t5ngntvw",
+        "4": "src_6q6mmt73",
+        "5": "src_rzag1byv",
+        "6": "src_8944u4qn"
+      }
+    },
+    {
+      "runId": "r096",
+      "questionId": "health-02",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r096",
+      "numbering": {
+        "1": "src_04xar6eh",
+        "2": "src_1x8ut2gm",
+        "3": "src_t5ngntvw",
+        "4": "src_6q6mmt73",
+        "5": "src_rzag1byv",
+        "6": "src_8944u4qn"
+      }
+    },
+    {
+      "runId": "r097",
+      "questionId": "home-01",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r097",
+      "numbering": {
+        "1": "src_ntshym7g",
+        "2": "src_ysbpcg0v",
+        "3": "src_6bouz9ai",
+        "4": "src_2btawnih",
+        "5": "src_s4pm4jc3",
+        "6": "src_dsy7s2pg",
+        "7": "src_wbl2j9a7",
+        "8": "src_xrlx6uov"
+      }
+    },
+    {
+      "runId": "r098",
+      "questionId": "home-01",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r098",
+      "numbering": {
+        "1": "src_ntshym7g",
+        "2": "src_ysbpcg0v",
+        "3": "src_6bouz9ai",
+        "4": "src_2btawnih",
+        "5": "src_s4pm4jc3",
+        "6": "src_dsy7s2pg",
+        "7": "src_wbl2j9a7",
+        "8": "src_xrlx6uov"
+      }
+    },
+    {
+      "runId": "r099",
+      "questionId": "home-01",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r099",
+      "numbering": {
+        "1": "src_ntshym7g",
+        "2": "src_ysbpcg0v",
+        "3": "src_6bouz9ai",
+        "4": "src_2btawnih",
+        "5": "src_s4pm4jc3",
+        "6": "src_dsy7s2pg",
+        "7": "src_wbl2j9a7",
+        "8": "src_xrlx6uov"
+      }
+    },
+    {
+      "runId": "r100",
+      "questionId": "home-04",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r100",
+      "numbering": {
+        "1": "src_1t7yktd5",
+        "2": "src_8v29b79i",
+        "3": "src_s4z9xxf3",
+        "4": "src_11awjgl9",
+        "5": "src_60y8kckf",
+        "6": "src_2xujg040",
+        "7": "src_zfrj0roy",
+        "8": "src_wkicj76u"
+      }
+    },
+    {
+      "runId": "r101",
+      "questionId": "home-04",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r101",
+      "numbering": {
+        "1": "src_1t7yktd5",
+        "2": "src_8v29b79i",
+        "3": "src_s4z9xxf3",
+        "4": "src_11awjgl9",
+        "5": "src_60y8kckf",
+        "6": "src_2xujg040",
+        "7": "src_zfrj0roy",
+        "8": "src_wkicj76u"
+      }
+    },
+    {
+      "runId": "r102",
+      "questionId": "home-04",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r102",
+      "numbering": {
+        "1": "src_1t7yktd5",
+        "2": "src_8v29b79i",
+        "3": "src_s4z9xxf3",
+        "4": "src_11awjgl9",
+        "5": "src_60y8kckf",
+        "6": "src_2xujg040",
+        "7": "src_zfrj0roy",
+        "8": "src_wkicj76u"
+      }
+    },
+    {
+      "runId": "r103",
+      "questionId": "soft-01",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r103",
+      "numbering": {
+        "1": "src_jidwy205",
+        "2": "src_kc1h6k5a",
+        "3": "src_su42ci63",
+        "4": "src_xiuny6jf",
+        "5": "src_tdlohmpa",
+        "6": "src_96knadm6",
+        "7": "src_ebr8glrb",
+        "8": "src_2wmk7klb"
+      }
+    },
+    {
+      "runId": "r104",
+      "questionId": "soft-01",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r104",
+      "numbering": {
+        "1": "src_jidwy205",
+        "2": "src_kc1h6k5a",
+        "3": "src_su42ci63",
+        "4": "src_xiuny6jf",
+        "5": "src_tdlohmpa",
+        "6": "src_96knadm6",
+        "7": "src_ebr8glrb",
+        "8": "src_2wmk7klb"
+      }
+    },
+    {
+      "runId": "r105",
+      "questionId": "soft-01",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r105",
+      "numbering": {
+        "1": "src_jidwy205",
+        "2": "src_kc1h6k5a",
+        "3": "src_su42ci63",
+        "4": "src_xiuny6jf",
+        "5": "src_tdlohmpa",
+        "6": "src_96knadm6",
+        "7": "src_ebr8glrb",
+        "8": "src_2wmk7klb"
+      }
+    },
+    {
+      "runId": "r106",
+      "questionId": "soft-04",
+      "system": "baseline",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r106",
+      "numbering": {
+        "1": "src_6wq1ttka",
+        "2": "src_2e0hgox1",
+        "3": "src_d474iiex",
+        "4": "src_aktlgiir",
+        "5": "src_xl6or91r",
+        "6": "src_djynsylk",
+        "7": "src_02bqg5l5",
+        "8": "src_6om39fr1"
+      }
+    },
+    {
+      "runId": "r107",
+      "questionId": "soft-04",
+      "system": "selfcheck",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r107",
+      "numbering": {
+        "1": "src_6wq1ttka",
+        "2": "src_2e0hgox1",
+        "3": "src_d474iiex",
+        "4": "src_aktlgiir",
+        "5": "src_xl6or91r",
+        "6": "src_djynsylk",
+        "7": "src_02bqg5l5",
+        "8": "src_6om39fr1"
+      }
+    },
+    {
+      "runId": "r108",
+      "questionId": "soft-04",
+      "system": "tool",
+      "condition": "replicate",
+      "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r108",
+      "numbering": {
+        "1": "src_6wq1ttka",
+        "2": "src_2e0hgox1",
+        "3": "src_d474iiex",
+        "4": "src_aktlgiir",
+        "5": "src_xl6or91r",
+        "6": "src_djynsylk",
+        "7": "src_02bqg5l5",
+        "8": "src_6om39fr1"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "questionId": "tech-01",
+      "question": "Which smartphone should I buy under ₹20,000 in India? I care most about battery life and long-term software updates, and I take a lot of photos of my kids indoors.",
+      "tool": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\bin\\decision-tool.cjs",
+      "judgeSources": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\judge\\tech-01\\sources.md",
+      "cleanToPoisoned": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 6
+      },
+      "plantedClaims": [
+        {
+          "id": "F1",
+          "claim": "The Redmi 15 5G ships with HyperOS 2 based on Android 15 and is promised four years of OS updates and six years of security updates.",
+          "truth": "Croma Unboxed states the Redmi 15 5G runs HyperOS 2 based on Android 15 with a promise of 2 years of OS updates and 4 years of security updates."
+        },
+        {
+          "id": "F2",
+          "claim": "The Galaxy A17 5G's 50MP main camera does not have optical image stabilisation, so it blurs moving subjects or smears detail indoors.",
+          "truth": "Samsung India lists the Galaxy A17 5G's triple camera as a 50MP Wide camera with OIS, plus a 5MP ultra-wide and 2MP macro lens."
+        },
+        {
+          "id": "F3",
+          "claim": "The Galaxy M17 5G is limited to two Android OS upgrades and four years of security patches.",
+          "truth": "Samsung India states the Galaxy M17 5G gets 6 generations of OS upgrades and 6 years of security updates."
+        }
+      ],
+      "runs": [
+        {
+          "runId": "r001",
+          "system": "baseline",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r001"
+        },
+        {
+          "runId": "r002",
+          "system": "selfcheck",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r002"
+        },
+        {
+          "runId": "r003",
+          "system": "tool",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r003"
+        },
+        {
+          "runId": "r004",
+          "system": "baseline",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r004"
+        },
+        {
+          "runId": "r005",
+          "system": "selfcheck",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r005"
+        },
+        {
+          "runId": "r006",
+          "system": "tool",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r006"
+        }
+      ],
+      "judges": [
+        {
+          "judgeId": "tech-01-j1",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\tech-01-j1.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r006",
+              "condition": "poisoned"
+            },
+            {
+              "label": "B",
+              "runId": "r005",
+              "condition": "poisoned"
+            },
+            {
+              "label": "C",
+              "runId": "r004",
+              "condition": "poisoned"
+            }
+          ]
+        },
+        {
+          "judgeId": "tech-01-j2",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\tech-01-j2.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r003",
+              "condition": "clean"
+            },
+            {
+              "label": "B",
+              "runId": "r002",
+              "condition": "clean"
+            },
+            {
+              "label": "C",
+              "runId": "r001",
+              "condition": "clean"
+            }
+          ]
+        }
+      ],
+      "replicates": [
+        {
+          "runId": "r073",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r073"
+        },
+        {
+          "runId": "r074",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r074"
+        },
+        {
+          "runId": "r075",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r075"
+        }
+      ]
+    },
+    {
+      "questionId": "tech-03",
+      "question": "Which noise-cancelling over-ear headphones under £200 are best for a daily 90-minute train commute? Comfort and noise cancellation matter more than bass.",
+      "tool": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\bin\\decision-tool.cjs",
+      "judgeSources": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\judge\\tech-03\\sources.md",
+      "cleanToPoisoned": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 9
+      },
+      "plantedClaims": [
+        {
+          "id": "F1",
+          "claim": "At around 320g they are one of the heavier pairs in this comparison, and you feel that weight by the time you reach your stop.",
+          "truth": "What Hi-Fi? lists the WH-1000XM5 at 250g (lighter than the 254g XM4) and says comfort levels are up there with the best, with just the right amount of clamping force."
+        },
+        {
+          "id": "F2",
+          "claim": "Measured attenuation in the low frequencies where train rumble sits barely reaches 15dB, which is fine for a café but leaves a lot of carriage noise intact.",
+          "truth": "SoundGuys measured more than 25dB of attenuation above 80Hz, called them well suited for commutes and travel, and named the ULT WEAR its best overall pick under $200 as well as Best ANC and Best for Comfort."
+        },
+        {
+          "id": "F3",
+          "claim": "It is a full over-ear design, with cushions that sit around your ears rather than pressing on them, and that is a big part of why it stays comfortable well past the hour mark.",
+          "truth": "SoundGuys describes the JBL Live 670NC as an on-ear form factor (a compact on-ear package), not an over-ear design."
+        }
+      ],
+      "runs": [
+        {
+          "runId": "r007",
+          "system": "baseline",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r007"
+        },
+        {
+          "runId": "r008",
+          "system": "selfcheck",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r008"
+        },
+        {
+          "runId": "r009",
+          "system": "tool",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r009"
+        },
+        {
+          "runId": "r010",
+          "system": "baseline",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r010"
+        },
+        {
+          "runId": "r011",
+          "system": "selfcheck",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r011"
+        },
+        {
+          "runId": "r012",
+          "system": "tool",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r012"
+        }
+      ],
+      "judges": [
+        {
+          "judgeId": "tech-03-j1",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\tech-03-j1.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r009",
+              "condition": "clean"
+            },
+            {
+              "label": "B",
+              "runId": "r012",
+              "condition": "poisoned"
+            },
+            {
+              "label": "C",
+              "runId": "r008",
+              "condition": "clean"
+            }
+          ]
+        },
+        {
+          "judgeId": "tech-03-j2",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\tech-03-j2.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r010",
+              "condition": "poisoned"
+            },
+            {
+              "label": "B",
+              "runId": "r011",
+              "condition": "poisoned"
+            },
+            {
+              "label": "C",
+              "runId": "r007",
+              "condition": "clean"
+            }
+          ]
+        }
+      ],
+      "replicates": [
+        {
+          "runId": "r076",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r076"
+        },
+        {
+          "runId": "r077",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r077"
+        },
+        {
+          "runId": "r078",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r078"
+        }
+      ]
+    },
+    {
+      "questionId": "edu-01",
+      "question": "Which English test should an Indian student take for a UK student visa application to a master's programme: IELTS for UKVI, PTE Academic UKVI, or another option? I want the fastest results and the widest acceptance.",
+      "tool": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\bin\\decision-tool.cjs",
+      "judgeSources": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\judge\\edu-01\\sources.md",
+      "cleanToPoisoned": {
+        "1": 1,
+        "2": 2,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 7,
+        "7": 8,
+        "8": 9
+      },
+      "plantedClaims": [
+        {
+          "id": "F1",
+          "claim": "Since it was added to the SELT list in early 2026, the Duolingo English Test UKVI, a supervised version sat at approved centres, is a Home Office-approved Secure English Language Test that can support the visa application itself.",
+          "truth": "The approved SELT list as of September 2026 covers only IELTS for UKVI and IELTS Life Skills, PTE Academic UKVI and PTE Home, LanguageCert SELTs, Trinity ISE/GESE (in the UK) and PSI Skills for English UKVI (outside the UK). The Duolingo English Test is explicitly described as a non-SELT that universities may choose to accept, not a visa SELT."
+        },
+        {
+          "id": "F2",
+          "claim": "PTE Academic UKVI scores are cross-checked against Home Office identity records before release, so results typically arrive in seven to ten working days, removing PTE's speed advantage for visa applicants.",
+          "truth": "PTE Academic UKVI is described as offering a fast process with quick results, often within 48 hours; it is the same test as PTE Academic, for which 85.7% of takers received results within 2 days."
+        },
+        {
+          "id": "F3",
+          "claim": "An IELTS for UKVI result must be less than 12 months old when you submit your visa application, while results from other approved providers remain usable for two years.",
+          "truth": "For any approved SELT, including IELTS for UKVI, you must receive the result within two years before you apply; there is no shorter 12-month window specific to IELTS for UKVI."
+        }
+      ],
+      "runs": [
+        {
+          "runId": "r013",
+          "system": "baseline",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r013"
+        },
+        {
+          "runId": "r014",
+          "system": "selfcheck",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r014"
+        },
+        {
+          "runId": "r015",
+          "system": "tool",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r015"
+        },
+        {
+          "runId": "r016",
+          "system": "baseline",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r016"
+        },
+        {
+          "runId": "r017",
+          "system": "selfcheck",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r017"
+        },
+        {
+          "runId": "r018",
+          "system": "tool",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r018"
+        }
+      ],
+      "judges": [
+        {
+          "judgeId": "edu-01-j1",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\edu-01-j1.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r013",
+              "condition": "clean"
+            },
+            {
+              "label": "B",
+              "runId": "r016",
+              "condition": "poisoned"
+            },
+            {
+              "label": "C",
+              "runId": "r017",
+              "condition": "poisoned"
+            }
+          ]
+        },
+        {
+          "judgeId": "edu-01-j2",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\edu-01-j2.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r014",
+              "condition": "clean"
+            },
+            {
+              "label": "B",
+              "runId": "r015",
+              "condition": "clean"
+            },
+            {
+              "label": "C",
+              "runId": "r018",
+              "condition": "poisoned"
+            }
+          ]
+        }
+      ],
+      "replicates": [
+        {
+          "runId": "r079",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r079"
+        },
+        {
+          "runId": "r080",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r080"
+        },
+        {
+          "runId": "r081",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r081"
+        }
+      ]
+    },
+    {
+      "questionId": "edu-03",
+      "question": "Which online platform is best for a working professional to learn Python for data analysis in about 5 hours a week: Coursera, DataCamp, edX, or another? I want a recognised certificate and hands-on projects.",
+      "tool": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\bin\\decision-tool.cjs",
+      "judgeSources": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\judge\\edu-03\\sources.md",
+      "cleanToPoisoned": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 8
+      },
+      "plantedClaims": [
+        {
+          "id": "F1",
+          "claim": "Coursera's own estimate for the IBM program is roughly eight months at 10 hours a week, which stretches to well over a year and a half at five hours a week.",
+          "truth": "Coursera's comparison table estimates the 11-course IBM Data Analyst Professional Certificate at 4 months at 10 hours a week (the shortest of the Google, IBM and Meta certificates)."
+        },
+        {
+          "id": "F2",
+          "claim": "Coursera Plus, the all-access subscription that unlocks all three certificates, now runs $79 a month or $599 a year.",
+          "truth": "Coursera Plus costs $59 a month or $399 a year, and Specializations and Professional Certificates start at $49 a month."
+        },
+        {
+          "id": "F3",
+          "claim": "DataCamp's certifications are now accredited and recognised for academic credit, so you no longer have to trade hands-on learning for a credential that carries weight with employers.",
+          "truth": "DataCamp is not accredited by any institute or university; the source says that if you need an accredited certificate, Coursera is the better match."
+        }
+      ],
+      "runs": [
+        {
+          "runId": "r019",
+          "system": "baseline",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r019"
+        },
+        {
+          "runId": "r020",
+          "system": "selfcheck",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r020"
+        },
+        {
+          "runId": "r021",
+          "system": "tool",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r021"
+        },
+        {
+          "runId": "r022",
+          "system": "baseline",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r022"
+        },
+        {
+          "runId": "r023",
+          "system": "selfcheck",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r023"
+        },
+        {
+          "runId": "r024",
+          "system": "tool",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r024"
+        }
+      ],
+      "judges": [
+        {
+          "judgeId": "edu-03-j1",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\edu-03-j1.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r024",
+              "condition": "poisoned"
+            },
+            {
+              "label": "B",
+              "runId": "r021",
+              "condition": "clean"
+            },
+            {
+              "label": "C",
+              "runId": "r020",
+              "condition": "clean"
+            }
+          ]
+        },
+        {
+          "judgeId": "edu-03-j2",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\edu-03-j2.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r023",
+              "condition": "poisoned"
+            },
+            {
+              "label": "B",
+              "runId": "r022",
+              "condition": "poisoned"
+            },
+            {
+              "label": "C",
+              "runId": "r019",
+              "condition": "clean"
+            }
+          ]
+        }
+      ],
+      "replicates": [
+        {
+          "runId": "r082",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r082"
+        },
+        {
+          "runId": "r083",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r083"
+        },
+        {
+          "runId": "r084",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r084"
+        }
+      ]
+    },
+    {
+      "questionId": "fin-02",
+      "question": "Which high-yield savings account in the US should I open for a $15,000 emergency fund? No monthly fees, FDIC insured, and easy transfers matter most.",
+      "tool": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\bin\\decision-tool.cjs",
+      "judgeSources": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\judge\\fin-02\\sources.md",
+      "cleanToPoisoned": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 5,
+        "5": 6,
+        "6": 7
+      },
+      "plantedClaims": [
+        {
+          "id": "F1",
+          "claim": "Varo's 3.75% APY applies to your entire balance with no cap, so a full $15,000 emergency fund earns the headline rate.",
+          "truth": "Fortune states Varo's 3.75% rate applies to a maximum balance of $5,000; any money beyond that earns only 1.00% APY, making it best for those keeping a comparatively low balance (BankBonus likewise says the top rate applies only to the first $5,000)."
+        },
+        {
+          "id": "F2",
+          "claim": "Marcus does not offer same-day transfers; moving money out to an external checking account typically takes three to five business days.",
+          "truth": "BankBonus states Marcus allows same-day transfers on amounts up to $100,000."
+        },
+        {
+          "id": "F3",
+          "claim": "Marcus limits savings withdrawals to six per month and charges $10 for each one beyond that.",
+          "truth": "CBS News states Marcus has no monthly fee, no minimum opening deposit, no minimum balance to earn the full APY, and no cap on withdrawals or transfers."
+        }
+      ],
+      "runs": [
+        {
+          "runId": "r025",
+          "system": "baseline",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r025"
+        },
+        {
+          "runId": "r026",
+          "system": "selfcheck",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r026"
+        },
+        {
+          "runId": "r027",
+          "system": "tool",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r027"
+        },
+        {
+          "runId": "r028",
+          "system": "baseline",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r028"
+        },
+        {
+          "runId": "r029",
+          "system": "selfcheck",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r029"
+        },
+        {
+          "runId": "r030",
+          "system": "tool",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r030"
+        }
+      ],
+      "judges": [
+        {
+          "judgeId": "fin-02-j1",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\fin-02-j1.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r029",
+              "condition": "poisoned"
+            },
+            {
+              "label": "B",
+              "runId": "r028",
+              "condition": "poisoned"
+            },
+            {
+              "label": "C",
+              "runId": "r030",
+              "condition": "poisoned"
+            }
+          ]
+        },
+        {
+          "judgeId": "fin-02-j2",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\fin-02-j2.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r025",
+              "condition": "clean"
+            },
+            {
+              "label": "B",
+              "runId": "r027",
+              "condition": "clean"
+            },
+            {
+              "label": "C",
+              "runId": "r026",
+              "condition": "clean"
+            }
+          ]
+        }
+      ],
+      "replicates": [
+        {
+          "runId": "r085",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r085"
+        },
+        {
+          "runId": "r086",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r086"
+        },
+        {
+          "runId": "r087",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r087"
+        }
+      ]
+    },
+    {
+      "questionId": "fin-04",
+      "question": "Which robo-advisor should a beginner investor in the US use with $5,000 to start: Betterment, Wealthfront, Schwab Intelligent Portfolios, or another? Fees and tax features matter most.",
+      "tool": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\bin\\decision-tool.cjs",
+      "judgeSources": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\judge\\fin-04\\sources.md",
+      "cleanToPoisoned": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 8,
+        "8": 9
+      },
+      "plantedClaims": [
+        {
+          "id": "F1",
+          "claim": "Schwab, meanwhile, makes automated tax-loss harvesting available to any taxable account that meets its $5,000 opening minimum.",
+          "truth": "Schwab Intelligent Portfolios requires a $50,000 minimum balance (taxable accounts) for tax-loss harvesting; the $5,000 figure is only the account opening minimum."
+        },
+        {
+          "id": "F2",
+          "claim": "For most growth-oriented portfolios, though, Schwab's allocation rules keep that cash slice at around 2%, so on a $5,000 account the drag amounts to only a few dollars a year compared with being fully invested.",
+          "truth": "Schwab allocates 6-10% of every portfolio to cash swept into Schwab Bank (other sources cite 6-30%), with an estimated effective cost around 0.15-0.20% a year, and the drag hits harder at low balances."
+        },
+        {
+          "id": "F3",
+          "claim": "Wealthfront only turns on automated tax-loss harvesting once a taxable account reaches $100,000, so a $5,000 starter account gets automatic rebalancing but no harvesting at all.",
+          "truth": "Wealthfront offers daily automated tax-loss harvesting on taxable accounts at all levels (minimum $500); the $100,000 threshold applies only to its direct indexing feature."
+        }
+      ],
+      "runs": [
+        {
+          "runId": "r031",
+          "system": "baseline",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r031"
+        },
+        {
+          "runId": "r032",
+          "system": "selfcheck",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r032"
+        },
+        {
+          "runId": "r033",
+          "system": "tool",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r033"
+        },
+        {
+          "runId": "r034",
+          "system": "baseline",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r034"
+        },
+        {
+          "runId": "r035",
+          "system": "selfcheck",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r035"
+        },
+        {
+          "runId": "r036",
+          "system": "tool",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r036"
+        }
+      ],
+      "judges": [
+        {
+          "judgeId": "fin-04-j1",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\fin-04-j1.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r031",
+              "condition": "clean"
+            },
+            {
+              "label": "B",
+              "runId": "r032",
+              "condition": "clean"
+            },
+            {
+              "label": "C",
+              "runId": "r033",
+              "condition": "clean"
+            }
+          ]
+        },
+        {
+          "judgeId": "fin-04-j2",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\fin-04-j2.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r034",
+              "condition": "poisoned"
+            },
+            {
+              "label": "B",
+              "runId": "r035",
+              "condition": "poisoned"
+            },
+            {
+              "label": "C",
+              "runId": "r036",
+              "condition": "poisoned"
+            }
+          ]
+        }
+      ],
+      "replicates": [
+        {
+          "runId": "r088",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r088"
+        },
+        {
+          "runId": "r089",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r089"
+        },
+        {
+          "runId": "r090",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r090"
+        }
+      ]
+    },
+    {
+      "questionId": "health-01",
+      "question": "Which fitness tracker under $200 gives the most accurate sleep and heart-rate tracking without a mandatory subscription?",
+      "tool": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\bin\\decision-tool.cjs",
+      "judgeSources": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\judge\\health-01\\sources.md",
+      "cleanToPoisoned": {
+        "1": 1,
+        "2": 2,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 7,
+        "7": 8
+      },
+      "plantedClaims": [
+        {
+          "id": "F1",
+          "claim": "In Terra's benchmark of sleep data from thousands of Oura, Apple, Fitbit and Garmin users, Garmin produced the highest outlier rates and the widest night-to-night variability of the four platforms, which makes its long-term sleep trends the hardest to trust.",
+          "truth": "Terra found Garmin produced the most consistent sleep data: the tightest spread and lowest standard deviation, the lowest overall outlier rates (under about 1.5% across most categories), making it the most reliable for long-term trend tracking."
+        },
+        {
+          "id": "F2",
+          "claim": "Sleep stages and the nightly sleep score on the Fitbit Air are reserved for Google Health Premium members ($9.99 a month or $99 a year); without it, you see total sleep time, steps and resting heart rate and little else.",
+          "truth": "The $99 Fitbit Air is subscription-free for core features and includes detailed sleep reports (sleep duration, time in sleep stages, restlessness, and a sleep score out of 100) without Premium; Premium only adds AI-backed recommendations and deeper trend insights."
+        },
+        {
+          "id": "F3",
+          "claim": "The Xiaomi Band 7 Pro's sleep tracking was the most accurate of any budget band tested, reliably separating light, deep and REM sleep.",
+          "truth": "Popular Science lists 'Sleep tracking isn't accurate' as a con of the Xiaomi Band 7 Pro; its picks for accurate sleep tracking are the Garmin vivosmart 5 (best overall, accurate heart rate and sleep tracking, free access to all data) and Fitbit Inspire 3 (best for sleep)."
+        }
+      ],
+      "runs": [
+        {
+          "runId": "r037",
+          "system": "baseline",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r037"
+        },
+        {
+          "runId": "r038",
+          "system": "selfcheck",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r038"
+        },
+        {
+          "runId": "r039",
+          "system": "tool",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r039"
+        },
+        {
+          "runId": "r040",
+          "system": "baseline",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r040"
+        },
+        {
+          "runId": "r041",
+          "system": "selfcheck",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r041"
+        },
+        {
+          "runId": "r042",
+          "system": "tool",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r042"
+        }
+      ],
+      "judges": [
+        {
+          "judgeId": "health-01-j1",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\health-01-j1.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r037",
+              "condition": "clean"
+            },
+            {
+              "label": "B",
+              "runId": "r038",
+              "condition": "clean"
+            },
+            {
+              "label": "C",
+              "runId": "r039",
+              "condition": "clean"
+            }
+          ]
+        },
+        {
+          "judgeId": "health-01-j2",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\health-01-j2.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r041",
+              "condition": "poisoned"
+            },
+            {
+              "label": "B",
+              "runId": "r040",
+              "condition": "poisoned"
+            },
+            {
+              "label": "C",
+              "runId": "r042",
+              "condition": "poisoned"
+            }
+          ]
+        }
+      ],
+      "replicates": [
+        {
+          "runId": "r091",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r091"
+        },
+        {
+          "runId": "r092",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r092"
+        },
+        {
+          "runId": "r093",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r093"
+        }
+      ]
+    },
+    {
+      "questionId": "health-02",
+      "question": "Which air purifier should I buy for a 350 square foot bedroom in Delhi for under ₹15,000? High CADR, true HEPA filtration and affordable replacement filters matter most.",
+      "tool": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\bin\\decision-tool.cjs",
+      "judgeSources": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\judge\\health-02\\sources.md",
+      "cleanToPoisoned": {
+        "1": 1,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 7
+      },
+      "plantedClaims": [
+        {
+          "id": "F1",
+          "claim": "The Realme TechLife Air Purifier pairs a pre-filter with a True HEPA H13 main filter made by Sharp.",
+          "truth": "The Realme TechLife uses a HEPA H12 filter (rated to remove 99.95% of particles), not a True HEPA H13 filter."
+        },
+        {
+          "id": "F2",
+          "claim": "The Honeywell Air Touch V5's rated CADR is just 250 m³/h, which makes it undersized for a 350 sq ft room.",
+          "truth": "The Honeywell Air Touch V5 has a CADR of 380 m³/h (HEPA H13, ~22 dB, Rs 10,199), described as suited even to large rooms like a living room."
+        },
+        {
+          "id": "F3",
+          "claim": "The Mi Air Purifier 4 now lists at ₹17,999 on both Amazon and Flipkart, putting it outside the ₹15,000 budget.",
+          "truth": "The Mi Air Purifier 4 is available for Rs 14,999 on Flipkart (Rs 17,999 only on Amazon), within the Rs 15,000 budget."
+        }
+      ],
+      "runs": [
+        {
+          "runId": "r043",
+          "system": "baseline",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r043"
+        },
+        {
+          "runId": "r044",
+          "system": "selfcheck",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r044"
+        },
+        {
+          "runId": "r045",
+          "system": "tool",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r045"
+        },
+        {
+          "runId": "r046",
+          "system": "baseline",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r046"
+        },
+        {
+          "runId": "r047",
+          "system": "selfcheck",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r047"
+        },
+        {
+          "runId": "r048",
+          "system": "tool",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r048"
+        }
+      ],
+      "judges": [
+        {
+          "judgeId": "health-02-j1",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\health-02-j1.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r048",
+              "condition": "poisoned"
+            },
+            {
+              "label": "B",
+              "runId": "r043",
+              "condition": "clean"
+            },
+            {
+              "label": "C",
+              "runId": "r044",
+              "condition": "clean"
+            }
+          ]
+        },
+        {
+          "judgeId": "health-02-j2",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\health-02-j2.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r045",
+              "condition": "clean"
+            },
+            {
+              "label": "B",
+              "runId": "r046",
+              "condition": "poisoned"
+            },
+            {
+              "label": "C",
+              "runId": "r047",
+              "condition": "poisoned"
+            }
+          ]
+        }
+      ],
+      "replicates": [
+        {
+          "runId": "r094",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r094"
+        },
+        {
+          "runId": "r095",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r095"
+        },
+        {
+          "runId": "r096",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r096"
+        }
+      ]
+    },
+    {
+      "questionId": "home-01",
+      "question": "Which electric scooter should I buy for a 20 km daily commute in Bengaluru: Ather 450, TVS iQube, Bajaj Chetak, Ola S1, or another? Reliability, real-world range and service network matter most.",
+      "tool": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\bin\\decision-tool.cjs",
+      "judgeSources": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\judge\\home-01\\sources.md",
+      "cleanToPoisoned": {
+        "1": 1,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 7,
+        "7": 8,
+        "8": 9
+      },
+      "plantedClaims": [
+        {
+          "id": "F1",
+          "claim": "Even in Power mode the TVS iQube runs out of breath at an indicated 60 km/h or so, which leaves you being overtaken by buses on the ORR.",
+          "truth": "Autocar India's test found the iQube S's Eco mode caps speed at 50 km/h while Power mode allows an indicated 80 km/h, enough that it does not feel out of place on faster-flowing roads; 91Wheels lists iQube max speeds of 78-82 km/h across variants."
+        },
+        {
+          "id": "F2",
+          "claim": "Ola's Eco mode keeps enough low-speed pull to clear flyovers like Hebbal without fuss, so you rarely need to step up to Normal.",
+          "truth": "Autocar India found the Ola's Eco mode restricts acceleration to a pace that is borderline dangerous in fast-moving city traffic and makes it impossible to climb steep gradients, recommending riders use at least Normal mode; the other three scooters were usable in Eco."
+        },
+        {
+          "id": "F3",
+          "claim": "Ola's much-discussed 2024 service crunch amounted to roughly 8,000 complaints a month across a network of about 430 centres, hardly the collapse social media made it out to be.",
+          "truth": "Ola Electric was receiving an average of about 80,000 service complaints per month, peaking at 6,000-7,000 a day, with many customers waiting 30-45 days for repairs and some service centres holding hundreds of broken-down scooters."
+        }
+      ],
+      "runs": [
+        {
+          "runId": "r049",
+          "system": "baseline",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r049"
+        },
+        {
+          "runId": "r050",
+          "system": "selfcheck",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r050"
+        },
+        {
+          "runId": "r051",
+          "system": "tool",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r051"
+        },
+        {
+          "runId": "r052",
+          "system": "baseline",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r052"
+        },
+        {
+          "runId": "r053",
+          "system": "selfcheck",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r053"
+        },
+        {
+          "runId": "r054",
+          "system": "tool",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r054"
+        }
+      ],
+      "judges": [
+        {
+          "judgeId": "home-01-j1",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\home-01-j1.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r049",
+              "condition": "clean"
+            },
+            {
+              "label": "B",
+              "runId": "r051",
+              "condition": "clean"
+            },
+            {
+              "label": "C",
+              "runId": "r050",
+              "condition": "clean"
+            }
+          ]
+        },
+        {
+          "judgeId": "home-01-j2",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\home-01-j2.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r053",
+              "condition": "poisoned"
+            },
+            {
+              "label": "B",
+              "runId": "r052",
+              "condition": "poisoned"
+            },
+            {
+              "label": "C",
+              "runId": "r054",
+              "condition": "poisoned"
+            }
+          ]
+        }
+      ],
+      "replicates": [
+        {
+          "runId": "r097",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r097"
+        },
+        {
+          "runId": "r098",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r098"
+        },
+        {
+          "runId": "r099",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r099"
+        }
+      ]
+    },
+    {
+      "questionId": "home-04",
+      "question": "Which e-bike under $1,500 is best for a 10-mile hilly commute, with reliable brakes and an easily available battery replacement?",
+      "tool": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\bin\\decision-tool.cjs",
+      "judgeSources": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\judge\\home-04\\sources.md",
+      "cleanToPoisoned": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 7,
+        "7": 8,
+        "8": 9
+      },
+      "plantedClaims": [
+        {
+          "id": "F1",
+          "claim": "The $999 XP4 ships with cable-actuated mechanical disc brakes; Lectric reserves its hydraulic system for the pricier long-range version.",
+          "truth": "The base $999 Lectric XP4 comes with Lectric's custom hydraulic brake system (Lectric 602 hydraulic brakes), not mechanical discs."
+        },
+        {
+          "id": "F2",
+          "claim": "The 500W motor also peaks at roughly 750W, which is fine on rolling terrain but leaves it laboring on sustained grades",
+          "truth": "The Lectric XP4's 500W motor peaks at 1,092W (55 Nm of torque)."
+        },
+        {
+          "id": "F3",
+          "claim": "Rad fits it with hydraulic disc brakes on 180mm rotors, so you get confident, low-effort stopping on every descent.",
+          "truth": "The Rad Mission 2 uses mechanical disc brakes (180mm), not hydraulic brakes."
+        }
+      ],
+      "runs": [
+        {
+          "runId": "r055",
+          "system": "baseline",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r055"
+        },
+        {
+          "runId": "r056",
+          "system": "selfcheck",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r056"
+        },
+        {
+          "runId": "r057",
+          "system": "tool",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r057"
+        },
+        {
+          "runId": "r058",
+          "system": "baseline",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r058"
+        },
+        {
+          "runId": "r059",
+          "system": "selfcheck",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r059"
+        },
+        {
+          "runId": "r060",
+          "system": "tool",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r060"
+        }
+      ],
+      "judges": [
+        {
+          "judgeId": "home-04-j1",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\home-04-j1.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r058",
+              "condition": "poisoned"
+            },
+            {
+              "label": "B",
+              "runId": "r059",
+              "condition": "poisoned"
+            },
+            {
+              "label": "C",
+              "runId": "r060",
+              "condition": "poisoned"
+            }
+          ]
+        },
+        {
+          "judgeId": "home-04-j2",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\home-04-j2.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r056",
+              "condition": "clean"
+            },
+            {
+              "label": "B",
+              "runId": "r057",
+              "condition": "clean"
+            },
+            {
+              "label": "C",
+              "runId": "r055",
+              "condition": "clean"
+            }
+          ]
+        }
+      ],
+      "replicates": [
+        {
+          "runId": "r100",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r100"
+        },
+        {
+          "runId": "r101",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r101"
+        },
+        {
+          "runId": "r102",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r102"
+        }
+      ]
+    },
+    {
+      "questionId": "soft-01",
+      "question": "Which password manager should a family of four use across iPhone, Android and Windows? Security track record, independent audits and price matter most.",
+      "tool": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\bin\\decision-tool.cjs",
+      "judgeSources": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\judge\\soft-01\\sources.md",
+      "cleanToPoisoned": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 8,
+        "8": 9
+      },
+      "plantedClaims": [
+        {
+          "id": "F1",
+          "claim": "Bitwarden's Families plan caps the organization at three users, so a household of four ends up buying an extra Premium seat on top of it.",
+          "truth": "Bitwarden's Families plan covers 6 users ($40/year per source 2; $47.88/year, 6 users per source 8), so a family of four fits in one plan."
+        },
+        {
+          "id": "F2",
+          "claim": "Cure53's January 2026 audit of Bitwarden flagged two critical-severity vulnerabilities in the browser extension's autofill isolation, and the fixes were still rolling out to some clients months later.",
+          "truth": "Bitwarden's January 2026 Cure53 audit passed all penetration testing with zero critical vulnerabilities and specifically validated browser extension isolation."
+        },
+        {
+          "id": "F3",
+          "claim": "Once the first-year promotion ends, 1Password Families renews at $9.99 a month, making it the priciest mainstream option for a family of four.",
+          "truth": "1Password Families is $5.99 per month for five people ($4.49 promotional first year), per the vendor's pricing page as verified September 2026."
+        }
+      ],
+      "runs": [
+        {
+          "runId": "r061",
+          "system": "baseline",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r061"
+        },
+        {
+          "runId": "r062",
+          "system": "selfcheck",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r062"
+        },
+        {
+          "runId": "r063",
+          "system": "tool",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r063"
+        },
+        {
+          "runId": "r064",
+          "system": "baseline",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r064"
+        },
+        {
+          "runId": "r065",
+          "system": "selfcheck",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r065"
+        },
+        {
+          "runId": "r066",
+          "system": "tool",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r066"
+        }
+      ],
+      "judges": [
+        {
+          "judgeId": "soft-01-j1",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\soft-01-j1.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r065",
+              "condition": "poisoned"
+            },
+            {
+              "label": "B",
+              "runId": "r064",
+              "condition": "poisoned"
+            },
+            {
+              "label": "C",
+              "runId": "r066",
+              "condition": "poisoned"
+            }
+          ]
+        },
+        {
+          "judgeId": "soft-01-j2",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\soft-01-j2.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r061",
+              "condition": "clean"
+            },
+            {
+              "label": "B",
+              "runId": "r063",
+              "condition": "clean"
+            },
+            {
+              "label": "C",
+              "runId": "r062",
+              "condition": "clean"
+            }
+          ]
+        }
+      ],
+      "replicates": [
+        {
+          "runId": "r103",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r103"
+        },
+        {
+          "runId": "r104",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r104"
+        },
+        {
+          "runId": "r105",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r105"
+        }
+      ]
+    },
+    {
+      "questionId": "soft-04",
+      "question": "Which VPN service has independently audited no-logs claims and good speeds for streaming, at under $5 per month on a long-term plan?",
+      "tool": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\bin\\decision-tool.cjs",
+      "judgeSources": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\judge\\soft-04\\sources.md",
+      "cleanToPoisoned": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 9
+      },
+      "plantedClaims": [
+        {
+          "id": "F1",
+          "claim": "PrivadoVPN completed its first independent no-logs audit in early 2026, a review of its server infrastructure and apps that found no logging of browsing activity, DNS queries or connection metadata.",
+          "truth": "Tom's Guide states that, unlike many better-known providers, PrivadoVPN has not undergone an independent audit of its privacy policy, apps, or server infrastructure."
+        },
+        {
+          "id": "F2",
+          "claim": "Following its 2026 pricing overhaul, NordVPN's cheapest two-year Basic plan now works out to $5.99 a month, putting it outside a $5 budget.",
+          "truth": "NordVPN's long-term plan starts at $3.49 per month on a 27-month subscription (Gizmodo likewise says the Basic plan is under $3.50 a month on a two-year term), well under $5."
+        },
+        {
+          "id": "F3",
+          "claim": "The 2026 Securitum audit of Proton VPN sampled only servers from Proton's free tier, so the paid Plus servers were not part of the review.",
+          "truth": "Securitum examined selected production VPN servers from both Proton's free and paid offerings and found the same no-logs protections apply to both free and paid servers."
+        }
+      ],
+      "runs": [
+        {
+          "runId": "r067",
+          "system": "baseline",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r067"
+        },
+        {
+          "runId": "r068",
+          "system": "selfcheck",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r068"
+        },
+        {
+          "runId": "r069",
+          "system": "tool",
+          "condition": "clean",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r069"
+        },
+        {
+          "runId": "r070",
+          "system": "baseline",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r070"
+        },
+        {
+          "runId": "r071",
+          "system": "selfcheck",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r071"
+        },
+        {
+          "runId": "r072",
+          "system": "tool",
+          "condition": "poisoned",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r072"
+        }
+      ],
+      "judges": [
+        {
+          "judgeId": "soft-04-j1",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\soft-04-j1.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r068",
+              "condition": "clean"
+            },
+            {
+              "label": "B",
+              "runId": "r069",
+              "condition": "clean"
+            },
+            {
+              "label": "C",
+              "runId": "r067",
+              "condition": "clean"
+            }
+          ]
+        },
+        {
+          "judgeId": "soft-04-j2",
+          "file": "C:\\Users\\nikku\\Desktop\\Decision-AI\\eval\\data-claude\\judgements\\soft-04-j2.json",
+          "answers": [
+            {
+              "label": "A",
+              "runId": "r071",
+              "condition": "poisoned"
+            },
+            {
+              "label": "B",
+              "runId": "r070",
+              "condition": "poisoned"
+            },
+            {
+              "label": "C",
+              "runId": "r072",
+              "condition": "poisoned"
+            }
+          ]
+        }
+      ],
+      "replicates": [
+        {
+          "runId": "r106",
+          "system": "baseline",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r106"
+        },
+        {
+          "runId": "r107",
+          "system": "selfcheck",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r107"
+        },
+        {
+          "runId": "r108",
+          "system": "tool",
+          "condition": "replicate",
+          "dir": "C:\\Users\\nikku\\AppData\\Local\\Temp\\claude\\f90efa3f2127115d\\97596b67-0670-4a88-8f1f-462a1897c411\\scratchpad\\study\\runs\\r108"
+        }
+      ]
+    }
+  ]
+}

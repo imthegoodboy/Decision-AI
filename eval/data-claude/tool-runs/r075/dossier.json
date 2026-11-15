@@ -1,0 +1,1027 @@
+{
+  "dossier": {
+    "plan": {
+      "decisionType": "decision",
+      "criteria": [
+        {
+          "id": "crit_1",
+          "name": "Battery life",
+          "description": "Battery capacity and reported endurance",
+          "weight": 40,
+          "origin": "user"
+        },
+        {
+          "id": "crit_2",
+          "name": "Software updates",
+          "description": "Length of OS and security update promise",
+          "weight": 35,
+          "origin": "user"
+        },
+        {
+          "id": "crit_3",
+          "name": "Indoor camera",
+          "description": "Camera suitability for indoor photos of kids",
+          "weight": 25,
+          "origin": "user"
+        }
+      ],
+      "queries": [],
+      "freshnessDays": 365,
+      "region": null,
+      "rationale": ""
+    },
+    "options": [
+      {
+        "id": "opt_1",
+        "name": "Redmi 15 5G",
+        "summary": "7,000mAh battery, 2 OS + 4 security years, from Rs 15,999",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "Rs 15,999",
+        "userNamed": false,
+        "sourceIds": [
+          "1"
+        ]
+      },
+      {
+        "id": "opt_2",
+        "name": "Galaxy M17 5G",
+        "summary": "5000mAh, 6 OS + 6 security years (Samsung claim), 50MP OIS",
+        "image": null,
+        "officialUrl": null,
+        "priceText": null,
+        "userNamed": false,
+        "sourceIds": [
+          "4"
+        ]
+      },
+      {
+        "id": "opt_3",
+        "name": "Galaxy A17 5G",
+        "summary": "5000mAh, 50MP OIS main camera, update promise called among the best",
+        "image": null,
+        "officialUrl": null,
+        "priceText": null,
+        "userNamed": false,
+        "sourceIds": [
+          "4",
+          "1"
+        ]
+      },
+      {
+        "id": "opt_4",
+        "name": "Oppo K13 5G",
+        "summary": "7,000mAh with 80W charging; price conflicting",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "Rs 19,999 or Rs 24,999 (sources disagree)",
+        "userNamed": false,
+        "sourceIds": [
+          "1"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "text": "Redmi 15 5G has a 7,000mAh battery, described as one of the biggest in the segment",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "It also packs a large 7,000mAh battery, one of the biggest in the segment, and runs HyperOS 2 based on Android 15 with the promise of 2 years of OS updates and 4 years of security updates.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p4]",
+            "text": "during the second half of 2025 with a 6.9-inch Full HD+ display supporting a 144Hz refresh rate, 6GB or 8GB of RAM, 128GB or 256GB of storage, a Qualcomm Snapdragon 6s Gen 3 chip, 50MP dual rear cameras, an 8MP front camera, and an IP64 rating. It also packs a large 7,000mAh battery, one of the biggest in the segment, and runs HyperOS 2 based on Android 15 with the promise of 2 years of OS updates and 4 years of security updates. While it starts at Rs 15,999 and comes in midnight black, sandy purple, and frosted white colour options, I would recommend going for 256GB storage to house"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:59:35.293Z"
+        }
+      },
+      {
+        "id": "C2",
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "text": "Redmi 15 5G promises 2 years of OS updates and 4 years of security updates",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "It also packs a large 7,000mAh battery, one of the biggest in the segment, and runs HyperOS 2 based on Android 15 with the promise of 2 years of OS updates and 4 years of security updates.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p4]",
+            "text": "during the second half of 2025 with a 6.9-inch Full HD+ display supporting a 144Hz refresh rate, 6GB or 8GB of RAM, 128GB or 256GB of storage, a Qualcomm Snapdragon 6s Gen 3 chip, 50MP dual rear cameras, an 8MP front camera, and an IP64 rating. It also packs a large 7,000mAh battery, one of the biggest in the segment, and runs HyperOS 2 based on Android 15 with the promise of 2 years of OS updates and 4 years of security updates. While it starts at Rs 15,999 and comes in midnight black, sandy purple, and frosted white colour options, I would recommend going for 256GB storage to house"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:59:35.419Z"
+        }
+      },
+      {
+        "id": "C3",
+        "optionId": "opt_1",
+        "criterionId": null,
+        "text": "Redmi 15 5G starts at Rs 15,999",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "While it starts at Rs 15,999 and comes in midnight black, sandy purple, and frosted white colour options, I would recommend going for 256GB storage to house those 50MP photos.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p5]",
+            "text": "starts at Rs 15,999 and comes in midnight black, sandy purple, and frosted white colour options, I would recommend going for 256GB storage to house those 50MP photos. Redmi 15 5G (6GB RAM, 128GB, Sandy Purple) 2. Oppo K13 5G Built for performance enthusiasts, the Oppo K13 5G delivers impressive performance with a powerful chipset and effective thermal management. Powered by Qualcomm Snapdragon 6 Gen 4 chip with 8GB RAM and 128GB/256GB storage, the Oppo K13 5G sports a 6.67-inch 120Hz OLED display, 50MP + 2MP rear cameras, 16MP front camera, and a 7,000mAh battery with 80W fast charging. Priced starting at Rs 19,999, the Oppo K13 is a great"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:59:35.562Z"
+        }
+      },
+      {
+        "id": "C4",
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "text": "Redmi 15 5G has 50MP dual rear cameras (no low-light evidence)",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "It was launched during the second half of 2025 with a 6.9-inch Full HD+ display supporting a 144Hz refresh rate, 6GB or 8GB of RAM, 128GB or 256GB of storage, a Qualcomm Snapdragon 6s Gen 3 chip, 50MP dual rear cameras, an 8MP front camera, and an IP64 rating.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p4]",
+            "text": "during the second half of 2025 with a 6.9-inch Full HD+ display supporting a 144Hz refresh rate, 6GB or 8GB of RAM, 128GB or 256GB of storage, a Qualcomm Snapdragon 6s Gen 3 chip, 50MP dual rear cameras, an 8MP front camera, and an IP64 rating. It also packs a large 7,000mAh battery, one of the biggest in the segment, and runs HyperOS 2 based on Android 15 with the promise of 2 years of OS updates and 4 years of security updates. While it starts at Rs 15,999 and comes in midnight black, sandy purple, and frosted white colour options, I would recommend going for 256GB storage to house"
+          },
+          "rationale": "specs only, no indoor/low-light testing",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:59:35.696Z"
+        }
+      },
+      {
+        "id": "C5",
+        "optionId": "opt_2",
+        "criterionId": "crit_2",
+        "text": "Galaxy M17 5G promises 6 gen of OS upgrades and 6 years of security updates",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "Stay secure and future-ready with 6 gen of OS upgrades and 6 years of security updates12, ensuring long-term performance, protection, and peace of mind.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p9]",
+            "text": "AnTuTu score of 439K+, ensuring smooth multitasking and responsive gameplay.• Power through the day with a 5000mAh (Typical) battery and 25W fast charging9, keeping downtime to a minimum.• Make the smartphone experience smarter with AI features like Circle to Search with Google and Gemini Live10 for faster and easier interactions.• Experience the segment’s toughest display with Corning® Gorilla® Glass Victus® and IP54 protection11, designed to handle everyday drops, splashes, and dust with confidence.• Stay secure and future-ready with 6 gen of OS upgrades and 6 years of security updates12, ensuring long-term performance, protection, and peace of mind.Galaxy F17 5G• Experience immersive visuals on a 16.91 cm sAMOLED display with 1100"
+          },
+          "rationale": "manufacturer claim, single source; price not stated",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:59:35.818Z"
+        }
+      },
+      {
+        "id": "C6",
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "text": "Galaxy M17 5G has a 5000mAh (Typical) battery with 25W fast charging",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "Power through the day with a 5000mAh (Typical) battery and 25W fast charging9, keeping downtime to a minimum.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p9]",
+            "text": "AnTuTu score of 439K+, ensuring smooth multitasking and responsive gameplay.• Power through the day with a 5000mAh (Typical) battery and 25W fast charging9, keeping downtime to a minimum.• Make the smartphone experience smarter with AI features like Circle to Search with Google and Gemini Live10 for faster and easier interactions.• Experience the segment’s toughest display with Corning® Gorilla® Glass Victus® and IP54 protection11, designed to handle everyday drops, splashes, and dust with confidence.• Stay secure and future-ready with 6 gen of OS upgrades and 6 years of security updates12, ensuring long-term performance, protection, and peace of mind.Galaxy F17 5G• Experience immersive visuals on a 16.91 cm sAMOLED display with 1100"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:59:35.976Z"
+        }
+      },
+      {
+        "id": "C7",
+        "optionId": "opt_3",
+        "criterionId": "crit_3",
+        "text": "Galaxy A17 5G has a 50MP wide camera with OIS",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "Capture clear and detailed moments with a versatile triple camera setup featuring a 50MP Wide camera with OIS4, a 5MP Ultra-Wide camera, and a 2MP Macro lens, along with a 13MP front camera for sharp selfies.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p7]",
+            "text": "like Gemini Live and Circle of Search2,3 that help discover information and multitask with ease.• Capture clear and detailed moments with a versatile triple camera setup featuring a 50MP Wide camera with OIS4, a 5MP Ultra-Wide camera, and a 2MP Macro lens, along with a 13MP front camera for sharp selfies.• Stay powered through long days with a 5000mAh (Typical) battery5 that easily handles gaming, entertainment, and daily tasks without frequent charging.• Enjoy smooth gaming and uninterrupted entertainment powered by a 5nm octa core processor designed to keep performance fast and lag free.Galaxy M17 5GDesigned for those who need strong battery backup and monster level performance.• Experience stunning visuals on"
+          },
+          "rationale": "manufacturer spec; OIS helps indoor shots but no independent test",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:59:36.145Z"
+        }
+      },
+      {
+        "id": "C8",
+        "optionId": "opt_3",
+        "criterionId": "crit_2",
+        "text": "Galaxy A17 5G has one of the best software update promises in the segment",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "It is all about sleek design, a familiar and stunning AMOLED display, and one of the best software update promises in this segment.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p9]",
+            "text": "the front is an 8MP selfie shooter. It starts at Rs 17,499 and can be purchased in lake green, matte silver, or pink colour options. realme P4x 5G (8GB RAM, 256GB, Lake Green) 5. Samsung Galaxy A17 5G I would term the Galaxy A17 5G from Samsung as the dependable one without any bells and whistles. It is all about sleek design, a familiar and stunning AMOLED display, and one of the best software update promises in this segment. The Galaxy A17 5G also stands out for its cameras and AI features that have trickled down from the company’s flagship offerings. If you are looking for software stability and brand"
+          },
+          "rationale": "no number of years given",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:59:36.336Z"
+        }
+      },
+      {
+        "id": "C9",
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "text": "Galaxy A17 5G has a 5000mAh (Typical) battery",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "Stay powered through long days with a 5000mAh (Typical) battery5 that easily handles gaming, entertainment, and daily tasks without frequent charging.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p7]",
+            "text": "like Gemini Live and Circle of Search2,3 that help discover information and multitask with ease.• Capture clear and detailed moments with a versatile triple camera setup featuring a 50MP Wide camera with OIS4, a 5MP Ultra-Wide camera, and a 2MP Macro lens, along with a 13MP front camera for sharp selfies.• Stay powered through long days with a 5000mAh (Typical) battery5 that easily handles gaming, entertainment, and daily tasks without frequent charging.• Enjoy smooth gaming and uninterrupted entertainment powered by a 5nm octa core processor designed to keep performance fast and lag free.Galaxy M17 5GDesigned for those who need strong battery backup and monster level performance.• Experience stunning visuals on"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:59:36.495Z"
+        }
+      },
+      {
+        "id": "C10",
+        "optionId": null,
+        "criterionId": "crit_2",
+        "text": "Galaxy A07 5G ships with Android 16 and 6 year promised updates",
+        "kind": "fact",
+        "sourceId": "5",
+        "quote": "• Android 16 with 6 year promised updates",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[5.p12]",
+            "text": "a good pick for its price category. iQOO Z11 Lite 5G Launched on: 24 Jul 2026 Samsung Galaxy A07 5G Launched on: 05 Feb 2026 • Large and smooth display • Android 16 with 6 year promised updates • Main camera shoots decent photos • Battery lasts more than a day • LCD screen instead AMOLED • Only 720p resolution • Performance could be better • Selfie camera takes soft photos"
+          },
+          "rationale": "source 4 gives 6-year for M17 only",
+          "corroboratingSourceIds": [
+            "4"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:59:36.682Z"
+        }
+      },
+      {
+        "id": "C11",
+        "optionId": null,
+        "criterionId": "crit_3",
+        "text": "A07 5G main camera decent but selfie soft, 720p LCD",
+        "kind": "fact",
+        "sourceId": "5",
+        "quote": "The Samsung Galaxy A07 5G offers a large and smooth 120 Hz display, long software promise, big battery life and a decent main camera.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[5.p13]",
+            "text": "lasts more than a day • LCD screen instead AMOLED • Only 720p resolution • Performance could be better • Selfie camera takes soft photos • Includes multiple bloatware apps The Samsung Galaxy A07 5G offers a large and smooth 120 Hz display, long software promise, big battery life and a decent main camera. However, the lack of an AMOLED screen, low 720p resolution, and below-average selfie quality make it a hard recommendation for the price. If you are not keen on getting a Samsung smartphone, then there are better options in the segment."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:59:36.874Z"
+        }
+      },
+      {
+        "id": "C12",
+        "optionId": "opt_4",
+        "criterionId": "crit_1",
+        "text": "Oppo K13 5G has a 7,000mAh battery with 80W charging",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "Powered by Qualcomm Snapdragon 6 Gen 4 chip with 8GB RAM and 128GB/256GB storage, the Oppo K13 5G sports a 6.67-inch 120Hz OLED display, 50MP + 2MP rear cameras, 16MP front camera, and a 7,000mAh battery with 80W fast charging.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p5]",
+            "text": "starts at Rs 15,999 and comes in midnight black, sandy purple, and frosted white colour options, I would recommend going for 256GB storage to house those 50MP photos. Redmi 15 5G (6GB RAM, 128GB, Sandy Purple) 2. Oppo K13 5G Built for performance enthusiasts, the Oppo K13 5G delivers impressive performance with a powerful chipset and effective thermal management. Powered by Qualcomm Snapdragon 6 Gen 4 chip with 8GB RAM and 128GB/256GB storage, the Oppo K13 5G sports a 6.67-inch 120Hz OLED display, 50MP + 2MP rear cameras, 16MP front camera, and a 7,000mAh battery with 80W fast charging. Priced starting at Rs 19,999, the Oppo K13 is a great"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "2"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:59:37.086Z"
+        }
+      },
+      {
+        "id": "C13",
+        "optionId": "opt_4",
+        "criterionId": null,
+        "text": "Oppo K13 5G starts at Rs 19,999",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "Priced starting at Rs 19,999, the Oppo K13 is a great pick for mobile gamers who want sustained performance without spending flagship money.",
+        "verification": {
+          "status": "contradicted",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p6]",
+            "text": "2MP rear cameras, 16MP front camera, and a 7,000mAh battery with 80W fast charging. Priced starting at Rs 19,999, the Oppo K13 is a great pick for mobile gamers who want sustained performance without spending flagship money. oppo K13 5G (8GB RAM, 128GB, Icy Purple) 3. Vivo T4x 5G Another performance-oriented smartphone in this segment is the Vivo T4x 5G. Priced starting at Rs 15,499, the T4x 5G features a 6.7-inch 120Hz display, 6GB or 8GB of RAM, 128GB or 256GB storage, MediaTek Dimensity 7300 chip, and a 6,500mAh battery with 44W fast charging. On the camera front, there is a dual 50MP + 2MP rear camera setup and an"
+          },
+          "rationale": "Digit lists Rs 24,999 for 8GB/256GB variant; may be different variant/date",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "2"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:59:37.286Z"
+        }
+      },
+      {
+        "id": "C14",
+        "optionId": null,
+        "criterionId": "crit_3",
+        "text": "Realme P4x camera setup is weak",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "The camera setup is rather weak, with a 50MP main camera paired with a 2MP monochrome camera, while the front is an 8MP selfie shooter.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p8]",
+            "text": "with a 144Hz refresh rate, MediaTek Dimensity 7400 Ultra chip, 6GB or 8GB RAM, 128GB or 256GB storage, and a 7,000mAh battery with 45W fast charging. Despite the large battery, the Realme P4x is only 8.39mm thick and weighs only 208 grams. The camera setup is rather weak, with a 50MP main camera paired with a 2MP monochrome camera, while the front is an 8MP selfie shooter. It starts at Rs 17,499 and can be purchased in lake green, matte silver, or pink colour options."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:59:37.459Z"
+        }
+      },
+      {
+        "id": "C15",
+        "optionId": null,
+        "criterionId": "crit_1",
+        "text": "Vivo T4x has 6,500mAh battery and 44W charging",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "Priced starting at Rs 15,499, the T4x 5G features a 6.7-inch 120Hz display, 6GB or 8GB of RAM, 128GB or 256GB storage, MediaTek Dimensity 7300 chip, and a 6,500mAh battery with 44W fast charging.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p6]",
+            "text": "2MP rear cameras, 16MP front camera, and a 7,000mAh battery with 80W fast charging. Priced starting at Rs 19,999, the Oppo K13 is a great pick for mobile gamers who want sustained performance without spending flagship money. oppo K13 5G (8GB RAM, 128GB, Icy Purple) 3. Vivo T4x 5G Another performance-oriented smartphone in this segment is the Vivo T4x 5G. Priced starting at Rs 15,499, the T4x 5G features a 6.7-inch 120Hz display, 6GB or 8GB of RAM, 128GB or 256GB storage, MediaTek Dimensity 7300 chip, and a 6,500mAh battery with 44W fast charging. On the camera front, there is a dual 50MP + 2MP rear camera setup and an"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "2"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:59:37.607Z"
+        }
+      },
+      {
+        "id": "C16",
+        "optionId": null,
+        "criterionId": "crit_2",
+        "text": "Lava Blaze Duo 3 has limited OS support",
+        "kind": "fact",
+        "sourceId": "5",
+        "quote": "• Limited OS support",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[5.p8]",
+            "text": "storage speeds • Comes with IP64 rating • Decent battery life • Limited OS support • Subpar camera • Performance not up to the mark The Lava Blaze Duo 3 is a budget 5G smartphone with a unique design in the form of a secondary display. Its UI is clean and the screen is excellent for content consumption. However, the phone struggles with gaming, and the limited software support leaves with more to be desired. It’s a unique budget phone that gets the job done, but it’s not the best value option there."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:59:37.798Z"
+        }
+      }
+    ],
+    "contradictions": [
+      {
+        "id": "con_1",
+        "optionId": "opt_4",
+        "criterionId": null,
+        "topic": "Price",
+        "statements": [
+          {
+            "claimId": "C13",
+            "sourceId": "1",
+            "text": "Oppo K13 5G starts at Rs 19,999"
+          }
+        ],
+        "assessment": "Croma says Rs 19,999, Digit Rs 24,999; Digit undated, Croma dated Feb 2026 but a retailer. Unresolved.",
+        "favoredSourceId": null,
+        "severity": "medium"
+      }
+    ],
+    "uncertainties": [
+      {
+        "id": "unc_1",
+        "kind": "single-source",
+        "text": "Samsung 6-year update claim is manufacturer-only",
+        "optionId": "opt_2",
+        "impact": "medium",
+        "howToResolve": "Check Samsung spec page"
+      },
+      {
+        "id": "unc_2",
+        "kind": "incomplete",
+        "text": "No independent indoor/low-light camera tests",
+        "optionId": null,
+        "impact": "high",
+        "howToResolve": "Read camera reviews"
+      },
+      {
+        "id": "unc_3",
+        "kind": "incomplete",
+        "text": "Samsung prices not in sources",
+        "optionId": "opt_2",
+        "impact": "high",
+        "howToResolve": "Check retailers"
+      }
+    ],
+    "scores": [
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "score": 9,
+        "rationale": "7,000mAh, one of the biggest in segment",
+        "claimIds": [
+          "C1"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "score": 5,
+        "rationale": "2 OS and 4 security years",
+        "claimIds": [
+          "C2"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "score": 5,
+        "rationale": "50MP dual, no indoor testing",
+        "claimIds": [
+          "C4"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "score": 6,
+        "rationale": "5000mAh typical",
+        "claimIds": [
+          "C6"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_2",
+        "score": 9,
+        "rationale": "6 OS and 6 security years per Samsung",
+        "claimIds": [
+          "C5"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_3",
+        "score": null,
+        "rationale": "No verified camera claim recorded",
+        "claimIds": []
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "score": 6,
+        "rationale": "5000mAh typical",
+        "claimIds": [
+          "C9"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_2",
+        "score": 7,
+        "rationale": "Called one of best promises, years not stated",
+        "claimIds": [
+          "C8"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_3",
+        "score": 6,
+        "rationale": "50MP OIS, manufacturer spec only",
+        "claimIds": [
+          "C7"
+        ]
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_1",
+        "score": 9,
+        "rationale": "7,000mAh, two sources",
+        "claimIds": [
+          "C12"
+        ]
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_2",
+        "score": null,
+        "rationale": "No claim",
+        "claimIds": []
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_3",
+        "score": null,
+        "rationale": "No claim",
+        "claimIds": []
+      }
+    ],
+    "recommendation": {
+      "optionId": "opt_1",
+      "headline": "Redmi 15 5G for battery at a low price; Galaxy M17/A17 if updates matter more",
+      "summary": "Best verified battery and price; update promise is shorter than Samsung's.",
+      "reasons": [
+        {
+          "text": "7,000mAh battery, one of the biggest in the segment",
+          "claimIds": [
+            "C1"
+          ]
+        },
+        {
+          "text": "Starts at Rs 15,999",
+          "claimIds": [
+            "C3"
+          ]
+        }
+      ],
+      "tradeoffs": [
+        {
+          "text": "Only 2 OS and 4 security years",
+          "claimIds": [
+            "C2"
+          ]
+        },
+        {
+          "text": "Camera evidence is spec-only",
+          "claimIds": [
+            "C4"
+          ]
+        }
+      ],
+      "alternatives": [
+        {
+          "optionId": "opt_2",
+          "when": "Long updates are the top priority"
+        },
+        {
+          "optionId": "opt_3",
+          "when": "Camera with OIS and Samsung software"
+        }
+      ],
+      "caveats": [
+        "Prices of Samsung models not given in sources"
+      ],
+      "nextSteps": [
+        "Check current prices",
+        "Compare indoor photos in store"
+      ]
+    },
+    "metrics": {
+      "sourcesConsulted": 5,
+      "sourcesRead": 5,
+      "claimsTotal": 16,
+      "supported": 11,
+      "partial": 4,
+      "unsupported": 0,
+      "contradicted": 1,
+      "contradictions": 1,
+      "averageReliability": 66,
+      "freshShare": 0,
+      "durationMs": 0,
+      "modelCalls": 0,
+      "tokens": 0
+    }
+  },
+  "sources": [
+    {
+      "id": "1",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.croma.com/unboxed/best-phones-under-rs-20000-in-india",
+      "domain": "croma.com",
+      "title": "Best phones under Rs 20,000 | Croma Unboxed",
+      "siteName": "Croma Unboxed",
+      "author": "Karthekayan Iyer",
+      "publishedAt": "2026-02-14T08:30:05.000Z",
+      "retrievedAt": "2026-11-15T19:03:12.736Z",
+      "contentHash": "2e879da6fe42a8f20ca0da6622d4fe2bf5ba5e8858709f4a68fec31f3f4fdb76",
+      "wordCount": 1042,
+      "excerpt": "Best phones under Rs 20,000 in India (2026): Top value picks\nBig features, small price tag\n• Karthekayan Iyer\n• Last Updated on Feb 14, 2026\n• 3 mins read\nWhat’s the best smartphone under Rs 20,000? This question once dominated India’s smartphone industry. However, rapid premiumisation and bank…",
+      "image": null,
+      "favicon": null,
+      "kind": "retailer",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 68,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Croma Unboxed"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Karthekayan Iyer"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-02-14"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 275 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: retailer",
+            "effect": -4,
+            "detail": "Retail listing; prices are useful, descriptions are promotional."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "1042 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 6,
+            "detail": "2 of 9 claims were confirmed by an independent source."
+          },
+          {
+            "key": "contradicted",
+            "label": "Contradicted by other sources",
+            "effect": -8,
+            "detail": "1 of 9 claims conflict with other sources."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.digit.in/mobiles/best-camera-phones-under-20000.html",
+      "domain": "digit.in",
+      "title": "Best Camera Phones Under 20000 (November 2026) | Digit",
+      "siteName": "Digit",
+      "author": null,
+      "publishedAt": null,
+      "retrievedAt": "2026-11-15T19:03:13.020Z",
+      "contentHash": "15ab0ae9ce5f7491bda15f141e0b88ac2bb731f29a3cea6ad83f7c16a6ff6d75",
+      "wordCount": 1166,
+      "excerpt": "Best Camera Phones Under 20000\nLooking for the best camera phones under 20,000? We’ve curated a list of top smartphones that offer impressive photography features without breaking the bank. Whether you love capturing portraits, stunning landscapes, or low-light shots, these budget-friendly camera…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 62,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Digit"
+          },
+          {
+            "key": "dated",
+            "label": "No publication date",
+            "effect": -6,
+            "detail": "Age of the information cannot be checked."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "1166 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.bajajfinserv.in/best-phones-under-20000",
+      "domain": "bajajfinserv.in",
+      "title": "Mobile Phones under Rs. 20,000 with Price List in India (2026) | Bajaj Finance",
+      "siteName": "https://www.bajajfinserv.in",
+      "author": "Bajaj Finserv",
+      "publishedAt": "2026-01-22T18:30:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:13.254Z",
+      "contentHash": "d7db8e5de7094dd01bd89ab8ff76b062a1633e4355d98bd76c9ab9defd917eae",
+      "wordCount": 210,
+      "excerpt": "Looking for the best phones under Rs. 20,000 in India? In 2026, this segment offers powerful smartphones with features once found only in premium models. These phones easily handle daily tasks, gaming, photography, and multitasking. Big batteries, including 7,000 mAh options, ensure all-day or even…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 63,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "https://www.bajajfinserv.in"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Bajaj Finserv"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-01-22"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 297 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "Thin content",
+            "effect": -8,
+            "detail": "210 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.samsung.com/in/explore/brand/best-smartphones-under-rs20000-in-india/",
+      "domain": "samsung.com",
+      "title": "Best Smartphones Under ₹ 20000 in India | Samsung India",
+      "siteName": "Samsung India",
+      "author": "Samsung India",
+      "publishedAt": "2026-07-06T00:00:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:13.787Z",
+      "contentHash": "97dd09ea43517f11f2167409391b9aaeb5bab7ad8985e2d6f54fca314177bee2",
+      "wordCount": 7092,
+      "excerpt": "Explore\nBrand\n\nBest Smartphones Under ₹ 20000 in India\nBuying a smartphone under ₹ 20000 should feel exciting, not confusing. This is the sweet spot where phones stop feeling basic and start offering power-packed performance. You get smooth performance, good cameras, long battery life, and features…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 74,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Samsung India"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Samsung India"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-07-06"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 133 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "7092 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://gadgets.beebom.com/best-camera-phones-under-20000?utm=airanks.net",
+      "domain": "gadgets.beebom.com",
+      "title": "Best Camera Mobile Phones Under 20000 (Nov 2026)",
+      "siteName": "Beebom Gadgets",
+      "author": null,
+      "publishedAt": null,
+      "retrievedAt": "2026-11-15T19:03:14.761Z",
+      "contentHash": "f0c7b5383fc9237b7e8d472d4082050be5f75ea2ae219b1753b6f5d1f01ef904",
+      "wordCount": 860,
+      "excerpt": "Best Camera Mobile Phones Under 20000\nExplore our top picks for the best camera mobile phones under 20000 with standout features like processor, display, camera, battery, RAM, and storage. Make an informed choice with our expert reviews for each device that blends standout features with market…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 62,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Beebom Gadgets"
+          },
+          {
+            "key": "dated",
+            "label": "No publication date",
+            "effect": -6,
+            "detail": "Age of the information cannot be checked."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 3,
+            "detail": "1 of 3 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Decision AI — slides</title>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  @page { size: 13.333in 7.5in; margin: 0; }
+  :root { --paper:#fff; --mist:#F3F8FC; --rule:#D6E7F5; --sky:#7CC0EC; --sky-soft:#E4F2FC; --cobalt:#1667A8; --ink:#0E2236; --slate:#4D6378; --red:#C2453D; --green:#1F8A6E; --amber:#B7791F; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--mist); color: var(--ink); font-family: "Public Sans", system-ui, sans-serif; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .slide { width: 1280px; height: 720px; background: var(--paper); position: relative; overflow: hidden; padding: 64px 80px; display: flex; flex-direction: column; break-after: page; margin: 0 auto 24px; }
+  @media print { .slide { margin: 0; } body { background: #fff; } }
+  .slide::before { content: ""; position: absolute; inset: 0; background: repeating-linear-gradient(to bottom, transparent 0 47px, rgba(124,192,236,.18) 47px 48px); pointer-events: none; }
+  .slide > * { position: relative; }
+  .mark { position: absolute; top: 28px; right: 40px; font-size: 14px; color: var(--slate); }
+  h1 { font-family: "Source Serif 4", Georgia, serif; font-weight: 600; font-size: 54px; line-height: 1.12; margin: 0 0 20px; letter-spacing: -0.01em; max-width: 1000px; }
+  h2 { font-family: "Source Serif 4", Georgia, serif; font-weight: 600; font-size: 40px; line-height: 1.15; margin: 0 0 28px; max-width: 1050px; }
+  p, li { font-size: 24px; line-height: 1.45; color: var(--ink); }
+  .lede { font-size: 26px; color: var(--slate); max-width: 900px; }
+  ul { margin: 0; padding-left: 28px; } li { margin-bottom: 12px; }
+  .big { display: flex; gap: 48px; margin-top: 12px; }
+  .stat { border-top: 3px solid var(--sky); padding-top: 14px; flex: 1; }
+  .stat b { display: block; font-family: "Source Serif 4", serif; font-size: 64px; line-height: 1; color: var(--cobalt); margin-bottom: 10px; }
+  .stat span { font-size: 20px; color: var(--slate); line-height: 1.35; display: block; }
+  .cite { position: absolute; bottom: 28px; left: 80px; font-size: 14px; color: var(--slate); }
+  .fig { flex: 1; display: flex; align-items: center; justify-content: center; min-height: 0; }
+  .fig img { max-width: 100%; max-height: 470px; }
+  .caption { font-size: 20px; color: var(--slate); margin-top: 8px; }
+  .flow { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 8px; }
+  .flow div { border: 1.5px solid #9cc9ea; background: #f3f9fe; border-radius: 14px; padding: 16px 18px; font-size: 19px; line-height: 1.35; }
+  .flow div b { display: block; font-size: 21px; margin-bottom: 6px; }
+  .flow div.det { background: #fff; border-style: dashed; }
+  .cmd { font-family: Consolas, monospace; font-size: 20px; background: var(--mist); border: 1px solid var(--rule); border-radius: 10px; padding: 18px 22px; line-height: 1.6; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+  .title-slide { justify-content: center; }
+  .title-slide .who { margin-top: 28px; font-size: 22px; color: var(--slate); }
+  .pill { align-self: flex-start; display: inline-block; border: 1px solid var(--rule); background: var(--sky-soft); color: var(--cobalt); border-radius: 999px; padding: 6px 16px; font-size: 18px; margin-bottom: 26px; }
+</style>
+</head>
+<body>
+
+<section class="slide title-slide" id="1">
+  <span class="pill">AI x Epistemics Research Sprint · Track 2: Trust Infrastructure</span>
+  <h1>Flagged but still followed: does a provenance tool change what an AI agent decides?</h1>
+  <p class="lede">Claim-level verification and tamper-evident provenance for AI decision support, tested against planted false sources.</p>
+  <p class="who">{{AUTHORS_TEXT}}</p>
+</section>
+
+<section class="slide" id="2">
+  <span class="mark">The problem</span>
+  <h2>AI answers come with citations, so they look checkable. Often they are not.</h2>
+  <div class="big">
+    <div class="stat"><b>51.5%</b><span>of generative-search sentences were fully supported by their citations in a human audit (Liu et al., 2023)</span></div>
+    <div class="stat"><b>90%</b><span>attack success from five planted documents per question in PoisonedRAG (Zou et al., 2025)</span></div>
+    <div class="stat"><b>1 page</b><span>is all a motivated seller needs to publish to tilt everyday advice</span></div>
+  </div>
+  <p class="lede" style="margin-top:36px">People now ask AI which phone, insurer or university to choose. Can trust infrastructure make those answers verifiable, for people and for the AI itself?</p>
+</section>
+
+<section class="slide" id="3">
+  <span class="mark">What we built</span>
+  <h2>Every claim is bound to a quote, checked against its passage, cross-examined, and logged.</h2>
+  <div class="flow">
+    <div class="det"><b>Fetch &amp; hash</b>Live web pages, SHA-256 of extracted text, retrieval time.</div>
+    <div><b>Extract claims</b>Atomic claims tied to an option, a criterion and a verbatim quote.</div>
+    <div class="det"><b>Locate quote</b>Is the quoted sentence really on the page? Code decides.</div>
+    <div><b>Cross-check</b>Cited passage entails it? Other sources corroborate or contradict?</div>
+    <div class="det"><b>Fixed rules</b>Quote missing → partial. Conflict without corroboration → contradicted.</div>
+    <div class="det"><b>Two-part reliability</b>Metadata prior (cheap to fake) + track record earned in verification.</div>
+    <div class="det"><b>Rank &amp; confidence</b>Only verified claims count; your priorities re-rank instantly.</div>
+    <div class="det"><b>Seal</b>Hash-chained audit log; dossier hash committed; one-click integrity check.</div>
+  </div>
+  <p class="caption">Dashed: deterministic code. Solid: language judgement. The same layer runs in the web app and as a tool an AI agent can call.</p>
+</section>
+
+<section class="slide" id="4">
+  <span class="mark">The experiment</span>
+  <h2>{{N_QUESTIONS}} real decisions. Identical live-web evidence. With and without the tool, with and without a planted lie.</h2>
+  <div class="two">
+    <ul>
+      <li><b>Baseline agent</b>: reads sources, writes a cited recommendation.</li>
+      <li><b>Self-check</b>: same, plus "verify everything, flag conflicts".</li>
+      <li><b>Tool</b>: same instructions plus Decision AI's provenance tool.</li>
+    </ul>
+    <ul>
+      <li>Each run on a <b>clean</b> pool and a <b>poisoned</b> pool (one credible-looking article with 3 false claims).</li>
+      <li>{{raw:n_agent_runs}} fresh AI-agent runs, including clean replicates; blinded judges.</li>
+      <li>Attribution, planted-falsehood adoption, conflict disclosure, recommendation flips.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="slide" id="5">
+  <span class="mark">Result 1 · Attribution</span>
+  <h2>{{SLIDE_RESULT1_TITLE}}</h2>
+  <div class="fig"><img src="../report/figures/fig2_attribution.png" alt="Citation support and unsupported statements by condition"></div>
+</section>
+
+<section class="slide" id="6">
+  <span class="mark">Result 2 · Planted falsehoods</span>
+  <h2>{{SLIDE_RESULT2_TITLE}}</h2>
+  <div class="fig"><img src="../report/figures/fig3_planted.png" alt="Planted false claims stated, flagged or absent by condition"></div>
+</section>
+
+<section class="slide" id="7">
+  <span class="mark">Result 3 · Decisions</span>
+  <h2>{{SLIDE_RESULT3_TITLE}}</h2>
+  <div class="fig"><img src="../report/figures/fig6_stability.png" alt="How often the recommendation changed"></div>
+</section>
+
+<section class="slide" id="7b">
+  <span class="mark">Result 4 · Reliability signals</span>
+  <h2>{{SLIDE_RESULT4_TITLE}}</h2>
+  <div class="fig"><img src="../report/figures/fig5_reliability.png" alt="Metadata-only reliability vs reliability after verification"></div>
+</section>
+
+<section class="slide" id="8">
+  <span class="mark">Takeaways</span>
+  <h2>What we learned</h2>
+  {{SLIDE_TAKEAWAYS}}
+</section>
+
+<section class="slide title-slide" id="9">
+  <h1>Decision AI: decisions you can check.</h1>
+  <p class="lede">Code, data, prompts and the full report: <b>github.com/imthegoodboy/Decision-AI</b></p>
+  <p class="who">Built during the AI x Epistemics Research Sprint, November 2026.</p>
+</section>
+
+<script>
+  // Presentation mode: slides.html#<n> shows only slide n, scaled to the window.
+  function present() {
+    const id = location.hash.slice(1);
+    if (!id) return;
+    document.body.style.background = "#ffffff";
+    document.body.style.overflow = "hidden";
+    document.querySelectorAll(".slide").forEach((s) => (s.style.display = s.id === id ? "flex" : "none"));
+    const s = document.getElementById(id);
+    if (!s) return;
+    const k = Math.min(innerWidth / 1280, innerHeight / 720);
+    Object.assign(s.style, { position: "absolute", margin: "0", transformOrigin: "top left", transform: `scale(${k})`, left: `${(innerWidth - 1280 * k) / 2}px`, top: `${(innerHeight - 720 * k) / 2}px` });
+  }
+  addEventListener("hashchange", present);
+  addEventListener("resize", present);
+  present();
+</script>
+</body>
+</html>

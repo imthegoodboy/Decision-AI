@@ -1,0 +1,43 @@
+{"criteria":[
+{"name":"Security track record","weight":35,"description":"Breach history and architecture"},
+{"name":"Independent audits","weight":30,"description":"Published third-party audits and certifications"},
+{"name":"Price","weight":25,"description":"Family plan cost for four, including renewal"},
+{"name":"Platform and family fit","weight":10,"description":"iPhone, Android, Windows support and enough seats"}],
+"options":[
+{"name":"NordPass","summary":"XChaCha20, zero-knowledge, six-seat Family plan, cheap first-term price","price":"$3.69/month on a one-year term, less on two-year; renews higher"},
+{"name":"1Password","summary":"Secret Key design, regular Cure53 audits, SOC 2 Type 2, ISO 27001; no free tier","price":"Sources disagree: $5.99/month (source 9) vs renews at $9.99/month (source 7)"},
+{"name":"RoboForm","summary":"Five-seat family plan, SOC 2 Type 2, third-party audit, no reported breach in about 25 years","price":"About $1.59/month promotional"},
+{"name":"Bitwarden","summary":"Open source, multiple independent audits; family seat count and Jan 2026 audit result disputed","price":"$40/year (source 2) or $47.88/year (source 9), 6 users; source 7 says 3-user cap"},
+{"name":"Keeper","summary":"Most certified; no vault breach; expensive and enterprise-oriented","price":"$91.99/year for five users"}],
+"scores":[
+{"option":"NordPass","criterion":"Security track record","score":6,"rationale":"Zero-knowledge XChaCha20; no breach evidence found but none affirmatively stated either.","claims":["C1"]},
+{"option":"NordPass","criterion":"Independent audits","score":6,"rationale":"Three sources say audited but none names the auditor or date.","claims":["C1"]},
+{"option":"NordPass","criterion":"Price","score":8,"rationale":"Low family price, renewal increase noted.","claims":["C2","C15"]},
+{"option":"NordPass","criterion":"Platform and family fit","score":9,"rationale":"iPhone, Android, Windows; six seats.","claims":["C3"]},
+{"option":"1Password","criterion":"Security track record","score":8,"rationale":"Secret Key protects vault even on server compromise.","claims":["C17"]},
+{"option":"1Password","criterion":"Independent audits","score":9,"rationale":"Regular published Cure53 audits plus SOC 2 and ISO 27001.","claims":["C4"]},
+{"option":"1Password","criterion":"Price","score":null,"rationale":"Sources conflict on price and renewal.","claims":[]},
+{"option":"RoboForm","criterion":"Security track record","score":7,"rationale":"No reported breach in about 25 years (absence of evidence).","claims":["C6"]},
+{"option":"RoboForm","criterion":"Independent audits","score":6,"rationale":"SOC 2 Type 2 and one third-party audit; fewer published details.","claims":["C6"]},
+{"option":"RoboForm","criterion":"Price","score":9,"rationale":"Lowest price among options, promotional.","claims":["C6"]},
+{"option":"Bitwarden","criterion":"Independent audits","score":7,"rationale":"Open source with multiple independent audits; Jan 2026 result disputed.","claims":["C10"]},
+{"option":"Bitwarden","criterion":"Price","score":8,"rationale":"Cheap, but seat count disputed.","claims":["C9"]},
+{"option":"Keeper","criterion":"Security track record","score":8,"rationale":"No vault breach reported, though two sources are vendor-adjacent.","claims":["C13"]},
+{"option":"Keeper","criterion":"Independent audits","score":9,"rationale":"SOC 2, ISO 27001, FedRAMP High.","claims":["C13"]},
+{"option":"Keeper","criterion":"Price","score":3,"rationale":"Highest annual cost for five users.","claims":["C13"]}],
+"recommendation":{"option":"NordPass","headline":"NordPass Family is the best balance for four people on iPhone, Android and Windows, with 1Password as the audit-first alternative","summary":"NordPass covers all three platforms, gives six private vaults, has zero-knowledge encryption and a low family price, but its audit details are thin.","reasons":[
+{"text":"Zero-knowledge XChaCha20 design, reported as independently audited by three sources","claims":["C1"]},
+{"text":"Works on iPhone, Android and Windows","claims":["C3"]},
+{"text":"Low family price, though it rises at renewal","claims":["C2","C15"]}],
+"tradeoffs":[{"text":"Audit evidence is less specific than 1Password or Keeper","claims":["C1","C4","C13"]}],
+"alternatives":[{"option":"1Password","when":"Audit transparency matters more than price"},{"option":"RoboForm","when":"Lowest price matters most"},{"option":"Bitwarden","when":"Open source matters and the seat count is confirmed"}],
+"caveats":["Prices are promotional and change","Auditor names for NordPass not given in sources"],
+"nextSteps":["Check NordPass's published audit reports","Confirm renewal price before buying"]},
+"contradictions":[
+{"option":"Bitwarden","topic":"Jan 2026 Cure53 audit result","claims":["C7","C8"],"assessment":"Source 2 says zero critical findings; source 7 says two critical. Source 2 is dated 2023 yet describes 2026 and has lower reliability (54 vs 67), but neither links the report. Unresolved.","severity":"high"},
+{"option":"1Password","topic":"Family price and renewal","claims":["C5","C16"],"assessment":"Source 9 says $5.99/month; source 7 says renews at $9.99/month. Unresolved.","severity":"medium"},
+{"option":"Bitwarden","topic":"Family seat count","claims":["C9"],"assessment":"Sources 2 and 9 say six users; source 7 says three. Majority favours six but unverified.","severity":"medium"}],
+"uncertainties":[
+{"kind":"incomplete","text":"No source names NordPass's auditor or audit date","option":"NordPass","impact":"high","howToResolve":"Read NordPass's own audit page"},
+{"kind":"single-source","text":"Keeper breach record rests on vendor-adjacent sources","option":"Keeper","impact":"medium","howToResolve":"Check independent breach databases"},
+{"kind":"outdated","text":"Prices are promotional and vary by source","option":null,"impact":"medium","howToResolve":"Check vendor pricing pages"}]}

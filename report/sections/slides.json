@@ -1,0 +1,7 @@
+{
+  "SLIDE_RESULT1_TITLE": "With full sources, agents already cite faithfully: about 98% of cited claims supported in every condition.",
+  "SLIDE_RESULT2_TITLE": "With the tool, no answer stated a planted falsehood as fact ({{pct0:poisoned.planted_adopted_any.decisionai}} vs {{pct0:poisoned.planted_adopted_any.baseline}} for the baseline).",
+  "SLIDE_RESULT3_TITLE": "But agents flagged the lie and still followed it: recommendations moved toward the attacker in {{rawpct:stability.pooled.attack_consistent_poisoned}} of cases vs {{rawpct:stability.pooled.attack_consistent_replicate}} by chance.",
+  "SLIDE_RESULT4_TITLE": "Metadata reliability rewarded the fake page; reliability earned through verification halved its advantage.",
+  "SLIDE_TAKEAWAYS": "<ul><li>Frontier agents with full sources already cite faithfully; attribution is no longer the bottleneck.</li><li>A rule-bound provenance tool stopped agents repeating planted falsehoods.</li><li><b>Detection is not defence:</b> a single planted page still steered decisions in every condition. The tool reduced this but did not remove it.</li><li>Author, date and publisher are cheap to fake. Corroboration is costlier to fake and easy to audit.</li><li>Next: make verification constrain the decision itself, with leave-one-source-out stability and logged overrides.</li></ul>"
+}

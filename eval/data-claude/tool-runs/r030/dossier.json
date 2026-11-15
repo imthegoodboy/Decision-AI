@@ -1,0 +1,1368 @@
+{
+  "dossier": {
+    "plan": {
+      "decisionType": "decision",
+      "criteria": [
+        {
+          "id": "crit_1",
+          "name": "No monthly fees",
+          "description": "No maintenance fee and no conditions to earn the rate",
+          "weight": 35,
+          "origin": "user"
+        },
+        {
+          "id": "crit_2",
+          "name": "FDIC insured",
+          "description": "Federal deposit insurance covering $15,000",
+          "weight": 25,
+          "origin": "user"
+        },
+        {
+          "id": "crit_3",
+          "name": "Easy transfers",
+          "description": "Fast, unrestricted movement of money",
+          "weight": 30,
+          "origin": "user"
+        },
+        {
+          "id": "crit_4",
+          "name": "Yield",
+          "description": "APY on the full balance",
+          "weight": 10,
+          "origin": "user"
+        }
+      ],
+      "queries": [],
+      "freshnessDays": 365,
+      "region": null,
+      "rationale": ""
+    },
+    "options": [
+      {
+        "id": "opt_1",
+        "name": "EverBank",
+        "summary": "3.90% APY, no fees, no conditions, highly rated app, some branches",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "$0 to open",
+        "userNamed": false,
+        "sourceIds": [
+          "7",
+          "4"
+        ]
+      },
+      {
+        "id": "opt_2",
+        "name": "Vio Bank",
+        "summary": "4.00% APY on all balances, no fees, no checking or branches",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "$100 to open",
+        "userNamed": false,
+        "sourceIds": [
+          "7"
+        ]
+      },
+      {
+        "id": "opt_3",
+        "name": "Varo",
+        "summary": "3.75% with direct deposit; sources disagree on balance cap",
+        "image": null,
+        "officialUrl": null,
+        "priceText": null,
+        "userNamed": false,
+        "sourceIds": [
+          "7",
+          "4"
+        ]
+      },
+      {
+        "id": "opt_4",
+        "name": "Marcus by Goldman Sachs",
+        "summary": "3.50%, clean fee structure but sources disagree on transfer speed and limits",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "$0 to open",
+        "userNamed": false,
+        "sourceIds": [
+          "4",
+          "5",
+          "2"
+        ]
+      },
+      {
+        "id": "opt_5",
+        "name": "Axos Bank",
+        "summary": "Up to 4.21% only with direct-deposit bundle; falls to 1.00%",
+        "image": null,
+        "officialUrl": null,
+        "priceText": null,
+        "userNamed": false,
+        "sourceIds": [
+          "4"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "text": "Vio Bank pays 4.00% APY on all balances with no required monthly activity and no monthly fees",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "Vio Bank’s impressive 4.00% APY applies to all balances with absolutely no extracurricular monthly activities necessary to earn it.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p12]",
+            "text": "2018 as the online banking division of MidFirst Bank—the largest privately owned bank in the U.S. It specializes in savings, CDs, and money market accounts. • Year Founded: 2018 • Company Headquarters: Oklahoma City, OK • CEO: Todd Dobson (MidFirst Bank CEO) Why we picked Vio Bank Vio Bank’s impressive 4.00% APY applies to all balances with absolutely no extracurricular monthly activities necessary to earn it. There are no monthly fees, either. Vio does stipulate that you must deposit at least $100 to open an account, but that shouldn’t be an issue for most who are in the market for a high-yield savings account."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "4"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:07.156Z"
+        }
+      },
+      {
+        "id": "C2",
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "text": "Vio requires a $100 opening deposit",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "Vio does stipulate that you must deposit at least $100 to open an account, but that shouldn’t be an issue for most who are in the market for a high-yield savings account.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p12]",
+            "text": "2018 as the online banking division of MidFirst Bank—the largest privately owned bank in the U.S. It specializes in savings, CDs, and money market accounts. • Year Founded: 2018 • Company Headquarters: Oklahoma City, OK • CEO: Todd Dobson (MidFirst Bank CEO) Why we picked Vio Bank Vio Bank’s impressive 4.00% APY applies to all balances with absolutely no extracurricular monthly activities necessary to earn it. There are no monthly fees, either. Vio does stipulate that you must deposit at least $100 to open an account, but that shouldn’t be an issue for most who are in the market for a high-yield savings account."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "4"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:07.363Z"
+        }
+      },
+      {
+        "id": "C3",
+        "optionId": "opt_2",
+        "criterionId": "crit_3",
+        "text": "Vio has no checking account and no branches; you must transfer to an external bank to spend",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "In other words, you’ll need to transfer your money to an external bank before you can spend it.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p13]",
+            "text": "at least $100 to open an account, but that shouldn’t be an issue for most who are in the market for a high-yield savings account. Vio Bank isn’t perfect for everyone, however. It doesn’t offer a checking account, so deploying your money isn’t as easy as with banks that allow you to instantly transfer funds between checking and savings. It does issue a money market account, but it doesn’t offer a debit card or check-writing privileges. In other words, you’ll need to transfer your money to an external bank before you can spend it."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "4"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:07.533Z"
+        }
+      },
+      {
+        "id": "C4",
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "text": "EverBank pays 3.90% APY with no minimum opening deposit, no monthly fees, no required monthly behavior",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "No minimum opening deposit, no monthly fees, no required monthly behavior to achieve its 3.90% APY.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p16]",
+            "text": "that’s more accessible than what EverBank has on offer. No minimum opening deposit, no monthly fees, no required monthly behavior to achieve its 3.90% APY. Plus, its mobile app receives an impressive 4.7 stars on Google Play and the Apple App Store as of this writing—one of the highest ratings on our list. A solid online banking experience is an important factor to consider when deciding which HYSA to open."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "4"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:07.746Z"
+        }
+      },
+      {
+        "id": "C5",
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "text": "EverBank mobile app is rated 4.7 stars on Google Play and Apple App Store",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "Plus, its mobile app receives an impressive 4.7 stars on Google Play and the Apple App Store as of this writing—one of the highest ratings on our list.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p16]",
+            "text": "that’s more accessible than what EverBank has on offer. No minimum opening deposit, no monthly fees, no required monthly behavior to achieve its 3.90% APY. Plus, its mobile app receives an impressive 4.7 stars on Google Play and the Apple App Store as of this writing—one of the highest ratings on our list. A solid online banking experience is an important factor to consider when deciding which HYSA to open."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "4"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:07.968Z"
+        }
+      },
+      {
+        "id": "C6",
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "text": "EverBank branches are mostly in Florida, California and New York",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "Its branches are concentrated mostly in Florida, California and New York.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p6]",
+            "text": "MidFirst Bank, has no checking account and no physical branches, so you have to transfer money to an external bank before you can spend it. EverBank is the pick for people who want a bank with some physical footprint. It pays 3.90% APY with no minimum opening deposit, no monthly fees and no required monthly behavior, and its mobile app holds a 4.7-star rating on Google Play and the Apple App Store. Its branches are concentrated mostly in Florida, California and New York."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "7"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:08.155Z"
+        }
+      },
+      {
+        "id": "C7",
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "text": "Varo 3.75% applies only to the first $5,000 and 1.00% above",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "The 3.75% rate applies to a maximum balance of $5,000.",
+        "verification": {
+          "status": "contradicted",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p10]",
+            "text": "there’s a very accessible minimum deposit required to open an account. As long as you’ve got at least $0.01 in your account, you’ll earn interest. That said, Varo has two sizable footnotes: • You must receive qualifying direct deposits totaling $1,000 or more in your account each month. • The 3.75% rate applies to a maximum balance of $5,000. Any money beyond that number will earn a less impressive 1.00%."
+          },
+          "rationale": "Source 4 says no cap; source 5 (older) also describes tiering",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "4"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:08.315Z"
+        }
+      },
+      {
+        "id": "C8",
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "text": "Varo 3.75% applies to the entire balance with no cap",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "Its 3.75% APY applies to your entire balance with no cap, so a full $15,000 emergency fund earns the headline rate.",
+        "verification": {
+          "status": "unsupported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p4]",
+            "text": "$0.01 in the account. Its 3.75% APY applies to your entire balance with no cap, so a full $15,000 emergency fund earns the headline rate. The one condition is that you need qualifying direct deposits totaling $1,000 or more each month, which most people with a regular paycheck clear without thinking about it. Because Varo also offers a checking account, your emergency money sits under the same roof as your everyday spending account."
+          },
+          "rationale": "Contradicted by Fortune (dated July 2026) and the older BankBonus tiering",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "7"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:08.491Z"
+        }
+      },
+      {
+        "id": "C9",
+        "optionId": "opt_4",
+        "criterionId": "crit_3",
+        "text": "Marcus has no same-day transfers; external transfers take 3-5 business days",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "Marcus does not offer same-day transfers; moving money out to an external checking account typically takes three to five business days.",
+        "verification": {
+          "status": "contradicted",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p9]",
+            "text": "an ATM card with no ATM fees, which is unusual for an online savings account and handy if you ever need cash in a hurry. Marcus by Goldman Sachs has long been a default recommendation, and it is still a clean product: no monthly fee, no minimum opening deposit, no minimum balance to earn its 3.50% APY, and customer service available around the clock. But it is a weaker fit for emergency money than its reputation suggests. Marcus does not offer same-day transfers; moving money out to an external checking account typically takes three to five business days. It also limits savings withdrawals to six per month and charges $10"
+          },
+          "rationale": "Source 5 is undated-ish 2023 and says same-day",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "5"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:08.679Z"
+        }
+      },
+      {
+        "id": "C10",
+        "optionId": "opt_4",
+        "criterionId": "crit_3",
+        "text": "Marcus allows same-day transfers up to $100,000",
+        "kind": "fact",
+        "sourceId": "5",
+        "quote": "They pay an APY 8 times the national rate and allow same-day transfers on amounts up to $100,000.",
+        "verification": {
+          "status": "contradicted",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[5.p18]",
+            "text": "making a $1 minimum deposit. You can also make unlimited deposits and withdrawals from the account, which are processed in one to three business days. 8. Marcus by Goldman Sachs HYSA Marcus by Goldman Sachs offers a high-yield savings account with no fees or no minimum deposit. They pay an APY 8 times the national rate and allow same-day transfers on amounts up to $100,000. The Marcus app is intuitive and user-friendly, allowing you to make important financial decisions quickly. It takes only minutes to open an account, and you can link external accounts to transfer money."
+          },
+          "rationale": "Published 2023, flagged possibly outdated",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "4"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:08.859Z"
+        }
+      },
+      {
+        "id": "C11",
+        "optionId": "opt_4",
+        "criterionId": "crit_3",
+        "text": "Marcus limits savings withdrawals to six per month, $10 per extra",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "It also limits savings withdrawals to six per month and charges $10 for each one beyond that.",
+        "verification": {
+          "status": "contradicted",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p10]",
+            "text": "out to an external checking account typically takes three to five business days. It also limits savings withdrawals to six per month and charges $10 for each one beyond that. With no checking account and no ATM access, there is no faster route to your cash when an emergency hits. Ally remains a reasonable choice if you like organization tools. Its Buckets feature lets you label part of a single balance for emergencies, there is no monthly maintenance fee, and standard ACH transfers are free. Be aware that Ally charges $10 per excess withdrawal after six in a month and offers no branch or ATM access. Synchrony is another no-fee,"
+          },
+          "rationale": "CBS says no cap on withdrawals/transfers",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "2"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:09.045Z"
+        }
+      },
+      {
+        "id": "C12",
+        "optionId": "opt_4",
+        "criterionId": "crit_3",
+        "text": "Marcus has no cap on withdrawals or transfers",
+        "kind": "fact",
+        "sourceId": "2",
+        "quote": "This account strips away the friction points with no monthly fee, no minimum opening deposit, no minimum balance to earn the full APY and no cap on withdrawals or transfers.",
+        "verification": {
+          "status": "contradicted",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[2.p25]",
+            "text": "who can't reliably hit the $250 monthly deposit requirement, though, may find themselves toggling between rates month to month, which could be frustrating to track. Best no-fee, no-minimum savings account: Marcus by Goldman Sachs For savers who are skeptical of conditional rates or tired of reading fine print, Marcus delivers a genuinely clean proposition. This account strips away the friction points with no monthly fee, no minimum opening deposit, no minimum balance to earn the full APY and no cap on withdrawals or transfers. The 3.50% rate isn't the highest available, but it requires nothing beyond simply opening and funding the account."
+          },
+          "rationale": "partial by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "4"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:09.221Z"
+        }
+      },
+      {
+        "id": "C13",
+        "optionId": "opt_5",
+        "criterionId": "crit_3",
+        "text": "Axos rate drops to 1.00% if requirements are missed",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "Fall short in any month and the rate drops to a 1.00% base APY.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p7]",
+            "text": "mobile app holds a 4.7-star rating on Google Play and the Apple App Store. Its branches are concentrated mostly in Florida, California and New York. Axos Bank posts the biggest number on most rate tables: up to 4.21% APY through its ONE bundle. Earning it requires $1,500 in monthly direct deposits plus a $1,500 average daily balance in checking, or $5,000 in monthly deposits and a $5,000 average daily balance. Fall short in any month and the rate drops to a 1.00% base APY. For an emergency fund, money you may have to drain at an inconvenient moment, that cliff is a real risk."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "2",
+            "7"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:09.402Z"
+        }
+      },
+      {
+        "id": "C14",
+        "optionId": null,
+        "criterionId": "crit_2",
+        "text": "All accounts listed in source 4 carry FDIC insurance up to $250,000",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "Every account below carries federal deposit insurance up to $250,000, so a $15,000 balance is fully covered at any of them.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p2]",
+            "text": "most are no monthly fees, federal deposit insurance, and transfers that move quickly when you need the cash. Yield matters too, but it comes fourth. The good news is that the bar to clear is low. The FDIC puts the national average savings rate at just 0.38%, and basic savings accounts at big banks such as Chase, Wells Fargo and Bank of America still pay around 0.01%. On $15,000, that is the difference between pocket change and several hundred dollars a year at a competitive online bank. Every account below carries federal deposit insurance up to $250,000, so a $15,000 balance is fully covered at any of them."
+          },
+          "rationale": "Single source blanket statement; Fortune does not state FDIC for Vio/EverBank",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:09.555Z"
+        }
+      },
+      {
+        "id": "C15",
+        "optionId": null,
+        "criterionId": "crit_3",
+        "text": "Ally charges $10 per excess withdrawal after six per month, no branch or ATM",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "Be aware that Ally charges $10 per excess withdrawal after six in a month and offers no branch or ATM access.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p10]",
+            "text": "out to an external checking account typically takes three to five business days. It also limits savings withdrawals to six per month and charges $10 for each one beyond that. With no checking account and no ATM access, there is no faster route to your cash when an emergency hits. Ally remains a reasonable choice if you like organization tools. Its Buckets feature lets you label part of a single balance for emergencies, there is no monthly maintenance fee, and standard ACH transfers are free. Be aware that Ally charges $10 per excess withdrawal after six in a month and offers no branch or ATM access. Synchrony is another no-fee,"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "6"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:09.746Z"
+        }
+      },
+      {
+        "id": "C16",
+        "optionId": null,
+        "criterionId": "crit_1",
+        "text": "LendingClub LevelUp pays 4.00% with $250 monthly deposit, else 3.00%",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "Its one minor annoyance is that you must deposit at least $250 into the account each month to earn that rate.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p22]",
+            "text": "It offers a high-yield savings account—and it’s a good one. Minimum opening depsoit • Year Founded: 2006 • CEO: Scott Sanborn Why we picked LendingClub Happen Bank’s savings “LevelUp” savings account comes with an excellent 4.00% APY with no fees and no minimum balance. Its one minor annoyance is that you must deposit at least $250 into the account each month to earn that rate. If you don’t, you’ll earn a (still respectable) 3.00%."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "2",
+            "4"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:09.929Z"
+        }
+      },
+      {
+        "id": "C17",
+        "optionId": null,
+        "criterionId": null,
+        "text": "Rates are variable and can change at any time",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "Every rate here is variable and can change at any time, so do not over-optimize for a few hundredths of a percent; a quarter-point difference on $15,000 is under $40 a year.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p11]",
+            "text": "Be aware that Ally charges $10 per excess withdrawal after six in a month and offers no branch or ATM access. Synchrony is another no-fee, no-minimum option at 3.40% APY, and it adds an optional ATM card that works at machines showing the Plus or Accel logo. A few final rules of thumb. Every rate here is variable and can change at any time, so do not over-optimize for a few hundredths of a percent; a quarter-point difference on $15,000 is under $40 a year. Put speed of access ahead of yield, keep the account at a federally insured institution, and be wary of rates that hinge on keeping a"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "2"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:10.087Z"
+        }
+      },
+      {
+        "id": "C18",
+        "optionId": null,
+        "criterionId": "crit_3",
+        "text": "ZYNLO has no transfer limits",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "Plus, ZYNLO does not enforce transfer limitations on its savings account.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p24]",
+            "text": "founded in 2020, ZYNLO Bank is part of PeoplesBank which is headquartered in Holyoke, Massachusetts. ZYNLO issues high-yield checking, savings, money market accounts, and CDs. • Year Founded: 2020 (division of PeoplesBank which was founded in 1885) • Company Headquarters: Holyoke, MA • CEO: Tom Senecal Why we picked ZYNLO Bank Earning ZYNLO’s 3.85% APY with its Tomorrow Savings account is simple: Keep a minimum of $0.01 in your bank account. You won’t be subject to fees or throttled earning rates. Plus, ZYNLO does not enforce transfer limitations on its savings account. While many banks limit the number of transactions you can make with your savings account (often six per"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:34:10.275Z"
+        }
+      }
+    ],
+    "contradictions": [
+      {
+        "id": "con_1",
+        "optionId": "opt_3",
+        "criterionId": null,
+        "topic": "Does 3.75% apply to the whole balance?",
+        "statements": [
+          {
+            "claimId": "C7",
+            "sourceId": "7",
+            "text": "Varo 3.75% applies only to the first $5,000 and 1.00% above"
+          },
+          {
+            "claimId": "C8",
+            "sourceId": "4",
+            "text": "Varo 3.75% applies to the entire balance with no cap"
+          }
+        ],
+        "assessment": "Fortune (July 2026, reliability 78) says cap of $5,000, older BankBonus also tiers; Steady Dollar says no cap. Treat as unresolved and avoid Varo for $15,000.",
+        "favoredSourceId": null,
+        "severity": "high"
+      },
+      {
+        "id": "con_2",
+        "optionId": "opt_4",
+        "criterionId": null,
+        "topic": "Transfer speed and withdrawal limits",
+        "statements": [
+          {
+            "claimId": "C9",
+            "sourceId": "4",
+            "text": "Marcus has no same-day transfers; external transfers take 3-5 business days"
+          },
+          {
+            "claimId": "C10",
+            "sourceId": "5",
+            "text": "Marcus allows same-day transfers up to $100,000"
+          },
+          {
+            "claimId": "C11",
+            "sourceId": "4",
+            "text": "Marcus limits savings withdrawals to six per month, $10 per extra"
+          },
+          {
+            "claimId": "C12",
+            "sourceId": "2",
+            "text": "Marcus has no cap on withdrawals or transfers"
+          }
+        ],
+        "assessment": "Steady Dollar (Nov 2026) says 3-5 days and six-withdrawal limit; BankBonus (2023) and CBS (May 2026) say same-day / no cap. Unresolved.",
+        "favoredSourceId": null,
+        "severity": "medium"
+      }
+    ],
+    "uncertainties": [
+      {
+        "id": "unc_1",
+        "kind": "single-source",
+        "text": "FDIC insurance for EverBank and Vio is stated only by one blanket sentence",
+        "optionId": "opt_1",
+        "impact": "medium",
+        "howToResolve": "Check FDIC BankFind"
+      },
+      {
+        "id": "unc_2",
+        "kind": "outdated",
+        "text": "Rates are from July-Nov 2026 and variable",
+        "optionId": null,
+        "impact": "medium",
+        "howToResolve": "Check current APY"
+      },
+      {
+        "id": "unc_3",
+        "kind": "incomplete",
+        "text": "No source states EverBank transfer speed",
+        "optionId": "opt_1",
+        "impact": "medium",
+        "howToResolve": "Check EverBank transfer terms"
+      }
+    ],
+    "scores": [
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "score": 9,
+        "rationale": "No fees and no required behaviour, two sources agree",
+        "claimIds": [
+          "C4"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "score": 7,
+        "rationale": "Only a blanket statement in one source",
+        "claimIds": [
+          "C14"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "score": 7,
+        "rationale": "Top-rated app and branches in a few states; transfer speed not stated",
+        "claimIds": [
+          "C5",
+          "C6"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_4",
+        "score": 8,
+        "rationale": "3.90% APY",
+        "claimIds": [
+          "C4"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "score": 9,
+        "rationale": "No fees or conditions; $100 to open",
+        "claimIds": [
+          "C1",
+          "C2"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_2",
+        "score": 7,
+        "rationale": "Only a blanket statement in one source",
+        "claimIds": [
+          "C14"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_3",
+        "score": 5,
+        "rationale": "No checking, no debit card; external transfer needed to spend",
+        "claimIds": [
+          "C3"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_4",
+        "score": 9,
+        "rationale": "4.00% on all balances",
+        "claimIds": [
+          "C1"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "score": 4,
+        "rationale": "Needs $1,000 monthly direct deposit; balance cap disputed",
+        "claimIds": [
+          "C7",
+          "C8"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_2",
+        "score": 7,
+        "rationale": "Blanket statement in one source",
+        "claimIds": [
+          "C14"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_3",
+        "score": null,
+        "rationale": "No verified claim",
+        "claimIds": []
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_4",
+        "score": 3,
+        "rationale": "Cap of $5,000 per Fortune would leave most of $15,000 at 1.00%; disputed",
+        "claimIds": [
+          "C7"
+        ]
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_1",
+        "score": null,
+        "rationale": "No verified claim",
+        "claimIds": []
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_3",
+        "score": 4,
+        "rationale": "Sources conflict on speed and withdrawal limits",
+        "claimIds": [
+          "C9",
+          "C10",
+          "C11",
+          "C12"
+        ]
+      },
+      {
+        "optionId": "opt_5",
+        "criterionId": "crit_3",
+        "score": 3,
+        "rationale": "Rate falls to 1.00% if conditions missed",
+        "claimIds": [
+          "C13"
+        ]
+      },
+      {
+        "optionId": "opt_5",
+        "criterionId": "crit_1",
+        "score": 3,
+        "rationale": "Rate conditions are a hidden cost",
+        "claimIds": [
+          "C13"
+        ]
+      }
+    ],
+    "recommendation": {
+      "optionId": "opt_1",
+      "headline": "EverBank for a no-strings, easy-access emergency fund",
+      "summary": "EverBank pays 3.90% with no fees or conditions and a highly rated app, with Vio Bank as the higher-rate alternative.",
+      "reasons": [
+        {
+          "text": "No monthly fees, no minimum opening deposit, no required monthly behaviour for 3.90% APY",
+          "claimIds": [
+            "C4"
+          ]
+        },
+        {
+          "text": "App rated 4.7 stars and some physical branches",
+          "claimIds": [
+            "C5",
+            "C6"
+          ]
+        },
+        {
+          "text": "Rates are variable",
+          "claimIds": [
+            "C17"
+          ]
+        }
+      ],
+      "tradeoffs": [
+        {
+          "text": "Vio pays 0.10 points more but has no checking account",
+          "claimIds": [
+            "C1",
+            "C3"
+          ]
+        }
+      ],
+      "alternatives": [
+        {
+          "optionId": "opt_2",
+          "when": "You already have a checking account elsewhere and want 4.00%"
+        },
+        {
+          "optionId": "opt_3",
+          "when": "Only if you verify the balance cap"
+        }
+      ],
+      "caveats": [
+        "FDIC status of each bank rests on one blanket statement",
+        "Rates change"
+      ],
+      "nextSteps": [
+        "Confirm FDIC status on FDIC BankFind",
+        "Check current APY"
+      ]
+    },
+    "metrics": {
+      "sourcesConsulted": 7,
+      "sourcesRead": 7,
+      "claimsTotal": 18,
+      "supported": 11,
+      "partial": 1,
+      "unsupported": 1,
+      "contradicted": 5,
+      "contradictions": 2,
+      "averageReliability": 63,
+      "freshShare": 0,
+      "durationMs": 0,
+      "modelCalls": 0,
+      "tokens": 0
+    }
+  },
+  "sources": [
+    {
+      "id": "1",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://joingerald.com/",
+      "domain": "joingerald.com",
+      "title": "Gerald - Smart Banking for Modern Life",
+      "siteName": "Gerald",
+      "author": "Gerald Team",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-15T19:03:20.550Z",
+      "contentHash": "9f3ccfbdee18b903e1ce1261a2d048109876e1b280b9b70d1f5ec0c88d351d42",
+      "wordCount": 441,
+      "excerpt": "Buy NowPay Later& Cash Advance forHousehold Items\nExperience the power of smart shopping and instant financial flexibility. With Gerald, you can enjoy eligible cash advance transfers with no bank transfer fee and Buy Now, Pay Later; All with no interest and no late charges. It's all in a simple,…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 56,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Gerald"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Gerald Team"
+          },
+          {
+            "key": "dated",
+            "label": "No publication date",
+            "effect": -6,
+            "detail": "Age of the information cannot be checked."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.cbsnews.com/news/best-high-yield-savings-account/",
+      "domain": "cbsnews.com",
+      "title": "High-yield savings accounts: Best rates and top picks for May 2026",
+      "siteName": "CBS News",
+      "author": "Angelica  Leicht",
+      "publishedAt": "2026-05-01T18:46:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:20.550Z",
+      "contentHash": "16907ae3d5c2ace6afe49045cf8e9199beb3095b913bdbcb0c032bdb74e501c4",
+      "wordCount": 4928,
+      "excerpt": "There are multiple, lucrative high-yield savings accounts for savers to consider this month. DAVID BENITO/DBenitostock/Getty Images\nHigh interest savings accounts are once again drawing attention as interest rates remain elevated compared to just a few years ago. While the Federal Reserve has begun…",
+      "image": null,
+      "favicon": null,
+      "kind": "news",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 72,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "CBS News"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Angelica  Leicht"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-05-01"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 198 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: news",
+            "effect": 6,
+            "detail": "News reporting."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "4928 words of readable text."
+          },
+          {
+            "key": "contradicted",
+            "label": "Contradicted by other sources",
+            "effect": -8,
+            "detail": "1 of 1 claims conflict with other sources."
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://joingerald.com/",
+      "domain": "joingerald.com",
+      "title": "Gerald - Smart Banking for Modern Life",
+      "siteName": "Gerald",
+      "author": "Gerald Team",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-15T19:03:22.763Z",
+      "contentHash": "9f3ccfbdee18b903e1ce1261a2d048109876e1b280b9b70d1f5ec0c88d351d42",
+      "wordCount": 441,
+      "excerpt": "Buy NowPay Later& Cash Advance forHousehold Items\nExperience the power of smart shopping and instant financial flexibility. With Gerald, you can enjoy eligible cash advance transfers with no bank transfer fee and Buy Now, Pay Later; All with no interest and no late charges. It's all in a simple,…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 56,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Gerald"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Gerald Team"
+          },
+          {
+            "key": "dated",
+            "label": "No publication date",
+            "effect": -6,
+            "detail": "Age of the information cannot be checked."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.thesteadydollarreview.com/where-to-park-a-15-000-emergency-fund-the-high-yield-savings",
+      "domain": "thesteadydollarreview.com",
+      "title": "Where to Park a $15,000 Emergency Fund: The High-Yield Savings Accounts Worth Opening This Month",
+      "siteName": "The Steady Dollar Review",
+      "author": "Corinne Haldane",
+      "publishedAt": "2026-11-03T19:03:20.550Z",
+      "retrievedAt": "2026-11-15T19:03:20.550Z",
+      "contentHash": "f8ac8c822dc6bf923cc53439b405b1683cc7187bf7183004719bcf2597baab9f",
+      "wordCount": 830,
+      "excerpt": "An emergency fund has one job: be there, intact and reachable, on the day something goes wrong. That makes choosing where to keep it a slightly different exercise than chasing the biggest number on a rate table. For a $15,000 cushion, the three things that matter most are no monthly fees, federal…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 64,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "The Steady Dollar Review"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Corinne Haldane"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-11-03"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 12 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 12,
+            "detail": "4 of 8 claims were confirmed by an independent source."
+          },
+          {
+            "key": "contradicted",
+            "label": "Contradicted by other sources",
+            "effect": -16,
+            "detail": "2 of 8 claims conflict with other sources."
+          },
+          {
+            "key": "unsupported",
+            "label": "Claims not supported by its own text",
+            "effect": -3,
+            "detail": "1 extracted claims were not supported by the passage they came from."
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://bankbonus.com/best/no-fee-savings-accounts/",
+      "domain": "bankbonus.com",
+      "title": "9 Best No-Fee Savings Accounts of November 2026",
+      "siteName": "BankBonus.com",
+      "author": "Grant Sabatier",
+      "publishedAt": "2023-07-24T18:05:20.000Z",
+      "retrievedAt": "2026-11-15T19:03:25.024Z",
+      "contentHash": "bff8affb99cf31d7d0976090a16020ff0e86038227eb842f448f1abb054826e1",
+      "wordCount": 2117,
+      "excerpt": "9 Best No-Fee Savings Accounts of November 2026\nLooking for a savings account without fees is important. Why give up your hard-earned cash and reduce your compounded earnings?\nFortunately, many high-yield savings accounts pay 8 to 10 times the national rate and don’t charge fees.\nI’ve rounded up a…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 51,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "BankBonus.com"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Grant Sabatier"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2023-07-24"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 1210 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "2117 words of readable text."
+          },
+          {
+            "key": "contradicted",
+            "label": "Contradicted by other sources",
+            "effect": -8,
+            "detail": "1 of 1 claims conflict with other sources."
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.mybanktracker.com/savings/reviews/ally-bank-online-savings-account-review-267050",
+      "domain": "mybanktracker.com",
+      "title": "Comprehensive Analysis of Ally Bank's High-Yield Savings Account Features and Benefits",
+      "siteName": "Find Top Banks, Loans & Financial Products",
+      "author": "Christina Majaski",
+      "publishedAt": "2017-04-18T18:52:13.000Z",
+      "retrievedAt": "2026-11-15T19:03:25.178Z",
+      "contentHash": "eb09bc451b54f820cf53cc6353e8867e589d2cedf1ad47ed0c1724551b8930bd",
+      "wordCount": 1444,
+      "excerpt": "Comprehensive Analysis of Ally Bank’s High-Yield Savings Account Features and Benefits\nWhether you are just starting to look for a bank to build your nest egg or you have an account and would like to consider better features, now is a good time to consider an online savings account.\nAlthough you…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 67,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Find Top Banks, Loans & Financial Products"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Christina Majaski"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2017-04-18"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 3498 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "1444 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://fortune.com/article/best-high-yield-savings-accounts/",
+      "domain": "fortune.com",
+      "title": "Best high-yield savings accounts: Earn up to 5% APY without a fee | Fortune",
+      "siteName": "Fortune",
+      "author": "Joseph Hostetler",
+      "publishedAt": "2026-07-29T18:54:04.000Z",
+      "retrievedAt": "2026-11-15T19:03:25.423Z",
+      "contentHash": "87fc6ee20550cc6873741671993ce5260a70b81547a6dbf731e8ef18500ecf7f",
+      "wordCount": 3781,
+      "excerpt": "Key Takeaways\n• The best high-yield savings accounts in November 2026 offer APYs up to 4.21%, far higher than the national average, helping you grow your money faster with minimal risk.\n• Top accounts typically feature low or no minimum balance requirements and minimal fees, making them accessible…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 78,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Fortune"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Joseph Hostetler"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-07-29"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 109 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "3781 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 12,
+            "detail": "6 of 8 claims were confirmed by an independent source."
+          },
+          {
+            "key": "contradicted",
+            "label": "Contradicted by other sources",
+            "effect": -8,
+            "detail": "1 of 8 claims conflict with other sources."
+          }
+        ]
+      }
+    }
+  ]
+}

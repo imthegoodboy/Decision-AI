@@ -1,0 +1,1521 @@
+{
+  "dossier": {
+    "plan": {
+      "decisionType": "decision",
+      "criteria": [
+        {
+          "id": "crit_1",
+          "name": "Comfort",
+          "description": "Fit, weight and cushions over a 90-minute ride",
+          "weight": 40,
+          "origin": "user"
+        },
+        {
+          "id": "crit_2",
+          "name": "Noise cancellation",
+          "description": "Low-frequency train rumble suppression",
+          "weight": 40,
+          "origin": "user"
+        },
+        {
+          "id": "crit_3",
+          "name": "Price within 200 pounds",
+          "description": "Realistic price at or under 200 pounds",
+          "weight": 10,
+          "origin": "user"
+        },
+        {
+          "id": "crit_4",
+          "name": "Practicality",
+          "description": "Battery, folding, wired backup",
+          "weight": 10,
+          "origin": "user"
+        }
+      ],
+      "queries": [],
+      "freshnessDays": 365,
+      "region": null,
+      "rationale": ""
+    },
+    "options": [
+      {
+        "id": "opt_1",
+        "name": "Sony ULT WEAR",
+        "summary": "Compact foldable over-ear with effective ANC; bass-forward",
+        "image": null,
+        "officialUrl": null,
+        "priceText": null,
+        "userNamed": false,
+        "sourceIds": [
+          "6",
+          "8"
+        ]
+      },
+      {
+        "id": "opt_2",
+        "name": "Sony WH-1000XM5",
+        "summary": "Class-leading ANC and comfort but launched at 380 pounds",
+        "image": null,
+        "officialUrl": null,
+        "priceText": "380 pounds at launch; discounts needed",
+        "userNamed": false,
+        "sourceIds": [
+          "1",
+          "8"
+        ]
+      },
+      {
+        "id": "opt_3",
+        "name": "JBL Live 670NC",
+        "summary": "Strong measured ANC but on-ear per SoundGuys",
+        "image": null,
+        "officialUrl": null,
+        "priceText": null,
+        "userNamed": false,
+        "sourceIds": [
+          "6",
+          "8"
+        ]
+      },
+      {
+        "id": "opt_4",
+        "name": "Anker Soundcore Space One",
+        "summary": "Lightweight folding headphones with adjustable ANC",
+        "image": null,
+        "officialUrl": null,
+        "priceText": null,
+        "userNamed": false,
+        "sourceIds": [
+          "6"
+        ]
+      },
+      {
+        "id": "opt_5",
+        "name": "JLab JBuds Lux ANC",
+        "summary": "Budget option with modest ANC",
+        "image": null,
+        "officialUrl": null,
+        "priceText": null,
+        "userNamed": false,
+        "sourceIds": [
+          "6"
+        ]
+      },
+      {
+        "id": "opt_6",
+        "name": "Sennheiser Accentum",
+        "summary": "Effective everyday ANC, bass-forward",
+        "image": null,
+        "officialUrl": null,
+        "priceText": null,
+        "userNamed": false,
+        "sourceIds": [
+          "4"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "C1",
+        "optionId": "opt_3",
+        "criterionId": null,
+        "text": "JBL Live 670NC is an on-ear design, not over-ear",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "The on-ear form factor makes them highly portable, and in lab testing they exceeded their advertised endurance, lasting 54 hours and 57 minutes.",
+        "verification": {
+          "status": "contradicted",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p19]",
+            "text": "support. That combination is why we singled out the Space One for Android-oriented buyers shopping under $200.Sourced from Anker Soundcore Space One review – SoundGuys. Best Sound Quality pick: JBL Live 670NC JBL Live 670NC is our Best Sound Quality pick for its energetic JBL tuning, extensive app EQ, and strong measured ANC that approaches 30dB around 250Hz. The on-ear form factor makes them highly portable, and in lab testing they exceeded their advertised endurance, lasting 54 hours and 57 minutes. They connect via Bluetooth 5.3, support multipoint, and include a 3.5mm cable for airplane systems, though codec support is limited to SBC and AAC. On our MDAQS scale the"
+          },
+          "rationale": "Source 6 is lab-tested review; source 8 appears to copy its figures but calls it full over-ear",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "8"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:33.027Z"
+        }
+      },
+      {
+        "id": "C2",
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "text": "JBL Live 670NC is a full over-ear design with comfortable cushions",
+        "kind": "fact",
+        "sourceId": "8",
+        "quote": "It is a full over-ear design, with cushions that sit around your ears rather than pressing on them, and that is a big part of why it stays comfortable well past the hour mark.",
+        "verification": {
+          "status": "unsupported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[8.p6]",
+            "text": "noise intact. The ULT button's heavy bass boost also needs taming in the app, which is not what anyone prioritising comfort and quiet is after. Our top pick for this brief is the JBL Live 670NC. It is a full over-ear design, with cushions that sit around your ears rather than pressing on them, and that is a big part of why it stays comfortable well past the hour mark. Its measured noise cancelling approaches 30dB around 250Hz, right in the band where train and Tube rumble live, and in lab testing it ran for 54 hours and 57 minutes, beating its own advertised figure. That is weeks of commuting"
+          },
+          "rationale": "Contradicts SoundGuys which says on-ear; no lab basis",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "6"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:33.186Z"
+        }
+      },
+      {
+        "id": "C3",
+        "optionId": "opt_3",
+        "criterionId": "crit_2",
+        "text": "JBL Live 670NC measured ANC approaches 30dB around 250Hz",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "JBL Live 670NC is our Best Sound Quality pick for its energetic JBL tuning, extensive app EQ, and strong measured ANC that approaches 30dB around 250Hz.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p19]",
+            "text": "support. That combination is why we singled out the Space One for Android-oriented buyers shopping under $200.Sourced from Anker Soundcore Space One review – SoundGuys. Best Sound Quality pick: JBL Live 670NC JBL Live 670NC is our Best Sound Quality pick for its energetic JBL tuning, extensive app EQ, and strong measured ANC that approaches 30dB around 250Hz. The on-ear form factor makes them highly portable, and in lab testing they exceeded their advertised endurance, lasting 54 hours and 57 minutes. They connect via Bluetooth 5.3, support multipoint, and include a 3.5mm cable for airplane systems, though codec support is limited to SBC and AAC. On our MDAQS scale the"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "8"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:33.338Z"
+        }
+      },
+      {
+        "id": "C4",
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "text": "Sony ULT WEAR delivers more than 25dB attenuation above 80Hz",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "In lab testing they lasted 32 hours and 35 minutes and deliver more than 25dB of attenuation above 80Hz, making them well suited for commutes and travel.",
+        "verification": {
+          "status": "contradicted",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p14]",
+            "text": "the ULT button’s heavy bass boost. In lab testing they lasted 32 hours and 35 minutes and deliver more than 25dB of attenuation above 80Hz, making them well suited for commutes and travel. They support Bluetooth 5.2 with LDAC and multipoint, and offer a wired 3.5mm option though no USB-C audio; the Sony Sound Connect app also unlocks ANC and EQ customization. The ULT WEAR also earned Best ANC, Best Battery Life, Best Call Quality, Best Over-Ear Headphones, Best for iPhone users and Best for Comfort recognition.Sourced from Sony ULT WEAR review – SoundGuys."
+          },
+          "rationale": "Source 8 claims barely 15dB",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "8"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:33.500Z"
+        }
+      },
+      {
+        "id": "C5",
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "text": "Sony ULT WEAR low-frequency attenuation barely reaches 15dB",
+        "kind": "fact",
+        "sourceId": "8",
+        "quote": "Measured attenuation in the low frequencies where train rumble sits barely reaches 15dB, which is fine for a café but leaves a lot of carriage noise intact.",
+        "verification": {
+          "status": "unsupported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[8.p5]",
+            "text": "lasted 32 hours and 35 minutes in independent lab testing, so endurance is not the problem. Noise cancelling is. Measured attenuation in the low frequencies where train rumble sits barely reaches 15dB, which is fine for a café but leaves a lot of carriage noise intact. The ULT button's heavy bass boost also needs taming in the app, which is not what anyone prioritising comfort and quiet is after."
+          },
+          "rationale": "Conflicts with SoundGuys lab data",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "6"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:33.703Z"
+        }
+      },
+      {
+        "id": "C6",
+        "optionId": "opt_1",
+        "criterionId": null,
+        "text": "Sony ULT WEAR is a compact foldable over-ear with effective ANC",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "Sony ULT WEAR are our best overall pick because they combine effective ANC, long battery life, and broad connectivity in a compact, foldable over-ear package.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p13]",
+            "text": "about the inner workings of audio. To see why you can trust us with your purchase decision, make sure to check out our ethics policy. Poll How much are you willing to spend on good headphones? Best overall pick: Sony ULT WEAR Sony ULT WEAR are our best overall pick because they combine effective ANC, long battery life, and broad connectivity in a compact, foldable over-ear package. Our MDAQS assessment shows the ULT WEAR are bass-forward, so we recommend using the app EQ to tame the ULT button’s heavy bass boost. In lab testing they lasted 32 hours and 35 minutes and deliver more than 25dB of attenuation above 80Hz,"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "8"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:33.888Z"
+        }
+      },
+      {
+        "id": "C7",
+        "optionId": "opt_1",
+        "criterionId": null,
+        "text": "Sony ULT WEAR is bass-forward with a heavy ULT bass boost needing EQ",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "Our MDAQS assessment shows the ULT WEAR are bass-forward",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p13]",
+            "text": "about the inner workings of audio. To see why you can trust us with your purchase decision, make sure to check out our ethics policy. Poll How much are you willing to spend on good headphones? Best overall pick: Sony ULT WEAR Sony ULT WEAR are our best overall pick because they combine effective ANC, long battery life, and broad connectivity in a compact, foldable over-ear package. Our MDAQS assessment shows the ULT WEAR are bass-forward, so we recommend using the app EQ to tame the ULT button’s heavy bass boost. In lab testing they lasted 32 hours and 35 minutes and deliver more than 25dB of attenuation above 80Hz,"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "8"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:34.067Z"
+        }
+      },
+      {
+        "id": "C8",
+        "optionId": "opt_2",
+        "criterionId": null,
+        "text": "Sony WH-1000XM5 weighs 250g",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "Bluetooth SBC, AAC, LDACBattery life 30hrsCharging USB-CTransparency mode YesBuilt-in mic and controls YesFinishes Black, Platinum Silver, Midnight Blue, Smoky PinkWeight 250g",
+        "verification": {
+          "status": "contradicted",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p13]",
+            "text": "they also feel different. In-hand they feel lighter although the scales suggest there are only four grams between them and the XM4s (254g vs 250g). (Image credit: Sony) Bluetooth SBC, AAC, LDACBattery life 30hrsCharging USB-CTransparency mode YesBuilt-in mic and controls YesFinishes Black, Platinum Silver, Midnight Blue, Smoky PinkWeight 250g The plastics used are nice to touch, even if the older model still feels a bit more premium. They are made predominantly from Acrylonitrile Butadiene Styrene (ABS), a material formed by taking certain car parts made in the US and Japan, recycling and refining them and blending them with mica to get that final finish. It’s a material that was first"
+          },
+          "rationale": "Source 8 says around 320g; source 1 is spec list from review",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [
+            "8"
+          ],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:34.269Z"
+        }
+      },
+      {
+        "id": "C9",
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "text": "Sony WH-1000XM5 comfort is up there with the best with good clamping force",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "Comfort levels are up there with the best and the Sonys deliver just the right amount of clamping force, so they feel secure without threatening to crush our ears.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p15]",
+            "text": "little, and we wonder if Sony could have trimmed a little off the edges just to smooth out their profile. But that’s a minor thing. A section of memory foam in the middle of the headband helps with support and comfort. The band is completely covered in a new synthetic leather that also covers the memory-foam earpads. It’s soft and smooth to the touch. Comfort levels are up there with the best and the Sonys deliver just the right amount of clamping force, so they feel secure without threatening to crush our ears."
+          },
+          "rationale": "Source 8 disagrees on weight only, not tested comfort",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:34.456Z"
+        }
+      },
+      {
+        "id": "C10",
+        "optionId": "opt_2",
+        "criterionId": "crit_2",
+        "text": "Sony WH-1000XM5 is among class leaders for isolating train drone",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "They’re among the class leaders when it comes to isolating us from constant drones and noises within train and underground carriages.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p21]",
+            "text": "the headphones. Alternatively, you can flick between noise-cancelling and the headphones’ Ambient mode by tapping the corresponding button on the edge of the left earcup. And once again Sony generally impresses on the noise-cancelling front. They’re among the class leaders when it comes to isolating us from constant drones and noises within train and underground carriages. They also help cut out loud conversations in crowded spaces that you don't want to be part of. We think the Bose QuietComfort Ultra Headphones are a little more invasive and manage to cut out even more noise, but the Sonys are still very good for the money."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:34.644Z"
+        }
+      },
+      {
+        "id": "C11",
+        "optionId": "opt_2",
+        "criterionId": "crit_3",
+        "text": "Sony WH-1000XM5 launched at 380 pounds",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "the Sony WH-1000XM5 haven’t managed to escape a slight increase, coming in at £380",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p7]",
+            "text": "to find a discount which makes their engaging sound quality, impressive noise-cancelling, great call quality and comfortable fit a match for any rival at the money.Our original review of the Sony WH-1000XM5 is presented below. • More expensive than WH-1000XM4 at launch • Bose, Bowers & Wilkins and Sennheiser all have rival pairs With the current market conditions, we have seen quite a few price rises across the industry, and the Sony WH-1000XM5 haven’t managed to escape a slight increase, coming in at £380 / $399 / AU$549."
+          },
+          "rationale": "Under 200 only if heavily discounted; review does not state a sub-200 price",
+          "corroboratingSourceIds": [
+            "8"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:34.844Z"
+        }
+      },
+      {
+        "id": "C12",
+        "optionId": null,
+        "criterionId": "crit_2",
+        "text": "Bose QC Ultra cuts out more noise than XM5",
+        "kind": "fact",
+        "sourceId": "1",
+        "quote": "We think the Bose QuietComfort Ultra Headphones are a little more invasive and manage to cut out even more noise, but the Sonys are still very good for the money.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[1.p21]",
+            "text": "the headphones. Alternatively, you can flick between noise-cancelling and the headphones’ Ambient mode by tapping the corresponding button on the edge of the left earcup. And once again Sony generally impresses on the noise-cancelling front. They’re among the class leaders when it comes to isolating us from constant drones and noises within train and underground carriages. They also help cut out loud conversations in crowded spaces that you don't want to be part of. We think the Bose QuietComfort Ultra Headphones are a little more invasive and manage to cut out even more noise, but the Sonys are still very good for the money."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "8"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:35.005Z"
+        }
+      },
+      {
+        "id": "C13",
+        "optionId": null,
+        "criterionId": "crit_2",
+        "text": "ANC works best on steady low-frequency noise like train rumble",
+        "kind": "fact",
+        "sourceId": "5",
+        "quote": "It works best on steady, low-frequency noise, such as train rumble, aircraft engines, traffic and air conditioning.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[5.p22]",
+            "text": "to detect outside sound and reduce it electronically. It works best on steady, low-frequency noise, such as train rumble, aircraft engines, traffic and air conditioning. Passive isolation comes from the physical seal of the ear cups and helps more with higher-frequency sounds, such as voices, keyboard taps and general chatter. A good pair of headphones needs both. ANC handles the low rumble; the ear cup seal helps with the rest."
+          },
+          "rationale": "Anker is a vendor",
+          "corroboratingSourceIds": [
+            "8"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:35.180Z"
+        }
+      },
+      {
+        "id": "C14",
+        "optionId": null,
+        "criterionId": "crit_1",
+        "text": "Over-ear headphones are generally good for comfort",
+        "kind": "fact",
+        "sourceId": "7",
+        "quote": "Over-ear headphones - generally good for comfort, but can sometimes be let down by bulky design",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[7.p6]",
+            "text": "won't have to untangle your cables when you dig the headphones out of your bag. Different types of headphones have their own pros and cons: • In-ear headphones - design reduces sound leakage, although some people can struggle to get a good fit in their ears • On-ear headphones - easy to put on, but not all of them are comfortable for long listening sessions • Over-ear headphones - generally good for comfort, but can sometimes be let down by bulky design"
+          },
+          "rationale": "2019 source, generic",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:35.356Z"
+        }
+      },
+      {
+        "id": "C15",
+        "optionId": "opt_4",
+        "criterionId": "crit_1",
+        "text": "Soundcore Space One folds, feels lightweight, has aux cable",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "The headphones fold, feel lightweight, and include USB-C charging plus an auxiliary cable for wired listening when needed.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p18]",
+            "text": "on, and the app offers adjustable ANC strength, wind-noise reduction, and a decibel meter for safe listening. The headphones fold, feel lightweight, and include USB-C charging plus an auxiliary cable for wired listening when needed. While the Space One doesn’t provide audio over USB-C, the mix of LDAC, multipoint, and app-driven tuning makes it especially appealing to Android-first listeners who prioritize codec support. That combination is why we singled out the Space One for Android-oriented buyers shopping under $200.Sourced from Anker Soundcore Space One review – SoundGuys."
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "8"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:35.531Z"
+        }
+      },
+      {
+        "id": "C16",
+        "optionId": "opt_5",
+        "criterionId": "crit_2",
+        "text": "JLab JBuds Lux ANC cancels 10-20dB under 700Hz, respectable not top",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "reducing much commuting noise though not matching higher-end models, with measured 10–20dB cancellation under 700Hz",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p15]",
+            "text": "Best Battery Life, Best Call Quality, Best Over-Ear Headphones, Best for iPhone users and Best for Comfort recognition.Sourced from Sony ULT WEAR review – SoundGuys. Best Value pick: JLab JBuds Lux ANC JLab JBuds Lux ANC is our Best Value pick thanks to its very long 44-hour battery, compact foldable design, and a useful companion app with a 10-band EQ. The headphones deliver respectable ANC for the price — reducing much commuting noise though not matching higher-end models, with measured 10–20dB cancellation under 700Hz — and the ear cups provide strong high-frequency isolation. Fast charging provides around four hours of playback from a ten-minute charge, and Bluetooth 5.3 plus USB-C"
+          },
+          "rationale": "supported by the cited passage",
+          "corroboratingSourceIds": [
+            "8"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:35.701Z"
+        }
+      },
+      {
+        "id": "C17",
+        "optionId": "opt_6",
+        "criterionId": "crit_2",
+        "text": "Sennheiser Accentum has effective everyday ANC and long battery",
+        "kind": "fact",
+        "sourceId": "4",
+        "quote": "Beyond sound, it brings a well-rounded feature set that includes effective active noise cancellation for everyday environments and an impressively long battery life that easily supports extended listening sessions.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[4.p4]",
+            "text": "it a strong pick for casual listeners. Beyond sound, it brings a well-rounded feature set that includes effective active noise cancellation for everyday environments and an impressively long battery life that easily supports extended listening sessions. Its overall usability and performance make it one of the more appealing value-focused wireless headphones in its class. Final Audio UX2000 Price: $149.95 The Final Audio UX2000 offers a balanced and approachable sound signature that works well across a wide variety of music, with a clean presentation that avoids sounding overly colored. It provides a comfortable and consistent listening experience that feels reliable whether you’re commuting, working, or just relaxing at home. The inclusion"
+          },
+          "rationale": "No measurements, editorial description only",
+          "corroboratingSourceIds": [
+            "8"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:35.867Z"
+        }
+      },
+      {
+        "id": "C18",
+        "optionId": null,
+        "criterionId": "crit_1",
+        "text": "Soundcore Space 2 uses pressure-relieving headband and memory foam for long sessions",
+        "kind": "fact",
+        "sourceId": "5",
+        "quote": "It uses a pressure-relieving headband, upgraded protein leather cushions and slow-rebound memory foam, making it suitable for long workdays, study sessions and travel.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[5.p9]",
+            "text": "diaphragm drivers with LDAC: Supports higher-detail wireless listening on compatible Android devices. • Pressure-relieving headband and soft ear cups: Helps comfort during longer listening sessions. The soundcore Space 2 is the best choice if comfort and battery life are your top priorities. It uses a pressure-relieving headband, upgraded protein leather cushions and slow-rebound memory foam, making it suitable for long workdays, study sessions and travel. It also offers up to 50 hours of playtime with ANC on and up to 70 hours with ANC off."
+          },
+          "rationale": "Vendor marketing, single source",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:36.022Z"
+        }
+      },
+      {
+        "id": "C19",
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "text": "Sony ULT WEAR earned SoundGuys Best ANC and Best for Comfort recognition",
+        "kind": "fact",
+        "sourceId": "6",
+        "quote": "The ULT WEAR also earned Best ANC, Best Battery Life, Best Call Quality, Best Over-Ear Headphones, Best for iPhone users and Best for Comfort recognition.",
+        "verification": {
+          "status": "supported",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[6.p14]",
+            "text": "the ULT button’s heavy bass boost. In lab testing they lasted 32 hours and 35 minutes and deliver more than 25dB of attenuation above 80Hz, making them well suited for commutes and travel. They support Bluetooth 5.2 with LDAC and multipoint, and offer a wired 3.5mm option though no USB-C audio; the Sony Sound Connect app also unlocks ANC and EQ customization. The ULT WEAR also earned Best ANC, Best Battery Life, Best Call Quality, Best Over-Ear Headphones, Best for iPhone users and Best for Comfort recognition.Sourced from Sony ULT WEAR review – SoundGuys."
+          },
+          "rationale": "Single independent source; SoundGuys is also the source of the lab data",
+          "corroboratingSourceIds": [],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:55.085Z"
+        }
+      },
+      {
+        "id": "C20",
+        "optionId": "opt_2",
+        "criterionId": "crit_3",
+        "text": "XM5 discounts can bring them closer to a 200 pound budget",
+        "kind": "fact",
+        "sourceId": "8",
+        "quote": "They launched at £380, but now that Sony has replaced them with the WH-1000XM6, discounts can bring them closer to a £200 budget if you shop around.",
+        "verification": {
+          "status": "partial",
+          "confidence": 1,
+          "quoteFound": true,
+          "quoteSimilarity": 1,
+          "passage": {
+            "id": "[8.p3]",
+            "text": "seal of the ear cups. A good commuting pair needs both, which is why fit and cushion design matter as much as the processing inside. The pair everyone asks about first is Sony's WH-1000XM5. They launched at £380, but now that Sony has replaced them with the WH-1000XM6, discounts can bring them closer to a £200 budget if you shop around. On paper they are formidable: eight microphones, Sony's Integrated Processor V1, noise cancelling that optimises itself automatically as you move around, and a quoted 30 hours of battery. The trouble on a long commute is the hardware. At around 320g they are one of the heavier pairs in this"
+          },
+          "rationale": "Source 1 only says discounts likely; closer to 200 not equal to under 200",
+          "corroboratingSourceIds": [
+            "1"
+          ],
+          "conflictingSourceIds": [],
+          "conflictNote": null,
+          "verifiedAt": "2026-11-15T20:06:55.268Z"
+        }
+      }
+    ],
+    "contradictions": [
+      {
+        "id": "con_1",
+        "optionId": "opt_1",
+        "criterionId": null,
+        "topic": "Low-frequency attenuation",
+        "statements": [
+          {
+            "claimId": "C4",
+            "sourceId": "6",
+            "text": "Sony ULT WEAR delivers more than 25dB attenuation above 80Hz"
+          },
+          {
+            "claimId": "C5",
+            "sourceId": "8",
+            "text": "Sony ULT WEAR low-frequency attenuation barely reaches 15dB"
+          }
+        ],
+        "assessment": "SoundGuys reports over 25dB above 80Hz from lab tests; Platform & Pocket says barely 15dB without stated method while reusing SoundGuys figures elsewhere. Favour SoundGuys.",
+        "favoredSourceId": null,
+        "severity": "high"
+      },
+      {
+        "id": "con_2",
+        "optionId": "opt_3",
+        "criterionId": null,
+        "topic": "On-ear vs over-ear",
+        "statements": [
+          {
+            "claimId": "C1",
+            "sourceId": "6",
+            "text": "JBL Live 670NC is an on-ear design, not over-ear"
+          },
+          {
+            "claimId": "C2",
+            "sourceId": "8",
+            "text": "JBL Live 670NC is a full over-ear design with comfortable cushions"
+          }
+        ],
+        "assessment": "SoundGuys says on-ear; Platform & Pocket says full over-ear. Favour SoundGuys; tool reliability scores rate 8 higher so uncertainty remains.",
+        "favoredSourceId": null,
+        "severity": "high"
+      },
+      {
+        "id": "con_3",
+        "optionId": "opt_2",
+        "criterionId": null,
+        "topic": "Weight",
+        "statements": [
+          {
+            "claimId": "C8",
+            "sourceId": "1",
+            "text": "Sony WH-1000XM5 weighs 250g"
+          }
+        ],
+        "assessment": "What Hi-Fi? spec 250g vs Platform & Pocket about 320g. Favour the review spec.",
+        "favoredSourceId": null,
+        "severity": "medium"
+      }
+    ],
+    "uncertainties": [
+      {
+        "id": "unc_1",
+        "kind": "incomplete",
+        "text": "No UK price for ULT WEAR in any source",
+        "optionId": "opt_1",
+        "impact": "high",
+        "howToResolve": "Check UK retailers"
+      },
+      {
+        "id": "unc_2",
+        "kind": "single-source",
+        "text": "ULT WEAR comfort and ANC rest mainly on SoundGuys",
+        "optionId": "opt_1",
+        "impact": "medium",
+        "howToResolve": "Read RTINGS or other reviews"
+      },
+      {
+        "id": "unc_3",
+        "kind": "outdated",
+        "text": "XM5 review dates from 2022",
+        "optionId": "opt_2",
+        "impact": "medium",
+        "howToResolve": "Check current price and newer reviews"
+      }
+    ],
+    "scores": [
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_1",
+        "score": 7,
+        "rationale": "SoundGuys awards Best for Comfort; single source",
+        "claimIds": [
+          "C19"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_2",
+        "score": 7,
+        "rationale": "Effective ANC per SoundGuys; lab figure disputed by source 8",
+        "claimIds": [
+          "C6"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_4",
+        "score": 8,
+        "rationale": "Compact foldable, long battery",
+        "claimIds": [
+          "C6"
+        ]
+      },
+      {
+        "optionId": "opt_1",
+        "criterionId": "crit_3",
+        "score": null,
+        "rationale": "No UK price in sources",
+        "claimIds": []
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_1",
+        "score": 8,
+        "rationale": "What Hi-Fi? says comfort up there with the best; 2022 review",
+        "claimIds": [
+          "C9"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_2",
+        "score": 8,
+        "rationale": "Among class leaders on train drone",
+        "claimIds": [
+          "C10"
+        ]
+      },
+      {
+        "optionId": "opt_2",
+        "criterionId": "crit_3",
+        "score": 3,
+        "rationale": "380 pounds at launch; only near 200 with discounts",
+        "claimIds": [
+          "C11",
+          "C20"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_2",
+        "score": 7,
+        "rationale": "Measured ANC near 30dB at 250Hz",
+        "claimIds": [
+          "C3"
+        ]
+      },
+      {
+        "optionId": "opt_3",
+        "criterionId": "crit_1",
+        "score": 4,
+        "rationale": "On-ear per SoundGuys; over-ear is generally more comfortable",
+        "claimIds": [
+          "C1",
+          "C14"
+        ]
+      },
+      {
+        "optionId": "opt_4",
+        "criterionId": "crit_4",
+        "score": 7,
+        "rationale": "Folds, light, aux cable",
+        "claimIds": [
+          "C15"
+        ]
+      },
+      {
+        "optionId": "opt_5",
+        "criterionId": "crit_2",
+        "score": 5,
+        "rationale": "10-20dB, respectable not outstanding",
+        "claimIds": [
+          "C16"
+        ]
+      },
+      {
+        "optionId": "opt_6",
+        "criterionId": "crit_2",
+        "score": 6,
+        "rationale": "Editorial description only",
+        "claimIds": [
+          "C17"
+        ]
+      }
+    ],
+    "recommendation": {
+      "optionId": "opt_1",
+      "headline": "Sony ULT WEAR is the best-evidenced over-ear under 200 for this brief",
+      "summary": "Compact over-ear with effective ANC and a comfort award from SoundGuys, but UK price unverified and ANC depth disputed.",
+      "reasons": [
+        {
+          "text": "Over-ear, foldable, effective ANC",
+          "claimIds": [
+            "C6"
+          ]
+        },
+        {
+          "text": "Best for Comfort and Best ANC at SoundGuys",
+          "claimIds": [
+            "C19"
+          ]
+        }
+      ],
+      "tradeoffs": [
+        {
+          "text": "Bass-forward; tame via app EQ",
+          "claimIds": [
+            "C7"
+          ]
+        }
+      ],
+      "alternatives": [
+        {
+          "optionId": "opt_2",
+          "when": "If you find them discounted under 200 pounds"
+        },
+        {
+          "optionId": "opt_4",
+          "when": "Android user wanting LDAC and light weight"
+        }
+      ],
+      "caveats": [
+        "Sources 6 and 8 disagree on ULT WEAR ANC depth and on JBL form factor",
+        "UK price not in sources"
+      ],
+      "nextSteps": [
+        "Check current UK price",
+        "Try on in a shop for comfort"
+      ]
+    },
+    "metrics": {
+      "sourcesConsulted": 9,
+      "sourcesRead": 9,
+      "claimsTotal": 20,
+      "supported": 11,
+      "partial": 4,
+      "unsupported": 2,
+      "contradicted": 3,
+      "contradictions": 3,
+      "averageReliability": 64,
+      "freshShare": 0,
+      "durationMs": 0,
+      "modelCalls": 0,
+      "tokens": 0
+    }
+  },
+  "sources": [
+    {
+      "id": "1",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.whathifi.com/reviews/sony-wh-1000xm5",
+      "domain": "whathifi.com",
+      "title": "Sony WH-1000XM5 review",
+      "siteName": "What Hi-Fi?",
+      "author": null,
+      "publishedAt": "2022-10-20T14:20:12.000Z",
+      "retrievedAt": "2026-11-15T19:03:11.111Z",
+      "contentHash": "6ab0b9e0cd1e5854b9510230366686e6502bd716259123f94aba30029078b752",
+      "wordCount": 3561,
+      "excerpt": "What Hi-Fi? Verdict\nIt can be tricky for a manufacturer to push the sound performance of a product consistently from generation to generation; but that is what Sony has managed to do with the WH-1000XM5 wireless headphones. Not only that, it has been achieved while executing a major redesign. The…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 60,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "What Hi-Fi?"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2022-10-20"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 1487 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "3561 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 6,
+            "detail": "2 of 5 claims were confirmed by an independent source."
+          },
+          {
+            "key": "contradicted",
+            "label": "Contradicted by other sources",
+            "effect": -8,
+            "detail": "1 of 5 claims conflict with other sources."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.idealhome.co.uk/buying-guide-reviews/best-noise-cancelling-headphones-231575",
+      "domain": "idealhome.co.uk",
+      "title": "Best noise-cancelling headphones – the top earphones and headsets for shutting out sounds",
+      "siteName": "Ideal Home",
+      "author": null,
+      "publishedAt": "2019-08-08T10:04:25.000Z",
+      "retrievedAt": "2026-11-15T19:03:11.111Z",
+      "contentHash": "b1251759253be7f0f6dfdd08f3add0f8f0f7942588ca15a6c01ef6c30c574f64",
+      "wordCount": 3018,
+      "excerpt": "• Facebook\n• Whatsapp\n• Pinterest\nWhether you want to sleep on a plane, get some work done without having to listen to the office banter, or simply want a more peaceful commute, you need a pair of noise cancelling headphones, and we’ve tested dozens to bring you the finest designs whatever your…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 54,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Ideal Home"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2019-08-08"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 2656 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "3018 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.expertreviews.co.uk/technology/headphones-audio/sony-wf-1000xm5-review",
+      "domain": "expertreviews.co.uk",
+      "title": "Sony WF-1000XM5 review: Great but not game-changing | Expert Reviews",
+      "siteName": "Expert Reviews",
+      "author": "Andy White",
+      "publishedAt": "2024-11-28T11:00:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:13.523Z",
+      "contentHash": "540e5226c6c882748d9fbe4758f41a307f9b7b205e31b77a3793f43727724cdb",
+      "wordCount": 3241,
+      "excerpt": "To help us provide you with free impartial advice, we may earn a commission if you buy through links on our site. Learn more\n• Sony WF-1000XM5 review: What you need to know\n• Sony WF-1000XM5 review: Price and competition\n• Sony WF-1000XM5 review: Design\n• Sony WF-1000XM5 review: Features\n• Sony…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 67,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Expert Reviews"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Andy White"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2024-11-28"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 717 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "3241 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://majorhifi.com/best-bluetooth-noise-cancelling-headphones-under-200-2/",
+      "domain": "majorhifi.com",
+      "title": "Best Bluetooth Noise Cancelling Headphones Under $200 for 2026",
+      "siteName": "Major HiFi",
+      "author": "Majorhifi Editorial Team",
+      "publishedAt": "2026-05-04T13:00:35.000Z",
+      "retrievedAt": "2026-11-15T19:03:14.432Z",
+      "contentHash": "33bd195d045294a4d54b15dbbe8011ac6c2927d92a835c1c0b754873776a3132",
+      "wordCount": 534,
+      "excerpt": "Best Bluetooth Noise Cancelling Headphones Under $200 for 2026\nFinding a great pair of Bluetooth noise-cancelling headphones under $200 in 2026 is easier than ever. Improvements in wireless technology and active noise cancellation have made it possible for more affordable models to deliver features…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 74,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Major HiFi"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Majorhifi Editorial Team"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-05-04"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 195 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 3,
+            "detail": "1 of 1 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.anker.com/uk/blogs/headphones/best-noise-cancelling-headphones-uk",
+      "domain": "anker.com",
+      "title": "Best Noise Cancelling Headphones UK: Top 2026 Picks",
+      "siteName": "Anker",
+      "author": "Anker",
+      "publishedAt": "2026-10-19T02:04:39.000Z",
+      "retrievedAt": "2026-11-15T19:03:14.970Z",
+      "contentHash": "91069952c34b4003d61d77b1cc524bffa736f1c39aeb193ac950cbe43b3125a1",
+      "wordCount": 1825,
+      "excerpt": "Best Noise Cancelling Headphones UK Listeners Can Buy Right Now\nA packed Northern line carriage, an open-plan office, a four-hour train to Edinburgh: British life throws a lot of noise at you. The best noise cancelling headphones UK buyers can choose from help cut through much of it, creating a…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 77,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Anker"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Anker"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-10-19"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 28 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "1825 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 3,
+            "detail": "1 of 2 claims were confirmed by an independent source."
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.soundguys.com/best/best-headphones-under-200/",
+      "domain": "soundguys.com",
+      "title": "Best Headphones under $200",
+      "siteName": "SoundGuys",
+      "author": null,
+      "publishedAt": "2025-09-24T11:24:46.000Z",
+      "retrievedAt": "2026-11-15T19:03:15.849Z",
+      "contentHash": "1328c54d104538472214808861fcfc0e746d5ab96929c348ac3db63682015fdd",
+      "wordCount": 2044,
+      "excerpt": "All products featured are independently chosen by us. However, SoundGuys may receive a commission on orders placed through its retail links. See our ethics statement.\n\nBest Headphones under $200\nWe tested headphones under $200 across ANC, design, battery, and comfort.\nMarch 11, 2026\nAdam is the…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 58,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "SoundGuys"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2025-09-24"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 417 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "2044 words of readable text."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 12,
+            "detail": "5 of 8 claims were confirmed by an independent source."
+          },
+          {
+            "key": "contradicted",
+            "label": "Contradicted by other sources",
+            "effect": -16,
+            "detail": "2 of 8 claims conflict with other sources."
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.which.co.uk/news/article/plug-in-and-jet-off-are-these-new-headphones-ideal-for-travelling-a1Rs65f8gUNH",
+      "domain": "which.co.uk",
+      "title": "Plug in and jet off: are these new headphones ideal for travelling? - Which?",
+      "siteName": "Which?",
+      "author": "Tom Morgan",
+      "publishedAt": "2019-08-17T23:01:46.000Z",
+      "retrievedAt": "2026-11-15T19:03:17.173Z",
+      "contentHash": "633485808811620309c61de1fbceeebc5faac6ba0076e81572418524090db68d",
+      "wordCount": 1229,
+      "excerpt": "By clicking a retailer link you consent to third-party cookies that track your onward journey. This enables W? to receive an affiliate commission if you make a purchase, which supports our mission to be the UK's consumer champion.\n\nPlug in and jet off: are these new headphones ideal for…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 67,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Which?"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Tom Morgan"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2019-08-17"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 2647 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "In-depth content",
+            "effect": 3,
+            "detail": "1229 words of readable text."
+          }
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.platformpocket.com/the-best-noise-cancelling-headphones-under-200-for-a-long-da",
+      "domain": "platformpocket.com",
+      "title": "The best noise-cancelling headphones under £200 for a long daily train commute",
+      "siteName": "Platform & Pocket",
+      "author": "Harriet Collis",
+      "publishedAt": "2026-10-28T19:03:11.111Z",
+      "retrievedAt": "2026-11-15T19:03:11.111Z",
+      "contentHash": "63a358b20173bf389858a7863d6eab2da681c15028b824ddfa6aaa9a137c908d",
+      "wordCount": 823,
+      "excerpt": "Ninety minutes on a train is long enough to expose every weakness a pair of headphones has. The ear cushions that felt plush in the shop start to press, the noise cancelling that seemed miraculous on a quiet street turns out to do little against the drone of a carriage, and a battery you forgot to…",
+      "image": null,
+      "favicon": null,
+      "kind": "other",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 68,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "Platform & Pocket"
+          },
+          {
+            "key": "author",
+            "label": "Named author",
+            "effect": 5,
+            "detail": "Harriet Collis"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2026-10-28"
+          },
+          {
+            "key": "freshness",
+            "label": "Recent",
+            "effect": 5,
+            "detail": "About 18 days old."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: other",
+            "effect": 0,
+            "detail": "Unclassified source."
+          },
+          {
+            "key": "corroboration",
+            "label": "Corroborated by other sources",
+            "effect": 3,
+            "detail": "1 of 3 claims were confirmed by an independent source."
+          },
+          {
+            "key": "unsupported",
+            "label": "Claims not supported by its own text",
+            "effect": -6,
+            "detail": "2 extracted claims were not supported by the passage they came from."
+          }
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "runId": "run",
+      "decisionId": "decision",
+      "url": "https://www.rtings.com/headphones/tools/compare/sennheiser-hd-600-vs-sennheiser-hd-6xx",
+      "domain": "rtings.com",
+      "title": "Comparison Tool: Which Headphones Are Better?",
+      "siteName": "RTINGS.com",
+      "author": null,
+      "publishedAt": "2016-04-05T14:00:00.000Z",
+      "retrievedAt": "2026-11-15T19:03:17.207Z",
+      "contentHash": "8434f958332a396c81c3e077db9ab93f413d2c267c8d8ba3ae6fba133e7ee466",
+      "wordCount": 171,
+      "excerpt": "Best\n \n \n \n Headphones\n \n \n \n Noise Cancelling\n \n \n \n Wireless Earbuds\n \n \n \n Gaming\n \n \n \n Noise Cancelling Earbuds\n \n \n \n Over-Ear\n \n \n \n Wireless\n \n \n \n Running\n \n \n \n Apple\n \n \n \n PC Gaming\n \n \n \n Wireless Gaming\n \n \n \n Bone Conduction And Open-Ear\n \n \n \n Wired\n \n \n \n Earbuds For Working Out…",
+      "image": null,
+      "favicon": null,
+      "kind": "independent-review",
+      "perspective": null,
+      "status": "read",
+      "query": null,
+      "provider": "study",
+      "reliability": {
+        "score": 51,
+        "signals": [
+          {
+            "key": "https",
+            "label": "Secure connection",
+            "effect": 3,
+            "detail": "Served over HTTPS."
+          },
+          {
+            "key": "publisher",
+            "label": "Identified publisher",
+            "effect": 4,
+            "detail": "RTINGS.com"
+          },
+          {
+            "key": "dated",
+            "label": "Publication date present",
+            "effect": 4,
+            "detail": "2016-04-05"
+          },
+          {
+            "key": "freshness",
+            "label": "Possibly outdated",
+            "effect": -10,
+            "detail": "About 3876 days old; this decision expects information newer than 365 days."
+          },
+          {
+            "key": "kind",
+            "label": "Source type: independent review",
+            "effect": 8,
+            "detail": "Independent testing or review."
+          },
+          {
+            "key": "depth",
+            "label": "Thin content",
+            "effect": -8,
+            "detail": "171 words of readable text."
+          }
+        ]
+      }
+    }
+  ]
+}

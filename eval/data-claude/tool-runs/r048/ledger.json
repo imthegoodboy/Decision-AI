@@ -1,0 +1,462 @@
+[
+  {
+    "id": "C1",
+    "source": 1,
+    "option": "Eureka Forbes 355",
+    "criterion": "CADR",
+    "claim": "Eureka Forbes 355 has CADR 355 m3/h with True HEPA H13 at Rs 9,999",
+    "quote": "This is an extremely strong budget choice, offering a CADR of 355 m³/h, which is more than enough for most large apartments.",
+    "support": "supported",
+    "corroborating": [
+      2
+    ],
+    "conflicting": [],
+    "note": "Specs only advertised, no hands-on test in [1]",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p4]",
+      "text": "above given CADR can be suited for a medium room. You get good features like an 'automatic mode,' air quality display, and HEPA H13 filter. You can check out the Karcher AF20 on Amazon for Rs 8,999. Eureka Forbes 355 355 m³/h 63 dB HEPA H13, Pre-filter, Carbon, Plasma filter 480 This is an extremely strong budget choice, offering a CADR of 355 m³/h, which is more than enough for most large apartments. It offers a True HEPA H13 filter as well. But the noise levels are high."
+    },
+    "recordedAt": "2026-11-15T20:35:47.418Z"
+  },
+  {
+    "id": "C2",
+    "source": 2,
+    "option": "Realme TechLife",
+    "criterion": "CADR",
+    "claim": "Realme TechLife has 330 m3/h CADR, Rs 7,999",
+    "quote": "Its 330 m³/h CADR clears our 300 m³/h bar for a 350 sq ft room, and it pairs a pre-filter with a True HEPA H13 main filter made by Sharp, along with a Sharp air quality sensor that drives a sensible auto mode.",
+    "support": "supported",
+    "corroborating": [
+      7
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[2.p5]",
+      "text": "'HEPA-type' or 'HEPA-like'. Delhi air also carries VOCs and gases from traffic and cooking that HEPA cannot touch, so an activated carbon stage matters too. Our pick is the Realme TechLife Air Purifier. At ₹7,999, and frequently ₹7,499 on Flipkart, it is the value standout of the segment. Its 330 m³/h CADR clears our 300 m³/h bar for a 350 sq ft room, and it pairs a pre-filter with a True HEPA H13 main filter made by Sharp, along with a Sharp air quality sensor that drives a sensible auto mode. Controls are simple: three fan speeds, a night mode that dims the lights and slows the fan, a 2/4/8-hour"
+    },
+    "recordedAt": "2026-11-15T20:35:48.754Z"
+  },
+  {
+    "id": "C3",
+    "source": 2,
+    "option": "Realme TechLife",
+    "criterion": "HEPA filtration",
+    "claim": "Realme TechLife has a True HEPA H13 main filter",
+    "quote": "Its 330 m³/h CADR clears our 300 m³/h bar for a 350 sq ft room, and it pairs a pre-filter with a True HEPA H13 main filter made by Sharp, along with a Sharp air quality sensor that drives a sensible auto mode.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [
+      7
+    ],
+    "note": "Source 7 hands-on review says H12 (99.95%)",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[2.p5]",
+      "text": "'HEPA-type' or 'HEPA-like'. Delhi air also carries VOCs and gases from traffic and cooking that HEPA cannot touch, so an activated carbon stage matters too. Our pick is the Realme TechLife Air Purifier. At ₹7,999, and frequently ₹7,499 on Flipkart, it is the value standout of the segment. Its 330 m³/h CADR clears our 300 m³/h bar for a 350 sq ft room, and it pairs a pre-filter with a True HEPA H13 main filter made by Sharp, along with a Sharp air quality sensor that drives a sensible auto mode. Controls are simple: three fan speeds, a night mode that dims the lights and slows the fan, a 2/4/8-hour"
+    },
+    "recordedAt": "2026-11-15T20:35:49.810Z"
+  },
+  {
+    "id": "C4",
+    "source": 7,
+    "option": "Realme TechLife",
+    "criterion": "HEPA filtration",
+    "claim": "Realme TechLife has a HEPA H12 filter (99.95%), not H13",
+    "quote": "Realme Air Purifier has a HEPA H12 Filter that removes 99.95% of particles and PM 2.5 pollution which increases health risk.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [
+      2
+    ],
+    "note": "Hands-on review but from 2021; H12 is below the H13 standard the other guides call essential",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[7.p15]",
+      "text": "medium, and 3 for high-powered fans. The 3rd fan speed is pretty loud, 2nd is just ok and the lowest has no noise at all. Realme TechLife Air Purifer Review: Performance Realme Air Purifier has a HEPA H12 Filter that removes 99.95% of particles and PM 2.5 pollution which increases health risk. These PM 2.5 particles are also what N95 respirators filter. This includes dust, pollen, hair, animal, dander, and other allergens. The HEPA filter never heats up, so it’s safe to leave the air purifier turned on all day."
+    },
+    "recordedAt": "2026-11-15T20:35:50.184Z"
+  },
+  {
+    "id": "C5",
+    "source": 1,
+    "option": "Honeywell Air Touch V5",
+    "criterion": "CADR",
+    "claim": "Honeywell Air Touch V5 CADR is 380 m3/h",
+    "quote": "Its CADR of 380 m³/h makes it suited for large rooms like a living room.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [
+      2
+    ],
+    "note": "Source 2 says 250 m3/h",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[1.p7]",
+      "text": "PC1 – TP11 with 350° oscillation, Air Multiplier launched in India: Price, availability Honeywell Air Touch V5 380 m³/h ~22 dB HEPA H13, Pre, Carbon 589 The Honeywell Air Touch V5 is a well-rounded and trusted option, offering a strong feature set with a highly reliable brand name. Its CADR of 380 m³/h makes it suited for large rooms like a living room. The low noise level (22 dB) can seem peaceful."
+    },
+    "recordedAt": "2026-11-15T20:35:50.490Z"
+  },
+  {
+    "id": "C6",
+    "source": 2,
+    "option": "Honeywell Air Touch V5",
+    "criterion": "CADR",
+    "claim": "Honeywell Air Touch V5 CADR is just 250 m3/h, undersized for 350 sq ft",
+    "quote": "Its rated CADR is just 250 m³/h, which clears the minimum rule of thumb but falls short of what a 350 sq ft room needs during a Delhi smog episode.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [
+      1
+    ],
+    "note": "Source 1 says 380",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[2.p8]",
+      "text": "is the comfort zone. Its spec sheet also lists a plasma stage, worth knowing if you prefer to avoid ionising features, which can produce ozone. The Honeywell Air Touch V5 is the name most people shortlist, and it is easy to see why: ₹10,199, HEPA H13 with pre and carbon filters, a trusted brand and a very quiet rating of about 22 dB. The problem is output. Its rated CADR is just 250 m³/h, which clears the minimum rule of thumb but falls short of what a 350 sq ft room needs during a Delhi smog episode. It is a good machine for a smaller room; for this one, it"
+    },
+    "recordedAt": "2026-11-15T20:35:50.867Z"
+  },
+  {
+    "id": "C7",
+    "source": 1,
+    "option": "Mi Air Purifier 4",
+    "criterion": "Price",
+    "claim": "Mi Air Purifier 4 is Rs 14,999 on Flipkart and Rs 17,999 on Amazon",
+    "quote": "This purifier is available for Rs 14,999 on Flipkart and Rs 17,999 on Amazon.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [
+      2
+    ],
+    "note": "Source 2 says 17,999 on both; price volatile",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[1.p17]",
+      "text": "price segment, tackling large living spaces of over 500 sq. ft. Its strengths lie in smart features, seamless app integration, and a highly competitive price. This purifier is available for Rs 14,999 on Flipkart and Rs 17,999 on Amazon. With card offers or sale discounts, you may be able to grab other purifiers below Rs 15K. And if you can further stretch your budget, you can consider premium purifiers from the likes of Dyson, Coway, etc."
+    },
+    "recordedAt": "2026-11-15T20:35:51.256Z"
+  },
+  {
+    "id": "C8",
+    "source": 2,
+    "option": "Mi Air Purifier 4",
+    "criterion": "Price",
+    "claim": "Mi Air Purifier 4 lists at Rs 17,999 on Amazon and Flipkart",
+    "quote": "Unfortunately it now lists at ₹17,999 on both Amazon and Flipkart, so it sits outside this budget unless you catch a sale.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [
+      1
+    ],
+    "note": "Source 2 newer",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[2.p9]",
+      "text": "what a 350 sq ft room needs during a Delhi smog episode. It is a good machine for a smaller room; for this one, it is undersized. The Mi Air Purifier 4 looks ideal on paper, with a 387 m³/h CADR, a quiet rating of about 32 dB and excellent app integration. Unfortunately it now lists at ₹17,999 on both Amazon and Flipkart, so it sits outside this budget unless you catch a sale."
+    },
+    "recordedAt": "2026-11-15T20:35:51.618Z"
+  },
+  {
+    "id": "C9",
+    "source": 1,
+    "option": "General",
+    "criterion": "CADR sizing",
+    "claim": "CADR in m3/h should be at least two-thirds of room area in sq ft (8-ft ceiling)",
+    "quote": "As a rule of thumb, the CADR should be at least two-thirds of the room’s area in square feet, with an assumption that the room has an 8-foot ceiling.",
+    "support": "supported",
+    "corroborating": [
+      2
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p19]",
+      "text": "things you should check while buying a purifier: Buyer's guide: checklist • Filter type: True HEPA H13/H14 and Activated Carbon are essential. Avoid 'HEPA-type' filters. • CADR: Choose a purifier with a CADR (m³/h) suitable for your room size. As a rule of thumb, the CADR should be at least two-thirds of the room’s area in square feet, with an assumption that the room has an 8-foot ceiling. Example: For a 150 sq. ft. room, look for a CADR of around 100 m³/h or higher."
+    },
+    "recordedAt": "2026-11-15T20:36:05.287Z"
+  },
+  {
+    "id": "C10",
+    "source": 2,
+    "option": "General",
+    "criterion": "CADR sizing",
+    "claim": "For Delhi, aim to cycle room air 3-4 times an hour; 300 m3/h or more is the goal for 350 sq ft",
+    "quote": "In Delhi you want the purifier to cycle all the air in the room three to four times an hour, and a 350 sq ft room with an 8-foot ceiling holds about 80 cubic metres of air, so 300 m³/h or more is the realistic goal.",
+    "support": "supported",
+    "corroborating": [
+      3
+    ],
+    "conflicting": [],
+    "note": "Arithmetic: 80 m3 x 3-4 = 240-320",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[2.p3]",
+      "text": "you want the purifier to cycle all the air in the room three to four times an hour, and a 350 sq ft room with an 8-foot ceiling holds about 80 cubic metres of air, so 300 m³/h or more is the realistic goal. Ignore the 'covers up to 500 sq ft' line on the box; it is a marketing number. When in doubt, buy bigger."
+    },
+    "recordedAt": "2026-11-15T20:36:05.636Z"
+  },
+  {
+    "id": "C11",
+    "source": 2,
+    "option": "General",
+    "criterion": "Replacement filters",
+    "claim": "Replacement filters typically run Rs 1,500 to 5,000 a year",
+    "quote": "Replacements typically run ₹1,500 to ₹5,000 a year, and you should confirm local availability before committing to a brand.",
+    "support": "supported",
+    "corroborating": [
+      1
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[2.p11]",
+      "text": "m³/h but runs at about 50 dB. The Qubo Q600 (₹14,490, 450 m³/h, HEPA H13) is built for large open-plan living areas and is louder at around 55 dB. Budget for filters before you buy. Replacements typically run ₹1,500 to ₹5,000 a year, and you should confirm local availability before committing to a brand. Be wary of machines whose full filter sets cost ₹8,000 or more; those are usually larger living-room units anyway. Place the purifier at least a foot from walls, keep windows closed while it runs, and on the worst smog days do not trust auto mode alone: run it on medium or high for an hour, then"
+    },
+    "recordedAt": "2026-11-15T20:36:05.975Z"
+  },
+  {
+    "id": "C12",
+    "source": 7,
+    "option": "Realme TechLife",
+    "criterion": "Replacement filters",
+    "claim": "Realme filter indicator trips at 2,800 hours",
+    "quote": "It has a total of 2800 hours before it indicates changing.",
+    "support": "supported",
+    "corroborating": [
+      2
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p13]",
+      "text": "we talked about with 3 lights is also present here. Different settings are- • Auto Mode- automatically selects the fan speed according to air quality • Night Mode- automatically lowers the fan speed and reduces the brightness of indicator lights. Filter Replacement Indicator- lights up when the filters need to be replaced. It has a total of 2800 hours before it indicates changing. Press and hold it for 3 seconds to turn off the light indicator and reset the filter’s operating time."
+    },
+    "recordedAt": "2026-11-15T20:36:06.298Z"
+  },
+  {
+    "id": "C13",
+    "source": 7,
+    "option": "Realme TechLife",
+    "criterion": "Noise",
+    "claim": "Realme TechLife is 64 dB, third fan speed pretty loud, lowest has no noise",
+    "quote": "The 3rd fan speed is pretty loud, 2nd is just ok and the lowest has no noise at all.",
+    "support": "supported",
+    "corroborating": [
+      2
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[7.p15]",
+      "text": "medium, and 3 for high-powered fans. The 3rd fan speed is pretty loud, 2nd is just ok and the lowest has no noise at all. Realme TechLife Air Purifer Review: Performance Realme Air Purifier has a HEPA H12 Filter that removes 99.95% of particles and PM 2.5 pollution which increases health risk. These PM 2.5 particles are also what N95 respirators filter. This includes dust, pollen, hair, animal, dander, and other allergens. The HEPA filter never heats up, so it’s safe to leave the air purifier turned on all day."
+    },
+    "recordedAt": "2026-11-15T20:36:06.610Z"
+  },
+  {
+    "id": "C14",
+    "source": 1,
+    "option": "Qubo Q600",
+    "criterion": "CADR",
+    "claim": "Qubo Q600 has 450 m3/h CADR, HEPA H13, Rs 14,490",
+    "quote": "The Qubo Q600 boast a high CADR of 450 m³/h and an HEPA H13 filter.",
+    "support": "supported",
+    "corroborating": [
+      2
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p14]",
+      "text": "offers a powerful CADR and extensive coverage, suitable for large rooms. Its multi-stage filter system could be ideal for the cleaning of particulates and odours. You can check out Cuckoo Respure from Amazon for Rs 9,889. Qubo Q600 450 m³/h ~55 dB HEPA H13, Pre, Carbon, UV 600 The Qubo Q600 boast a high CADR of 450 m³/h and an HEPA H13 filter. It can be considered by anyone with a massive open-plan living area or those who want the fastest possible air cleaning time."
+    },
+    "recordedAt": "2026-11-15T20:36:06.892Z"
+  },
+  {
+    "id": "C15",
+    "source": 1,
+    "option": "Philips AC1711",
+    "criterion": "CADR",
+    "claim": "Philips AC1711 has 300 m3/h CADR, ~50 dB, Rs 11,499",
+    "quote": "The Philips AC1711 has a high CADR (300 m³/h) but can be noisy at 50 decibels.",
+    "support": "supported",
+    "corroborating": [
+      2
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p11]",
+      "text": "compact Levoit Core Mini (Rs 5,999) could be used as a desk or bedside purifier for intensely localised cleaning. Philips AC1711 300 m³/h ~50 dB 380 The Philips AC1711 has a high CADR (300 m³/h) but can be noisy at 50 decibels. Philips is a reliable brand, too. The Philips AC1711 is up for grabs at Rs 11,499 on Amazon. Lower Budget Alternative (Philips): The Philips AC0950 (Rs 9,440, CADR ~250 m³/h) is a powerful budget alternative, and for an even stricter budget, the Philips AC0920 (Rs 7,999, CADR 250 m³/h) can be considered as a mid-sized room option."
+    },
+    "recordedAt": "2026-11-15T20:36:07.178Z"
+  },
+  {
+    "id": "C16",
+    "source": 1,
+    "option": "Levoit Core 300",
+    "criterion": "CADR",
+    "claim": "Levoit Core 300 is quiet (~24 dB) but CADR on the low side, Rs 10,999",
+    "quote": "While its CADR is on the lower side compared to some of its peers on this list, it has a big coverage area.",
+    "support": "partial",
+    "corroborating": [
+      2
+    ],
+    "conflicting": [],
+    "note": "No CADR figure given in [1]",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[1.p10]",
+      "text": "cylindrical design. While its CADR is on the lower side compared to some of its peers on this list, it has a big coverage area. Grab the Levoit Core 300 for Rs 10,999 on Amazon. Lower budget alternative (Levoit): The highly compact Levoit Core Mini (Rs 5,999) could be used as a desk or bedside purifier for intensely localised cleaning. Philips AC1711 300 m³/h ~50 dB"
+    },
+    "recordedAt": "2026-11-15T20:36:07.518Z"
+  },
+  {
+    "id": "C17",
+    "source": 6,
+    "option": "Qubo Q200",
+    "criterion": "CADR",
+    "claim": "Qubo Q200 is 150 m3/h, up to 200 sq ft (too small)",
+    "quote": "Qubo Q200 Up to 200 Sq. Ft. True HEPA H13 Removes 99.99% Dust, Allergens, Smoke, Virus & PM2.5 150 m/h CADR 5-Stage FilterApp & Voice Control 9000 Hrs Filter Life Portable Room Air Purifier",
+    "support": "supported",
+    "corroborating": [
+      1,
+      2
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p7]",
+      "text": "offer AD4.2Honeywell Air Touch V1 3 Stage Filtration, Covers 235 Sq.ft, 3-in-1 filter - Pre-Filter, H13 HEPA Filter, Activated Carbon Filter, Removes 99.97% Pollutants, Allergens, Pet Danger, Smoke, Dust & Pollens Portable Room Air Purifier White48% OFF₹9,999₹5,158₹4,796 with Bank offer AD4.2Honeywell Air Touch V2 3 Stage Filtration, Covers 388 sq.ft, High Efficiency Pre-Filter, H13 HEPA Filter, Activated Carbon Filter, Removes 99.99% Pollutants & Micro Allergens Portable Room Air Purifier White43% OFF₹15,999₹9,148₹8,507 with Bank offerHang on, loading contentMore about Qubo Q200 Up to 200 Sq. Ft. True HEPA H13 Removes 99.99% Dust, Allergens, Smoke, Virus & PM2.5 150 m/h CADR 5-Stage FilterApp & Voice Control 9000 Hrs Filter Life Portable Room"
+    },
+    "recordedAt": "2026-11-15T20:36:07.854Z"
+  },
+  {
+    "id": "C18",
+    "source": 3,
+    "option": "General",
+    "criterion": "HEPA filtration",
+    "claim": "Look for True HEPA H13 or H14; avoid HEPA-type labels",
+    "quote": "Don’t fall for vague labels like “HEPA-type” or “HEPA-like.”",
+    "support": "supported",
+    "corroborating": [
+      1,
+      2
+    ],
+    "conflicting": [],
+    "note": "Source 5 is a duplicate of 3 (same hash)",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[3.p7]",
+      "text": "PuriCare AS60GDWT0 9. Xiaomi Smart Air Purifier 4 10. Coway AirMega 150 (AP-1019C) • 8. LG PuriCare AS60GDWT0 • 9. Xiaomi Smart Air Purifier 4 • 10. Coway AirMega 150 (AP-1019C) How to Buy an Air Purifier for Delhi/NCR Before you buy, understand these five things. • Look for “True HEPA H13” (or H14). This is non-negotiable. Don’t fall for vague labels like “HEPA-type” or “HEPA-like.” A True HEPA H13 filter is a medical-grade standard certified to capture 99.97% of those microscopic PM2.5 particles. H14 is even better (99.995%), but H13 is the gold standard for home use."
+    },
+    "recordedAt": "2026-11-15T20:36:08.214Z"
+  },
+  {
+    "id": "C19",
+    "source": 2,
+    "option": "Eureka Forbes 355",
+    "criterion": "Noise",
+    "claim": "Eureka Forbes 355 rated 63 dB, plasma stage listed",
+    "quote": "The trade-off is noise: it is rated at 63 dB, a lot for a bedroom, where under 30 dB is the comfort zone.",
+    "support": "supported",
+    "corroborating": [
+      1
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[2.p7]",
+      "text": "64 dB, so run it on auto or night mode while you sleep. For the money, nothing else here gives you this much clean air. The runner-up is the Eureka Forbes 355. If you want more headroom, it delivers 355 m³/h through a HEPA H13, pre-filter and carbon stack for ₹9,999. The trade-off is noise: it is rated at 63 dB, a lot for a bedroom, where under 30 dB is the comfort zone. Its spec sheet also lists a plasma stage, worth knowing if you prefer to avoid ionising features, which can produce ozone."
+    },
+    "recordedAt": "2026-11-15T20:36:08.719Z"
+  },
+  {
+    "id": "C20",
+    "source": 3,
+    "option": "Honeywell Air Touch U2 / Sharp FX-S120M-H",
+    "criterion": "Replacement filters",
+    "claim": "Large units have expensive filter sets (~Rs 8,400-8,490); Qubo Q1000 has 15,000h filter life",
+    "quote": "The 7-stage system is complex, and the full set of replacement filters is very expensive (over ₹8,000).",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Over budget units anyway; single source",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[3.p23]",
+      "text": "H13, Activated Carbon, and a UV sterilization lamp. This layered approach attacks everything: PM2.5, VOCs, odors, and germs. It’s also fully app-enabled for remote control. The Catch: The 7-stage system is complex, and the full set of replacement filters is very expensive (over ₹8,000). At full speed (59dB), it’s one of the loudest models on this list. How it Lives: This is a large unit that makes a statement. Its touch panel is responsive, and the app works well. In a bedroom, its “Sleep Mode” is a perfectly acceptable 38dB. You buy this if you believe in the “more is more” approach to filtration and want that extra (and optional)"
+    },
+    "recordedAt": "2026-11-15T20:36:09.049Z"
+  },
+  {
+    "id": "C21",
+    "source": 2,
+    "option": "Eureka Forbes 355",
+    "criterion": "Replacement filters",
+    "claim": "Filter replacement cost for Eureka Forbes 355 or Realme is stated in sources",
+    "quote": "Be wary of machines whose full filter sets cost ₹8,000 or more; those are usually larger living-room units anyway.",
+    "support": "unsupported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "No model-specific filter price for Realme or Eureka Forbes found in any source",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "unsupported",
+    "passage": {
+      "id": "[2.p11]",
+      "text": "m³/h but runs at about 50 dB. The Qubo Q600 (₹14,490, 450 m³/h, HEPA H13) is built for large open-plan living areas and is louder at around 55 dB. Budget for filters before you buy. Replacements typically run ₹1,500 to ₹5,000 a year, and you should confirm local availability before committing to a brand. Be wary of machines whose full filter sets cost ₹8,000 or more; those are usually larger living-room units anyway. Place the purifier at least a foot from walls, keep windows closed while it runs, and on the worst smog days do not trust auto mode alone: run it on medium or high for an hour, then"
+    },
+    "recordedAt": "2026-11-15T20:36:09.356Z"
+  }
+]

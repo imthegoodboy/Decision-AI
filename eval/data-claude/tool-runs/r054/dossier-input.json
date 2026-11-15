@@ -1,0 +1,38 @@
+{"criteria":[
+{"name":"Service network","weight":35,"description":"Documented after-sales service quality and reach"},
+{"name":"Reliability","weight":30,"description":"Build, durability and failure reports"},
+{"name":"Real-world range","weight":20,"description":"Range sufficiency for 20 km/day"},
+{"name":"Commute suitability","weight":15,"description":"Speed, comfort and ergonomics for Bengaluru roads"}],
+"options":[
+{"name":"TVS iQube","summary":"Comfortable, holds 80 kph indicated in Power mode; backed by established maker","price":"from Rs 95,124 (source 9)"},
+{"name":"Ather 450X","summary":"Best handling, fast, but cramped and stiff","price":"Rs 1.51-1.90 lakh (source 9)"},
+{"name":"Bajaj Chetak","summary":"Comfortable inner-city scooter, lower top speed","price":null},
+{"name":"Ola S1","summary":"Fast and big boot but heavily documented service problems","price":null}],
+"scores":[
+{"option":"Ola S1","criterion":"Service network","score":2,"rationale":"80,000 monthly complaints, 30-45 day waits; remediation is only a plan","claims":["C1","C2","C3"]},
+{"option":"Ola S1","criterion":"Reliability","score":3,"rationale":"Brake power cut, anecdotal suspension failures","claims":["C10","C15"]},
+{"option":"Ola S1","criterion":"Commute suitability","score":5,"rationale":"Fast, but Eco mode criticised by Autocar (disputed by source 2)","claims":["C11"]},
+{"option":"TVS iQube","criterion":"Service network","score":5,"rationale":"No direct service data; only stable sales as indirect proxy","claims":["C4"]},
+{"option":"TVS iQube","criterion":"Real-world range","score":5,"rationale":"Qualitative only","claims":["C14","C13"]},
+{"option":"TVS iQube","criterion":"Commute suitability","score":7,"rationale":"Holds 80 kph indicated, good ergonomics (source 2 disputes speed)","claims":["C5","C9"]},
+{"option":"Bajaj Chetak","criterion":"Service network","score":5,"rationale":"No direct service data; stable sales proxy","claims":["C4"]},
+{"option":"Bajaj Chetak","criterion":"Commute suitability","score":6,"rationale":"Great ergonomics, 69 kph indicated limits arterial riding","claims":["C6","C9"]},
+{"option":"Ather 450X","criterion":"Real-world range","score":6,"rationale":"Eco usable below 10 percent; no range figures","claims":["C12","C13"]},
+{"option":"Ather 450X","criterion":"Commute suitability","score":6,"rationale":"Fast but least comfortable","claims":["C7","C8"]},
+{"option":"Ather 450X","criterion":"Service network","score":null,"rationale":"No source covers it","claims":[]},
+{"option":"Ather 450X","criterion":"Reliability","score":null,"rationale":"No source covers it","claims":[]}],
+"recommendation":{"option":"TVS iQube","headline":"TVS iQube, tentatively, mainly because the evidence argues against Ola on your top priority","summary":"Evidence on reliability and service for Ather, TVS and Bajaj is thin; Ola's service problems are well documented, so a established-maker scooter such as the iQube is the safer pick pending test rides.","reasons":[
+{"text":"Ola has documented service problems (80,000 complaints a month, 30-45 day waits).","claims":["C1","C2"]},
+{"text":"iQube Power mode reaches indicated 80kph and the scooter has good ergonomics.","claims":["C5","C9"]},
+{"text":"Bigger-battery iQube variants offer decent range for daily use.","claims":["C14"]}],
+"tradeoffs":[{"text":"Aggressive regen and no verified Bengaluru service data for TVS.","claims":[]}],
+"alternatives":[{"option":"Ather 450X","when":"you want best handling and are not tall or comfort-focused"},{"option":"Bajaj Chetak","when":"your route is mostly inner-city"},{"option":"Ola S1","when":"only if you accept service risk"}],
+"caveats":["Main reviews are 2022 Mumbai tests","No source gives measured real-world range or Bengaluru service-centre counts for non-Ola brands"],
+"nextSteps":["Test-ride on your route","Check local service centre distance and owner reviews"]},
+"contradictions":[
+{"option":"TVS iQube","topic":"iQube top speed","claims":["C5"],"assessment":"Autocar (direct test) says Power mode hits indicated 80kph; source 2 says it runs out of breath near 60. Source 2 appears to rewrite Autocar with changed details, so Autocar is preferred, though it is from 2022.","severity":"medium"},
+{"option":"Ola S1","topic":"Ola complaints volume and Eco mode","claims":["C1","C11"],"assessment":"Source 2 says 8,000 complaints a month and Eco mode fine; three sources say 80,000 and Autocar says Eco is dangerous. Majority and primary reporting preferred.","severity":"high"}],
+"uncertainties":[
+{"kind":"incomplete","text":"No service or reliability evidence for Ather, TVS, Bajaj in Bengaluru","option":null,"impact":"high","howToResolve":"Check owner forums and service centre locations"},
+{"kind":"outdated","text":"Main reviews are 2022 and Mumbai-based","option":null,"impact":"medium","howToResolve":"Find 2025-26 Bengaluru tests"},
+{"kind":"single-source","text":"iQube range claim from one undated page","option":"TVS iQube","impact":"medium","howToResolve":"Look for measured range tests"}]}

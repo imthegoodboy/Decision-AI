@@ -1,0 +1,41 @@
+{"criteria":[
+{"name":"Hill climbing","weight":35,"description":"Ability to handle a hilly 10-mile commute"},
+{"name":"Brake reliability","weight":30,"description":"Hydraulic disc brakes preferred"},
+{"name":"Battery availability","weight":25,"description":"Removable battery that is easy to buy as a replacement"},
+{"name":"Price","weight":10,"description":"Fits under $1,500"}],
+"options":[
+{"name":"Trek Allant+ 7 (used, Upway)","summary":"Bosch CX mid-drive commuter with hydraulic brakes and a removable 500Wh battery, sold used/certified under $1,500","price":"under $1,500 (used)"},
+{"name":"Ride1Up Turris","summary":"750W hub commuter with Tektro hydraulic brakes; single low-reliability source","price":"$1,295"},
+{"name":"Lectric XP4","summary":"Budget folding e-bike with hydraulic brakes and torque sensor","price":"$999"},
+{"name":"Aventon Pace 500.3","summary":"Commuter with 500W hub; reported to struggle on real hills","price":null},
+{"name":"Aventon Soltera.2","summary":"Light, mechanical brakes, small battery","price":"$1,199"}],
+"scores":[
+{"option":"Trek Allant+ 7 (used, Upway)","criterion":"Hill climbing","score":8,"rationale":"85Nm mid-drive; mid-drives favored for hills by several sources","claims":["C1","C5"]},
+{"option":"Trek Allant+ 7 (used, Upway)","criterion":"Brake reliability","score":8,"rationale":"Hydraulic discs standard","claims":["C2","C16"]},
+{"option":"Trek Allant+ 7 (used, Upway)","criterion":"Battery availability","score":8,"rationale":"Removable, UL certified, stated available anywhere in the US (single source)","claims":["C3"]},
+{"option":"Trek Allant+ 7 (used, Upway)","criterion":"Price","score":6,"rationale":"Under $1,500 only as used stock","claims":["C4"]},
+{"option":"Ride1Up Turris","criterion":"Hill climbing","score":7,"rationale":"750W, climbs 10%+ per one weak source","claims":["C6"]},
+{"option":"Ride1Up Turris","criterion":"Brake reliability","score":7,"rationale":"Tektro hydraulic, single source","claims":["C7","C16"]},
+{"option":"Ride1Up Turris","criterion":"Battery availability","score":null,"rationale":"No verified claim","claims":[]},
+{"option":"Ride1Up Turris","criterion":"Price","score":null,"rationale":"Not verified","claims":[]},
+{"option":"Lectric XP4","criterion":"Hill climbing","score":null,"rationale":"No verified hill claim","claims":[]},
+{"option":"Lectric XP4","criterion":"Brake reliability","score":8,"rationale":"Custom hydraulic, two sources","claims":["C10","C16"]},
+{"option":"Lectric XP4","criterion":"Battery availability","score":4,"rationale":"Larger battery option exists; replacement availability not covered","claims":["C11"]},
+{"option":"Aventon Pace 500.3","criterion":"Hill climbing","score":5,"rationale":"500W felt underpowered on real hills","claims":["C8"]},
+{"option":"Aventon Soltera.2","criterion":"Hill climbing","score":2,"rationale":"Source says look elsewhere for hilly routes","claims":["C13"]},
+{"option":"Aventon Soltera.2","criterion":"Brake reliability","score":2,"rationale":"Mechanical brakes","claims":["C13"]}],
+"recommendation":{"option":"Trek Allant+ 7 (used, Upway)","headline":"A used Trek Allant+ 7 is the best match, with caveats","summary":"It is the only option with verified claims on hills, brakes and battery availability together.","reasons":[
+{"text":"Bosch CX mid-drive, 85Nm, suited to hills","claims":["C1","C5"]},
+{"text":"Hydraulic disc brakes standard","claims":["C2"]},
+{"text":"Removable battery stated to be available anywhere in the US","claims":["C3"]}],
+"tradeoffs":[{"text":"Used stock only under $1,500; availability varies","claims":["C4"]}],
+"alternatives":[{"option":"Ride1Up Turris","when":"You want a new 750W bike with hydraulic brakes"},{"option":"Lectric XP4","when":"You want the cheapest new bike with hydraulic brakes"}],
+"caveats":["Battery availability claim comes from one retailer source","Turris claims come from one low-reliability source"],
+"nextSteps":["Confirm Trek battery price and stock with a dealer","Check current Upway listing, condition and battery health"]},
+"contradictions":[
+{"option":"Aventon Pace 500.3","topic":"Price","claims":["C9"],"assessment":"Source 4 says $1,399 (early 2026); source 8 (2024 blog) says $1,699. Source 4 is newer but less reliable; verify current price.","severity":"medium"},
+{"option":"Lectric XP 3.0","topic":"Brake type","claims":["C12"],"assessment":"Source 4 table says mechanical but its text says hydraulic; source 7 says hydraulic. Source 7 more reliable.","severity":"low"}],
+"uncertainties":[
+{"kind":"single-source","text":"Trek battery availability rests on one retailer page","option":"Trek Allant+ 7 (used, Upway)","impact":"high","howToResolve":"Check Trek dealer or Bosch battery listings"},
+{"kind":"incomplete","text":"No source covers replacement battery pricing for new bikes","option":null,"impact":"high","howToResolve":"Ask manufacturers for replacement battery cost and stock"},
+{"kind":"single-source","text":"Turris data only from a low-reliability undated source","option":"Ride1Up Turris","impact":"medium","howToResolve":"Find independent Turris review"}]}

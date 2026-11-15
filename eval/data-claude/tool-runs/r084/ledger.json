@@ -1,0 +1,392 @@
+[
+  {
+    "id": "C1",
+    "source": 1,
+    "option": "Coursera",
+    "criterion": "Python for data analysis",
+    "claim": "IBM Data Analyst certificate on Coursera focuses on Python and SQL for data analysis",
+    "quote": "The IBM Data Analyst Professional Certificate focuses on developing key technical skills, including the use of Python and SQL for data analysis.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Coursera's own page (vendor); source 3 is an identical mirror, not independent",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p19]",
+      "text": "the most common data analysis tools in this popular Professional Certificate. Some of the most impactful are as follows: Microsoft Excel IBM Cognos Analytics Python Jupyter notebooks Python libraries The IBM Data Analyst Professional Certificate focuses on developing key technical skills, including the use of Python and SQL for data analysis. Other top skills you’ll build are: Data wrangling and cleaning Statistical analysis Database management Predictive modeling"
+    },
+    "recordedAt": "2026-11-15T21:00:19.098Z"
+  },
+  {
+    "id": "C2",
+    "source": 1,
+    "option": "Coursera",
+    "criterion": "Python for data analysis",
+    "claim": "Google's Data Analytics certificate teaches R, not Python",
+    "quote": "The Google Data Analytics Professional Certificate offers an overview of data analysis fundamentals, including data cleaning and validation, data visualization, R programming, SQL, and more.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p11]",
+      "text": "the first module of many courses at no cost. Visit the Learner Help Center for more information about your account, payments, subscriptions, and Coursera policies. Google Data Analytics Professional Certificate: Topics, tools, and skills Google is the company behind some of the most popular online platforms like Google Search, Google Workspace, Google Gemini, and YouTube. The Google Data Analytics Professional Certificate offers an overview of data analysis fundamentals, including data cleaning and validation, data visualization, R programming, SQL, and more. Suitable for beginners, the program provides business-focused data analysis training along with new material centered around using generative AI for data analytics."
+    },
+    "recordedAt": "2026-11-15T21:00:19.244Z"
+  },
+  {
+    "id": "C3",
+    "source": 1,
+    "option": "Coursera",
+    "criterion": "Time fit (5 h/week)",
+    "claim": "IBM certificate estimated at 4 months at 10 hours a week",
+    "quote": "4 months at 10 hours a week",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Estimate is at 10 h/week, not 5",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p6]",
+      "text": "has a unique focus that distinguishes it from the others. To help you differentiate between each of these highly rated programs, let’s review them side-by-side: Google Data Analytics IBM Data Analyst Meta Data Analyst Type Professional Certificate Level Beginner Modules 9 courses 11 courses 5 courses Estimated time to completion 6 months at 10 hours a week 4 months at 10 hours a week 5 months at 10 hours a week"
+    },
+    "recordedAt": "2026-11-15T21:00:19.422Z"
+  },
+  {
+    "id": "C4",
+    "source": 1,
+    "option": "Coursera",
+    "criterion": "Certificate recognition",
+    "claim": "IBM cert is an 11-course beginner program with technical bent",
+    "quote": "Suitable for beginners with no prior experience, this 11-course program provides a comprehensive overview of data analysis with a technical bent.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [
+      7
+    ],
+    "note": "Source 7 (2024 blog) says 9 courses; Coursera is the primary source",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[1.p16]",
+      "text": "is one of the most well-established and largest technology companies in the world, responsible for a wide range of hardware, software, and cloud computing services. The IBM Data Analyst Professional Certificate equips learners with that expertise by offering training in the fundamentals of data analytics, alongside database management, Python programming, and AI. Suitable for beginners with no prior experience, this 11-course program provides a comprehensive overview of data analysis with a technical bent."
+    },
+    "recordedAt": "2026-11-15T21:00:19.599Z"
+  },
+  {
+    "id": "C5",
+    "source": 7,
+    "option": "Coursera",
+    "criterion": "Certificate recognition",
+    "claim": "IBM cert has 9 courses",
+    "quote": "IBM offers 9 courses under the umbrella of this certification (please excuse the shuffled order; this is how Coursera displays it).",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [
+      1
+    ],
+    "note": "Older personal blog",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[7.p2]",
+      "text": "and my current progress IBM offers 9 courses under the umbrella of this certification (please excuse the shuffled order; this is how Coursera displays it). The ones I completed are marked with blue dots. As I’m writing this, I’ve just finished course 3 out of 9: Data Vizualization and Dashboards with Excel and Cognos. 6 more to go! How much time it took me so far"
+    },
+    "recordedAt": "2026-11-15T21:00:19.748Z"
+  },
+  {
+    "id": "C6",
+    "source": 4,
+    "option": "Dataquest",
+    "criterion": "Hands-on projects",
+    "claim": "Dataquest's Python for Data Analysis path teaches via hands-on projects",
+    "quote": "Dataquest's Beginner Python for Data Analysis path teaches Python through hands-on data analysis projects rather than abstract programming exercises.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Published by Dataquest itself, self-promotional",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[4.p11]",
+      "text": "Career Switchers and Beginners These certifications assume no prior programming experience and focus on building solid foundations you can use to launch a new career. 1. Beginner Python for Data Analysis Dataquest's Beginner Python for Data Analysis path teaches Python through hands-on data analysis projects rather than abstract programming exercises. You'll learn by working with real datasets from day one. • Cost: $33-49/month (Premium plan) • Time: 3-6 months at 5-10 hours/week"
+    },
+    "recordedAt": "2026-11-15T21:00:19.902Z"
+  },
+  {
+    "id": "C7",
+    "source": 4,
+    "option": "Dataquest",
+    "criterion": "Time fit (5 h/week)",
+    "claim": "Dataquest path takes 3-6 months at 5-10 hours/week",
+    "quote": "Time: 3-6 months at 5-10 hours/week",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Vendor claim",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[4.p11]",
+      "text": "Career Switchers and Beginners These certifications assume no prior programming experience and focus on building solid foundations you can use to launch a new career. 1. Beginner Python for Data Analysis Dataquest's Beginner Python for Data Analysis path teaches Python through hands-on data analysis projects rather than abstract programming exercises. You'll learn by working with real datasets from day one. • Cost: $33-49/month (Premium plan) • Time: 3-6 months at 5-10 hours/week"
+    },
+    "recordedAt": "2026-11-15T21:00:20.108Z"
+  },
+  {
+    "id": "C8",
+    "source": 4,
+    "option": "Coursera",
+    "criterion": "Certificate recognition",
+    "claim": "Google and IBM platform certificates have brand recognition but are completion-based, not proctored",
+    "quote": "Platform certificates from Harvard, Google, and IBM carry strong brand recognition even though they’re completion-based rather than proctored exams.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[4.p9]",
+      "text": "hours per week, that's over a year of commitment. Sometimes a shorter certification that you'll actually finish beats a comprehensive one you'll abandon halfway through. Check What Employers Actually Want Not all certifications carry the same weight. PCAP from the Python Institute is the most widely recognized Python-specific certification thanks to its Pearson VUE proctoring. Platform certificates from Harvard, Google, and IBM carry strong brand recognition even though they're completion-based rather than proctored exams."
+    },
+    "recordedAt": "2026-11-15T21:00:20.289Z"
+  },
+  {
+    "id": "C9",
+    "source": 4,
+    "option": "Dataquest",
+    "criterion": "Hands-on projects",
+    "claim": "Portfolio projects outrank certifications for hiring managers",
+    "quote": "Portfolio projects rank above certifications every time.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Opinion by a vendor that sells project-based learning",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[4.p1]",
+      "text": "13 Best Python Certifications in 2026 By Mike Levy Updated April 8, 2026 Originally published February 27, 2025 Python remains one of the most in-demand programming languages across data science, web development, automation, and AI. But when you're trying to break into a Python-related role or level up in your career, figuring out which certification actually helps can feel overwhelming. While Python certifications serve a purpose, hiring managers care more about what you can build than what credentials you hold. Portfolio projects rank above certifications every time. But certifications still solve real problems. They provide structured learning paths, help you get past HR filters, and validate your skills when you"
+    },
+    "recordedAt": "2026-11-15T21:00:20.468Z"
+  },
+  {
+    "id": "C10",
+    "source": 4,
+    "option": "edX",
+    "criterion": "Certificate recognition",
+    "claim": "CS50P gives a free Harvard certificate or a 219 dollar edX verified certificate",
+    "quote": "Cost: Free certificate via cs50.harvard.edu, or $219 for edX verified certificate with ID verification",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Intro Python only, not data analysis",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[4.p20]",
+      "text": "certification. The new version arriving in 2026 will expire after 8 years. If you want permanent certification, pass the current version before August 31, 2026. 3. Harvard CS50P: Introduction to Programming with Python CS50's Introduction to Programming with Python gives you a Harvard certificate completely free. This makes it arguably the best deal in Python education. • Cost: Free certificate via cs50.harvard.edu, or $219 for edX verified certificate with ID verification"
+    },
+    "recordedAt": "2026-11-15T21:00:20.674Z"
+  },
+  {
+    "id": "C11",
+    "source": 2,
+    "option": "Coursera",
+    "criterion": "Certificate recognition",
+    "claim": "Coursera collaborates with hundreds of universities and companies",
+    "quote": "Coursera is unique in that it collaborates with hundreds of well-respected universities and companies.",
+    "support": "supported",
+    "corroborating": [
+      6
+    ],
+    "conflicting": [],
+    "note": "Source 5 is an identical mirror",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[2.p12]",
+      "text": "start. Coursera pricing varies depending on what you want to do; explore courses, earn a certificate or degree, but, in general, it is very affordable. Why Choose Coursera over DataCamp? Both platforms are very different in what they offer and how payment works. Coursera is unique in that it collaborates with hundreds of well-respected universities and companies. I found this aspect to be essential when wanting to study something new to change careers. DataCamp is great if you need or want to upskill in Data, AI, Programming and the like. However, if you need an accredited degree or certificate, even in the field of Data and Programming, Coursera is definitely"
+    },
+    "recordedAt": "2026-11-15T21:00:20.854Z"
+  },
+  {
+    "id": "C12",
+    "source": 2,
+    "option": "DataCamp",
+    "criterion": "Certificate recognition",
+    "claim": "DataCamp is not accredited by any institute or university",
+    "quote": "Sadly, neither of the platforms are accredited by any institute or university.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Sentence refers to Udacity and DataCamp; single source",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[2.p17]",
+      "text": "universities or other big-name companies, as well, have the possibility of taking courses for free, then I would say edX is the way to go. 3. Udacity One might think the difference between Udacity and DataCamp is so small that you could choose either one and get pretty much the same end result. But upon looking more closely and using both platforms, I found some key differences. Udacity, like DataCamp is very much data and tech focused, however with an even stronger data and programming focus and less on tech. Sadly, neither of the platforms are accredited by any institute or university. The main difference is Udacity completion certificates are"
+    },
+    "recordedAt": "2026-11-15T21:00:21.041Z"
+  },
+  {
+    "id": "C13",
+    "source": 2,
+    "option": "DataCamp",
+    "criterion": "Hands-on projects",
+    "claim": "DataCamp's learning method is more hands-on for data/programming",
+    "quote": "If your goal is to clearly upskill in data, AI, programming or analytics, and you have a tight budget, then DataCamp could be a great option, especially since their learning method is more hands on for these subjects.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Single source, opinion, no DataCamp primary source in set",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[2.p16]",
+      "text": "some ways, it doesn’t offer thousands of free courses—you have to register as an educator or an educational institute to get free access to courses. If your goal is to clearly upskill in data, AI, programming or analytics, and you have a tight budget, then DataCamp could be a great option, especially since their learning method is more hands on for these subjects. But if you need a broader range of subjects and or to have your course completion backed by leading universities or other big-name companies, as well, have the possibility of taking courses for free, then I would say edX is the way to go."
+    },
+    "recordedAt": "2026-11-15T21:00:21.237Z"
+  },
+  {
+    "id": "C14",
+    "source": 6,
+    "option": "Coursera",
+    "criterion": "Cost",
+    "claim": "Coursera Plus costs around 399 dollars annually",
+    "quote": "Coursera’s subscription model offers good value, especially through Coursera Plus, which costs around $399 annually and provides access to thousands of courses.",
+    "support": "supported",
+    "corroborating": [
+      2
+    ],
+    "conflicting": [],
+    "note": "Source 1 shows a regional INR price; prices may have changed",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p8]",
+      "text": "a budget, it limits the flexibility offered by Coursera’s subscription model. Additionally, edX courses may be more rigorous and time-consuming, focusing heavily on academic depth. Coursera’s flexibility and subscription options make it more suitable for those balancing learning with other commitments. Pricing and Accessibility Coursera’s subscription model offers good value, especially through Coursera Plus, which costs around $399 annually and provides access to thousands of courses. Individual courses typically range from $49 to $79. This model benefits those planning to take multiple courses throughout the year."
+    },
+    "recordedAt": "2026-11-15T21:00:21.449Z"
+  },
+  {
+    "id": "C15",
+    "source": 6,
+    "option": "Coursera",
+    "criterion": "Hands-on projects",
+    "claim": "Coursera offers guided projects for hands-on experience",
+    "quote": "Learners can choose self-paced courses or participate in guided projects for hands-on experience.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Low-quality AI news site",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p6]",
+      "text": "practical industry certifications compared to Coursera. Coursera's emphasis on career-oriented certifications gives it an advantage for learners looking to boost employability directly through online courses. Learning Structure and Flexibility Coursera provides flexible learning paths with various subscription models, including Coursera Plus, which grants access to multiple courses for a fixed fee. Learners can choose self-paced courses or participate in guided projects for hands-on experience. Coursera’s interface also supports multiple languages, making it accessible to a global audience."
+    },
+    "recordedAt": "2026-11-15T21:00:21.640Z"
+  },
+  {
+    "id": "C16",
+    "source": 6,
+    "option": "edX",
+    "criterion": "Certificate recognition",
+    "claim": "edX has fewer practical industry certificates than Coursera",
+    "quote": "However, edX’s focus leans more toward academic institutions, with fewer options for practical industry certifications compared to Coursera.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Single, lower-reliability source",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[6.p5]",
+      "text": "are designed to be industry-relevant. Coursera also offers pathways to earn university degrees through its platform, providing a seamless transition from learning to career advancement. edX offers certifications as well, including verified certificates and MicroMasters credentials, which can sometimes count as credits toward a full degree. However, edX’s focus leans more toward academic institutions, with fewer options for practical industry certifications compared to Coursera. Coursera's emphasis on career-oriented certifications gives it an advantage for learners looking to boost employability directly through online courses."
+    },
+    "recordedAt": "2026-11-15T21:00:21.825Z"
+  },
+  {
+    "id": "C17",
+    "source": 2,
+    "option": "edX",
+    "criterion": "Certificate recognition",
+    "claim": "edX offers accredited certificates and degrees",
+    "quote": "This also means it offers accredited certificates and degrees.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [
+      4
+    ],
+    "note": "Source 4 quotes Harvard on edX-hosted CS50P as not accredited academic offerings",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[2.p13]",
+      "text": "AI, Programming and the like. However, if you need an accredited degree or certificate, even in the field of Data and Programming, Coursera is definitely the more optimal match. 2. edX edX is another favorite of mine which, like Coursera, is backed by universities, institutes and companies like Google, MIT, IBM and Harvard. This also means it offers accredited certificates and degrees. Its platform is rich with thousands of free courses, which certainly is a bonus if you want to learn but can’t always pay."
+    },
+    "recordedAt": "2026-11-15T21:00:22.061Z"
+  },
+  {
+    "id": "C18",
+    "source": 7,
+    "option": "Coursera",
+    "criterion": "Time fit (5 h/week)",
+    "claim": "Only around 12% finish MOOCs",
+    "quote": "On the other hand, research shows that only around 12% of people finish MOOCs (Massive Open Online Courses) like this one.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "Uncited anecdote in personal blog",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[7.p4]",
+      "text": "with a full-time job and creating content for my YouTube channel. This is why each of the courses took me around a month to complete. On the other hand, research shows that only around 12% of people finish MOOCs (Massive Open Online Courses) like this one. My speculation is, the majority of people (including myself!) goes into them with the mindset along the lines of: oh I don’t believe it will take 6 months, I’ll focus and finish this in a few weeks."
+    },
+    "recordedAt": "2026-11-15T21:00:22.196Z"
+  },
+  {
+    "id": "C19",
+    "source": 4,
+    "option": "Coursera",
+    "criterion": "Time fit (5 h/week)",
+    "claim": "At 5 h/week a 300-hour certification takes over a year",
+    "quote": "A certification that takes 300 hours might be perfect for your career, but if you can only study five hours per week, that’s over a year of commitment.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[4.p8]",
+      "text": "PCAP work better. • Targeting data science specifically? Programs that teach pandas, visualization, and machine learning alongside Python make more sense than general programming certs. Think About Time and Money Certifications range from completely free to over $4,000, and time commitments vary from a few weeks to eight months. Be realistic about what you can sustain. A certification that takes 300 hours might be perfect for your career, but if you can only study five hours per week, that's over a year of commitment. Sometimes a shorter certification that you'll actually finish beats a comprehensive one you'll abandon halfway through."
+    },
+    "recordedAt": "2026-11-15T21:00:22.413Z"
+  }
+]

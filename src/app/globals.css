@@ -1,26 +1,271 @@
 @import "tailwindcss";
 
+/*
+ * Decision AI — "Evidence ledger" design tokens.
+ * See .agent/design-system.md. Light theme only: white paper, pale-blue rules,
+ * light-blue accents, navy ink. Verdict colours are reserved for verification states.
+ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --paper: #ffffff;
+  --mist: #f3f8fc;
+  --rule: #d6e7f5;
+  --rule-strong: #b9d5ec;
+  --sky: #7cc0ec;
+  --sky-soft: #e4f2fc;
+  --cobalt: #1667a8;
+  --ink: #0e2236;
+  --slate: #4d6378;
+
+  --supported: #1f8a6e;
+  --supported-soft: #e2f3ed;
+  --partial: #b7791f;
+  --partial-soft: #fbf0df;
+  --unsupported: #6b7a8a;
+  --unsupported-soft: #edf0f3;
+  --contradicted: #c2453d;
+  --contradicted-soft: #fbe8e6;
+
+  color-scheme: light;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-paper: var(--paper);
+  --color-mist: var(--mist);
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --color-sky: var(--sky);
+  --color-sky-soft: var(--sky-soft);
+  --color-cobalt: var(--cobalt);
+  --color-ink: var(--ink);
+  --color-slate: var(--slate);
+
+  --color-supported: var(--supported);
+  --color-supported-soft: var(--supported-soft);
+  --color-partial: var(--partial);
+  --color-partial-soft: var(--partial-soft);
+  --color-unsupported: var(--unsupported);
+  --color-unsupported-soft: var(--unsupported-soft);
+  --color-contradicted: var(--contradicted);
+  --color-contradicted-soft: var(--contradicted-soft);
+
+  --font-sans: var(--font-public-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-source-serif), Georgia, "Times New Roman", serif;
+  --font-mono: ui-monospace, "SFMono-Regular", "Cascadia Mono", Menlo, Consolas, monospace;
+
+  --text-meta: 0.8125rem;
+  --text-meta--line-height: 1.25rem;
+  --text-title: 1.375rem;
+  --text-title--line-height: 1.85rem;
+  --text-display: 1.75rem;
+  --text-display--line-height: 2.25rem;
+
+  --radius-panel: 14px;
+  --radius-control: 10px;
+
+  --shadow-float: 0 18px 48px -12px rgb(14 34 54 / 0.22), 0 2px 6px rgb(14 34 54 / 0.06);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  background: var(--paper);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--sky-soft);
+  color: var(--ink);
+}
+
+/* Visible, consistent focus ring in the brand light blue. */
+:where(a, button, input, textarea, select, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--sky);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Ledger ruling: faint pale-blue lines on white paper. */
+.ledger-paper {
+  background-color: var(--paper);
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent calc(var(--ledger-line, 2.5rem) - 1px),
+    color-mix(in srgb, var(--rule) 75%, transparent) calc(var(--ledger-line, 2.5rem) - 1px),
+    color-mix(in srgb, var(--rule) 75%, transparent) var(--ledger-line, 2.5rem)
+  );
+}
+
+/* Hatched fill for cells without evidence. */
+.hatch {
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 5px,
+    color-mix(in srgb, var(--rule) 80%, transparent) 5px,
+    color-mix(in srgb, var(--rule) 80%, transparent) 6px
+  );
+}
+
+/* Quote highlight inside verification passages. */
+mark.quote-mark {
+  background: color-mix(in srgb, var(--sky) 38%, transparent);
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+/* Range input styling for priority sliders. */
+input[type="range"].weight-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 1.5rem;
+  background: transparent;
+  cursor: pointer;
+}
+input[type="range"].weight-slider::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(to right, var(--sky) var(--fill, 50%), var(--rule) var(--fill, 50%));
+}
+input[type="range"].weight-slider::-moz-range-track {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--rule);
+}
+input[type="range"].weight-slider::-moz-range-progress {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--sky);
+}
+input[type="range"].weight-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  margin-top: -6px;
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: var(--paper);
+  border: 2px solid var(--cobalt);
+  box-shadow: 0 1px 3px rgb(14 34 54 / 0.18);
+}
+input[type="range"].weight-slider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 999px;
+  background: var(--paper);
+  border: 2px solid var(--cobalt);
+}
+input[type="range"].weight-slider:focus-visible {
+  outline: none;
+}
+input[type="range"].weight-slider:focus-visible::-webkit-slider-thumb {
+  outline: 2px solid var(--sky);
+  outline-offset: 2px;
+}
+
+/* Markdown prose inside the conversation. */
+.prose-chat {
+  line-height: 1.6;
+}
+.prose-chat > * + * {
+  margin-top: 0.6em;
+}
+.prose-chat ul {
+  list-style: disc;
+  padding-left: 1.2em;
+}
+.prose-chat ol {
+  list-style: decimal;
+  padding-left: 1.3em;
+}
+.prose-chat li + li {
+  margin-top: 0.25em;
+}
+.prose-chat strong {
+  font-weight: 600;
+}
+.prose-chat a {
+  color: var(--cobalt);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.prose-chat h1,
+.prose-chat h2,
+.prose-chat h3 {
+  font-weight: 600;
+  font-size: 1em;
+}
+.prose-chat code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: var(--mist);
+  border-radius: 4px;
+  padding: 0.05em 0.3em;
+}
+.prose-chat table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+.prose-chat th,
+.prose-chat td {
+  border-bottom: 1px solid var(--rule);
+  padding: 0.35em 0.5em;
+  text-align: left;
+}
+.prose-chat blockquote {
+  border-left: 2px solid var(--sky);
+  padding-left: 0.75em;
+  font-family: var(--font-serif);
+  font-style: italic;
+}
+
+/* Thin scrollbars for panes. */
+.pane-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--rule-strong) transparent;
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.animate-pulse-dot {
+  animation: pulse-dot 1.4s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+.skeleton {
+  background: linear-gradient(90deg, var(--mist) 25%, var(--sky-soft) 50%, var(--mist) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.6s linear infinite;
+  border-radius: 6px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

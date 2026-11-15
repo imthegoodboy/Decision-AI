@@ -1,0 +1,18 @@
+{"criteria":[{"name":"Sleep accuracy","weight":35,"description":"Evidence of reliable sleep tracking"},{"name":"Heart-rate accuracy","weight":35,"description":"Evidence of reliable HR tracking"},{"name":"No mandatory subscription","weight":20,"description":"Core features usable free"},{"name":"Price","weight":10,"description":"Under $200"}],
+"options":[{"name":"Fitbit Air","summary":"Screenless $99 tracker, core features free","price":"$99"},{"name":"Amazfit Balance","summary":"Smartwatch, top-class HR in tests, some paywalled extras","price":"$199"},{"name":"Garmin vivosmart 5","summary":"Free data, accurate HR and sleep per PopSci","price":null},{"name":"Fitbit Inspire 3","summary":"Detailed sleep needs Premium","price":null}],
+"scores":[
+{"option":"Fitbit Air","criterion":"Sleep accuracy","score":7,"rationale":"Reviewer says reports on par with top smartwatches; not lab tested","claims":["C5"]},
+{"option":"Fitbit Air","criterion":"Heart-rate accuracy","score":null,"rationale":"No verified accuracy claim","claims":[]},
+{"option":"Fitbit Air","criterion":"No mandatory subscription","score":9,"rationale":"Core free, Premium optional","claims":["C4","C7"]},
+{"option":"Fitbit Air","criterion":"Price","score":10,"rationale":"$99","claims":["C4"]},
+{"option":"Amazfit Balance","criterion":"Heart-rate accuracy","score":8,"rationale":"Top-class in reviewer tests","claims":["C2"]},
+{"option":"Amazfit Balance","criterion":"Sleep accuracy","score":null,"rationale":"No verified sleep accuracy claim","claims":[]},
+{"option":"Amazfit Balance","criterion":"No mandatory subscription","score":8,"rationale":"Only non-essential extras paywalled","claims":["C3"]},
+{"option":"Amazfit Balance","criterion":"Price","score":7,"rationale":"$199, often on sale","claims":["C1"]},
+{"option":"Garmin vivosmart 5","criterion":"Heart-rate accuracy","score":7,"rationale":"Single older source","claims":["C8"]},
+{"option":"Garmin vivosmart 5","criterion":"Sleep accuracy","score":7,"rationale":"Single older source; Garmin consistent in Terra data","claims":["C8","C11"]},
+{"option":"Fitbit Inspire 3","criterion":"No mandatory subscription","score":4,"rationale":"Detailed sleep behind Premium","claims":["C9"]}
+],
+"recommendation":{"option":"Fitbit Air","headline":"Fitbit Air is the best-supported pick, with moderate confidence","summary":"Cheap, core features subscription-free, sleep reports rated on par with top smartwatches.","reasons":[{"text":"Core features subscription-free at $99","claims":["C4","C7"]},{"text":"Sleep reports on par with best smartwatches per reviewer","claims":["C5"]}],"tradeoffs":[{"text":"No onboard GPS","claims":["C6"]}],"alternatives":[{"option":"Amazfit Balance","when":"You want a smartwatch with tested top-class HR accuracy"},{"option":"Garmin vivosmart 5","when":"You want free data access and a screen"}],"caveats":["No lab-grade accuracy evidence in sources","Heart-rate accuracy for the Air not separately verified"],"nextSteps":["Check return policy and test against a chest strap"]},
+"contradictions":[],
+"uncertainties":[{"kind":"incomplete","text":"No source benchmarks sleep or HR accuracy against clinical references","option":null,"impact":"high","howToResolve":"Look for independent validation studies"},{"kind":"single-source","text":"Garmin vivosmart 5 and Xiaomi sleep claims rest on one 2023 article","option":"Garmin vivosmart 5","impact":"medium","howToResolve":"Find current reviews"}]}

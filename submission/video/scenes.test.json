@@ -1,0 +1,5 @@
+[
+  { "action": "slide:1", "narration": "Decision AI makes AI-assisted decisions verifiable." },
+  { "action": "overview", "narration": "Here is a finished decision, built only from claims the agent verified." },
+  { "action": "conflicts", "narration": "Where sources disagree, both statements are shown side by side." }
+]

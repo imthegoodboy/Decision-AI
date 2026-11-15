@@ -1,0 +1,376 @@
+[
+  {
+    "id": "C1",
+    "source": 1,
+    "option": "Redmi 15 5G",
+    "criterion": "Battery life",
+    "claim": "Redmi 15 5G has a 7,000mAh battery",
+    "quote": "It also packs a large 7,000mAh battery, one of the biggest in the segment, and runs HyperOS 2 based on Android 15 with the promise of 2 years of OS updates and 4 years of security updates.",
+    "support": "supported",
+    "corroborating": [
+      5
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p4]",
+      "text": "during the second half of 2025 with a 6.9-inch Full HD+ display supporting a 144Hz refresh rate, 6GB or 8GB of RAM, 128GB or 256GB of storage, a Qualcomm Snapdragon 6s Gen 3 chip, 50MP dual rear cameras, an 8MP front camera, and an IP64 rating. It also packs a large 7,000mAh battery, one of the biggest in the segment, and runs HyperOS 2 based on Android 15 with the promise of 2 years of OS updates and 4 years of security updates. While it starts at Rs 15,999 and comes in midnight black, sandy purple, and frosted white colour options, I would recommend going for 256GB storage to house"
+    },
+    "recordedAt": "2026-11-15T20:33:57.348Z"
+  },
+  {
+    "id": "C2",
+    "source": 1,
+    "option": "Redmi 15 5G",
+    "criterion": "Software updates",
+    "claim": "Redmi 15 5G is promised 2 years of OS updates and 4 years of security updates",
+    "quote": "It also packs a large 7,000mAh battery, one of the biggest in the segment, and runs HyperOS 2 based on Android 15 with the promise of 2 years of OS updates and 4 years of security updates.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [
+      5
+    ],
+    "note": "Source 5 says 4 OS/6 security",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[1.p4]",
+      "text": "during the second half of 2025 with a 6.9-inch Full HD+ display supporting a 144Hz refresh rate, 6GB or 8GB of RAM, 128GB or 256GB of storage, a Qualcomm Snapdragon 6s Gen 3 chip, 50MP dual rear cameras, an 8MP front camera, and an IP64 rating. It also packs a large 7,000mAh battery, one of the biggest in the segment, and runs HyperOS 2 based on Android 15 with the promise of 2 years of OS updates and 4 years of security updates. While it starts at Rs 15,999 and comes in midnight black, sandy purple, and frosted white colour options, I would recommend going for 256GB storage to house"
+    },
+    "recordedAt": "2026-11-15T20:33:57.490Z"
+  },
+  {
+    "id": "C3",
+    "source": 5,
+    "option": "Redmi 15 5G",
+    "criterion": "Software updates",
+    "claim": "Redmi 15 5G is promised four years of OS updates and six years of security updates",
+    "quote": "The Redmi 15 5G ships with HyperOS 2 based on Android 15 and is promised four years of OS updates and six years of security updates, putting it in the same conversation as Samsung's best.",
+    "support": "supported",
+    "corroborating": [],
+    "conflicting": [
+      1
+    ],
+    "note": "Source 1 says 2 OS/4 security",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[5.p5]",
+      "text": "the Galaxy M17 5G, the company's online-focused battery phone, is limited to two Android OS upgrades and four years of security patches. Xiaomi, meanwhile, has quietly improved. The Redmi 15 5G ships with HyperOS 2 based on Android 15 and is promised four years of OS updates and six years of security updates, putting it in the same conversation as Samsung's best. At the other end, the Ai+ Nova 2 Ultra 5G is eligible for only one major OS update and the Lava Blaze Duo 3 5G has limited OS support, which rules both out for anyone planning to hold on to a phone."
+    },
+    "recordedAt": "2026-11-15T20:33:57.635Z"
+  },
+  {
+    "id": "C4",
+    "source": 1,
+    "option": "Redmi 15 5G",
+    "criterion": "Price",
+    "claim": "Redmi 15 5G starts at Rs 15,999",
+    "quote": "While it starts at Rs 15,999 and comes in midnight black, sandy purple, and frosted white colour options, I would recommend going for 256GB storage to house those 50MP photos.",
+    "support": "supported",
+    "corroborating": [
+      5
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p5]",
+      "text": "starts at Rs 15,999 and comes in midnight black, sandy purple, and frosted white colour options, I would recommend going for 256GB storage to house those 50MP photos. Redmi 15 5G (6GB RAM, 128GB, Sandy Purple) 2. Oppo K13 5G Built for performance enthusiasts, the Oppo K13 5G delivers impressive performance with a powerful chipset and effective thermal management. Powered by Qualcomm Snapdragon 6 Gen 4 chip with 8GB RAM and 128GB/256GB storage, the Oppo K13 5G sports a 6.67-inch 120Hz OLED display, 50MP + 2MP rear cameras, 16MP front camera, and a 7,000mAh battery with 80W fast charging. Priced starting at Rs 19,999, the Oppo K13 is a great"
+    },
+    "recordedAt": "2026-11-15T20:33:57.820Z"
+  },
+  {
+    "id": "C5",
+    "source": 5,
+    "option": "Redmi 15 5G",
+    "criterion": "Indoor camera",
+    "claim": "Redmi 15 5G has 50MP dual rear cameras and an 8MP selfie camera (no OIS or low-light test cited)",
+    "quote": "It starts at ₹15,999 and pairs its 7,000mAh battery with a 6.9-inch Full HD+ 144Hz display, a Snapdragon 6s Gen 3 chip, 50MP dual rear cameras, an 8MP selfie camera and an IP64 rating.",
+    "support": "partial",
+    "corroborating": [
+      1
+    ],
+    "conflicting": [],
+    "note": "specs only; no low-light evidence",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[5.p8]",
+      "text": "detail. The Galaxy M17 5G does get a 50MP OIS camera, but its shorter update window undercuts the main reason to pick Samsung in the first place. Elsewhere, the Realme P4x 5G's 50MP main and 2MP monochrome setup is the weakest of the big-battery phones, and the Tecno Pop X 5G's image quality drops off noticeably in low light. That leaves the Redmi 15 5G as our pick. It starts at ₹15,999 and pairs its 7,000mAh battery with a 6.9-inch Full HD+ 144Hz display, a Snapdragon 6s Gen 3 chip, 50MP dual rear cameras, an 8MP selfie camera and an IP64 rating. With its improved update promise it now covers"
+    },
+    "recordedAt": "2026-11-15T20:33:58.000Z"
+  },
+  {
+    "id": "C6",
+    "source": 1,
+    "option": "Oppo K13 5G",
+    "criterion": "Battery life",
+    "claim": "Oppo K13 5G has a 7,000mAh battery with 80W fast charging, from Rs 19,999",
+    "quote": "Powered by Qualcomm Snapdragon 6 Gen 4 chip with 8GB RAM and 128GB/256GB storage, the Oppo K13 5G sports a 6.67-inch 120Hz OLED display, 50MP + 2MP rear cameras, 16MP front camera, and a 7,000mAh battery with 80W fast charging.",
+    "support": "supported",
+    "corroborating": [
+      2,
+      5
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p5]",
+      "text": "starts at Rs 15,999 and comes in midnight black, sandy purple, and frosted white colour options, I would recommend going for 256GB storage to house those 50MP photos. Redmi 15 5G (6GB RAM, 128GB, Sandy Purple) 2. Oppo K13 5G Built for performance enthusiasts, the Oppo K13 5G delivers impressive performance with a powerful chipset and effective thermal management. Powered by Qualcomm Snapdragon 6 Gen 4 chip with 8GB RAM and 128GB/256GB storage, the Oppo K13 5G sports a 6.67-inch 120Hz OLED display, 50MP + 2MP rear cameras, 16MP front camera, and a 7,000mAh battery with 80W fast charging. Priced starting at Rs 19,999, the Oppo K13 is a great"
+    },
+    "recordedAt": "2026-11-15T20:33:58.174Z"
+  },
+  {
+    "id": "C7",
+    "source": 4,
+    "option": "Galaxy A17 5G",
+    "criterion": "Indoor camera",
+    "claim": "Galaxy A17 5G has a 50MP wide camera with OIS",
+    "quote": "Capture clear and detailed moments with a versatile triple camera setup featuring a 50MP Wide camera with OIS4, a 5MP Ultra-Wide camera, and a 2MP Macro lens, along with a 13MP front camera for sharp selfies.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [
+      5
+    ],
+    "note": "manufacturer page; source 5 says no OIS",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[4.p7]",
+      "text": "like Gemini Live and Circle of Search2,3 that help discover information and multitask with ease.• Capture clear and detailed moments with a versatile triple camera setup featuring a 50MP Wide camera with OIS4, a 5MP Ultra-Wide camera, and a 2MP Macro lens, along with a 13MP front camera for sharp selfies.• Stay powered through long days with a 5000mAh (Typical) battery5 that easily handles gaming, entertainment, and daily tasks without frequent charging.• Enjoy smooth gaming and uninterrupted entertainment powered by a 5nm octa core processor designed to keep performance fast and lag free.Galaxy M17 5GDesigned for those who need strong battery backup and monster level performance.• Experience stunning visuals on"
+    },
+    "recordedAt": "2026-11-15T20:33:58.352Z"
+  },
+  {
+    "id": "C8",
+    "source": 5,
+    "option": "Galaxy A17 5G",
+    "criterion": "Indoor camera",
+    "claim": "Galaxy A17 5G main camera lacks OIS, hurting dim-room shots",
+    "quote": "This is where the Galaxy A17 5G disappoints. Its triple camera pairs a 50MP main sensor with a 5MP ultra-wide and a 2MP macro lens, but the main camera does not have optical image stabilisation, so in a dim room it is forced to choose between slower shutter speeds that blur a wriggling toddler and heavy noise reduction that smears detail.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [
+      4
+    ],
+    "note": "single independent source, contradicts manufacturer",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[5.p7]",
+      "text": "still, and the camera has to balance shutter speed against noise. Megapixel counts tell you almost nothing here; image processing and stabilisation matter far more. This is where the Galaxy A17 5G disappoints. Its triple camera pairs a 50MP main sensor with a 5MP ultra-wide and a 2MP macro lens, but the main camera does not have optical image stabilisation, so in a dim room it is forced to choose between slower shutter speeds that blur a wriggling toddler and heavy noise reduction that smears detail. The Galaxy M17 5G does get a 50MP OIS camera, but its shorter update window undercuts the main reason to pick Samsung in the"
+    },
+    "recordedAt": "2026-11-15T20:33:58.529Z"
+  },
+  {
+    "id": "C9",
+    "source": 4,
+    "option": "Galaxy M17 5G",
+    "criterion": "Software updates",
+    "claim": "Galaxy M17 5G gets 6 OS upgrades and 6 years security",
+    "quote": "Stay secure and future-ready with 6 gen of OS upgrades and 6 years of security updates12, ensuring long-term performance, protection, and peace of mind.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [
+      5
+    ],
+    "note": "manufacturer marketing",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[4.p9]",
+      "text": "AnTuTu score of 439K+, ensuring smooth multitasking and responsive gameplay.• Power through the day with a 5000mAh (Typical) battery and 25W fast charging9, keeping downtime to a minimum.• Make the smartphone experience smarter with AI features like Circle to Search with Google and Gemini Live10 for faster and easier interactions.• Experience the segment’s toughest display with Corning® Gorilla® Glass Victus® and IP54 protection11, designed to handle everyday drops, splashes, and dust with confidence.• Stay secure and future-ready with 6 gen of OS upgrades and 6 years of security updates12, ensuring long-term performance, protection, and peace of mind.Galaxy F17 5G• Experience immersive visuals on a 16.91 cm sAMOLED display with 1100"
+    },
+    "recordedAt": "2026-11-15T20:33:58.711Z"
+  },
+  {
+    "id": "C10",
+    "source": 5,
+    "option": "Galaxy M17 5G",
+    "criterion": "Software updates",
+    "claim": "Galaxy M17 5G limited to two OS upgrades and four years security",
+    "quote": "But that promise does not extend evenly across Samsung's range: the Galaxy M17 5G, the company's online-focused battery phone, is limited to two Android OS upgrades and four years of security patches.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [
+      4
+    ],
+    "note": "single source, contradicts manufacturer",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "contradicted",
+    "passage": {
+      "id": "[5.p4]",
+      "text": "the Vivo T4x 5G at 44W, while the Galaxy M17 5G tops out at 25W, so topping up even its smaller battery takes noticeably longer. Software support is the second priority, and this is where the conventional wisdom needs updating. Samsung has long been the safe recommendation for buyers who keep a phone for years, and models such as the Galaxy A17 5G and the entry-level Galaxy A07 5G do come with long update commitments. But that promise does not extend evenly across Samsung's range: the Galaxy M17 5G, the company's online-focused battery phone, is limited to two Android OS upgrades and four years of security patches. Xiaomi, meanwhile, has"
+    },
+    "recordedAt": "2026-11-15T20:33:58.881Z"
+  },
+  {
+    "id": "C11",
+    "source": 4,
+    "option": "Galaxy A17 5G",
+    "criterion": "Battery life",
+    "claim": "Galaxy A17 5G has a 5000mAh battery",
+    "quote": "Stay powered through long days with a 5000mAh (Typical) battery5 that easily handles gaming, entertainment, and daily tasks without frequent charging.",
+    "support": "supported",
+    "corroborating": [
+      5
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[4.p7]",
+      "text": "like Gemini Live and Circle of Search2,3 that help discover information and multitask with ease.• Capture clear and detailed moments with a versatile triple camera setup featuring a 50MP Wide camera with OIS4, a 5MP Ultra-Wide camera, and a 2MP Macro lens, along with a 13MP front camera for sharp selfies.• Stay powered through long days with a 5000mAh (Typical) battery5 that easily handles gaming, entertainment, and daily tasks without frequent charging.• Enjoy smooth gaming and uninterrupted entertainment powered by a 5nm octa core processor designed to keep performance fast and lag free.Galaxy M17 5GDesigned for those who need strong battery backup and monster level performance.• Experience stunning visuals on"
+    },
+    "recordedAt": "2026-11-15T20:33:59.040Z"
+  },
+  {
+    "id": "C12",
+    "source": 1,
+    "option": "Galaxy A17 5G",
+    "criterion": "Software updates",
+    "claim": "Galaxy A17 5G has one of the best software update promises in its segment (no duration given)",
+    "quote": "It is all about sleek design, a familiar and stunning AMOLED display, and one of the best software update promises in this segment.",
+    "support": "partial",
+    "corroborating": [
+      5
+    ],
+    "conflicting": [],
+    "note": "no duration stated",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[1.p9]",
+      "text": "the front is an 8MP selfie shooter. It starts at Rs 17,499 and can be purchased in lake green, matte silver, or pink colour options. realme P4x 5G (8GB RAM, 256GB, Lake Green) 5. Samsung Galaxy A17 5G I would term the Galaxy A17 5G from Samsung as the dependable one without any bells and whistles. It is all about sleek design, a familiar and stunning AMOLED display, and one of the best software update promises in this segment. The Galaxy A17 5G also stands out for its cameras and AI features that have trickled down from the company’s flagship offerings. If you are looking for software stability and brand"
+    },
+    "recordedAt": "2026-11-15T20:33:59.230Z"
+  },
+  {
+    "id": "C13",
+    "source": 1,
+    "option": "Vivo T4x 5G",
+    "criterion": "Battery life",
+    "claim": "Vivo T4x 5G has a 6,500mAh battery, from Rs 15,499",
+    "quote": "Priced starting at Rs 15,499, the T4x 5G features a 6.7-inch 120Hz display, 6GB or 8GB of RAM, 128GB or 256GB storage, MediaTek Dimensity 7300 chip, and a 6,500mAh battery with 44W fast charging.",
+    "support": "supported",
+    "corroborating": [
+      2,
+      5
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p6]",
+      "text": "2MP rear cameras, 16MP front camera, and a 7,000mAh battery with 80W fast charging. Priced starting at Rs 19,999, the Oppo K13 is a great pick for mobile gamers who want sustained performance without spending flagship money. oppo K13 5G (8GB RAM, 128GB, Icy Purple) 3. Vivo T4x 5G Another performance-oriented smartphone in this segment is the Vivo T4x 5G. Priced starting at Rs 15,499, the T4x 5G features a 6.7-inch 120Hz display, 6GB or 8GB of RAM, 128GB or 256GB storage, MediaTek Dimensity 7300 chip, and a 6,500mAh battery with 44W fast charging. On the camera front, there is a dual 50MP + 2MP rear camera setup and an"
+    },
+    "recordedAt": "2026-11-15T20:33:59.407Z"
+  },
+  {
+    "id": "C14",
+    "source": 6,
+    "option": "Galaxy A07 5G",
+    "criterion": "Software updates",
+    "claim": "Galaxy A07 5G ships Android 16 with 6 year promised updates",
+    "quote": "Android 16 with 6 year promised updates",
+    "support": "supported",
+    "corroborating": [
+      5
+    ],
+    "conflicting": [],
+    "note": "5 says long commitments",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p12]",
+      "text": "a good pick for its price category. iQOO Z11 Lite 5G Launched on: 24 Jul 2026 Samsung Galaxy A07 5G Launched on: 05 Feb 2026 • Large and smooth display • Android 16 with 6 year promised updates • Main camera shoots decent photos • Battery lasts more than a day • LCD screen instead AMOLED • Only 720p resolution • Performance could be better • Selfie camera takes soft photos"
+    },
+    "recordedAt": "2026-11-15T20:33:59.593Z"
+  },
+  {
+    "id": "C15",
+    "source": 1,
+    "option": "Realme P4x 5G",
+    "criterion": "Indoor camera",
+    "claim": "Realme P4x camera setup is weak",
+    "quote": "The camera setup is rather weak, with a 50MP main camera paired with a 2MP monochrome camera, while the front is an 8MP selfie shooter.",
+    "support": "supported",
+    "corroborating": [
+      5
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[1.p8]",
+      "text": "with a 144Hz refresh rate, MediaTek Dimensity 7400 Ultra chip, 6GB or 8GB RAM, 128GB or 256GB storage, and a 7,000mAh battery with 45W fast charging. Despite the large battery, the Realme P4x is only 8.39mm thick and weighs only 208 grams. The camera setup is rather weak, with a 50MP main camera paired with a 2MP monochrome camera, while the front is an 8MP selfie shooter. It starts at Rs 17,499 and can be purchased in lake green, matte silver, or pink colour options."
+    },
+    "recordedAt": "2026-11-15T20:33:59.756Z"
+  },
+  {
+    "id": "C16",
+    "source": 6,
+    "option": "Vivo T5 Lite 5G",
+    "criterion": "Overall",
+    "claim": "Vivo T5 Lite 5G is slow with bloatware and should be avoided",
+    "quote": "In a fiercely competitive sub-Rs 20,000 segment, this is one phone you should steer clear of.",
+    "support": "supported",
+    "corroborating": [
+      5
+    ],
+    "conflicting": [],
+    "note": null,
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "supported",
+    "passage": {
+      "id": "[6.p6]",
+      "text": "Clean design with good in-hand feel • Customisable Dynamic ring light for alerts • Main camera takes decent daylight shots • Slow, laggy day-to-day performance • Over 15 pre-installed apps • Selfie camera over-brightens skin tones Vivo T5 Lite 5G lures you in with its sleek design, dependable battery life, and fast charging, but daily use quickly exposes its true colours. It moves at a sloth's pace, stuttering through basic tasks like opening apps and multitasking. To make matters worse, the pre-installed bloatware spams you with relentless alerts like a possessive ex. In a fiercely competitive sub-Rs 20,000 segment, this is one phone you should steer clear of."
+    },
+    "recordedAt": "2026-11-15T20:33:59.902Z"
+  },
+  {
+    "id": "C17",
+    "source": 5,
+    "option": "General",
+    "criterion": "Indoor camera",
+    "claim": "Megapixel counts tell little for indoor photos; processing and stabilisation matter",
+    "quote": "Megapixel counts tell you almost nothing here; image processing and stabilisation matter far more.",
+    "support": "partial",
+    "corroborating": [],
+    "conflicting": [],
+    "note": "single source opinion",
+    "quoteFound": true,
+    "quoteSimilarity": 1,
+    "status": "partial",
+    "passage": {
+      "id": "[5.p6]",
+      "text": "update and the Lava Blaze Duo 3 5G has limited OS support, which rules both out for anyone planning to hold on to a phone. Then there is the camera. Indoor photos of kids are one of the hardest jobs you can give a budget phone: light is limited, subjects never sit still, and the camera has to balance shutter speed against noise. Megapixel counts tell you almost nothing here; image processing and stabilisation matter far more."
+    },
+    "recordedAt": "2026-11-15T20:34:00.090Z"
+  }
+]
