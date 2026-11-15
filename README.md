@@ -1,7 +1,20 @@
 # Decision AI
 
 **Evidence-based decision support with claim-level verification and provenance.**
-Built for the [Apart Research AI x Epistemics Research Sprint](https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15) (November 2026), Track 2: Trust Infrastructure.
+By **Nikhil Sharma**, for the [Apart Research AI x Epistemics Research Sprint](https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15) (November 2026), Track 2: Trust Infrastructure.
+
+**Report:** [Flagged but Still Followed: Planted Sources Steer AI Decision Support Even When Agents Dispute Them](report/Decision-AI-report.pdf)
+
+## Key findings
+
+From 108 agent runs on 12 real decisions with identical live-web sources, with and without a planted false article:
+
+- **Attribution is at ceiling.** About 98% of cited claims are supported in every condition. With full sources, agents already cite faithfully.
+- **The tool stops agents repeating planted lies.** No tool-using answer stated a planted falsehood as fact, compared with 25% of baseline answers.
+- **Flagged but still followed.**
+  - Every condition flagged the planted claims. Yet recommendations moved toward the attacker in 50% of cases, against 14% between two clean runs (p < 0.001).
+  - The tool reduced this steering but did not remove it.
+- **Metadata reliability is gameable.** A fake page with an author, a publisher and a date outscored most genuine pages. Reliability earned through cross-source verification halved its advantage.
 
 Ask a question like *"Which phone should I buy under ₹20,000?"*. Decision AI asks the follow-up questions that change the answer, researches the live web, and builds its recommendation **only from claims it has verified**:
 

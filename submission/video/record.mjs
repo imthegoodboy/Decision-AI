@@ -23,10 +23,15 @@ mkdirSync(WORK, { recursive: true });
 // 1) Narration audio per scene, and its duration.
 for (const [i, s] of scenes.entries()) {
   const mp3 = path.join(WORK, `n${i}.mp3`);
-  execFileSync("python", ["-m", "edge_tts", "--voice", VOICE, "--rate", "+4%", "--text", s.narration, "--write-media", mp3], { stdio: "ignore" });
+  if (!s.narration.trim()) {
+    // Silent beat: a short pause with no narration.
+    execFileSync(FF("ffmpeg"), ["-y", "-v", "error", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", String(s.minSeconds ?? 0.5), mp3]);
+  } else {
+    execFileSync("python", ["-m", "edge_tts", "--voice", VOICE, "--rate", "+4%", "--text", s.narration, "--write-media", mp3], { stdio: "ignore" });
+  }
   s.audio = mp3;
   s.seconds = Number(execFileSync(FF("ffprobe"), ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", mp3]).toString().trim());
-  s.hold = Math.max(s.minSeconds ?? 0, s.seconds + 0.9);
+  s.hold = s.narration.trim() ? Math.max(s.minSeconds ?? 0, s.seconds + 0.9) : s.seconds;
 }
 console.log(`Narration: ${scenes.reduce((a, s) => a + s.hold, 0).toFixed(0)} s total`);
 
@@ -44,7 +49,8 @@ const actions = {
     await box.click();
     await box.pressSequentially(ids.homeQuestion, { delay: 28 });
   },
-  async overview() { await page.goto(`${APP}/d/${ids.poisoned}`); await wait(1500); await page.mouse.wheel(0, 0); },
+  async overview() { await page.goto(`${APP}/d/${ids.clean}`); await wait(1500); },
+  async poisonedConflicts() { await page.goto(`${APP}/d/${ids.poisoned}`); await wait(1500); await tab("Conflicts"); await wait(500); },
   async drawer() {
     const chip = page.locator("button[aria-label^=\"Open \"][aria-label*=\" claim from \"]").first();
     await chip.click().catch(() => {});

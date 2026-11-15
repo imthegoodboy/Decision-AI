@@ -235,6 +235,13 @@ def print_pdf(html_path: Path, pdf: Path) -> Path:
 
 
 if __name__ == "__main__":
+    if "--video" in sys.argv:
+        src = ROOT / "submission" / "video" / "scenes.template.json"
+        filled = fill_numbers(src.read_text(encoding="utf8")).replace("&lt;", "<")
+        json.loads(filled)
+        (ROOT / "submission" / "video" / "scenes.json").write_text(filled, encoding="utf8")
+        print("Video scenes: submission/video/scenes.json")
+        sys.exit(0)
     if "--slides" in sys.argv:
         sp = build_slides()
         print(f"Slides HTML: {sp}")

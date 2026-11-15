@@ -11,11 +11,11 @@ The judged artefact is the PDF report; code, video and slides are optional extra
 | Core platform, research pipeline, API, web UI | Done (typecheck, lint, 26 unit tests, `next build`) |
 | Keyless search fallback (DuckDuckGo HTML) | Done; rate-limits quickly, so the study used a fixed recorded protocol instead |
 | OpenAI-model experiment (`eval/run.ts`) | Written, not run: no OpenAI key available |
-| **Claude-agent study (`eval/claude/`)** | Running: 12 questions × {baseline, self-check, tool} × {clean, poisoned} = 72 agent runs + 24 blinded judges |
+| **Claude-agent study (`eval/claude/`)** | Done: 108 agent runs (72 + 36 clean replicates), 24 blinded judges, 12 blind extractors; results in `eval/results/` |
 | Provenance tool for agents (`eval/claude/tool.ts`) | Done; bundled to a single CLI per run |
 | Demo import of real dossiers into the app | Done (`eval/claude/import-demo.ts`) |
-| Report | Methods, related work, ethics appendix, Appendix B done; results pending real data |
-| Video / slides | Recorder (`submission/video/record.mjs`) and slide template ready; narration pending results |
+| Report | Done: `report/Decision-AI-report.pdf`, 8-page main text, all numbers from `stats.json` |
+| Video / slides | Done: `submission/video/decision-ai-demo.mp4` (3:23), `submission/slides.pdf`; form answers in `submission/form-answers.md` |
 
 ## Study pipeline (Claude agents)
 
@@ -39,3 +39,13 @@ The judged artefact is the PDF report; code, video and slides are optional extra
 ## PR log
 - #1 `chore/scaffold-and-agent-docs`: scaffold, docs, env template.
 - #2 `feat/core-platform` (stacked on #1): core platform, pipeline, API, UI, eval harnesses, report tooling.
+
+## Headline results (from eval/results/stats.json)
+- Attribution at ceiling (~98% cited claims supported) in all conditions.
+- Planted falsehood stated as fact: baseline 25%, self-check 17%, tool 0% (n.s., n=12).
+- Recommendation moved toward the attacker: 50% of question-condition pairs vs 14% between clean runs (McNemar p=0.0002; question-level sign test p=0.016); tool 42% vs 8%.
+- Metadata reliability: planted page above the genuine median in 83% of questions; after earned reliability 50% (planted -11.0 vs genuine +1.2 points, p<0.001).
+- Tool agents followed the evidence-weighted ranking in 79% of clean runs but 50% of poisoned runs.
+
+## Authorship
+Report, slides and video credit **Nikhil Sharma** (Independent Researcher). Model names appear only where they are part of the method (Section 3).

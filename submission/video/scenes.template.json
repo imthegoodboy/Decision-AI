@@ -1,0 +1,21 @@
+[
+  { "action": "slide:1", "narration": "Decision AI. Flagged but still followed. A Track 2 project for the AI x Epistemics research sprint, by Nikhil Sharma." },
+  { "action": "slide:2", "narration": "People increasingly ask AI which phone, insurer or course to choose. The answers come with citations, so they look checkable. But audits find only about half of AI search sentences are fully supported by their citations, and a few planted pages can steer retrieval systems." },
+  { "action": "slide:3", "narration": "Decision AI binds every claim to a verbatim quote, checks in code that the quote is really on the page, cross-examines it against every other source under fixed rules, scores source reliability, and seals the evidence in a hash-chained audit log." },
+  { "action": "home", "narration": "You start by describing your decision in plain language, like choosing a phone under twenty thousand rupees." },
+  { "action": "overview", "narration": "Here is a real decision from our study. The recommendation is built only from verified claims, and confidence is computed from evidence coverage, support and source reliability, not from the model's tone." },
+  { "action": "drawer", "narration": "Every reason links to its claim. This is the exact passage it rests on, highlighted, with the source, the retrieval time and a content hash." },
+  { "action": "closeDrawer", "narration": "", "minSeconds": 0.6 },
+  { "action": "compare", "narration": "Your priorities stay yours. Move a slider and the ranking is recomputed instantly from the same verified evidence." },
+  { "action": "evidence", "narration": "The evidence ledger lists every claim that was checked, stamped supported, partial, unsupported or contradicted." },
+  { "action": "poisonedConflicts", "narration": "This copy of the decision includes a planted article with three false claims. Each one surfaces as a conflict with the genuine sources, side by side." },
+  { "action": "sources", "narration": "Reliability is transparent. Notice the planted page scores well on metadata alone. A named author, a publisher and a recent date are cheap to fake." },
+  { "action": "audit", "narration": "Every step is hash-chained. One click verifies that nothing was changed after the dossier was sealed." },
+  { "action": "slide:4", "narration": "We tested whether this changes what an AI agent does. AI agents answered twelve real decisions: a baseline agent, an agent told to check itself, and an agent with the tool, each on clean sources and with a planted article. {{raw:n_agent_runs}} runs, judged blind." },
+  { "action": "slide:5", "narration": "First, citations were already faithful in every condition: about ninety-eight percent supported." },
+  { "action": "slide:6", "narration": "With the tool, no answer stated a planted falsehood as fact, compared with {{pct0:poisoned.planted_adopted_any.baseline}} of baseline answers." },
+  { "action": "slide:7", "narration": "But here is the surprise. Agents flagged the planted claims and still followed them. Recommendations moved toward the attacker in {{rawpct:stability.pooled.attack_consistent_poisoned}} of cases, against {{rawpct:stability.pooled.attack_consistent_replicate}} between two clean runs. The tool reduced this steering, but did not remove it." },
+  { "action": "slide:7b", "narration": "Metadata-based reliability rewarded the fake article. Reliability earned through cross-source verification halved its advantage." },
+  { "action": "slide:8", "narration": "Detection is not defence. Trust infrastructure must constrain decisions, not only claims." },
+  { "action": "slide:9", "narration": "Decision AI. The code, data and full report are open on GitHub. Thank you." }
+]

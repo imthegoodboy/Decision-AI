@@ -34,9 +34,14 @@ async function wikipediaImage(name: string, signal?: AbortSignal): Promise<Optio
     const data = (await res.json()) as { query?: { search?: { title: string }[] } };
     const title = data.query?.search?.[0]?.title;
     if (!title) return null;
-    // Guard against unrelated pages: the article title must share a distinctive word with the option.
-    const tokens = name.toLowerCase().split(/[^\p{L}\p{N}]+/u).filter((t) => t.length > 2);
-    if (!tokens.some((t) => title.toLowerCase().includes(t))) return null;
+    // Guard against unrelated pages: the article must name the same brand AND every model
+    // number in the option (e.g. "K13", "A07", "450X"), otherwise we would show a different product.
+    const lowerTitle = title.toLowerCase();
+    const tokens = name.toLowerCase().split(/[^\p{L}\p{N}]+/u).filter(Boolean);
+    const modelTokens = tokens.filter((t) => /\d/.test(t) && !/^\d+g$/.test(t));
+    const wordTokens = tokens.filter((t) => !/\d/.test(t) && t.length > 2);
+    if (!wordTokens.some((t) => lowerTitle.includes(t))) return null;
+    if (!modelTokens.every((t) => new RegExp(`(^|[^a-z0-9])${t}([^a-z0-9]|$)`).test(lowerTitle))) return null;
     const summary = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`, {
       signal,
       headers: { "user-agent": "DecisionAI/1.0 (research prototype)" },

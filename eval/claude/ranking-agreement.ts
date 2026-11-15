@@ -20,15 +20,16 @@ for (const run of study.runs.filter((r) => r.system === "tool")) {
   const file = readCache<{ dossier: Dossier; sources: Source[] }>(path.join(CLAUDE_DATA, "tool-runs", run.runId, "dossier.json")) ?? readCache(path.join(run.dir, "dossier.json"));
   if (!file?.dossier?.recommendation) continue;
   const d = file.dossier;
+  const rec = d.recommendation!;
   const ranked = rankOptions({ options: d.options, criteria: d.plan.criteria, scores: d.scores, claims: d.claims, sources: file.sources, contradictions: d.contradictions, freshnessDays: d.plan.freshnessDays });
   const name = (id: string) => d.options.find((o) => o.id === id)?.name ?? id;
   rows.push({
     run: run.runId,
     question: run.questionId,
     condition: run.condition,
-    recommended: name(d.recommendation.optionId),
+    recommended: name(rec.optionId),
     rankedFirst: name(ranked[0].optionId),
-    agrees: d.recommendation.optionId === ranked[0].optionId,
+    agrees: rec.optionId === ranked[0].optionId,
     margin: Math.round((ranked[0].total - (ranked[1]?.total ?? 0)) * 10) / 10,
   });
 }
