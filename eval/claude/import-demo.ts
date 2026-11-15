@@ -25,9 +25,10 @@ const arg = (n: string) => {
 const only = arg("only")?.split(",");
 const condition = arg("condition") ?? "clean";
 
-function title(q: string): string {
-  const first = q.split("?")[0].replace(/^(Which|What|Should)\s+/i, (m) => m);
-  return first.length > 80 ? `${first.slice(0, 77)}…` : `${first}?`;
+const titles: Record<string, string> = JSON.parse(readFileSync(path.join(process.cwd(), "eval", "claude", "titles.json"), "utf8"));
+function title(id: string, question: string, cond: string): string {
+  const base = titles[id] ?? (question.length > 80 ? `${question.slice(0, 77)}…` : question);
+  return cond === "poisoned" ? `${base} (with a planted source)` : base;
 }
 
 async function importRun(run: Run) {
@@ -39,7 +40,7 @@ async function importRun(run: Run) {
   const poolJson = JSON.parse(readFileSync(path.join(run.dir, "pool.json"), "utf8")) as { sources: { n: number; id: string; text: string }[] };
   const answer = readFileSync(path.join(run.dir, "answer.md"), "utf8");
 
-  const decision = await createDecision({ title: title(q.question), profile: { ...emptyProfile(), goal: q.question, category: q.domain } });
+  const decision = await createDecision({ title: title(q.id, q.question, run.condition), profile: { ...emptyProfile(), goal: q.question, category: q.domain } });
   await appendAudit(decision.id, "decision.created", { title: decision.title, origin: "study-import", studyRun: run.runId });
   await addMessage({ decisionId: decision.id, role: "user", content: q.question });
   const dbRun = await createRun({ decisionId: decision.id, trigger: "study-import", focus: null });

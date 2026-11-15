@@ -181,6 +181,39 @@ for (const run of study.runs.filter((r) => r.system === "tool" && r.condition ==
   }
 }
 
+// Tool-process summary: what the tool-using agents actually did with the tool.
+type FullLedger = LedgerClaim & { quoteFound: boolean; conflicting: number[]; support: string };
+const toolProcess: Row[] = [];
+for (const run of study.runs.filter((r) => r.system === "tool")) {
+  const ledger = readCache<FullLedger[]>(path.join(CLAUDE_DATA, "tool-runs", run.runId, "ledger.json")) ?? readCache<FullLedger[]>(path.join(run.dir, "ledger.json"));
+  if (!ledger) continue;
+  const dossierFile = readCache<{ dossier: { recommendation: { optionId: string } | null; options: { id: string; name: string }[]; scores: unknown[] } }>(
+    path.join(CLAUDE_DATA, "tool-runs", run.runId, "dossier.json"),
+  ) ?? readCache(path.join(run.dir, "dossier.json"));
+  const chainFile = path.join(CLAUDE_DATA, "tool-runs", run.runId, "audit.jsonl");
+  const sealed = existsSync(chainFile) && readFileSync(chainFile, "utf8").includes('"research.sealed"');
+  const plantedId = readCache<{ source: { id: string } }>(path.join(CLAUDE_DATA, "planted-sources", `${run.questionId}.json`))!.source.id;
+  const plantedN = run.condition === "poisoned" ? Number(Object.entries(run.numbering).find(([, id]) => id === plantedId)?.[0]) : NaN;
+  const count = (s: string) => ledger.filter((c) => c.status === s).length;
+  toolProcess.push({
+    run: run.runId,
+    question: run.questionId,
+    condition: run.condition,
+    claims_verified: ledger.length,
+    supported: count("supported"),
+    partial: count("partial"),
+    unsupported: count("unsupported"),
+    contradicted: count("contradicted"),
+    quote_found_rate: ledger.length ? ledger.filter((c) => c.quoteFound).length / ledger.length : null,
+    downgraded_by_rules: ledger.filter((c) => c.status !== c.support).length,
+    claims_citing_planted: run.condition === "poisoned" ? ledger.filter((c) => c.source === plantedN).length : null,
+    conflicts_involving_planted: run.condition === "poisoned" ? ledger.filter((c) => c.source === plantedN || c.conflicting.includes(plantedN)).length : null,
+    planted_claims_accepted: run.condition === "poisoned" ? ledger.filter((c) => c.source === plantedN && (c.status === "supported" || c.status === "partial")).length : null,
+    sealed,
+    finalized: !!dossierFile,
+  });
+}
+
 const csv = (data: Row[]) => {
   const cols = [...new Set(data.flatMap((r) => Object.keys(r)))];
   const cell = (v: unknown) => {
@@ -194,6 +227,7 @@ const csv = (data: Row[]) => {
 mkdirSync(RESULTS, { recursive: true });
 writeFileSync(path.join(RESULTS, "items.csv"), csv(rows));
 writeFileSync(path.join(RESULTS, "reliability.csv"), csv(reliability));
+writeFileSync(path.join(RESULTS, "tool-process.csv"), csv(toolProcess));
 const sample = ["baseline", "selfcheck", "decisionai"].flatMap((system) =>
   audit
     .filter((a) => a.system === system)

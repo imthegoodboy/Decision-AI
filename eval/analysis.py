@@ -13,6 +13,7 @@ from __future__ import annotations
 import csv
 import json
 import math
+import sys
 from collections import defaultdict
 from pathlib import Path
 
@@ -22,6 +23,9 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 import numpy as np  # noqa: E402
 from scipy import stats  # noqa: E402
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parents[1]
 RESULTS = ROOT / "eval" / "results"

@@ -121,5 +121,22 @@
   <p class="who">Built during the AI x Epistemics Research Sprint, November 2026.</p>
 </section>
 
+<script>
+  // Presentation mode: slides.html#<n> shows only slide n, scaled to the window.
+  function present() {
+    const id = location.hash.slice(1);
+    if (!id) return;
+    document.body.style.background = "#ffffff";
+    document.body.style.overflow = "hidden";
+    document.querySelectorAll(".slide").forEach((s) => (s.style.display = s.id === id ? "flex" : "none"));
+    const s = document.getElementById(id);
+    if (!s) return;
+    const k = Math.min(innerWidth / 1280, innerHeight / 720);
+    Object.assign(s.style, { position: "absolute", margin: "0", transformOrigin: "top left", transform: `scale(${k})`, left: `${(innerWidth - 1280 * k) / 2}px`, top: `${(innerHeight - 720 * k) / 2}px` });
+  }
+  addEventListener("hashchange", present);
+  addEventListener("resize", present);
+  present();
+</script>
 </body>
 </html>

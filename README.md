@@ -40,6 +40,19 @@ Every setting (models, search providers, limits, database) is an environment var
 
 ## Reproducing the experiment
 
+The study reported in `report/` uses **Claude agents** as the AI under test (no OpenAI key needed). The pieces are in `eval/claude/`:
+
+1. `questions.json`: 12 decision questions with 3 fixed search queries each. Search results were recorded unedited in `eval/data-claude/search/`.
+2. `node --conditions=react-server --import tsx eval/claude/build-pools.ts`: fetches and extracts the pages into `eval/data-claude/pools/`.
+3. Planted articles: `eval/data-claude/planted/`. These are synthetic, closed corpus, never published, and each lists its 3 false claims.
+4. `node --import tsx eval/claude/prepare.ts --root <dir>`: creates the per-run directories and bundles the provenance tool (`eval/claude/tool.ts` → `decision-tool.cjs`).
+5. The agent runs: fresh Claude agents for baseline, self-check and tool, each on a clean and a poisoned pool. Blinded judge agents then evaluate the answers. The prompts are in `.agent/progress.md` and in the workflow script described there.
+6. `collect.ts`, then `aggregate.ts`, then `python eval/analysis.py`, then `python report/build.py`.
+
+All raw outputs are committed: answers, tool ledgers with hash chains, judge decisions, and per-item metrics.
+
+An equivalent fully automated harness for OpenAI models is in `eval/run.ts`:
+
 ```bash
 npm run eval                      # 30 questions × 3 systems × clean/poisoned (resumable; cached in eval/data)
 npm run eval -- --only tech-01    # a single question
