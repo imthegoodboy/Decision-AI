@@ -1,6 +1,8 @@
 import "server-only";
 import { z } from "zod";
-import type { Verification, VerificationStatus } from "@/lib/domain";
+import type { Verification } from "@/lib/domain";
+import { decideStatus } from "@/lib/verification";
+export { decideStatus };
 import { locateQuote } from "@/lib/text";
 import { structured } from "../ai/openai";
 import { block } from "./prompts";
@@ -141,21 +143,4 @@ async function verifyBatch(batch: ClaimToVerify[], ctx: VerifyContext, signal?: 
     });
   });
   return result;
-}
-
-/**
- * Fixed decision rules (documented in .agent/pipeline.md):
- *  - Evidence that conflicts with another source and is not corroborated → contradicted.
- *  - "Supported" whose quote cannot be found in the page text is downgraded to partial.
- *  - Otherwise the judge's support verdict stands.
- */
-export function decideStatus(input: {
-  support: "supported" | "partial" | "unsupported";
-  quoteFound: boolean;
-  conflicting: number;
-  corroborating: number;
-}): VerificationStatus {
-  if (input.support !== "unsupported" && input.conflicting > 0 && input.corroborating === 0) return "contradicted";
-  if (input.support === "supported" && !input.quoteFound) return "partial";
-  return input.support;
 }

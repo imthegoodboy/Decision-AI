@@ -31,6 +31,8 @@ export async function gatherSources(input: {
   newId: () => string;
   maxSources?: number;
   exclude?: Set<string>;
+  /** Pre-recorded search results (e.g. from a fixed study protocol); skips live search. */
+  presearched?: { query: string; provider: string; hits: SearchHit[] }[];
   emit?: (e: PipelineEvent) => void;
   signal?: AbortSignal;
 }): Promise<GatherResult> {
@@ -39,11 +41,13 @@ export async function gatherSources(input: {
   const maxSources = input.maxSources ?? cfg.RESEARCH_MAX_SOURCES;
 
   emit({ type: "stage", stage: "search", status: "start" });
-  const searched = await mapLimit(input.queries, Math.min(3, cfg.RESEARCH_CONCURRENCY), async (q) => {
-    const res = await search(q.query, { region: input.region, limit: 8, signal: input.signal });
-    emit({ type: "query", query: q.query, provider: res.provider ?? "none", results: res.hits.length });
-    return { q, ...res };
-  });
+  const searched = input.presearched
+    ? input.presearched.map((p) => ({ q: { query: p.query }, hits: p.hits, provider: p.provider, errors: [] as string[] }))
+    : await mapLimit(input.queries, Math.min(3, cfg.RESEARCH_CONCURRENCY), async (q) => {
+        const res = await search(q.query, { region: input.region, limit: 8, signal: input.signal });
+        emit({ type: "query", query: q.query, provider: res.provider ?? "none", results: res.hits.length });
+        return { q, ...res };
+      });
   const queryLog = searched.map((s) => ({ query: s.q.query, provider: s.provider, results: s.hits.length, errors: s.errors }));
   const selected = selectHits(
     searched.map((s) => s.hits.map((h) => ({ ...h, query: s.q.query }))),

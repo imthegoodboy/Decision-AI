@@ -13,7 +13,7 @@ export type SearchHit = {
   title: string;
   snippet: string;
   publishedAt: string | null;
-  provider: SearchProviderName;
+  provider: string;
 };
 
 export type ImageHit = { url: string; sourceUrl: string | null; title: string };
@@ -139,7 +139,7 @@ const duckduckgo: Provider = {
     if (!res.ok) throw new Error(`DuckDuckGo ${res.status}`);
     const html = await res.text();
     const hits: SearchHit[] = [];
-    const blocks = html.split('class="result__body"').slice(1);
+    const blocks = html.split(/class="[^"]*\bresult__body\b[^"]*"/).slice(1);
     for (const block of blocks) {
       const link = block.match(/class="result__a"[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/);
       if (!link) continue;

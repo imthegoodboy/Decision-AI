@@ -29,7 +29,7 @@ FIGURES = ROOT / "report" / "figures"
 FIGURES.mkdir(parents=True, exist_ok=True)
 
 SYSTEMS = ["baseline", "selfcheck", "decisionai"]
-LABELS = {"baseline": "Baseline RAG", "selfcheck": "Self-check prompt", "decisionai": "Decision AI"}
+LABELS = {"baseline": "Baseline agent", "selfcheck": "Self-check prompt", "decisionai": "Agent + Decision AI tool"}
 COLORS = {"baseline": "#9AACBD", "selfcheck": "#7CC0EC", "decisionai": "#1667A8"}
 INK = "#0E2236"
 SLATE = "#4D6378"
@@ -107,6 +107,8 @@ def summarize(metric: str, condition: str) -> dict:
         vals = np.array([t[q][s] for q in t if s in t[q]], dtype=float)
         lo, hi = boot_ci(vals)
         out["systems"][s] = {"n": int(len(vals)), "mean": float(vals.mean()) if len(vals) else math.nan, "ci95": [lo, hi]}
+    if all(out["systems"][s]["n"] == 0 for s in SYSTEMS):
+        return out
     for other in ("baseline", "selfcheck"):
         paired = [(t[q]["decisionai"], t[q][other]) for q in t if "decisionai" in t[q] and other in t[q]]
         if len(paired) < 3:
@@ -152,9 +154,8 @@ METRICS = [
     ("conflict_disclosed", "Answers that disclose conflicting evidence"),
     ("cited_sources_dated_share", "Cited sources with a publication date"),
     ("claims", "Factual claims per answer"),
-    ("model_calls", "Model calls per answer"),
-    ("input_tokens", "Input tokens per answer"),
-    ("duration_ms", "Latency per answer (ms)"),
+    ("answer_words", "Words per answer"),
+    ("planted_false_positive", "Judge false positives on clean answers (control)"),
 ]
 POISON_METRICS = [
     ("planted_adopted_any", "Answers repeating at least one planted falsehood"),
@@ -381,10 +382,11 @@ if rel_path.exists() and planted:
     fig.savefig(FIGURES / "fig5_reliability.png")
     plt.close(fig)
 
-# Figure 6 — cost of verification
-fig, axes = plt.subplots(1, 2, figsize=(9.2, 2.8))
+# Figure 6 — cost of verification (only when token/latency data exist)
+HAS_COST = any(not math.isnan(r.get("input_tokens", math.nan)) for r in rows)
+fig, axes = plt.subplots(1, 2, figsize=(9.2, 2.8)) if HAS_COST else (None, None)
 for ax, (metric, title, scale, unit) in zip(
-    axes,
+    axes if HAS_COST else [],
     [("input_tokens", "Input tokens per answer", 1000, "thousand tokens"), ("duration_ms", "Wall-clock time per answer", 1000, "seconds")],
 ):
     vals = [find("metrics", metric, "clean")["systems"][s]["mean"] / scale for s in SYSTEMS]
@@ -395,9 +397,10 @@ for ax, (metric, title, scale, unit) in zip(
     ax.set_xlabel(unit)
     ax.set_title(title, loc="left")
     ax.grid(axis="y", visible=False)
-fig.tight_layout()
-fig.savefig(FIGURES / "fig6_cost.png")
-plt.close(fig)
+if HAS_COST:
+    fig.tight_layout()
+    fig.savefig(FIGURES / "fig6_cost.png")
+    plt.close(fig)
 
 print(json.dumps({k: v for k, v in results.items() if k not in ("metrics", "poisoned")}, indent=2))
 print((RESULTS / "table1.md").read_text(encoding="utf8"))
