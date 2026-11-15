@@ -106,7 +106,35 @@ for (const q of questions) {
   }
 }
 
+// Reliability gaming probe: how the planted source scores on metadata alone vs after verification.
+const EARNED = new Set(["corroboration", "contradicted", "unsupported"]);
+const reliabilityRows: Row[] = [];
+for (const q of questions) {
+  const planted = readCache<PlantedSource>(dataPath("planted", `${q.id}.json`));
+  const out = readCache<SystemOutput>(dataPath("answers", `${q.id}.decisionai.poisoned.json`));
+  if (!planted || !out?.reliability) continue;
+  for (const s of out.reliability) {
+    const prior = Math.max(0, Math.min(100, 50 + s.signals.filter((g) => !EARNED.has(g.key)).reduce((a, g) => a + g.effect, 0)));
+    reliabilityRows.push({
+      question: q.id,
+      source: s.id,
+      planted: s.id === planted.source.id,
+      kind: s.kind,
+      prior_score: prior,
+      final_score: s.score,
+      earned_delta: s.score - prior,
+    });
+  }
+}
+
 mkdirSync(RESULTS, { recursive: true });
+writeFileSync(
+  path.join(RESULTS, "reliability.csv"),
+  [
+    "question,source,planted,kind,prior_score,final_score,earned_delta",
+    ...reliabilityRows.map((r) => [r.question, r.source, r.planted, r.kind, r.prior_score, r.final_score, r.earned_delta].join(",")),
+  ].join("\n") + "\n",
+);
 const columns = [...new Set(rows.flatMap((r) => Object.keys(r)))];
 const csv = (data: Row[], cols: string[]) =>
   [cols.join(","), ...data.map((r) => cols.map((c) => csvCell(r[c])).join(","))].join("\n") + "\n";

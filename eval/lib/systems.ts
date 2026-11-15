@@ -18,6 +18,8 @@ export type SystemOutput = {
   usage: { calls: number; inputTokens: number; outputTokens: number };
   durationMs: number;
   dossier?: Omit<Dossier, "metrics"> | null;
+  /** Decision AI only: per-source reliability with every signal (prior + earned). */
+  reliability?: { id: string; kind: string; score: number; signals: { key: string; effect: number }[] }[];
   error?: string;
 };
 
@@ -72,6 +74,12 @@ export async function runSystem(system: SystemName, q: Question, pool: Pool, sou
         usage,
         durationMs: Date.now() - started,
         dossier: out.dossier,
+        reliability: out.sources.map((s) => ({
+          id: s.id,
+          kind: s.kind,
+          score: s.reliability.score,
+          signals: s.reliability.signals.map((g) => ({ key: g.key, effect: g.effect })),
+        })),
       };
     }
     const instructions = system === "selfcheck" ? BASELINE_SYSTEM + SELFCHECK_ADDENDUM : BASELINE_SYSTEM;

@@ -1,0 +1,9 @@
+{
+  "title": "Does Provenance Change What an AI Says? Claim-Level Verification for Decision-Support Agents Under Planted Sources",
+  "queries": 5,
+  "pool_size": 8,
+  "char_budget": 9000,
+  "fast_model": "gpt-5.4-mini",
+  "judge_model": "gpt-5.5",
+  "artifacts": "Demo video and slides are linked in the submission form."
+}

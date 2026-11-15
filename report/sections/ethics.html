@@ -1,0 +1,24 @@
+<h3>Limitations</h3>
+<ul>
+  <li><b>One model family.</b> The systems, Decision AI's verifier and the judge are all OpenAI models. We used a larger judge model than the generator, separate prompts, and a human audit sample, but correlated errors between verifier and judge could inflate Decision AI's measured advantage. Replicating with a judge from another model family is the most important robustness check we could not run in the sprint.</li>
+  <li><b>Attribution is not truth.</b> We measure whether claims are supported by the sources a system cites, not whether those sources are correct. A claim faithfully copied from an inaccurate page counts as supported. The planted-source condition is the only part of the study with known ground-truth falsehoods.</li>
+  <li><b>Scale and scope.</b> {{raw:n_questions}} consumer decisions in English, {{POOL_SIZE}} sources per pool plus at most one planted page, one retrieval provider, and source texts truncated to a fixed budget. Real decisions involve longer documents, PDFs and paywalled content.</li>
+  <li><b>A single, simple attacker.</b> Each poisoned pool contains one planted page with three false claims. Corroboration-based verification is designed to resist exactly this; an attacker who controls several apparently independent pages could manufacture corroboration. We did not test coordinated (Sybil) poisoning.</li>
+  <li><b>No gold standard for the best option.</b> We do not measure whether recommendations are <i>right</i>, only whether they are evidenced and whether they move when a falsehood is planted.</li>
+  <li><b>Cost.</b> Verification uses many more model calls than a single generation (Section 4.4). For low-stakes decisions this overhead may not be worth paying.</li>
+</ul>
+
+<h3>Dual-use considerations</h3>
+<ul>
+  <li><b>Planted-article generator.</b> To test robustness we generate persuasive articles containing false claims. This capability already exists in any capable model; our generator adds little uplift. Planted articles were used only inside a closed test corpus, were never published, and are stored in the repository clearly marked as synthetic with their false claims listed alongside.</li>
+  <li><b>Attack guidance.</b> Reporting that corroboration defeats single-page poisoning implicitly tells attackers to coordinate multiple sources. We think this is already well known from the poisoning literature [14, 15], and we describe it only at a high level. Defenders benefit more from knowing which signals are cheap to fake (Section 4.3).</li>
+  <li><b>Reliability scores as gatekeeping.</b> Automated reliability scores can entrench incumbents and penalise small or new publishers. We mitigate this by making every signal visible, keeping metadata effects small, and letting a source earn reliability through corroboration regardless of its brand.</li>
+</ul>
+
+<h3>Ethical considerations</h3>
+<ul>
+  <li><b>Over-reliance.</b> A verification badge can create unwarranted trust. Decision AI states confidence and uncertainty explicitly, separates quoted evidence from model interpretation, links every claim to its passage, and leaves the decision to the user.</li>
+  <li><b>Privacy.</b> Decision profiles can contain personal circumstances (income, health, family). The prototype stores data locally (libSQL file) and sends only the decision text and public web content to the model provider. The experiment uses no personal data.</li>
+  <li><b>Content use.</b> Fetched page text is stored for verification and provenance (content hashes). Pages are fetched on demand like a browser, and the full text is not redistributed beyond the experiment cache.</li>
+  <li><b>Health and finance.</b> Several questions concern health products and financial services. Decision AI is decision support, not professional advice; recommendations carry a disclaimer and highlight what to check before acting.</li>
+</ul>

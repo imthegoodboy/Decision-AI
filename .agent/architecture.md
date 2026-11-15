@@ -58,6 +58,28 @@ audit chain therefore also detects edits to the dossier.
    sources and scores both with the same verifier.
 8. **System** `GET /api/system` → configuration health and the models the key can use.
 
+## Evaluation harness (`eval/`)
+
+```
+questions.json ─▶ buildPool (plan → search → fetch; 8 readable sources, 9,000 chars each)
+                    │                         cached: eval/data/pools/<id>.json
+                    ├─▶ generatePlanted (3 false claims, fictional outlet) eval/data/planted/<id>.json
+                    ▼
+        clean pool / poisoned pool (planted inserted at seeded position)
+                    ▼
+   runSystem: baseline | selfcheck | decisionai (same fast model, same texts)
+                    ▼                         eval/data/answers/<id>.<system>.<condition>.json
+   judgeAnswer (main model): decompose → support check → planted check
+                    ▼                         eval/data/judgements/...
+   aggregate.ts → results/items.csv, reliability.csv, human-audit-sample.csv
+   analysis.py  → results/stats.json, table1.md, report/figures/*.png
+   report/build.py → report/report.html → Decision-AI-report.pdf
+```
+
+`runVerificationCore` (`src/server/pipeline/core.ts`) is the same code the web app runs;
+the harness only skips persistence. Scripts run with `node --conditions=react-server --import tsx`
+so that `server-only` resolves to its no-op export.
+
 ## External services
 
 | Service | Used for | Configured by |

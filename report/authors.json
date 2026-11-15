@@ -1,0 +1,7 @@
+{
+  "_comment": "Edit names and affiliations before building the final PDF (npm run report).",
+  "team": "Decision AI",
+  "authors": [
+    { "name": "Your Name", "affiliation": "Your Affiliation" }
+  ]
+}
