@@ -1,4 +1,5 @@
 import "server-only";
+import { unstable_rethrow } from "next/navigation";
 import { ZodError, type z } from "zod";
 import { AIError } from "./ai/openai";
 import { ConfigError } from "./config/env";
@@ -49,6 +50,8 @@ export function handle<A extends unknown[]>(fn: (...args: A) => Promise<Response
     try {
       return await fn(...args);
     } catch (err) {
+      // Let Next.js control-flow signals (e.g. prerender interruption from connection()) propagate.
+      unstable_rethrow(err);
       return errorResponse(err);
     }
   };

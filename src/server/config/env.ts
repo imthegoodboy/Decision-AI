@@ -29,7 +29,7 @@ const EnvSchema = z.object({
 
   SEARCH_PROVIDER: z.preprocess(
     emptyToUndefined,
-    z.enum(["auto", "tavily", "brave", "serper", "openai"]).default("auto"),
+    z.enum(["auto", "tavily", "brave", "serper", "openai", "duckduckgo"]).default("auto"),
   ),
   TAVILY_API_KEY: optionalString,
   BRAVE_API_KEY: optionalString,
@@ -73,7 +73,7 @@ export function requireOpenAIKey(): string {
   return key;
 }
 
-export type SearchProviderName = "tavily" | "brave" | "serper" | "openai";
+export type SearchProviderName = "tavily" | "brave" | "serper" | "openai" | "duckduckgo";
 
 /** Providers in the order they will be tried for this configuration. */
 export function searchProviderOrder(): SearchProviderName[] {
@@ -83,6 +83,8 @@ export function searchProviderOrder(): SearchProviderName[] {
   if (e.BRAVE_API_KEY) configured.push("brave");
   if (e.SERPER_API_KEY) configured.push("serper");
   if (e.OPENAI_API_KEY) configured.push("openai");
+  // Keyless fallback: DuckDuckGo's HTML endpoint (no image search, best effort).
+  configured.push("duckduckgo");
   if (e.SEARCH_PROVIDER === "auto") return configured;
   const preferred = e.SEARCH_PROVIDER;
   return [preferred, ...configured.filter((p) => p !== preferred)].filter((p) => configured.includes(p));

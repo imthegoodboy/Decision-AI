@@ -124,7 +124,45 @@ const openai: Provider = {
   },
 };
 
-const PROVIDERS: Record<SearchProviderName, Provider> = { tavily, brave, serper, openai };
+const duckduckgo: Provider = {
+  name: "duckduckgo",
+  async search(query, { limit, signal }) {
+    const res = await fetch("https://html.duckduckgo.com/html/", {
+      method: "POST",
+      signal,
+      headers: {
+        "content-type": "application/x-www-form-urlencoded",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36",
+      },
+      body: new URLSearchParams({ q: query }).toString(),
+    });
+    if (!res.ok) throw new Error(`DuckDuckGo ${res.status}`);
+    const html = await res.text();
+    const hits: SearchHit[] = [];
+    const blocks = html.split('class="result__body"').slice(1);
+    for (const block of blocks) {
+      const link = block.match(/class="result__a"[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/);
+      if (!link) continue;
+      let url = decodeEntities(link[1]);
+      const redirect = url.match(/[?&]uddg=([^&]+)/);
+      if (redirect) url = decodeURIComponent(redirect[1]);
+      if (url.startsWith("//")) url = `https:${url}`;
+      if (!/^https?:\/\//.test(url) || /duckduckgo\.com\/y\.js/.test(url)) continue;
+      const snippet = block.match(/class="result__snippet"[^>]*>([\s\S]*?)<\/a>/);
+      hits.push({
+        url,
+        title: decodeEntities(stripTags(link[2])).trim(),
+        snippet: snippet ? decodeEntities(stripTags(snippet[1])).trim() : "",
+        publishedAt: null,
+        provider: "duckduckgo",
+      });
+      if (hits.length >= limit) break;
+    }
+    return hits;
+  },
+};
+
+const PROVIDERS: Record<SearchProviderName, Provider> = { tavily, brave, serper, openai, duckduckgo };
 
 export function activeProviders(): SearchProviderName[] {
   return searchProviderOrder();
@@ -169,4 +207,14 @@ export async function searchImages(query: string, opts: { limit?: number; signal
 
 function stripTags(s: string): string {
   return s.replace(/<[^>]+>/g, "");
+}
+
+function decodeEntities(s: string): string {
+  return s
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#x27;|&#39;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&nbsp;/g, " ");
 }
